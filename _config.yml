@@ -3,7 +3,7 @@
 # and they will be accessible like {{ site.your_variable }}.
 
 timezone: Asia/Tokyo
-year: 2024
+year: 2025
 title: DojoCon Japan
 subtitle: "Inspire Next 〜好奇心に火をつけよう〜"
 description: >-
