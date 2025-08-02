@@ -1,18 +1,32 @@
 #contact {
-  .header-letter-spacing {
-    letter-spacing: 0.2em;
+  .title {
+    font-size: 36px;
+    letter-spacing: 0.125rem;
+    margin-bottom: 4px;
   }
-  .letter-spacing {
-    letter-spacing: 0.17em;
+  .subtitle {
+    font-size: 24px;
+    letter-spacing: 0.065rem;
+    margin-bottom: 18px;
+    font-weight: bold;
+  }
+
+  .text {
+    font-size: 18px;
+    letter-spacing: 0.0625rem;
+    font-weight: bold;
+    line-height: 2rem;
   }
 
   .btn-lg {
+    margin: 20px 0;
     display: block;
     box-sizing: border-box;
-    width: 50%;
+    width: 70%;
     min-width: fit-content;
-    padding: 0.8rem 1.5rem;
-    font-size: 1.5rem;
+    padding: 16px 0;
+    font-size: 24px;
+    letter-spacing: 0.0625rem;
     font-weight: bold;
     color: #0e0e0e;
     background-color: #efefef;
