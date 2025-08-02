@@ -6,9 +6,24 @@ html {
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: 'rounded-l-mplus-2p';
+  src: url('/assets/fonts/rounded-l-mplus-2p-bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'rounded-l-mplus-2p';
+  src: url('/assets/fonts/rounded-l-mplus-2p-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 //全体の設定。文字の設定が主である。
 body {
-  font-family: 'Roboto', 'Noto Sans JP', sans-serif;
+  font-family: 'rounded-l-mplus-2p';
   margin: 0;
   color: $text-color;
 }
