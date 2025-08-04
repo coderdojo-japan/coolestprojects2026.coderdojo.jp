@@ -1,74 +1,84 @@
-@use '../global/variables' as *;
+$footer-bg: #fff;
+$footer-link: #333;
+$footer-link-hover: #7cc224;
+$footer-icon-size: 2.2rem;
 
-/* stylesheet for `_includes/footer.html` */
+.site-footer {
+  background: $footer-bg;
+  text-align: center;
+  padding: 40px 0 24px;
 
-footer {
-  background-color: $secondary-color;
-  color: #fff;
-  padding-bottom: 12px;
-  margin-top: auto;
-  a {
-    color: $white;
+  .footer-logo img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto 24px auto;
+    display: block;
   }
-  .share {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+
+  .footer-social {
+    margin-bottom: 24px;
+
     a {
-      line-height: 60px;
-      height: 60px;
-      width: 100%;
-      display: block;
-      text-align: center;
-      text-decoration-line: none;
+      display: inline-block;
+      margin: 0 14px;
+      font-size: $footer-icon-size;
+      color: #000;
+      width: 48px;
+      height: 48px;
+      line-height: 48px;
+      border-radius: 50%;
+      background: #ffffff;
+      transition: background 0.2s, color 0.2s;
+
       &:hover {
-        opacity: .8;
+        background: $footer-link-hover;
+        color: #fff;
       }
-    }
-    &::after {
-      content: '';
-      clear: both;
-      display: block;
-    }
-    .share-twitter,
-    .share-facebook,
-    .share-line {
-      display: block;
-    }
-    .share-facebook {
-      background-color: $color-facebook;
-    }
-    .share-x {
-      background-color: $color-x;
-    }
-    .share-line {
-      background-color: $color-line;
-      display: none;
     }
   }
-  .footer-menu {
-    .footer-menu-list {
-      list-style: none;
-      padding: 0;
-      margin-top: 1.5em;
-      li {
-        display: inline;
-        padding: 0 .5em;
-        a {
-          &:hover {
-            color: white;
-            opacity: 0.8;
-          }
-        }
+
+  .footer-links {
+    margin-bottom: 16px;
+
+    a {
+      display: inline-block;
+      margin: 0 10px;
+      color: #000;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.2s;
+
+      &:hover {
+        color: $footer-link-hover;
       }
     }
+  }
+
+  .footer-copyright {
+    font-size: 0.98rem;
   }
 }
 
-@media screen and (max-width: 800px) {
-  .share a {
-    width: 100%;
-  }
-  .share-line {
-    display: block;
+// レスポンシブ対応
+@media (max-width: 600px) {
+  .site-footer {
+    padding: 32px 0 18px;
+
+    .footer-logo img {
+      max-width: 220px;
+      margin-bottom: 18px;
+    }
+    .footer-social a {
+      margin: 0 8px;
+      font-size: 1.7rem;
+      width: 36px;
+      height: 36px;
+      line-height: 36px;
+    }
+    .footer-links a {
+      margin: 0 5px;
+      font-size: 0.97rem;
+    }
   }
 }
