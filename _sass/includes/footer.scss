@@ -1,4 +1,5 @@
-$footer-link-hover: #7cc224;
+@use '../global/variables' as *;
+
 
 .site-footer {
   background: #fff;
@@ -29,7 +30,7 @@ $footer-link-hover: #7cc224;
       transition: background 0.2s, color 0.2s;
 
       &:hover {
-        background: $footer-link-hover;
+        background: $hover-color;
         color: #fff;
       }
     }
@@ -47,7 +48,7 @@ $footer-link-hover: #7cc224;
       transition: color 0.2s;
 
       &:hover {
-        color: $footer-link-hover;
+        color: $hover-color;
       }
     }
   }
