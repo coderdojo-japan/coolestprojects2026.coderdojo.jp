@@ -1,19 +1,26 @@
-<footer>
-  <nav class="share">
-    <div>
-    <a href="https://www.facebook.com/share.php?u={{ site.url }}" target="_blank" class="share-facebook text-white" rel="noopener"><i class="fa-brands fa-square-facebook"></i> Facebook でシェア</a>
-    </div>
-    <div>
-      <a href="https://x.com/share?url={{ site.url }}{{ page.url }}&text={{ site.title | url_encode }} - {{ page.title | url_encode }}&hashtags=DojoConJapan,CoderDojo&via={{ site.twitter }}&related={{ site.twitter }}" target="_blank" class="share-x text-white" rel="noopener"><i class="fa-brands fa-square-x-twitter"></i> X でシェア</a>
-    </div>
+<footer class="site-footer">
+  <div class="footer-logo">
+    <img src="/img/2025/top/footer_logo.png" alt="DojoCon Japan 2025 Inspire Next." />
+  </div>
+  <div class="footer-social">
+    <a href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener" class="social-x" aria-label="X">
+      <i class="fa-brands fa-x-twitter" style="color:#000000;"></i>
+    </a>
+    <a href="https://www.facebook.com/{{ site.facebook }}" target="_blank" rel="noopener" class="social-facebook" aria-label="Facebook">
+      <i class="fa-brands fa-facebook" style="color:#3b5998;"></i>
+    </a>
+    <a href="https://www.youtube.com/channel/{{ site.youtube }}" target="_blank" rel="noopener" class="social-youtube" aria-label="YouTube">
+      <i class="fa-brands fa-youtube" style="color:#ff0000;"></i>
+    </a>
+  </div>
+  <nav class="footer-links">
+    <a href="/">ホーム</a>
+    <a href="/code-of-conduct">行動規範</a>
+    <a href="/sitemap">サイトマップ</a>
+    <a href="/privacy">プライバシーポリシー</a>
+    <a href="{{site.contact}}" target="_blank">お問い合わせ</a>
   </nav>
-  <nav class="footer-menu text-center">
-    <ul class="footer-menu-list">
-      <li><a href="/code-of-conduct">行動規範</a></li>
-      <li><a href="/privacy">プライバシー・ポリシー</a></li>
-      <li><a href="https://www.facebook.com/{{ site.facebook }}" target="_blank" rel="noopener">Facebook</a></li>
-      <li><a href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener">Twitter</a></li>
-    </ul>
-  </nav>
-  <p class="copyright text-center">&copy; DojoCon Japan {{ site.year }} 実行委員会</p>
+  <div class="footer-copyright">
+    &copy; DojoCon Japan 2025 実行委員会
+  </div>
 </footer>
