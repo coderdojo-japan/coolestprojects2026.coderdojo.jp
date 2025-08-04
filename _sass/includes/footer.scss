@@ -1,10 +1,7 @@
-$footer-bg: #fff;
-$footer-link: #333;
 $footer-link-hover: #7cc224;
-$footer-icon-size: 2.2rem;
 
 .site-footer {
-  background: $footer-bg;
+  background: #fff;
   text-align: center;
   padding: 40px 0 24px;
 
@@ -22,7 +19,7 @@ $footer-icon-size: 2.2rem;
     a {
       display: inline-block;
       margin: 0 14px;
-      font-size: $footer-icon-size;
+      font-size: 2.2rem;
       color: #000;
       width: 48px;
       height: 48px;
