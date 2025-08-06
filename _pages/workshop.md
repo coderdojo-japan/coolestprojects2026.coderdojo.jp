@@ -2,6 +2,7 @@
 layout: default
 title:  ワークショップ
 permalink: /workshop
+published: false
 ---
 
 <div class="container mt-5">

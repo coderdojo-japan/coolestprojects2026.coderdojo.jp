@@ -5,6 +5,7 @@ date: 2024-08-02T16:00:00 UTC+9
 categories: news
 thumbnail: /img/2024/post/registration.jpg
 permalink: /registration/
+published: false
 ---
 大変お待たせしました、参加受付を開始しました。以下の内容をお読みの上「参加申し込み」を押して参加申し込みフォーム（Doorkeeper）へお進みください。
 

@@ -5,6 +5,7 @@ date: 2024-07-18T20:10:00 UTC+9
 categories: news
 # thumbnail: 
 permalink: /posts/sponsorship/
+published: false
 ---
 私たちDojoCon Japan 2024実行委員会は、2024年9月15日杜の街グレースにて、「DojoCon Japan 2024」を開催いたします。
 

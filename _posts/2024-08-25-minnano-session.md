@@ -5,6 +5,7 @@ date: 2024-08-25T18:00:00 UTC+9
 categories: news
 thumbnail: /img/2024/session/minnano-session.jpg
 permalink: /posts/minna-no-session/
+published: false
 ---
 DojoCon Japan 2024では昨年に引き続きCoderDojoに参加するみなさんが中心のセッション「みんなのセッション」を開催します！
 

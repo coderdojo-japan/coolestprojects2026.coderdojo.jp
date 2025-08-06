@@ -2,6 +2,7 @@
 layout: default
 title:  ニンジャ作品展示
 permalink: /exhibition/
+published: false
 ---
 <div class="container mt-5 mb-5">
   <div class="row">

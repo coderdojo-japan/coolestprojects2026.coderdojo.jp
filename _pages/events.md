@@ -3,6 +3,7 @@ layout: events
 title:  EVENT
 subtitle: イベント
 permalink: /events
+published: false
 ---
   <div class="row text-left">
     {% assign count = 0 %}

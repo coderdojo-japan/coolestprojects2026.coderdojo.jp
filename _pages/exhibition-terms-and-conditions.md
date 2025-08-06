@@ -2,6 +2,7 @@
 layout: condition
 title:  ニンジャ作品展示 - 参加規約
 permalink: /expo/terms-and-conditions
+published: false
 ---
 「DojoCon Japan {{ site.year }}  ニンジャ作品展示」（以下「本展示会」といいます）は、DojoCon Japan実行委員会（併せて以下「主催者」といいます）が主催するニンジャ作品展示会です。
 本展示会への応募者（以下「応募者」といいます）は、本展示会への応募にあたって、以下の参加規約（以下「本規約」といいます）の内容を承諾していただきます。
