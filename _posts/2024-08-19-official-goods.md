@@ -5,6 +5,7 @@ date: 2024-08-19T10:00:00 UTC+9
 categories: news
 thumbnail: /img/2024/post/suzuri-open.jpg
 permalink: /posts/official-goods/
+published: false
 ---
 DojoCon Japan 2024公式グッズストアがオープンしました。
 

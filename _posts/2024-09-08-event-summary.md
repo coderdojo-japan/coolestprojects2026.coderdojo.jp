@@ -5,6 +5,7 @@ date: 2024-09-08T0:00:00 UTC+9
 categories: news
 #thumbnail: /img/2023/event/event-summry.png
 permalink: /event-summary/
+published: false
 ---
 お待たせいたしました。当日のタイムテーブルとすべてのプログラムの概要をご案内します。
 

@@ -6,6 +6,7 @@ thumbnail: "/img/2024/post/social-gathering.jpg"
 categories: news
 description: "DojoCon Japan 2024の夜、会場併設のカフェテラスで、懇親会を行います。"
 permalink: /posts/social-gathering/
+published: false
 ---
 
 DojoCon Japan 2024の夜、会場併設（同じフロア内）のカフェテラスで、懇親会を行います。

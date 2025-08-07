@@ -6,6 +6,7 @@ thumbnail: "/img/2024/post/social-gathering-lt.jpg"
 categories: news
 description: "DojoCon Japan 2024の夜、懇親会でのLT登壇者を募集します。"
 permalink: /posts/social-gathering-lt/
+published: false
 ---
 
 今回も、DojoCon Japan 2024 懇親会で、ライトニングトーク（LT）を開催します。

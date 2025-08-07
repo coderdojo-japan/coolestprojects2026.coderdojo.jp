@@ -3,6 +3,7 @@ layout: post
 title: 作品動画の公開方法について
 category: event
 permalink: /expo/how-to-upload-movie/
+published: false
 ---
 ニンジャ大博覧会への応募ありがとうございます。
 

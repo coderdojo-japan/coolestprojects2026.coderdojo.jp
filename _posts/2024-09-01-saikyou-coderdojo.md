@@ -5,6 +5,7 @@ date: 2024-09-01T17:00:00 UTC+9
 categories: news
 thumbnail: /img/2024/event/saikyo-coderdojo.png
 permalink: /saikyou-coderdojo/
+published: false
 ---
 
 ![](/img/2024/event/saikyo-coderdojo.png)

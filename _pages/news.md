@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /news
+published: false
 ---
 
 <div class="container" style="margin-top: 140px; margin-bottom: 140px">

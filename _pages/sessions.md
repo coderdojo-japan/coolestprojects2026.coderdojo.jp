@@ -3,6 +3,7 @@ layout: sessions
 title: SESSION
 subtitle: セッション
 permalink: /sessions
+published: false
 ---
   <div class="row text-left">
     {% for session in site.data.sessions %}
