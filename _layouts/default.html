@@ -1,18 +1,24 @@
-{% if page_title or page_title ==''  %}
-  {% assign page_title = page.title %}
+{% if page_title or page_title == '' %}
+{% assign page_title = page.title %}
 {% endif %}
-{% if page_subtitle or page_subtitle =='' %}
-  {% assign page_subtitle = page.subtitle %}
+{% if page_subtitle or page_subtitle == '' %}
+{% assign page_subtitle = page.subtitle %}
 {% endif %}
 {% assign page_title = page.title %}
 <!DOCTYPE html>
 <html lang="ja" dir="ltr">
-  {% include head.html %}
-  <body>
-    {% include navbar.html %}
-    {{ content }}
+{% include head.html %}
 
-    <div id="page-top"><a href="#top"><img src="/img/svg/up.svg" alt="Up" width="24px" /></a></div>
+<body class="bg-linear-106 from-[#9d1e29] to-[#d4932a] text-[#262626] font-bold tracking-wider min-h-screen p-4 flex">
+  <div class="bg-white rounded-2xl min-h-full flex-1 flex flex-col">
+    {% include header.html %}
+
+    <div class="flex-1">
+      {{ content }}
+    </div>
+
     {% include footer.html %}
-  </body>
+  </div>
+</body>
+
 </html>

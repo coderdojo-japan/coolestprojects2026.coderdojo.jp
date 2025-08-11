@@ -418,7 +418,7 @@ table thead th {
     float: left;
     object-fit: contain;
   }
-  
+
   .individual {
     text-align: center;
     list-style: none;
@@ -431,7 +431,7 @@ table thead th {
       content: ',';
     }
   }
-  
+
   .sponsor-gold {
     padding: 4vw;
     width: calc(100% - 8vw);
@@ -581,7 +581,7 @@ table thead th {
   .table-timehead {
     width: calc(50px - 16px);
   }
-  
+
   #radio-session:checked ~ .table-session,
   #radio-workshop:checked ~ .table-workshop {
     display: block;
