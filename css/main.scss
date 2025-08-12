@@ -4,8 +4,6 @@
 @use 'sass:math';
 @use 'global/variables' as *;
 @use 'global/base';
-@use 'global/tablet';
-@use 'global/mobile';
 
 @use 'includes/articles';
 @use 'includes/sessions' as includesSessions;
