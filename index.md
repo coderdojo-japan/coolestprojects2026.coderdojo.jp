@@ -1,4 +1,4 @@
 ---
-layout: default
+layout: top
 ---
-{% include top/sections/contact.html %}
+{% include top/sections/hero.html %}
