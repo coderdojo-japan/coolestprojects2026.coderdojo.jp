@@ -1,0 +1,48 @@
+<h2 class="text-4xl text-center pt-20 xl:pt-30">
+  実行員紹介
+  <span class="block mt-5 text-2xl">STAFF</span>
+</h2>
+
+<!-- デスクトップで表示 -->
+<div class="hidden xl:block max-w-7xl mx-auto my-24">
+  <ul class="staff flex flex-wrap justify-center gap-x-36">
+    {% for i in (1..42) %}
+    <li class="-mt-[74px]">
+      <div class="relative aspect-[1/cos(30deg)] w-50 overflow-hidden flex items-center justify-center"
+        style="clip-path: polygon(50% -50%,100% 50%,50% 150%,0 50%);">
+
+        <div class="block absolute size-full opacity-0 hover:opacity-100 transition-200 transition-opacity">
+          <div class="absolute size-full mix-blend-multiply bg-[#6f6f6f]"></div>
+          <p class="flex flex-col items-center justify-center text-white text-center absolute size-full">
+            <span class="text-xs">肩書き</span>
+            名字 名前
+            <span class="text-xs">道場名</span>
+          </p>
+        </div>
+        <img class="w-full" src="https://placehold.jp/320x320.png" alt="スタッフの写真">
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<!-- モバイルで表示 -->
+<div class="block xl:hidden mx-auto mt-9 mb-20">
+  <ul class="flex flex-wrap justify-center gap-x-2 gap-y-6 mx-[2%]">
+    {% for i in (1..42) %}
+    <li class="flex flex-col items-center gap-y-2">
+      <div class="relative aspect-[1/cos(30deg)] w-24 sm:w-30 overflow-hidden flex items-center justify-center"
+        style="clip-path: polygon(50% -50%,100% 50%,50% 150%,0 50%);">
+        <img class="w-full" src="https://placehold.jp/320x320.png" alt="スタッフの写真">
+      </div>
+
+      <!-- モバイルで表示する、肩書きや氏名の表示 -->
+      <p class="flex flex-col text-center">
+        <span class="text-xs">肩書き</span>
+        名字 名前
+        <span class="text-xs">道場名</span>
+      </p>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

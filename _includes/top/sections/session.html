@@ -1,0 +1,27 @@
+<div id="session" class="max-w-3xl lg:max-w-[1800px] px-8 mx-auto mt-8 mb-16 flex flex-col lg:-mt-64 lg:flex-row items-center lg:items-start">
+  <div class="w-full lg:w-2/5 mb-8 lg:mt-68">
+    <div class="lg:max-w-sm lg:place-self-end lg:mr-[10%]">
+      <h2 class="text-4xl mb-4 text-center lg:text-left">
+        セッション
+        <span class="block mt-2 text-2xl">SESSION</span>
+      </h2>
+      <p class="leading-7 mb-10">
+        さまざまな分野で活やくしている人たちの話を聞いて、考え方やアイデアを広げてみよう。<br />
+        プログラミングや教育、地域での活動など、たくさんのヒントがつまった時間です。
+      </p>
+    </div>
+  </div>
+
+  <ul class="flex flex-wrap gap-x-6 gap-y-12 lg:w-3/5">
+    {% for i in (1..6) %}
+    <li class="flex-1 min-w-full sm:min-w-64">
+      <img class="w-full" src="https://placehold.jp/1920x1080.png" alt="セッションのイメージ">
+      <p class="mt-2">セッションタイトル。2行ぐらいあるかも</p>
+      <p class="text-xs mb-2">セッションの説明です。最大2行ぐらいまで許容しそうな雰囲気</p>
+      <p class="text-xs text-gray-400">
+        登壇者：仮の団体名・仮の登壇者の氏名<br />
+        所属：仮の所属名</p>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

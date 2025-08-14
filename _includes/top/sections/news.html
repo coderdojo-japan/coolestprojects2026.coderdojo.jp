@@ -1,0 +1,16 @@
+<h2 class="text-4xl mt-20 sm:mt-32 text-center">
+  お知らせ
+  <span class="block mt-5 text-2xl">NEWS</span>
+</h2>
+
+<div class="m-6 flex flex-col items-center">
+  <ul class="border-y divide-y max-w-7xl mx-auto mb-12">
+    {% for i in (1..5) %}
+    <li class="text-sm flex items-center py-4 flex-wrap sm:flex-nowrap gap-y-1">
+      <time class="block min-w-24">2025.06.20</time>
+      <span class="block min-w-24 text-center mr-6 px-4 py-px rounded-xs bg-[#cc8f2e] text-white">レポート</span>
+      DojoCon Japan 2025開催のお知らせ　今年のテーマは「Inspire NEXT〜好奇心に火をつけよう〜」
+    </li>
+    {% endfor %}
+  </ul>
+</div>
