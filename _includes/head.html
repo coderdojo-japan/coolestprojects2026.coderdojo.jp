@@ -1,9 +1,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
-  {% if jekyll.environment == 'production' %}
-  {% include googleanalytics.html %}
-  {% endif %}
+
   {% if page.title %}
   <title>{{ page.title | strip_html }} | {{ site.title }} {{ site.year }}</title>
   {% else %}
@@ -49,7 +47,7 @@
 
   <!-- Google Analytics -------------------------- -->
   {% if jekyll.environment == 'production' %}
-  {% include googleanalytics.html %}
+  {% include google-analytics.html %}
   {% endif %}
 
   <!-- Favicon -------------------------- -->
