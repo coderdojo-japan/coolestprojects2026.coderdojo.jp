@@ -1,49 +1,20 @@
 @use '../global/variables' as *;
 
-.staff {
-  background: #FBF6FA;
-  padding: 48px 0;
-  &-inner {
-    margin: 48px 24px;
-    padding: 60px;
-    border-radius: 40px;
-    background: #fff;
-    @media screen and (max-width: 992px) {
-      padding: 30px;
-      border-radius: 20px;
-    }
-  }
-  &-list {
-    margin: 24px 0 0 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 48px;
-    li {
-      width: 120px;
-      position: relative;
-      text-align: center;
+// 以下のように並ばせたい
+// 1, 2, 3, 4
+//  5, 6, 7
+// 8, 9, 10, 11
+//  12, 13, 14
+// ...
 
-      img {
-        width: 120px;
-        height: 120px;
-        border-radius: 50%;
-        object-fit: cover;
-        border:5px solid #ccc;
-        position: relative;
-        transition: all 0.3s;
-      }
-      a {
-        text-decoration: none;
-        &:hover {
-          img {
-            border: 5px solid $red;
-            transition: all 0.3s;
-          }
-        }
-      }
-    }
+.staff {
+  // 奇数行目の要素の左右に margin を追加することで、1行の個数を3個に制限する
+  // 5, 12, 19, 26, ... の要素は左側に150pxのマージンを追加
+  li:nth-child(7n+5) {
+    margin-left: 150px
+  }
+  // 7 の倍数(7, 14, 21, 28, ...)個目の要素は右側に150pxのマージンを追加
+  li:nth-child(7n) {
+    margin-right: 150px;
   }
 }
