@@ -1,7 +1,7 @@
 ---
 layout: top
 ---
-<div class="bg-[url(/img/2025/top/header-background.webp)] bg-contain bg-no-repeat bg-top bg-center">
+<div class="bg-[url(/img/top/header-background.webp)] bg-contain bg-no-repeat bg-top bg-center">
   {% include header.html %}
 
   {% include top/sections/hero.html %}
@@ -18,13 +18,13 @@ layout: top
 {% include top/sections/news.html %}
 
 <div class="-mx-4">
-  <img class="w-full" src="/img/2025/top/background1.webp" />
+  <img class="w-full" src="/img/top/background1.webp" />
 </div>
 
 {% include top/sections/keynote.html %}
 
 <div class="-mx-4">
-  <img class="w-full" src="/img/2025/top/background2.webp" />
+  <img class="w-full" src="/img/top/background2.webp" />
 </div>
 
 {% include top/sections/session.html %}
@@ -32,19 +32,19 @@ layout: top
 {% include top/sections/workshop.html %}
 
 <div class="-mx-4">
-  <img class="w-full" src="/img/2025/top/background3.webp" />
+  <img class="w-full" src="/img/top/background3.webp" />
 </div>
 
 {% include top/sections/sponsor.html %}
 
 <div class="-mx-4">
-  <img class="w-full" src="/img/2025/top/background4.webp" />
+  <img class="w-full" src="/img/top/background4.webp" />
 </div>
 
 {% include top/sections/contact.html %}
 
 <div class="-mx-4">
-  <img class="w-full" src="/img/2025/top/background5.webp" />
+  <img class="w-full" src="/img/top/background5.webp" />
 </div>
 
 {% include top/sections/organized-by.html %}
