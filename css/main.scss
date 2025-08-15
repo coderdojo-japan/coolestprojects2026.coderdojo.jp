@@ -1,31 +1,9 @@
 ---
 ---
 
-@use 'sass:math';
 @use 'global/variables' as *;
 @use 'global/base';
 
-@use 'includes/articles';
-@use 'includes/sessions' as includesSessions;
-
-@use 'layouts/default';
-@use 'layouts/page';
-@use 'layouts/post';
-
-@use 'pages/events';
-@use 'pages/index';
-@use 'pages/sessions' as pagesSessions;
-@use 'pages/workshop';
-@use 'pages/sponsors';
-
 @use 'includes/footer';
-@use 'custom';
 
-@use 'components/aboutcoderdojo';
-@use 'components/aboutdojocon';
-@use 'components/fukidashi';
 @use 'components/staff';
-
-//Webフォント読み込み
-@import url('https://fonts.googleapis.com/css?family=Concert+One|Noto+Sans+JP:400,900|Roboto:400,900|M+PLUS+Rounded+1c:400,800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
