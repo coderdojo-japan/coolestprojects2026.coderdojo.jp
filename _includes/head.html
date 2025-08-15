@@ -45,6 +45,9 @@
   <meta name="description"         content="{{ site.description | strip_html | escape }}" />
   {% endif %}
 
+  <!-- リリースまで検索エンジンのインデックスから除外する -->
+  <meta name="robots" content="noindex">
+
   <!-- Google Analytics -------------------------- -->
   {% if jekyll.environment == 'production' %}
   {% include google-analytics.html %}
