@@ -1,5 +1,50 @@
-<h1 class="max-w-lg mx-auto pt-5 px-8">
+<h1 class="hidden xl:block max-w-lg mx-auto pt-5 px-8">
   <a href="/">
     <img src="/img/common/header-logo.webp" alt="DojoCon Japan 2025 Inspire Next." />
   </a>
 </h1>
+
+<div class="xl:hidden fixed top-9 left-0 min-h-18 w-screen flex justify-center z-10">
+  <div class="flex h-full flex-col w-[calc(100%-max(10%,32px))] items-stretch rounded-[10px] bg-[#f5f5f5] px-4 py-2 inset-shadow-[0px_-2px_10px_rgba(125,125,125,0.25)] shadow-[7px_7px_10px_rgba(125,125,125,0.15)]">
+    <div class="flex justify-between items-center">
+      <a href="/" class="flex items-center h-full">
+        <img src="/img/common/header-logo.webp" class="max-h-full max-w-[250px] h-auto" alt="DojoCon Japan 2025 Inspire Next." />
+      </a>
+      <button id="menu-btn" type="button" aria-label="メニューを開く" class="w-12 h-9 flex flex-col justify-center items-center shrink-0 rounded cursor-pointer border border-gray-300 bg-white">
+        <span class="block w-8 h-0.5 bg-gray-400 mb-1.5 rounded"></span>
+        <span class="block w-8 h-0.5 bg-gray-400 mb-1.5 rounded"></span>
+        <span class="block w-8 h-0.5 bg-gray-400 rounded"></span>
+      </button>
+    </div>
+    <nav id="menu-nav" class="hidden flex-col items-stretch transition-all duration-300 my-2">
+      <ul class="flex flex-col min-h-20 items-stretch gap-2 *:leading-[1.75] *:text-[#cc8f2e] *:text-center *:text-[20px] *:px-6">
+        <li><a href="#outline">開催概要</a></li>
+        <li><a href="#session">セッション</a></li>
+        <li><a href="/events">企画</a></li>
+        <li><a href="/contest">コンテスト</a></li>
+        <li><a href="https://suzuri.jp/DojoConJapan" target="_blank">グッズ</a></li>
+        <li><a href="/sponsorship">スポンサー募集</a></li>
+        <li><a href="{{ site.contact }}" target="_blank">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const menuBtn = document.getElementById('menu-btn');
+  const menuNav = document.getElementById('menu-nav');
+  if (!menuBtn || !menuNav) return;
+
+  menuBtn.addEventListener('click', function() {
+    menuNav.classList.toggle('flex');
+    menuNav.classList.toggle('hidden');
+  });
+  menuNav.querySelectorAll('a').forEach(function(link) {
+    link.addEventListener('click', function() {
+      menuNav.classList.remove('flex');
+      menuNav.classList.add('hidden');
+    });
+  });
+});
+</script>
