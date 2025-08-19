@@ -1,9 +1,8 @@
-<section id="contact">
-  <div class="flex flex-col items-center text-center">
-    <h2 class="title">お問い合わせ</h2>
-    <p class="subtitle">CONTACT</p>
-    <p class="text">DojoCon Japan {{ site.year }}についてのお問い合わせは<br>以下のリンク先（Googleフォーム）よりお願いいたします。</p>
-
-    <a href="{{ site.contact }}" class="btn-lg" target="_blank" rel="noopener">お問い合わせフォーム</a>
-  </div>
+<section class="max-w-5xl mx-auto px-8 mb-8">
+  <h2 id="outline" class="text-4xl text-center mb-8">
+    お問い合わせ
+    <span class="block mt-5 text-2xl">CONTACT</span>
+  </h2>
+  <p class="text-lg text-center leading-8">DojoCon Japan {{ site.year }}についてのお問い合わせは<br>以下のリンク先（Googleフォーム）よりお願いいたします。</p>
+  {% include button.html href=site.contact label="お問い合わせフォーム" %}
 </section>
