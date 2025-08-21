@@ -18,7 +18,7 @@
             <span class="text-xs">{{ member.dojo }}</span>
           </p>
         </div>
-        <img class="w-full" src="https://placehold.jp/320x320.png" alt="スタッフの写真">
+        <img class="w-full" src="/img/staff/{{ member.img }}" alt="{{ member.name }}">
       </div>
     </li>
     {% endfor %}
@@ -32,7 +32,7 @@
     <li class="flex flex-col items-center gap-y-2">
       <div class="relative aspect-[1/cos(30deg)] w-24 sm:w-30 overflow-hidden flex items-center justify-center"
         style="clip-path: polygon(50% -50%,100% 50%,50% 150%,0 50%);">
-        <img class="w-full" src="https://placehold.jp/320x320.png" alt="スタッフの写真">
+        <img class="w-full" src="/img/staff/{{ member.img }}" alt="{{ member.name }}">
       </div>
 
       <!-- モバイルで表示する、肩書きや氏名の表示 -->
