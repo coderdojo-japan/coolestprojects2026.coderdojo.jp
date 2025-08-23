@@ -1,3 +1,7 @@
+- name: 杉山美鈴
+  site:
+  img: 杉山美鈴.webp
+  dojo: 久留米
 - name: 岸川拓磨
   site: https://github.com/Fukusan64
   img: 岸川拓磨.webp
@@ -78,10 +82,6 @@
   site:
   img: 田代.webp
   dojo: さが
-- name: 杉山美鈴
-  site:
-  img: 杉山美鈴.webp
-  dojo: 久留米
 - name: 山口秀帝
   site:
   img: 山口秀帝.webp
