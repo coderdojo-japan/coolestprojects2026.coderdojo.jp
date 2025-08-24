@@ -17,8 +17,8 @@
 <div class="flex justify-center flex-wrap gap-x-8 px-8 max-w-3xl w-full mx-auto">
   {% for sponsor in gold_sponsors %}
   <div class="w-full mb-5">
-    <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | strip_html }}のロゴ">
-    <p class="w-full text-center break-keep">{{ sponsor.name }}</p>
+    {% comment %} <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | strip_html }}のロゴ"> {% endcomment %}
+    <p class="w-full text-center break-keep text-3xl">{{ sponsor.name }}</p>
   </div>
   {% endfor %}
 </div>
@@ -29,9 +29,9 @@
 
 <div class="flex justify-center flex-wrap gap-x-8 px-8 max-w-3xl mx-auto">
   {% for sponsor in silver_sponsors %}
-  <div class="max-w-[500px] w-full mb-5">
-    <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | strip_html }}のロゴ">
-    <p class="w-full text-center break-keep">{{ sponsor.name }}</p>
+  <div class="_max-w-[500px] w-full mb-5">
+    {% comment %} <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | strip_html }}のロゴ"> {% endcomment %}
+    <p class="w-full text-center break-keep text-3xl">{{ sponsor.name }}</p>
   </div>
   {% endfor %}
 </div>
@@ -42,9 +42,9 @@
 
 <div class="flex justify-center flex-wrap gap-x-8 px-8 max-w-3xl mx-auto">
   {% for sponsor in bronze_sponsors %}
-  <div class="max-w-[300px] w-full mb-5">
-    <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | strip_html }}のロゴ">
-    <p class="text-center break-keep">{{ sponsor.name }}</p>
+  <div class="_max-w-[300px] w-full mb-5">
+    {% comment %} <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | strip_html }}のロゴ"> {% endcomment %}
+    <p class="text-center break-keep text-3xl">{{ sponsor.name }}</p>
   </div>
   {% endfor %}
 </div>
@@ -55,9 +55,9 @@
 
 <div class="flex justify-center flex-wrap gap-x-8 px-8 max-w-3xl mx-auto">
   {% for sponsor in inkind_sponsors %}
-  <div class="max-w-[270px] w-full mb-5">
-    <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | strip_html }}のロゴ">
-    <p class="w-full text-center break-keep">{{ sponsor.name }}</p>
+  <div class="_max-w-[270px] w-full mb-5">
+    {% comment %} <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | strip_html }}のロゴ"> {% endcomment %}
+    <p class="w-full text-center break-keep  text-3xl">{{ sponsor.name }}</p>
   </div>
   {% endfor %}
 </div>
