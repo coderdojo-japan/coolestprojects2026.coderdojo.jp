@@ -6,7 +6,7 @@
 #   message:  スポンサー紹介文
 
 - id: cygames
-  name: "株式会社<wbr>Cygames"
+  name: 株式会社<wbr>Cygames
   logo:
   link:
   type: gold
@@ -20,7 +20,7 @@
   message:
 
 - id: sunnyside_systems
-  name: "サニーサイド<wbr>システムズ<wbr>合同会社"
+  name: サニーサイド<wbr>システムズ<wbr>合同会社
   logo:
   link:
   type: bronze
