@@ -1,0 +1,56 @@
+# - id:   ID（スポンサーページのアンカータグになります）
+#   name: スポンサー名
+#   logo: ロゴ画像ファイルのパス
+#   link: ロゴ画像をクリックした際のリンク先
+#   type: スポンサー種別（platinum, gold, silver, bronze, inkind, individual）
+#   message:  スポンサー紹介文
+
+- id: cygames
+  name: "株式会社<wbr>Cygames"
+  logo: https://placehold.jp/1920x1080.png
+  link:
+  type: gold
+  message:
+
+- id: sakura_internet
+  name: さくら<wbr>インターネット<wbr>株式会社
+  logo: https://placehold.jp/1920x1080.png
+  link:
+  type: silver
+  message:
+
+- id: sunnyside_systems
+  name: "サニーサイド<wbr>システムズ<wbr>合同会社"
+  logo: https://placehold.jp/1920x1080.png
+  link:
+  type: bronze
+  message:
+
+- id: dojoletter
+  name: DojoLetter<wbr>編集部
+  logo: https://placehold.jp/1920x1080.png
+  link:
+  type: bronze
+  message:
+
+- id: unique_i_net
+  name: ユニーク･<wbr>アイネット<wbr>株式会社
+  logo: https://placehold.jp/1920x1080.png
+  link:
+  type: bronze
+  message:
+
+- id: ma
+  name: 一般社団法人<wbr>MA<wbr>（Protopedia）
+  logo: https://placehold.jp/1920x1080.png
+  link:
+  type: inkind
+  message:
+
+- id: nulab
+  name: 株式会社<wbr>ヌーラボ<wbr>（Backlog）
+  logo: https://placehold.jp/1920x1080.png
+  link:
+  type: inkind
+  message:
+
