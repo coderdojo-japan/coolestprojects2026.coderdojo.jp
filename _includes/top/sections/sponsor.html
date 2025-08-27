@@ -9,54 +9,59 @@
   <span class="block mt-5 text-2xl">SPONSOR</span>
 </h2>
 
-<h3 class="text-2xl mt-10 mx-8 text-center mb-4">ゴールドスポンサー
+<h3 class="text-2xl mt-20 mx-8 text-center mb-4">ゴールドスポンサー
   <span class="block text-base mt-1">GOLD SPONSOR</span>
 </h3>
-
 <div class="flex justify-center flex-wrap gap-x-8 px-8 max-w-3xl w-full mx-auto">
   {% for sponsor in gold_sponsors %}
-  <div class="w-full mb-5">
-    {% comment %} <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | strip_html }}のロゴ"> {% endcomment %}
-    <p class="w-full text-center break-keep text-3xl">{{ sponsor.name }}</p>
-  </div>
+    <div class="w-full flex flex- w-fullcol mb-5">
+      <div class="flex-grow w-full flex items-center justify-center">
+        <img class="w-full mb-5 mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | strip_html }}のロゴ">
+      </div>
+    </div>
   {% endfor %}
 </div>
 
-<h3 class="text-2xl mt-10 mx-8 text-center mb-4">シルバースポンサー
+<h3 class="text-2xl mt-20 mx-8 text-center mb-4">シルバースポンサー
   <span class="block text-base mt-1">SILVER SPONSOR</span>
 </h3>
 
 <div class="flex justify-center flex-wrap gap-x-8 px-8 max-w-3xl mx-auto">
   {% for sponsor in silver_sponsors %}
-  <div class="_max-w-[500px] w-full mb-5">
-    {% comment %} <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | strip_html }}のロゴ"> {% endcomment %}
-    <p class="w-full text-center break-keep text-3xl">{{ sponsor.name }}</p>
+  <div class="max-w-[{{500 | times:sponsor.logo_scale | round}}px] w-full flex flex-col mb-5">
+    <div class="flex-grow w-full flex items-center justify-center">
+      <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | strip_html }}のロゴ">
+    </div>
   </div>
   {% endfor %}
 </div>
 
-<h3 class="text-2xl mt-10 mx-8 text-center mb-4">ブロンズスポンサー
+<h3 class="text-2xl mt-20 mx-8 text-center mb-4">ブロンズスポンサー
   <span class="block text-base mt-1">BRONZE SPONSOR</span>
 </h3>
 
 <div class="flex justify-center flex-wrap gap-x-8 px-8 max-w-3xl mx-auto">
   {% for sponsor in bronze_sponsors %}
-  <div class="_max-w-[300px] w-full mb-5">
-    {% comment %} <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | strip_html }}のロゴ"> {% endcomment %}
-    <p class="text-center break-keep text-3xl">{{ sponsor.name }}</p>
+  <div class="max-w-[{{300 | times:sponsor.logo_scale | round}}px] w-full flex flex-col mb-5">
+    <div class="flex-grow w-full flex items-center justify-center">
+      <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | strip_html }}のロゴ">
+    </div>
   </div>
   {% endfor %}
 </div>
 
-<h3 class="text-2xl mt-10 mx-8 text-center mb-4">インカインドスポンサー
+<h3 class="text-2xl mt-20 mx-8 text-center mb-4">インカインドスポンサー
   <span class="block text-base mt-1">IN-KIND SPONSOR</span>
 </h3>
 
-<div class="flex justify-center flex-wrap gap-x-8 px-8 max-w-3xl mx-auto">
+<div class="flex justify-center flex-wrap gap-x-8 gap-y-10 px-8 max-w-3xl mx-auto">
   {% for sponsor in inkind_sponsors %}
-  <div class="_max-w-[270px] w-full mb-5">
-    {% comment %} <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | strip_html }}のロゴ"> {% endcomment %}
-    <p class="w-full text-center break-keep text-3xl">{{ sponsor.name }}</p>
+  <div class="max-w-[{{270 | times:sponsor.logo_scale | round}}px] w-full flex flex-col">
+    <div class="flex-grow w-full flex items-center justify-center">
+      <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name + "("+ sponsor.tool +")" | strip_html }}のロゴ">
+    </div>
+    <p class="w-full text-center break-keep">{{ sponsor.tool }}<wbr>のご提供</p>
   </div>
   {% endfor %}
 </div>
+
