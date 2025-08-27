@@ -14,9 +14,9 @@
 </h3>
 <div class="flex justify-center flex-wrap gap-x-8 px-8 max-w-3xl w-full mx-auto">
   {% for sponsor in gold_sponsors %}
-    <div class="w-full flex flex- w-fullcol mb-5">
+    <div class="w-full flex flex-col mb-5">
       <div class="flex-grow w-full flex items-center justify-center">
-        <img class="w-full mb-5 mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | strip_html }}のロゴ">
+        <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | strip_html }}のロゴ">
       </div>
     </div>
   {% endfor %}
