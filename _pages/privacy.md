@@ -2,7 +2,7 @@
 layout: post
 title: プライバシー・ポリシー
 subtitle: Privacy policy
-permalink: /privacy
+permalink: /privacy/
 ---
 DojoCon Japan {{ site.year }} 実行委員会 (以下、当実行委員会) では、利用者の個人情報をお預かりしています。当実行委員会は、利用者が安心して本サイトおよび当実行委員会にお問い合わせできるよう、個人情報に関する法令を尊守し、適切に個人情報の取り扱いを致します。
 
