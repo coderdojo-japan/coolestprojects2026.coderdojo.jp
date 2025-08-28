@@ -1,5 +1,5 @@
 - name: 杉山美鈴
-  site:
+  site: https://unit.link/sugimisu
   img: 杉山美鈴.webp
   dojo: 久留米
 - name: 岸川拓磨
@@ -9,11 +9,11 @@
 - name: KP
   site: https://github.com/kp54/
   img: KP.webp
-  dojo: 福岡, 久留米
+  dojo: 福岡、久留米
 - name: おごもり たかし
-  site:
-  img:
-  dojo:
+  site: https://github.com/ogom/
+  img: おごもり たかし.webp
+  dojo: なかもず、大阪狭山
 - name: 柴尾 哲也
   site: https://my.prairie.cards/u/midnight480
   img: 柴尾 哲也.webp
@@ -75,7 +75,7 @@
   img: たくさん.webp
   dojo: こだいら
 - name: いかけん
-  site:
+  site: https://coderdojo-mito.com/
   img: いかけん.webp
   dojo: 水戸
 - name: 田代
