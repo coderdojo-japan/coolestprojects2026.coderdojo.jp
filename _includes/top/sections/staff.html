@@ -39,7 +39,7 @@
     {% for member in site.data.staff %}
     <li class="flex flex-col items-center gap-y-2">
       {% if member.site %}
-        <a href="{{ member.site }}" target="_blank">
+        <a href="{{ member.site }}" target="_blank" class="flex flex-col items-center gap-y-2">
       {% endif %}
 
       <div class="relative aspect-[1/cos(30deg)] w-24 sm:w-30 overflow-hidden flex items-center justify-center"
@@ -48,7 +48,7 @@
       </div>
 
       <!-- モバイルで表示する、肩書きや氏名の表示 -->
-      <p class="flex flex-col text-center">
+      <p class="flex flex-col text-center w-24 text-sm word-break">
         {{ member.name }}
         <span class="text-xs">{{ member.dojo }}</span>
       </p>
