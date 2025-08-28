@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /news
+permalink: /news/
 ---
 <h2 class="text-4xl text-center mb-8 mt-30 xl:mt-15">
   お知らせ
