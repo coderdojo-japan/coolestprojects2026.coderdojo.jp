@@ -1,12 +1,11 @@
 ---
 layout: post
-title: 『DojoCon Japan 2025 プログラミングコンテスト』の募集要項を掲載しました
-in-detail-title: DojoCon Japan 2025 プログラミングコンテスト 募集要項
+title: DojoCon Japan 2025 プログラミングコンテスト 募集要項
+title-in-news-list: 『DojoCon Japan 2025 プログラミングコンテスト』の募集要項を掲載しました
 date: 2025-07-21T00:00:00 UTC+09:00
 categories: news
+permalink: /contests/
 tags: 企画
-# thumbnail:
-permalink: contests/
 ---
 <h1>DojoCon Japan 2025 プログラミングコンテスト</h1>
 
