@@ -8,7 +8,8 @@ permalink: /news
 </h2>
 
 <div class="max-w-248 mx-auto px-8 flex flex-wrap *:w-full gap-y-8 justify-between">
-  {% for post in site.posts | where:"categories","news" %}
+  {% assign news = site.posts | where: "categories", "news" %}
+  {% for post in news %}
     <a href="{{ post.url }}">
       <time class="text-sm text-gray-600">{{ post.date | date:"%Y.%-m.%-d" }}</time>
       <p><strong>{{ post.title }}</strong></p>
