@@ -239,5 +239,5 @@ tags: 企画
 <h2>コンテストについてのお問い合わせ先</h2>
 
 <p>
-  コンテストに関するお問い合わせは <a href="https://forms.gle/t9ctDcuZZ8cqqFtR6" target="_blank">DojoCon Japan 2025 お問い合わせフォーム</a> にお願いいたします。
+  コンテストに関するお問い合わせは <a href="{{ site.contact }}" target="_blank">DojoCon Japan 2025 お問い合わせフォーム</a> にお願いいたします。
 </p>
