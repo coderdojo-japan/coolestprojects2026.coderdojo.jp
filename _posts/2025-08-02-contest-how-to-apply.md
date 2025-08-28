@@ -79,7 +79,7 @@ li {
 
 <div class="step">
   <p>コンテスト応募は以下のステップで行います。</p>
-  <ol>
+  <ol class="mt-4">
     <li>ProtoPediaのアカウントを作成</li>
     <li>ProtoPediaに作品情報を登録</li>
     <li>応募フォームに登録</li>
