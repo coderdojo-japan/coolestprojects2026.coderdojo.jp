@@ -7,12 +7,17 @@ permalink: /news
   <span class="block mt-5 text-2xl">NEWS</span>
 </h2>
 
-<div class="max-w-248 mx-auto px-8 flex flex-wrap *:w-full gap-y-8 justify-between">
+<ul class="max-w-248 mx-auto px-8 flex flex-wrap *:w-full justify-between divide-y divide-[#ccc]">
   {% assign news = site.posts | where: "categories", "news" %}
   {% for post in news %}
-    <a href="{{ post.url }}">
-      <time class="text-sm text-gray-600">{{ post.date | date:"%Y.%-m.%-d" }}</time>
-      <p><strong>{{ post.title }}</strong></p>
-    </a>
+    <li class="py-4">
+      <a href="{{ post.url }}">
+        <div class="flex gap-x-2">
+          <time class="text-sm text-gray-600">{{ post.date | date:"%Y.%-m.%-d" }}</time>
+          <span class="block min-w-24 text-center px-4 py-px rounded-xs bg-[#cc8f2e] text-white">{{ post.tags }}</span>
+        </div>
+        <p>{{ post.title }}</p>
+      </a>
+    </li>
   {% endfor %}
-</div>
+</ul>
