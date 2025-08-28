@@ -108,19 +108,19 @@ li {
 </div>
 
 <h3>① ProtoPediaサイトへアクセスし、右上の「新規登録」ボタンをクリック</h3>
-<img src="/img/contests/how-to-apply/step-1-1.png" alt="ProtoPediaの新規登録ボタン" class="flow-image">
+<img src="/img/contests/how-to-apply/step-1-1.webp" alt="ProtoPediaの新規登録ボタン" class="flow-image">
 
 <h3>② メールアドレス・パスワードを入力して「新規登録する」（Google, X, Facebookでも登録可能です）</h3>
-<img src="/img/contests/how-to-apply/step-1-2.png" alt="新規登録フォーム" class="flow-image">
+<img src="/img/contests/how-to-apply/step-1-2.webp" alt="新規登録フォーム" class="flow-image">
 
 <h3>③ メールアドレスに確認用のメールが届くのでメールに記載されたURLをクリックして登録ページを開く</h3>
-<img src="/img/contests/how-to-apply/step-1-3.png" alt="ユーザー登録" class="flow-image">
+<img src="/img/contests/how-to-apply/step-1-3.webp" alt="ユーザー登録" class="flow-image">
 <p>「表示名」は本名でもニックネームでも構いません。表示名・ユーザーIDはWeb上で公開されることになります。</p>
 <h3>④「サービスを開始する」クリック</h3>
 
 <h2>2．ProtoPediaに作品情報を登録</h2>
 <p>1.の手順で作成したアカウントでログインした状態で、右上の「作品を投稿」ボタンをクリックします。</p>
-<img src="/img/contests/how-to-apply/step-2-1.png" alt="作品投稿フォーム1" class="flow-image">
+<img src="/img/contests/how-to-apply/step-2-1.webp" alt="作品投稿フォーム1" class="flow-image">
 
 <p><span class="required-mark">※</span>の項目はDojoConプログラミングコンテスト応募にあたって入力必須になります。</p>
 
@@ -143,7 +143,7 @@ li {
   </tr>
   <tr>
     <td colspan="2" class="p0-b0">
-      <img src="/img/contests/how-to-apply/step-2-2.png" alt="作品投稿フォーム2" class="flow-image">
+      <img src="/img/contests/how-to-apply/step-2-2.webp" alt="作品投稿フォーム2" class="flow-image">
     </td>
   </tr>
   <tr>
@@ -165,7 +165,7 @@ li {
   </tr>
   <tr>
     <td colspan="2" class="p0-b0">
-      <img src="/img/contests/how-to-apply/step-2-3.png" alt="作品投稿フォーム3" class="flow-image">
+      <img src="/img/contests/how-to-apply/step-2-3.webp" alt="作品投稿フォーム3" class="flow-image">
     </td>
   </tr>
   <tr>
@@ -178,7 +178,7 @@ li {
   </tr>
   <tr>
     <td colspan="2" class="p0-b0">
-      <img src="/img/contests/how-to-apply/step-2-4.png" alt="作品投稿フォーム4" class="flow-image">
+      <img src="/img/contests/how-to-apply/step-2-4.webp" alt="作品投稿フォーム4" class="flow-image">
     </td>
   </tr>
   <tr>
@@ -194,7 +194,7 @@ li {
       使用したプログラミング言語や技術などを書きます<br>
       “Scratch”など「開発素材」か「タグ」か迷うようなものはどちらにも書いていてOKです<br>
       <span class="red-text">必ずここに”白帯コース” ”黒帯コースどちらかを書いてください（白帯コース：初級・中級者レベル、黒帯コース：上級者レベル）</span>
-      <img class="bordered" src="/img/contests/how-to-apply/tag-description.png" alt="タグ設定の説明">
+      <img class="bordered" src="/img/contests/how-to-apply/tag-description.webp" alt="タグ設定の説明">
       ↑入力後Enterを押してこのように表示されていれば入力OKです
     </td>
   </tr>
@@ -210,7 +210,7 @@ li {
     <td>このチェックは何もしなくてよいです</td>
   </tr>
   <tr>
-    <td colspan="2" class="p0-b0"><img src="/img/contests/how-to-apply/step-2-5.png" alt="作品投稿フォーム5"
+    <td colspan="2" class="p0-b0"><img src="/img/contests/how-to-apply/step-2-5.webp" alt="作品投稿フォーム5"
         class="flow-image"></td>
   </tr>
   <tr>
@@ -226,7 +226,7 @@ li {
     <td>関連リンクがある場合は入力しますが、空欄でよいです</td>
   </tr>
 </table>
-<img src="/img/contests/how-to-apply/step-2-6.png" alt="関連リンク入力欄" class="flow-image">
+<img src="/img/contests/how-to-apply/step-2-6.webp" alt="関連リンク入力欄" class="flow-image">
 <p>
   入力後はこのページの一番上の「一般公開」と表示されているプルダウンの隣の「作品を登録」ボタンを押しましょう。<br>
   これで作品が登録され、ProtoPedia上で作品が公開されます。
@@ -234,7 +234,7 @@ li {
 <div class="info">
   <p style="margin: 0;">プルダウンを「下書き保存」にして「作品を登録」ボタンを押すと作品は公開されずに下書きとして保存することもできます。</p>
 </div>
-<img src="/img/contests/how-to-apply/step-2-7.png" alt="urlをコピー" class="flow-image">
+<img src="/img/contests/how-to-apply/step-2-7.webp" alt="urlをコピー" class="flow-image">
 <p>作品が公開されたら、URLの部分をコピーしておきます。このURLは次の応募フォームの入力に使用します。</p>
 <h2>3．応募フォームに登録</h2>
 <p>
