@@ -4,11 +4,7 @@ layout: default
 {% include navbar.html %}
 
 <h2 class="max-w-4xl mx-auto text-4xl text-center mb-2 mt-30 px-8 xl:mt-15">
-  {% if page.in-detail-title %}
-    {{ page.in-detail-title }}
-  {% else %}
-    {{ page.title }}
-  {% endif %}
+  {{ page.title }}
   <span class="block mt-5 text-2xl">{{ page.subtitle | upcase }}</span>
 </h2>
 
