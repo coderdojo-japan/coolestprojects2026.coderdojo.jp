@@ -56,14 +56,10 @@ defaults:
 # their entries' file path in the `include:` list.
 #
 exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - tasks/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - CNAME
+  - docker-compose.yml
+  - Dockerfile
+  - LICENSE.md
+  - Rakefile
+  - README.md
+  - test-directory-structure.py
