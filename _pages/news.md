@@ -15,7 +15,7 @@ permalink: /news/
     <li class="py-4">
       <a href="{{ post.url }}">
         <div class="flex items-center gap-x-2">
-          <time class="text-sm text-gray-600">{{ post.date | date:"%Y.%-m.%-d" }}</time>
+          <time class="text-sm text-gray-600">{{ post.date | date:"%Y.%m.%d" }}</time>
           <span class="block min-w-24 text-center px-4 py-px rounded-xs bg-[#cc8f2e] text-white">{{ post.tags }}</span>
         </div>
         <p>
