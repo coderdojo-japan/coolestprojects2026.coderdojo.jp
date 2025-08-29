@@ -8,11 +8,6 @@ tags: 企画
 permalink: /contests/how-to-apply.html
 ---
 <style>
-img {
-  margin: 5px;
-  max-width: calc(100% - 10px);
-}
-
 .bordered {
   border: 1px solid #ddd;
 }
@@ -25,6 +20,8 @@ img {
 }
 
 .flow-image {
+  margin: 5px;
+  max-width: calc(100% - 10px);
   display: block;
   width: 100%;
   max-width: 600px;
@@ -210,8 +207,9 @@ li {
     <td>このチェックは何もしなくてよいです</td>
   </tr>
   <tr>
-    <td colspan="2" class="p0-b0"><img src="/img/contests/how-to-apply/step-2-5.webp" alt="作品投稿フォーム5"
-        class="flow-image"></td>
+    <td colspan="2" class="p0-b0">
+      <img src="/img/contests/how-to-apply/step-2-5.webp" alt="作品投稿フォーム5" class="flow-image">
+    </td>
   </tr>
   <tr>
     <th>⑭ メンバー登録</th>
