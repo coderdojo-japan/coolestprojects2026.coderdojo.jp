@@ -182,17 +182,17 @@ tags: 企画
 
   <table style="word-break: keep-all;">
     <tr>
-      <td style="white-space: nowrap;">09/07（日）</td>
+      <td class="pr-8" style="white-space: nowrap;">09/07（日）</td>
       <td>応募終了</td>
     </tr>
 
     <tr>
-      <td style="white-space: nowrap;">09/23（火）頃</td>
+      <td class="pr-8" style="white-space: nowrap;">09/23（火）頃</td>
       <td>一次審査通知</td>
     </tr>
 
     <tr>
-      <td style="white-space: nowrap;">10/25（土）</td>
+      <td class="pr-8" style="white-space: nowrap;">10/25（土）</td>
       <td>作品発表（プレゼン形式）＋展示＋最終審査 （＠DojoCon Japan 2025 ）</td>
     </tr>
   </table>
