@@ -2,6 +2,8 @@
 layout: default
 permalink: /news/
 ---
+{% include navbar.html %}
+
 <h2 class="text-4xl text-center mb-8 mt-30 xl:mt-15">
   お知らせ
   <span class="block mt-5 text-2xl">NEWS</span>

@@ -2,7 +2,9 @@
 layout: default
 permalink: /events/
 ---
-<h2 id="outline" class="text-4xl text-center mb-8 pt-40 xl:pt-20">
+{% include navbar.html %}
+
+<h2 class="text-4xl text-center mb-8 mt-30 xl:mt-15">
   企画
   <span class="block mt-5 text-2xl">EVENTS</span>
 </h2>
