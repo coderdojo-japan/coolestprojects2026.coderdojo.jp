@@ -11,6 +11,7 @@ group :jekyll_plugins do
   gem 'jekyll-include-cache'
   gem 'jekyll-sitemap'
   gem 'jekyll-liquify'
+  gem 'jekyll-redirect-from'
 
   # No need this gem because we build by GitHub Actions and serve on Pages.
   # gem 'github-pages'
