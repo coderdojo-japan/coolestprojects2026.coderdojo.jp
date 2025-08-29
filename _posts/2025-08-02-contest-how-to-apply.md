@@ -259,4 +259,4 @@ li {
 </div>
 
 <p>不明点があれば、お問い合わせフォーム（<a target="_blank"
-    href="https://forms.gle/t9ctDcuZZ8cqqFtR">https://forms.gle/t9ctDcuZZ8cqqFtR</a>）にてお知らせください。</p>
+    href="{{ site.contact }}">{{ site.contact }}</a>）にてお知らせください。</p>

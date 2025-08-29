@@ -90,7 +90,7 @@ redirect_from: /contests/terms/
   <li>個⼈情報取り扱い責任者：DojoCon Japan 実⾏委員⻑</li>
   <li>
     個⼈情報に関するご相談、開⽰等に関するお問い合わせは以下にご連絡ください。 <br>
-    <a href="https://forms.gle/t9ctDcuZZ8cqqFtR6" target="_blank">DojoCon Japan 2025 お問い合わせフォーム</a>
+    <a href="{{ site.contact }}" target="_blank">DojoCon Japan 2025 お問い合わせフォーム</a>
   </li>
 </ol>
 
