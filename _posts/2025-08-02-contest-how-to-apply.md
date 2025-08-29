@@ -88,8 +88,7 @@ li {
   プログラミングコンテスト以外の作品もここに登録することで沢山の人に見てもらうことができます。
 </p>
 <a href="https://protopedia.net/" target="_blank">
-  <img src="/img/sponsors/ProtoPedia.png" alt="ProtoPedia Logotype" class="flow-image"
-    style="width: 200px;">
+  <img src="/img/sponsors/ProtoPedia.png" alt="ProtoPedia Logotype" class="flow-image w-100">
 </a>
 
 <p>
