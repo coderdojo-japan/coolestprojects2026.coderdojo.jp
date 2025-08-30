@@ -2,7 +2,7 @@
 layout: post
 title: 参加受付を開始しました
 title-in-news-list: DojoCon Japan 2025 一般参加の受付を開始しました
-date: 2025-08-30T00:00:00 UTC+09:00
+date: 2025-09-01T00:00:00 UTC+09:00
 categories: news
 tag: 参加受付
 permalink: /registration/

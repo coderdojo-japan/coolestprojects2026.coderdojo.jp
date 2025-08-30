@@ -2,6 +2,7 @@
 # You can create any custom variable you would like,
 # and they will be accessible like {{ site.your_variable }}.
 
+future: true
 timezone: Asia/Tokyo
 year: 2025
 title: DojoCon Japan
