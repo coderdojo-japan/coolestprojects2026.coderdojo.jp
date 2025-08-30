@@ -12,7 +12,7 @@
   logo: /img/sponsors/Cygames.jpg
   link: https://www.cygames.co.jp/
   type: gold
-  message:
+  message: "株式会社Cygamesは、『ウマ娘 プリティーダービー』『Shadowverse: Worlds Beyond』『グランブルーファンタジー リリンク』をはじめとしたゲームの企画・開発・運営や、アニメーション製作、漫画事業を展開する会社です。<br> 私たちは「最高のコンテンツを作る会社」というビジョンのもと、ゲーム、アニメ、マンガをはじめとしたエンターテインメントを通じてみなさまに上質なひと時を過ごしていただけるよう努めてまいります。"
   logo_scale: 1
 
 - id: sakura_internet
@@ -20,7 +20,7 @@
   logo: /img/sponsors/sakura_internet.png
   link:
   type: silver
-  message:
+  message: "「やりたいこと」を「できる」に変える<br>新たなアイデアの創出に強い熱意と情熱を持って挑戦するすべての人たちのために、さくらインターネットは ―「やりたいこと」を「できる」に変える― あらゆるアプローチを “インターネット” を通じて提供します。"
   logo_scale: 1
 
 - id: sunnyside_systems
@@ -28,7 +28,7 @@
   logo: /img/sponsors/Sunnyside_systems.png
   link: https://www.sunnyside-sys.com/
   type: bronze
-  message:
+  message: "サニーサイドシステムズは、アプリケーションが安定して動作するためのサーバやネットワークといったITインフラの設計・構築を行っています。ITインフラは皆さんの目に留まらない縁の下の存在ですが、こういったITインフラがあることを知ってもらえると嬉しいです。我々は縁の下の力持ちであることに誇りをもって、これからも沢山のITインフラを作り出していきます。"
   logo_scale: 1
 
 - id: dojoletter
@@ -36,7 +36,7 @@
   logo: /img/sponsors/DojoLetter.png
   link: https://news.coderdojo.jp/
   type: bronze
-  message:
+  message: "DojoLetterは、SNSで発信されている情報や掲載依頼フォームからいただいた各Dojoの活動報告をもとに、全国のCoderDojoの活動内容をお届けするメールマガジンで、毎月10日ごろに配信しています。 メールマガジンの購読申し込みはもちろん、みなさんのDojoの活動報告もお待ちしています。"
   logo_scale: 0.8
 
 - id: unique_i_net
@@ -44,7 +44,7 @@
   logo: /img/sponsors/Unique_i_net.png
   link: https://www.unique-inet.co.jp/
   type: bronze
-  message:
+  message: "CoderDojo池袋<br><a style='text-decoration: underline;color: #cc8f2e;' href='https://coderdojo-ikebukuro.connpass.com/' target='_blank' rel='noopener noreferrer'>https://coderdojo-ikebukuro.connpass.com/</a><br>参加者、メンター共に募集中です！<br>マンガやアニメといったサブカルチャーの発信地、池袋から自分のプログラミングを世界に発信しよう！！"
   logo_scale: 1
 
 - id: tcs
@@ -52,7 +52,7 @@
   logo: /img/sponsors/TechnoCultureSystem.png
   link: https://www.techno-net.co.jp/
   type: bronze
-  message:
+  message: "テクノ・カルチャー・システムは、福岡県久留米市を拠点に筑後・福岡・佐賀エリアで地域密着型のソフトウェア事業を展開しています。<br>行政・金融・農業団体・企業向けシステムの開発から運用まで幅広く支援し、人材育成や働きやすい環境づくりにも力を注ぐ、地域と人の成長を大切にする企業です。"
   logo_scale: 0.8
 
 - id: ma
