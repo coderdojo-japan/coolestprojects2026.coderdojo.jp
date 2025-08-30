@@ -22,7 +22,7 @@
             <span class="text-xs">{{ member.dojo }}</span>
           </p>
         </div>
-        <img class="w-full" src="/img/staff/{{ member.img }}" alt="{{ member.name }}">
+        <img class="min-w-full min-h-full object-cover" src="/img/staff/{{ member.img }}" alt="{{ member.name }}">
       </div>
 
       {% if member.site %}
@@ -30,6 +30,9 @@
       {% endif %}
     </li>
     {% endfor %}
+
+    {% comment %} 空の要素を入れて、最後の行のバランスを取る {% endcomment %}
+    <div class="w-50"></div>
   </ul>
 </div>
 
