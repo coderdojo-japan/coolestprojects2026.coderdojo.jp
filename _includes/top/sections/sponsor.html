@@ -4,123 +4,125 @@
 {% assign inkind_sponsors     = site.data.sponsors | where: "type", "inkind"     %}
 {% assign individual_sponsors = site.data.sponsors | where: "type", "individual" %}
 
-<h2 class="text-4xl text-center">
-  スポンサー
-  <span class="block mt-5 text-2xl">SPONSOR</span>
-</h2>
+<section class="max-w-5xl mx-auto px-4 sm:px-8">
+  <h2 class="text-4xl text-center">
+    スポンサー
+    <span class="block mt-5 text-2xl">SPONSOR</span>
+  </h2>
 
-<h3 class="text-2xl mt-20 mx-8 text-center mb-4">ゴールドスポンサー
-  <span class="block text-base mt-1">GOLD SPONSOR</span>
-</h3>
-<div class="flex justify-center flex-wrap gap-x-8 px-8 max-w-3xl w-full mx-auto">
-  {% for sponsor in gold_sponsors %}
-    {% if sponsor.link %}
-      <a
-        class="w-full flex flex-col mb-5 transition-all duration-200 hover:opacity-70 hover:scale-105 cursor-pointer"
-        style="transform-style: preserve-3d;"
-        href="{{ sponsor.link }}"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <div class="flex-grow w-full flex items-center justify-center">
-          <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | strip_html }}のロゴ">
+  <h3 class="text-2xl mt-20 text-center mb-4">ゴールドスポンサー
+    <span class="block text-base mt-1">GOLD SPONSOR</span>
+  </h3>
+  <div class="flex justify-center flex-wrap gap-x-8 max-w-3xl w-full mx-auto">
+    {% for sponsor in gold_sponsors %}
+      {% if sponsor.link %}
+        <a
+          class="w-full flex flex-col mb-5 transition-all duration-200 hover:opacity-70 hover:scale-105 cursor-pointer"
+          style="transform-style: preserve-3d;"
+          href="{{ sponsor.link }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div class="flex-grow w-full flex items-center justify-center">
+            <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | strip_html }}のロゴ">
+          </div>
+        </a>
+      {% else %}
+        <div class="w-full flex flex-col mb-5">
+          <div class="flex-grow w-full flex items-center justify-center">
+            <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | strip_html }}のロゴ">
+          </div>
         </div>
-      </a>
-    {% else %}
-      <div class="w-full flex flex-col mb-5">
-        <div class="flex-grow w-full flex items-center justify-center">
-          <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | strip_html }}のロゴ">
-        </div>
-      </div>
-    {% endif %}
-  {% endfor %}
-</div>
+      {% endif %}
+    {% endfor %}
+  </div>
 
-<h3 class="text-2xl mt-20 mx-8 text-center mb-4">シルバースポンサー
-  <span class="block text-base mt-1">SILVER SPONSOR</span>
-</h3>
+  <h3 class="text-2xl mt-20 text-center mb-4">シルバースポンサー
+    <span class="block text-base mt-1">SILVER SPONSOR</span>
+  </h3>
 
-<div class="flex justify-center flex-wrap gap-x-8 px-8 max-w-3xl mx-auto">
-  {% for sponsor in silver_sponsors %}
-    {% if sponsor.link %}
-      <a
-        class="max-w-[{{500 | times:sponsor.logo_scale | round}}px] w-full flex flex-col mb-5 transition-all duration-200 hover:opacity-70 hover:scale-105 cursor-pointer"
-        style="transform-style: preserve-3d;"
-        href="{{ sponsor.link }}"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <div class="flex-grow w-full flex items-center justify-center">
-          <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | strip_html }}のロゴ">
+  <div class="flex justify-center flex-wrap gap-x-8 max-w-3xl mx-auto">
+    {% for sponsor in silver_sponsors %}
+      {% if sponsor.link %}
+        <a
+          class="max-w-[{{500 | times:sponsor.logo_scale | round}}px] w-full flex flex-col mb-5 transition-all duration-200 hover:opacity-70 hover:scale-105 cursor-pointer"
+          style="transform-style: preserve-3d;"
+          href="{{ sponsor.link }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div class="flex-grow w-full flex items-center justify-center">
+            <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | strip_html }}のロゴ">
+          </div>
+        </a>
+      {%  else %}
+        <div class="max-w-[{{500 | times:sponsor.logo_scale | round}}px] w-full flex flex-col mb-5">
+          <div class="flex-grow w-full flex items-center justify-center">
+            <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | strip_html }}のロゴ">
+          </div>
         </div>
-      </a>
-    {%  else %}
-      <div class="max-w-[{{500 | times:sponsor.logo_scale | round}}px] w-full flex flex-col mb-5">
-        <div class="flex-grow w-full flex items-center justify-center">
-          <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | strip_html }}のロゴ">
-        </div>
-      </div>
-    {% endif %}
-  {% endfor %}
-</div>
+      {% endif %}
+    {% endfor %}
+  </div>
 
-<h3 class="text-2xl mt-20 mx-8 text-center mb-4">ブロンズスポンサー
-  <span class="block text-base mt-1">BRONZE SPONSOR</span>
-</h3>
+  <h3 class="text-2xl mt-20 text-center mb-4">ブロンズスポンサー
+    <span class="block text-base mt-1">BRONZE SPONSOR</span>
+  </h3>
 
-<div class="flex justify-center flex-wrap gap-x-8 px-8 max-w-3xl mx-auto">
-  {% for sponsor in bronze_sponsors %}
-    {% if sponsor.link %}
-      <a
-        class="max-w-[{{300 | times:sponsor.logo_scale | round}}px] w-full flex flex-col mb-5 transition-all duration-200 hover:opacity-70 hover:scale-105 cursor-pointer"
-        style="transform-style: preserve-3d;"
-        href="{{ sponsor.link }}"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <div class="flex-grow w-full flex items-center justify-center">
-          <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | strip_html }}のロゴ">
+  <div class="flex justify-center flex-wrap gap-x-8 max-w-3xl mx-auto">
+    {% for sponsor in bronze_sponsors %}
+      {% if sponsor.link %}
+        <a
+          class="max-w-[{{300 | times:sponsor.logo_scale | round}}px] w-full flex flex-col mb-5 transition-all duration-200 hover:opacity-70 hover:scale-105 cursor-pointer"
+          style="transform-style: preserve-3d;"
+          href="{{ sponsor.link }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div class="flex-grow w-full flex items-center justify-center">
+            <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | strip_html }}のロゴ">
+          </div>
+        </a>
+      {% else %}
+        <div class="max-w-[{{300 | times:sponsor.logo_scale | round}}px] w-full flex flex-col mb-5">
+          <div class="flex-grow w-full flex items-center justify-center">
+            <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | strip_html }}のロゴ">
+          </div>
         </div>
-      </a>
-    {% else %}
-      <div class="max-w-[{{300 | times:sponsor.logo_scale | round}}px] w-full flex flex-col mb-5">
-        <div class="flex-grow w-full flex items-center justify-center">
-          <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | strip_html }}のロゴ">
-        </div>
-      </div>
-    {% endif %}
-  {% endfor %}
-</div>
+      {% endif %}
+    {% endfor %}
+  </div>
 
-<h3 class="text-2xl mt-20 mx-8 text-center mb-4">インカインドスポンサー
-  <span class="block text-base mt-1">IN-KIND SPONSOR</span>
-</h3>
+  <h3 class="text-2xl mt-20 text-center mb-4">インカインドスポンサー
+    <span class="block text-base mt-1">IN-KIND SPONSOR</span>
+  </h3>
 
-<div class="flex justify-center flex-wrap gap-x-8 gap-y-10 px-8 max-w-3xl mx-auto">
-  {% for sponsor in inkind_sponsors %}
-    {% if sponsor.link %}
-      <a
-        class="max-w-[{{270 | times:sponsor.logo_scale | round}}px] w-full flex flex-col transition-all duration-200 hover:opacity-70 hover:scale-105 cursor-pointer"
-        style="transform-style: preserve-3d;"
-        href="{{ sponsor.link }}"
-        target="_blank" rel="noopener noreferrer"
-      >
-        <div class="flex-grow w-full flex items-center justify-center">
-          <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | append: "(" | append: sponsor.tool | append:")" | strip_html }}のロゴ">
+  <div class="flex justify-center flex-wrap gap-x-8 gap-y-10 max-w-3xl mx-auto">
+    {% for sponsor in inkind_sponsors %}
+      {% if sponsor.link %}
+        <a
+          class="max-w-[{{270 | times:sponsor.logo_scale | round}}px] w-full flex flex-col transition-all duration-200 hover:opacity-70 hover:scale-105 cursor-pointer"
+          style="transform-style: preserve-3d;"
+          href="{{ sponsor.link }}"
+          target="_blank" rel="noopener noreferrer"
+        >
+          <div class="flex-grow w-full flex items-center justify-center">
+            <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | append: "(" | append: sponsor.tool | append:")" | strip_html }}のロゴ">
+          </div>
+          <p class="w-full text-center break-keep">{{ sponsor.tool }}<wbr>のご提供</p>
+        </a>
+      {% else %}
+        <div class="max-w-[{{270 | times:sponsor.logo_scale | round}}px] w-full flex flex-col">
+          <div class="flex-grow w-full flex items-center justify-center">
+            <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | append: "(" | append: sponsor.tool | append:")" | strip_html }}のロゴ">
+          </div>
+          <p class="w-full text-center break-keep">{{ sponsor.tool }}<wbr>のご提供</p>
         </div>
-        <p class="w-full text-center break-keep">{{ sponsor.tool }}<wbr>のご提供</p>
-      </a>
-    {% else %}
-      <div class="max-w-[{{270 | times:sponsor.logo_scale | round}}px] w-full flex flex-col">
-        <div class="flex-grow w-full flex items-center justify-center">
-          <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | append: "(" | append: sponsor.tool | append:")" | strip_html }}のロゴ">
-        </div>
-        <p class="w-full text-center break-keep">{{ sponsor.tool }}<wbr>のご提供</p>
-      </div>
-    {% endif %}
-  {% endfor %}
-</div>
+      {% endif %}
+    {% endfor %}
+  </div>
 
-<div class="max-w-5xl mx-auto px-8 mb-8">
-  {% include button.html href="/sponsorship/list/" label="スポンサー一覧はこちら" %}
-</div>
+  <div class="mx-auto mb-8">
+    {% include button.html href="/sponsorship/list/" label="スポンサーの紹介を見る" %}
+  </div>
+</section>
