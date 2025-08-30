@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /news/
+title: お知らせ
 ---
 {% include navbar.html %}
 
