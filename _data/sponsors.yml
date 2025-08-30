@@ -10,7 +10,7 @@
 - id: cygames
   name: 株式会社<wbr>Cygames
   logo: /img/sponsors/Cygames.jpg
-  link:
+  link: https://www.cygames.co.jp/
   type: gold
   message:
   logo_scale: 1
@@ -26,7 +26,7 @@
 - id: sunnyside_systems
   name: サニーサイド<wbr>システムズ<wbr>合同会社
   logo: /img/sponsors/Sunnyside_systems.png
-  link:
+  link: https://www.sunnyside-sys.com/
   type: bronze
   message:
   logo_scale: 1
@@ -34,7 +34,7 @@
 - id: dojoletter
   name: DojoLetter<wbr>編集部
   logo: /img/sponsors/DojoLetter.png
-  link:
+  link: https://news.coderdojo.jp/
   type: bronze
   message:
   logo_scale: 0.8
@@ -42,7 +42,7 @@
 - id: unique_i_net
   name: ユニーク･<wbr>アイネット<wbr>株式会社
   logo: /img/sponsors/Unique_i_net.png
-  link:
+  link: https://www.unique-inet.co.jp/
   type: bronze
   message:
   logo_scale: 1
@@ -50,7 +50,7 @@
 - id: tcs
   name: 株式会社<wbr>テクノ・<wbr>カルチャー・<wbr>システム
   logo: /img/sponsors/TechnoCultureSystem.png
-  link:
+  link: https://www.techno-net.co.jp/
   type: bronze
   message:
   logo_scale: 0.8
@@ -59,7 +59,7 @@
   name: 一般社団法人<wbr>MA
   tool: ProtoPedia
   logo: /img/sponsors/ProtoPedia.png
-  link:
+  link: https://protopedia.net/
   type: inkind
   message:
   logo_scale: 1
@@ -68,7 +68,7 @@
   name: 株式会社<wbr>ヌーラボ
   tool: Backlog
   logo: /img/sponsors/Nulab.png
-  link:
+  link: https://nulab.com/ja/
   type: inkind
   message:
   logo_scale: 0.8
@@ -77,7 +77,7 @@
   name: YassLab <wbr>株式会社
   tool: Doorkeeper
   logo: /img/sponsors/YassLab.png
-  link:
+  link: https://yasslab.jp/
   type: inkind
   message:
   logo_scale: 0.9
