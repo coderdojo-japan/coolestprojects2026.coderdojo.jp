@@ -1,6 +1,7 @@
 ---
 layout: default
 permalink: /events/
+title: 企画
 ---
 {% include navbar.html %}
 
