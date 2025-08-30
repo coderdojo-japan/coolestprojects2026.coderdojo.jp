@@ -4,13 +4,26 @@
 </h2>
 
 <div class="m-6 flex flex-col items-center">
-  <ul class="border-y border-[#ccc] divide-y divide-[#ccc] max-w-7xl mx-auto mb-12">
-    {% for i in (1..5) %}
+  <ul class="border-y border-[#ccc] divide-y divide-[#ccc] max-w-4xl mx-auto mb-4">
+  {% comment %}
+    news カテゴリーの最新5件を表示
+  {% endcomment %}
+
+  {% assign news = site.posts | where: "categories", "news" | slice: 0, 5 %}
+  {% for post in news %}
     <li class="text-sm flex items-center py-4 flex-wrap sm:flex-nowrap gap-y-1">
-      <time class="block min-w-24">2025.06.20</time>
-      <span class="block min-w-24 text-center mr-6 px-4 py-px rounded-xs bg-[#cc8f2e] text-white">レポート</span>
-      DojoCon Japan 2025開催のお知らせ　今年のテーマは「Inspire NEXT〜好奇心に火をつけよう〜」
+      <time class="block min-w-24 mr-2">{{ post.date | date:"%Y.%m.%d" }}</time>
+      <span class="block min-w-36 mr-6 px-4 py-px rounded-xs bg-[#cc8f2e] text-white text-center">{{ post.tags }}</span>
+      {% if post.title-in-news-list %}
+        {{ post.title-in-news-list }}
+      {% else %}
+        {{ post.title }}
+      {% endif %}
     </li>
     {% endfor %}
   </ul>
+
+  <div class="w-full sm:w-96 mb-12">
+    {% include button.html href="/news/" label="全てのお知らせを見る" %}
+  </div>
 </div>
