@@ -48,6 +48,13 @@
   message: "テクノ・カルチャー・システムは、福岡県久留米市を拠点に筑後・福岡・佐賀エリアで地域密着型のソフトウェア事業を展開しています。<br>行政・金融・農業団体・企業向けシステムの開発から運用まで幅広く支援し、人材育成や働きやすい環境づくりにも力を注ぐ、地域と人の成長を大切にする企業です。"
   logo_scale: 0.8
 
+- name: ITeens Lab
+  logo: /img/sponsors/ITeensLab.png
+  link: https://iteenslab.com/
+  type: bronze
+  message: "ITeens Lab（アイティーンズラボ）は、小中高生向けのオンラインITスクール。<br>メタバース教室「Metalife」で全国・世界中の仲間と学び、ゲーム制作・クリエイティブ制作・AI／3DCGなどを実践的に学びます。<br>“好き”を起点にITスキルとリテラシーを伸ばし、子どもたちの〈やってみたい〉を未来の武器に変えていきます。"
+  logo_scale: 1
+
 - name: 一般社団法人<wbr>MA
   tool: ProtoPedia
   logo: /img/sponsors/ProtoPedia.png
