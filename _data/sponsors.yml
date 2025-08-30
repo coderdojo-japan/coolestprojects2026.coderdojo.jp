@@ -1,0 +1,83 @@
+# - id:   ID（スポンサーページのアンカータグになります）
+#   name: スポンサー名
+#   tool: スポンサー提供ツール名（inkindの場合使用）
+#   logo: ロゴ画像ファイルのパス
+#   link: ロゴ画像をクリックした際のリンク先
+#   type: スポンサー種別（platinum, gold, silver, bronze, inkind, individual）
+#   message:  スポンサー紹介文
+#   logo_scale: ロゴ画像の拡大率（1が等倍、0.5が半分のサイズ）
+
+- id: cygames
+  name: 株式会社<wbr>Cygames
+  logo: /img/sponsors/Cygames.jpg
+  link:
+  type: gold
+  message:
+  logo_scale: 1
+
+- id: sakura_internet
+  name: さくら<wbr>インターネット<wbr>株式会社
+  logo: /img/sponsors/sakura_internet.png
+  link:
+  type: silver
+  message:
+  logo_scale: 1
+
+- id: sunnyside_systems
+  name: サニーサイド<wbr>システムズ<wbr>合同会社
+  logo: /img/sponsors/Sunnyside_systems.png
+  link:
+  type: bronze
+  message:
+  logo_scale: 1
+
+- id: dojoletter
+  name: DojoLetter<wbr>編集部
+  logo: /img/sponsors/DojoLetter.png
+  link:
+  type: bronze
+  message:
+  logo_scale: 0.8
+
+- id: unique_i_net
+  name: ユニーク･<wbr>アイネット<wbr>株式会社
+  logo: /img/sponsors/Unique_i_net.png
+  link:
+  type: bronze
+  message:
+  logo_scale: 1
+
+- id: tcs
+  name: 株式会社<wbr>テクノ・<wbr>カルチャー・<wbr>システム
+  logo: /img/sponsors/TechnoCultureSystem.png
+  link:
+  type: bronze
+  message:
+  logo_scale: 0.8
+
+- id: ma
+  name: 一般社団法人<wbr>MA
+  tool: ProtoPedia
+  logo: /img/sponsors/ProtoPedia.png
+  link:
+  type: inkind
+  message:
+  logo_scale: 1
+
+- id: nulab
+  name: 株式会社<wbr>ヌーラボ
+  tool: Backlog
+  logo: /img/sponsors/Nulab.png
+  link:
+  type: inkind
+  message:
+  logo_scale: 0.8
+
+- id: yasslab
+  name: YassLab <wbr>株式会社
+  tool: Doorkeeper
+  logo: /img/sponsors/YassLab.png
+  link:
+  type: inkind
+  message:
+  logo_scale: 0.9
