@@ -3,3 +3,11 @@
   img: /img/events/saikyo-coderdojo.webp
   tag: ワークショップ
   url: /events/saikyo-coderdojo/
+- title: DojoCon Japan 2025 プログラミングコンテスト
+  outline: |
+    プログラミングコンテストのファイナリストによる発表・来場者による投票・授賞式を行います。<br />
+    当日はぜひ白帯・黒帯ニンジャの作品をご覧になり、投票してください！<br />
+    ※なお、作品応募期間（一次審査）は～9/7まで受け付けています
+  img: /img/contests/cover.webp
+  tag: コンテスト
+  url: /contests/
