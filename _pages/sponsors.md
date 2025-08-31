@@ -16,7 +16,7 @@ title: スポンサーのご紹介
   <span class="block mt-5 text-2xl">SPONSORS</span>
 </h2>
 
-<p class="text-center mb-10 break-keep wrap-anywhere text-sm sm:text-base">
+<p class="text-center mb-10 text-sm sm:text-base">
   DojoCon Japan 2025は、スポンサーのご協力により開催されています。<br>協賛くださいました皆様ありがとうございます。
 </p>
 
@@ -42,7 +42,7 @@ title: スポンサーのご紹介
         </div>
       {% endif %}
       <p class="w-full mb-3 text-center break-keep">{{ sponsor.name }}</p>
-      <p class="w-full text-gray-600 break-keep wrap-anywhere">{{ sponsor.message }}</p>
+      <p class="w-full text-gray-600">{{ sponsor.message }}</p>
     </div>
   {% endfor %}
 </div>
@@ -70,7 +70,7 @@ title: スポンサーのご紹介
         </div>
       {% endif %}
       <p class="w-full mb-3 text-center break-keep">{{ sponsor.name }}</p>
-      <p class="w-full text-gray-600 break-keep wrap-anywhere">{{ sponsor.message }}</p>
+      <p class="w-full text-gray-600">{{ sponsor.message }}</p>
     </div>
   {% endfor %}
 </div>
@@ -98,7 +98,7 @@ title: スポンサーのご紹介
         </div>
       {% endif %}
       <p class="w-full mb-3 text-center break-keep">{{ sponsor.name }}</p>
-      <p class="w-full text-gray-600 break-keep wrap-anywhere">{{ sponsor.message }}</p>
+      <p class="w-full text-gray-600">{{ sponsor.message }}</p>
     </div>
   {% endfor %}
 </div>
