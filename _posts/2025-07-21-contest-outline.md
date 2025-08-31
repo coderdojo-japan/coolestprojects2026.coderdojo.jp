@@ -1,13 +1,12 @@
 ---
 layout: post
-title: DojoCon Japan 2025 プログラミングコンテスト 募集要項
+title: DojoCon Japan 2025 プログラミングコンテスト
 title-in-news-list: 『DojoCon Japan 2025 プログラミングコンテスト』の募集要項を掲載しました
 date: 2025-07-21T00:00:00 UTC+09:00
 categories: news
 permalink: /contests/
 tags: 企画
 ---
-<h1>DojoCon Japan 2025 プログラミングコンテスト</h1>
 
 <p>
   子ども達に他の地域の文化やコミュニティーにふれてもらいたい。
@@ -145,16 +144,10 @@ tags: 企画
 
 <h2>審査員</h2>
 
-<table>
-  <tr>
-    <td>第１次審査</td>
-    <td>DojoCon Japan 2025 実行委員会</td>
-  </tr>
-  <tr>
-    <td>最終審査</td>
-    <td>DojoCon Japan 2025 参加者</td>
-  </tr>
-</table>
+- 第１次審査
+  - DojoCon Japan 2025 実行委員会
+- 最終審査
+  - DojoCon Japan 2025 参加者
 
 <h3>審査の流れ</h3>
 
@@ -169,41 +162,22 @@ tags: 企画
 
 <h2>スケジュール</h2>
 
-<table>
-  <tr>
-    <td>09/07（日）</td>
-    <td>応募終了</td>
-  </tr>
-
-  <tr>
-    <td>09/23（火）頃</td>
-    <td>一次審査通知</td>
-  </tr>
-
-  <tr>
-    <td>10/25（土）</td>
-    <td>作品発表（プレゼン形式）＋展示＋最終審査 （＠DojoCon Japan 2025 ）</td>
-  </tr>
-</table>
+- 09/07（日）
+  - 応募終了
+- 09/23（火）頃
+  - 一次審査通知
+- 10/25（土）
+  - 作品発表（プレゼン形式）
+  - 展示
+  - 最終審査（＠会場）
 
 <h2>賞</h2>
 
-<table>
-  <tr>
-    <td>最優秀賞</td>
-    <td>黒帯コース・白帯コース各1名（副賞あり）</td>
-  </tr>
-
-  <tr>
-    <td>優秀賞</td>
-    <td>黒帯コース・白帯コース各2名（副賞あり）</td>
-  </tr>
-
-  <tr>
-    <td>ほか</td>
-    <td></td>
-  </tr>
-</table>
+- 最優秀賞
+  - 黒帯コース・白帯コース各1名（副賞あり）
+- 優秀賞
+  - 黒帯コース・白帯コース各2名（副賞あり）
+- ほか
 
 <h2>コンテストについての注意事項</h2>
 
