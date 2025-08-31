@@ -6,7 +6,6 @@ date: 2025-08-02T01:00:00 UTC+09:00
 categories: news
 tags: 企画
 permalink: /contests/how-to-apply/
-redirect_from: /contests/how-to-apply.html
 ---
 <style>
 .bordered {
