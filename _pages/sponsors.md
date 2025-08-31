@@ -16,7 +16,7 @@ title: スポンサーのご紹介
   <span class="block mt-5 text-2xl">SPONSORS</span>
 </h2>
 
-<p class="text-center mb-10 text-sm sm:text-base">
+<p class="text-center mb-10 text-sm sm:text-base px-4 sm:px-8">
   DojoCon Japan 2025は、スポンサーのご協力により開催されています。<br>協賛くださいました皆様ありがとうございます。
 </p>
 
