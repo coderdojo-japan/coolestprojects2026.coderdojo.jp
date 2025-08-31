@@ -16,7 +16,7 @@ title: スポンサーのご紹介
   <span class="block mt-5 text-2xl">SPONSORS</span>
 </h2>
 
-<p class="text-center mb-10 break-keep wrap-anywhere text-sm sm:text-base">
+<p class="text-center mb-10 text-sm sm:text-base px-4 sm:px-8">
   DojoCon Japan 2025は、スポンサーのご協力により開催されています。<br>協賛くださいました皆様ありがとうございます。
 </p>
 
@@ -42,7 +42,7 @@ title: スポンサーのご紹介
         </div>
       {% endif %}
       <p class="w-full mb-3 text-center break-keep">{{ sponsor.name }}</p>
-      <p class="w-full text-gray-600 break-keep wrap-anywhere">{{ sponsor.message }}</p>
+      <p class="w-full text-gray-600">{{ sponsor.message }}</p>
     </div>
   {% endfor %}
 </div>
@@ -51,7 +51,7 @@ title: スポンサーのご紹介
   <span class="block text-base mt-1">SILVER SPONSOR</span>
 </h3>
 
-<div class="flex justify-center flex-wrap gap-x-8 px-8 max-w-3xl mx-auto">
+<div class="flex justify-center flex-wrap gap-x-8 px-8 max-w-3xl w-full mx-auto">
   {% for sponsor in silver_sponsors %}
     <div class="flex flex-col mb-5">
       {% if sponsor.link %}
@@ -70,7 +70,7 @@ title: スポンサーのご紹介
         </div>
       {% endif %}
       <p class="w-full mb-3 text-center break-keep">{{ sponsor.name }}</p>
-      <p class="w-full text-gray-600 break-keep wrap-anywhere">{{ sponsor.message }}</p>
+      <p class="w-full text-gray-600">{{ sponsor.message }}</p>
     </div>
   {% endfor %}
 </div>
@@ -79,7 +79,7 @@ title: スポンサーのご紹介
   <span class="block text-base mt-1">BRONZE SPONSOR</span>
 </h3>
 
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-10 px-8 max-w-3xl w-7/10 mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-10 px-8 sm:px-8 max-w-3xl w-full mx-auto">
   {% for sponsor in bronze_sponsors %}
     <div class="flex flex-col mb-5">
       {% if sponsor.link %}
@@ -98,7 +98,7 @@ title: スポンサーのご紹介
         </div>
       {% endif %}
       <p class="w-full mb-3 text-center break-keep">{{ sponsor.name }}</p>
-      <p class="w-full text-gray-600 break-keep wrap-anywhere">{{ sponsor.message }}</p>
+      <p class="w-full text-gray-600">{{ sponsor.message }}</p>
     </div>
   {% endfor %}
 </div>
