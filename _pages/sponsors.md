@@ -51,7 +51,7 @@ title: スポンサーのご紹介
   <span class="block text-base mt-1">SILVER SPONSOR</span>
 </h3>
 
-<div class="flex justify-center flex-wrap gap-x-8 px-8 max-w-3xl mx-auto">
+<div class="flex justify-center flex-wrap gap-x-8 px-8 max-w-3xl w-full mx-auto">
   {% for sponsor in silver_sponsors %}
     <div class="flex flex-col mb-5">
       {% if sponsor.link %}
@@ -79,7 +79,7 @@ title: スポンサーのご紹介
   <span class="block text-base mt-1">BRONZE SPONSOR</span>
 </h3>
 
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-10 px-8 sm:px-8 max-w-3xl w-full sm:w-7/10 mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-x-8 gap-y-10 px-8 sm:px-8 max-w-3xl w-full mx-auto">
   {% for sponsor in bronze_sponsors %}
     <div class="flex flex-col mb-5">
       {% if sponsor.link %}
