@@ -18,13 +18,13 @@ layout: top
 {% include top/sections/news.html %}
 
 <div class="-mx-4">
-  <img class="w-full" src="/img/top/background1.webp" />
+  <img class="w-full" src="/img/top/background1.webp" alt="DojoCon Japan 2023 @ 奈良の様子" />
 </div>
 
 {% include top/sections/keynote.html %}
 
 <div class="-mx-4">
-  <img class="w-full" src="/img/top/background2.webp" />
+  <img class="w-full" src="/img/top/background2.webp" alt="micro:bit でLチカしている様子" />
 </div>
 
 {% include top/sections/session.html %}
@@ -32,19 +32,19 @@ layout: top
 {% include top/sections/workshop.html %}
 
 <div class="-mx-4">
-  <img class="w-full" src="/img/top/background3.webp" />
+  <img class="w-full" src="/img/top/background3.webp" alt="鉄道模型を動かしている様子"/>
 </div>
 
 {% include top/sections/sponsor.html %}
 
 <div class="-mx-4">
-  <img class="w-full" src="/img/top/background4.webp" />
+  <img class="w-full" src="/img/top/background4.webp" alt="Why CoderDojo Wall - 教えて！みんなが CoderDojo に参加する理由" />
 </div>
 
 {% include top/sections/contact.html %}
 
 <div class="-mx-4">
-  <img class="w-full" src="/img/top/background5.webp" />
+  <img class="w-full" src="/img/top/background5.webp" alt="DojoCon Japan 2019 @ 名古屋の様子" />
 </div>
 
 {% include top/sections/organized-by.html %}
