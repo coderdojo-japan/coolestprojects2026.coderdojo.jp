@@ -32,10 +32,7 @@ jobs:
       run: |
         JEKYLL_ENV=production bundle exec jekyll build
         JEKYLL_ENV=production bundle exec jekyll doctor
-        # SKIP_BUILD=true       bundle exec rake test
-        # NOTE: サイトが仕上がったら、上記テストを走らせると自動検知できる。
-        #       ただ初期は自動検知の通知が多すぎるので手動で実行するのが吉。
-        python test-directory-structure.py
+        SKIP_BUILD=true       bundle exec rake test
 
   # Deploy job is triggered only pushed to main branch && CI passed
   deploy:
