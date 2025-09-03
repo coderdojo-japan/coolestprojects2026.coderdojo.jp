@@ -28,7 +28,7 @@ title: スポンサーのご紹介
     <div class="w-full flex flex-col mb-5">
       {% if sponsor.link %}
         <a
-          class="flex-grow w-full flex items-center justify-center transition-all duration-200 hover:opacity-70 hover:scale-105 cursor-pointer"
+          class="flex-grow w-full flex items-center justify-center transition-all duration-200 hover:scale-105 cursor-pointer"
           style="transform-style: preserve-3d;"
           href="{{ sponsor.link }}"
           target="_blank"
@@ -56,7 +56,7 @@ title: スポンサーのご紹介
     <div class="flex flex-col mb-5">
       {% if sponsor.link %}
         <a
-          class="flex-grow w-full flex items-center justify-center transition-all duration-200 hover:opacity-70 hover:scale-105 cursor-pointer"
+          class="flex-grow w-full flex items-center justify-center transition-all duration-200 hover:scale-105 cursor-pointer"
           style="transform-style: preserve-3d;"
           href="{{ sponsor.link }}"
           target="_blank"
@@ -84,7 +84,7 @@ title: スポンサーのご紹介
     <div class="flex flex-col mb-5">
       {% if sponsor.link %}
         <a
-          class="w-full h-auto lg:h-96 flex-grow-0 flex items-center justify-center transition-all duration-200 hover:opacity-70 hover:scale-105 cursor-pointer"
+          class="w-full h-auto lg:h-96 flex-grow-0 flex items-center justify-center transition-all duration-200 hover:scale-105 cursor-pointer"
           style="transform-style: preserve-3d;"
           href="{{ sponsor.link }}"
           target="_blank"
@@ -112,7 +112,7 @@ title: スポンサーのご紹介
     <div class="flex flex-col">
       {% if sponsor.link %}
         <a
-          class="flex-grow w-full flex items-center justify-center transition-all duration-200 hover:opacity-70 hover:scale-105 cursor-pointer"
+          class="flex-grow w-full flex items-center justify-center transition-all duration-200 hover:scale-105 cursor-pointer"
           style="transform-style: preserve-3d;"
           href="{{ sponsor.link }}"
           target="_blank"
