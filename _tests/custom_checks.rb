@@ -8,20 +8,16 @@ class CustomChecks < ::HTMLProofer::Check
   BASE_PATH = '_site'
 
   def run
-    current_filename = @runner.current_filename
-    puts "\tchecking ... " + current_filename[5..].split('.').first
-
-    check_directory_structure
+    filename = @runner.current_filename
+    puts "\tchecking ... " + filename.delete_prefix('_site')
+    check_directory_structure(filename) if filename.end_with?('.html')
   end
 
   # Check directory structure to ensure all pages are generated as index.html
   # This ensures proper routing for both /foobar/ and /foobar pathes.
-  def check_directory_structure
+  def check_directory_structure(filename)
     allowed_names = ['index.html', '404.html']
     current_file  = @runner.current_filename
-
-    # Only check HTML files
-    return unless current_file.end_with?('.html')
 
     # Get the filename
     filename = File.basename(current_file)
