@@ -9,14 +9,14 @@ html {
 @font-face {
   font-family: 'rounded-l-mplus-2p';
   src: url('/assets/fonts/rounded-l-mplus-2p-bold.ttf') format('truetype');
-  font-weight: bold;
+  font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'rounded-l-mplus-2p';
-  src: url('/assets/fonts/rounded-l-mplus-2p-regular.ttf') format('truetype');
-  font-weight: normal;
+  src: url('/assets/fonts/rounded-l-mplus-2p-heavy.ttf') format('truetype');
+  font-weight: bold;
   font-style: normal;
 }
 
