@@ -3,6 +3,7 @@
   img: /img/events/saikyo-coderdojo.webp
   tag: ワークショップ
   url: /events/saikyo-coderdojo/
+
 - title: DojoCon Japan 2025 プログラミングコンテスト
   outline: |
     プログラミングコンテストのファイナリストによる発表・来場者による投票・授賞式を行います。<br />
@@ -11,3 +12,9 @@
   img: /img/contests/cover.webp
   tag: コンテスト
   url: /contests/
+
+- title: CoderDojoなんでも相談カフェ
+  outline: CoderDojoに関わる事であればなんでも相談できるカフェ
+  img: /img/events/nandemo-sodan-cafe.webp
+  tag: イベント
+  url: /events/nandemo-sodan-cafe/
