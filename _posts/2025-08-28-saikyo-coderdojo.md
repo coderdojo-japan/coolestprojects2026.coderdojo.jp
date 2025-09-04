@@ -3,7 +3,7 @@ layout: post
 title: ぼくのかんがえたさいきょうのCoderDojoワークショップ
 date: 2025-08-28T00:00:00 UTC+09:00
 categories: event
-thumbnail: /img/events/saikyo-coderdojo.png
+thumbnail: /img/events/saikyo-coderdojo.webp
 permalink: /events/saikyo-coderdojo/
 ---
 
