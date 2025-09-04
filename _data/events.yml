@@ -1,3 +1,9 @@
+- title: CoderDojoなんでも相談カフェ
+  outline: CoderDojoに関わる事であればなんでも相談できるカフェ
+  img: /img/events/nandemo-sodan-cafe.webp
+  tag: イベント
+  url: /events/nandemo-sodan-cafe/
+
 - title: ぼくのかんがえたさいきょうのCoderDojoワークショップ
   outline: 理想のCoderDojoをみんなで考えるワークショップです。ワークシートに自分が考える理想のCoderDojoを書いて、他の参加者とシェアしましょう。
   img: /img/events/saikyo-coderdojo.webp
@@ -12,9 +18,3 @@
   img: /img/contests/cover.webp
   tag: コンテスト
   url: /contests/
-
-- title: CoderDojoなんでも相談カフェ
-  outline: CoderDojoに関わる事であればなんでも相談できるカフェ
-  img: /img/events/nandemo-sodan-cafe.webp
-  tag: イベント
-  url: /events/nandemo-sodan-cafe/
