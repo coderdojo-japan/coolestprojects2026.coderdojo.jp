@@ -17,8 +17,8 @@
     {%  assign events = site.data.events | slice: 0, 6 %}
     {% for event in events %}
     <li class="flex flex-col min-w-0">
-      <a href="{{ event.url }}" class="block hover:opacity-80 transition">
-      <img class="w-full" src="{{ event.img }}" alt="{{ event.title }}" />
+      <a href="{{ event.url }}" class="block hover:opacity-80 transition grow">
+      <img class="w-full md:max-h-[160px] md:object-contain " src="{{ event.img }}" alt="{{ event.title }}" />
       <p class="mt-2">{{ event.title }}</p>
       <p class="text-xs mb-2 leading-5">{{ event.outline }}</p>
       </a>
