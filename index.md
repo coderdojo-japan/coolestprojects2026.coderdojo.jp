@@ -29,7 +29,7 @@ layout: top
 
 {% include top/sections/session.html %}
 
-{% include top/sections/workshop.html %}
+{% include top/sections/event.html %}
 
 <div class="-mx-4">
   <img class="w-full" src="/img/top/background3.webp" alt="鉄道模型を動かしている様子"/>
