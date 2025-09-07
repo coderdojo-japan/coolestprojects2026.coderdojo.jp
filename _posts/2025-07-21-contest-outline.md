@@ -5,7 +5,7 @@ title-in-news-list: 『DojoCon Japan 2025 プログラミングコンテスト�
 date: 2025-07-21T00:00:00 UTC+09:00
 categories: news
 permalink: /contests/
-tags: 企画
+tags: イベント
 ---
 
 <p>

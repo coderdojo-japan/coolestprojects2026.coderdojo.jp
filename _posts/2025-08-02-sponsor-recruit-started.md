@@ -4,7 +4,7 @@ title: DojoCon Japan 2025 スポンサー募集のお知らせ
 title-in-news-list: DojoCon Japan 2025 スポンサー募集のお知らせを掲載しました
 date: 2025-08-02T00:00:00 UTC+09:00
 categories: news
-tags: 企画
+tags: スポンサー
 permalink: /sponsorship/
 ---
 <img src="/img/common/coderdojo-nameplate.webp" class="mb-4" loading="lazy" alt="DojoCon Japan Cover Photo"
