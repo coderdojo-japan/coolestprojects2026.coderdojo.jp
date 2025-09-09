@@ -17,20 +17,18 @@ title: タイムテーブル
 {% assign total_slots = tte.total_slots %}
 {% assign total_rooms = tte.total_rooms %}
 
-<section class="max-w-[1200px] mx-auto px-4 sm:px-8 mt-30 xl:mt-15">
+<section class="w-[calc(100dvw-40px)] max-w-7xl mx-auto mt-25 xl:mt-5">
   <h2 class="text-4xl text-center mb-8">
     Time table
     <span class="block mt-3 text-2xl">タイムテーブル</span>
   </h2>
-
-  <div class="ttable-wrap" aria-label="タイムテーブル（横スクロール可）">
+  <div class="overflow-x-auto overflow-y-auto h-[500px] border-[1px] border-[#e6e6e9]" aria-label="タイムテーブル（横スクロール可）">
     <table class="ttable" style="--room-count: {{ rooms | size }};">
       <caption>
         {{ site.date_event }} のタイムテーブル
       </caption>
-
       <thead>
-        <tr>
+        <tr class="sticky z-5">
           <th scope="col" class="ttable__th ttable__th--start">時間</th>
           {% comment %} ルーム単位でヘッダーを描画 {% endcomment %}
           {% for room in rooms %}
@@ -64,9 +62,11 @@ title: タイムテーブル
                     rowspan="{{ event.duration }}"
                     style="--span: {{ event.duration }};">
                   <div class="ttable__event" style="--accent: {{ accent }};">
-                    <div class="ttable__event-time" >{{ event.start }}–{{ event.end }}</div>
-                    <div class="ttable__event-title">{{ event.title }}</div>
-                    {% if event.subtitle %}<div class="ttable__event-subtitle">{{ event.subtitle }}</div>{% endif %}
+                    <div class="sticky top-[50px]">
+                      <div class="ttable__event-time" >{{ event.start }}–{{ event.end }}</div>
+                      <div class="ttable__event-title">{{ event.title }}</div>
+                      {% if event.subtitle %}<div class="ttable__event-subtitle">{{ event.subtitle }}</div>{% endif %}
+                    </div>
                     {% if event.badge %}<span class="ttable__badge">{{ event.badge }}</span>{% endif %}
                     {% if event.note %}<div class="ttable__event-note">{{ event.note }}</div>{% endif %}
                   </div>

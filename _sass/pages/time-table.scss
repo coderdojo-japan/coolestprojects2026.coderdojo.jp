@@ -1,23 +1,12 @@
-@use '../global/variables' as *;
-
-@media (max-width: 640px) {
-  :root, body { max-width: 100%; overflow-x: clip; }
-}
-@supports not (overflow-x: clip) {
-  @media (max-width: 640px) { :root, body { overflow-x: hidden; } }
-}
-
 /* ====== スクロール容器 ====== */
 .ttable-wrap{
   position: relative;
   width: 100%;
   max-width: 100%;
   overflow-x: auto;
-  overflow-y: visible;
+  overflow-y: auto;
   -webkit-overflow-scrolling: touch;
-  overscroll-behavior-x: contain;
   contain: content;
-  scrollbar-gutter: stable both-edges;
 }
 
 /* ====== テーブル ======
@@ -25,17 +14,12 @@
    table-layout: auto と最小幅制約を組み合わせる
 */
 .ttable{
-  --w-start: 8ch;
-  --room-min: 20rem;
+  table-layout: fixed;
+  --w-start: 5rem;
+  --room-min: clamp(235px, calc((100dvw - var(--w-start) - 10rem)), 20rem);
   --row-h: 56px;
 
   width: calc(var(--w-start) + var(--room-min) * var(--room-count));
-  min-width: 100%;
-  border-collapse: separate;
-  border-spacing: 0;
-  table-layout: auto;
-  background: #fff;
-  border: 1px solid #e6e6e9;
 }
 
 /* ヘッダー */
@@ -59,9 +43,9 @@
 /* 会場ヘッダーと本文セルの最小幅をそろえる（PCで潰れない） */
 .ttable__th--room{ border-left: 1px solid #ececf1; color:#111; background:
   linear-gradient(0deg, rgba(255,255,255,0.88), rgba(255,255,255,0.88)), var(--room-color, #c43b3b);
-  min-width: var(--room-min);
+  width: var(--room-min);
 }
-.ttable tbody td{ min-width: var(--room-min); }
+.ttable tbody td{ width: var(--room-min); }
 
 /* 行ストライプ & グリッド線 */
 .ttable tbody tr{ height: var(--row-h); }
@@ -111,35 +95,13 @@
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
   padding: 10px 12px 12px;
   background: #fff;
-  overflow: hidden;
   height: 100%;
   display: flex;
   flex-direction: column;
+  overflow: clip;
 }
 .ttable__event::before{ content:""; position:absolute; inset:0 0 auto 0; height: 6px; background: var(--accent, #c43b3b); }
 .ttable__event-time{ font-weight: 800; font-size: 1.05rem; letter-spacing: .3px; margin: 8px 0 4px; color: #c43b3b; }
 .ttable__event-title{ font-weight: 800; line-height: 1.35; margin-bottom: 4px; color: #121212; }
 .ttable__event-subtitle{ color: #ee7d05; font-weight: 700; font-size: .92rem; line-height: 1.3; }
 .ttable__badge{ position: absolute; top: 8px; right: 10px; padding: 2px 8px; border-radius: 999px; font-size: .85rem; font-weight: 800; color: #fff; background: var(--accent,#c43b3b); box-shadow: 0 1px 4px rgba(0,0,0,.1); }
-
-/* スマホ微調整 */
-@media (max-width: 640px){
-  .ttable{ --row-h: 54px; --room-min: 16rem; --w-start: 7ch; }
-  .ttable thead th, .ttable__cell{ padding: 8px; font-size: .95rem; }
-  .ttable thead th{ white-space: normal; }
-  .ttable__room-cap{ overflow-wrap: anywhere; word-break: keep-all; }
-  .ttable tbody tr:nth-child(6n){
-    box-shadow: inset 0 -1.5px 0 rgba(0,0,0,0.18);
-  }
-  .ttable-wrap::before, .ttable-wrap::after{
-    content: ""; position: absolute; top: 0; bottom: 0; width: 18px;
-    pointer-events: none; z-index: 6;
-  }
-  .ttable-wrap::before{ left: 0; background: linear-gradient(to right, #fff, rgba(255,255,255,0)); }
-  .ttable-wrap::after{ right: 0; background: linear-gradient(to left, #fff, rgba(255,255,255,0)); }
-  .ttable tbody tr{ background-image: linear-gradient(to right, rgba(0,0,0,0.08) 50%, rgba(0,0,0,0) 0); }
-  .ttable__event-time{ font-size: 1rem; margin-top: 6px; }
-  .ttable__event-title{ font-size: .98rem; }
-  .ttable__event-subtitle{ font-size: .86rem; }
-}
-
