@@ -1,0 +1,149 @@
+---
+layout: default
+permalink: /time-table/
+title: タイムテーブル
+---
+{% include navbar.html %}
+
+{% assign tt = site.data.time_table %}
+{% assign slot = tt.slot_minutes | default: 15 %}
+{% assign rooms = tt.rooms %}
+{% assign room_count = rooms | size %}
+
+{% assign day_start_min = 600 %}
+{% assign day_end_min = 960 %}
+{% assign total_minutes = day_end_min | minus: day_start_min %}
+{% assign slots_count = total_minutes | divided_by: slot %}
+{% assign last_row = slots_count | minus: 1 %}
+
+<section class="max-w-[1200px] mx-auto px-4 sm:px-8 mt-30 xl:mt-15">
+  <h2 class="text-4xl text-center mb-8">
+    Time table
+    <span class="block mt-3 text-2xl">タイムテーブル</span>
+  </h2>
+
+  <div class="ttable-wrap" aria-label="タイムテーブル（横スクロール可）">
+    <table class="ttable" style="--room-count: {{ room_count }};">
+      <caption>
+        {{ tt.date | default: site.date_event }} のタイムテーブル
+      </caption>
+
+      <thead>
+        <tr>
+          <th scope="col" class="ttable__th ttable__th--start">時間</th>
+          {% for r in rooms %}
+            {% assign rstyle = tt.room_styles[r] %}
+            <th scope="col"
+                class="ttable__th ttable__th--room"
+                style="--room-color: {{ rstyle.color | default: '#c43b3b' }};">
+              <span class="ttable__room-cap">{{ r }}</span>
+            </th>
+          {% endfor %}
+        </tr>
+      </thead>
+
+      <tbody>
+        {% for i in (0..last_row) %}
+          {% assign row_min = i | times: slot | plus: day_start_min %}
+          {% assign h = row_min | divided_by: 60 %}
+          {% assign mf = row_min | modulo: 60 | plus: 0 | prepend: '0' | slice: -2, 2 %}
+
+          <tr>
+            <!-- 左1列（sticky） -->
+            <th scope="row" class="ttable__cell ttable__cell--start">{{ h }}:{{ mf }}</th>
+
+            {% for r in rooms %}
+              {% assign rstyle = tt.room_styles[r] %}
+              {% assign events_in_room = tt.events | where: 'room', r | sort: 'start' %}
+
+              {% assign active_event = nil %}
+              {% assign active_event_start_index = nil %}
+
+              {% for ev in events_in_room %}
+                {% assign s_h = ev.start | split: ':' | first | plus: 0 %}
+                {% assign s_m = ev.start | split: ':' | last  | plus: 0 %}
+                {% assign e_h = ev.end   | split: ':' | first | plus: 0 %}
+                {% assign e_m = ev.end   | split: ':' | last  | plus: 0 %}
+                {% assign s_min = s_h | times: 60 | plus: s_m %}
+                {% assign e_min = e_h | times: 60 | plus: e_m %}
+
+                {% assign s_clamped = s_min %}
+                {% if s_clamped < day_start_min %}{% assign s_clamped = day_start_min %}{% endif %}
+                {% assign e_clamped = e_min %}
+                {% if e_clamped > day_end_min %}{% assign e_clamped = day_end_min %}{% endif %}
+
+                {% assign span_minutes = e_clamped | minus: s_clamped %}
+                {% if span_minutes > 0 %}
+                  {% assign numerator = span_minutes | plus: slot | minus: 1 %}
+                  {% assign span_slots = numerator | divided_by: slot %}
+                  {% assign s_index = s_clamped | minus: day_start_min | divided_by: slot %}
+                  {% assign e_index = s_index | plus: span_slots %}
+                  {% if i >= s_index and i < e_index %}
+                    {% assign active_event = ev %}
+                    {% assign active_event_start_index = s_index %}
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+
+              {% if active_event and i == active_event_start_index %}
+                {%- assign s_h = active_event.start | split: ':' | first | plus: 0 -%}
+                {%- assign s_m = active_event.start | split: ':' | last  | plus: 0 -%}
+                {%- assign e_h = active_event.end   | split: ':' | first | plus: 0 -%}
+                {%- assign e_m = active_event.end   | split: ':' | last  | plus: 0 -%}
+                {%- assign s_min = s_h | times: 60 | plus: s_m -%}
+                {%- assign e_min = e_h | times: 60 | plus: e_m -%}
+                {%- if s_min < day_start_min -%}{%- assign s_min = day_start_min -%}{%- endif -%}
+                {%- if e_min > day_end_min -%}{%- assign e_min = day_end_min -%}{%- endif -%}
+                {%- assign span_minutes = e_min | minus: s_min -%}
+                {%- assign numerator = span_minutes | plus: slot | minus: 1 -%}
+                {%- assign span_slots = numerator | divided_by: slot -%}
+                {%- assign accent = active_event.accent | default: rstyle.color -%}
+                <td class="ttable__cell ttable__cell--event" rowspan="{{ span_slots }}" style="--span: {{ span_slots }};">
+                  <div class="ttable__event" style="--accent: {{ accent | default: '#c43b3b' }};">
+                    <div class="ttable__event-time">{{ active_event.start }}–{{ active_event.end }}</div>
+                    <div class="ttable__event-title">{{ active_event.title }}</div>
+                    {% if active_event.subtitle %}
+                      <div class="ttable__event-subtitle">{{ active_event.subtitle }}</div>
+                    {% endif %}
+                    {% if active_event.badge %}
+                      <span class="ttable__badge">{{ active_event.badge }}</span>
+                    {% endif %}
+                  </div>
+                </td>
+              {% elsif active_event == nil %}
+                <td class="ttable__cell ttable__cell--empty" aria-label="空き時間"></td>
+              {% endif %}
+            {% endfor %}
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <script>
+    // 重複検知（後勝ち）
+    (function () {
+      const data = {
+        slot: {{ slot | jsonify }},
+        dayStart: {{ day_start_min | jsonify }},
+        dayEnd: {{ day_end_min | jsonify }},
+        rooms: {{ rooms | jsonify }},
+        events: {{ tt.events | jsonify }}
+      };
+      const map = new Map();
+      data.rooms.forEach(r => map.set(r, []));
+      const toMin = t => { const [h,m]=String(t).split(':').map(Number); return h*60+m; };
+      for (const ev of data.events) (map.get(ev.room)||map.set(ev.room,[]).get(ev.room)).push(ev);
+      for (const [room, list] of map) {
+        list.sort((a,b)=>toMin(a.start)-toMin(b.start));
+        for (let i=0;i<list.length-1;i++){
+          const a=list[i], b=list[i+1];
+          const as=Math.max(toMin(a.start), data.dayStart);
+          const ae=Math.min(toMin(a.end),   data.dayEnd);
+          const bs=Math.max(toMin(b.start), data.dayStart);
+          if (ae>bs) console.warn(`[time-table] Overlap in "${room}":`, a, b, '→ later wins');
+        }
+      }
+    })();
+  </script>
+</section>
