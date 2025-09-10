@@ -61,8 +61,8 @@ title: タイムテーブル
                 {% assign accent = event.accent | default: room.style.color | default: '#c43b3b' %}
                 
                 <td class="ttable__cell ttable__cell--event"
-                    rowspan="{{ event.span }}"
-                    style="--span: {{ event.span }};">
+                    rowspan="{{ event.duration }}"
+                    style="--span: {{ event.duration }};">
                   <div class="ttable__event" style="--accent: {{ accent }};">
                     <div class="ttable__event-time" >{{ event.start }}–{{ event.end }}</div>
                     <div class="ttable__event-title">{{ event.title }}</div>

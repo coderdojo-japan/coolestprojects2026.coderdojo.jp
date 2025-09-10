@@ -19,12 +19,12 @@ module Jekyll
         return unless tt
 
         # 設定値を取得
-        slot_minutes = tt.fetch('slot_minutes', DEFAULT_SLOT_MINUTES)
+        slot_minutes = tt.fetch('slot_minutes',   DEFAULT_SLOT_MINUTES)
         day_start    = tt.fetch('day_start_hour', DEFAULT_DAY_START_HOUR)
-        day_end      = tt.fetch('day_end_hour', DEFAULT_DAY_END_HOUR)
-        rooms        = tt.fetch('rooms', [])
-        events       = tt.fetch('events', [])
-        room_styles  = tt.fetch('room_styles', {})
+        day_end      = tt.fetch('day_end_hour',   DEFAULT_DAY_END_HOUR)
+        rooms        = tt.fetch('rooms',          [])
+        events       = tt.fetch('events',         [])
+        room_styles  = tt.fetch('room_styles',    {})
 
         # イベント情報を表形式で生成
         time_table_events = create_event_table(events, rooms, room_styles, slot_minutes, day_start, day_end)
@@ -47,7 +47,7 @@ module Jekyll
         # ルーム情報を生成（room.style でアクセス可能）
         rooms_data = rooms.map do |room_name|
           {
-            'name' => room_name,
+            'name'  => room_name,
             'style' => room_styles[room_name] || {}
           }
         end
@@ -64,7 +64,7 @@ module Jekyll
           'rooms'       => rooms_data,
           'time_labels' => time_labels,
           'total_slots' => total_slots - 1,  # Liquidの (0..n) は inclusive なので -1
-          'total_rooms' => rooms.size - 1    # Liquidの (0..n) は inclusive なので -1
+          'total_rooms' => rooms.size  - 1,  # Liquidの (0..n) は inclusive なので -1
         }
       end
 
@@ -72,23 +72,22 @@ module Jekyll
         room_index = rooms.index(event['room'])
         return unless room_index
 
-        # 時間を分に変換
-        start_minutes = time_to_minutes(event['start'])
-        end_minutes   = time_to_minutes(event['end'])
+        # 時間を分に変換して揃える
+        event_start = time_to_minutes(event['start'])
+        event_end   = time_to_minutes(event['end'])
 
-        # スロット計算
-        start_slot = [(start_minutes - day_start * 60) / slot_minutes, 0].max.to_i
-        end_slot   = [(end_minutes - day_start * 60)   / slot_minutes, total_slots].min.to_i
-        span       = end_slot - start_slot
+        # スロット計算（分に揃える）
+        slot_start = [(event_start - day_start * 60) / slot_minutes, 0].max.to_i
+        slot_end   = [(event_end   - day_start * 60) / slot_minutes, total_slots].min.to_i
+        duration   = slot_end - slot_start
 
-        return if start_slot >= total_slots || span <= 0
+        return if slot_start >= total_slots || duration <= 0
 
-        # Eventにspan情報を追加
-        enhanced_event = event.merge('span' => span)
-        table[start_slot][room_index] = enhanced_event
+        # イベントの長さ情報 (duration) を追加
+        table[slot_start][room_index] = event.merge('duration' => duration)
 
         # 継続スロットをマーク
-        (start_slot + 1...end_slot).each do |slot|
+        (slot_start + 1...slot_end).each do |slot|
           break if slot >= total_slots
           table[slot][room_index] = 'continued'
         end
