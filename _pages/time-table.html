@@ -119,31 +119,4 @@ title: タイムテーブル
       </tbody>
     </table>
   </div>
-
-  <script>
-    // 重複検知（後勝ち）
-    (function () {
-      const data = {
-        slot: {{ slot | jsonify }},
-        dayStart: {{ day_start_min | jsonify }},
-        dayEnd: {{ day_end_min | jsonify }},
-        rooms: {{ rooms | jsonify }},
-        events: {{ tt.events | jsonify }}
-      };
-      const map = new Map();
-      data.rooms.forEach(r => map.set(r, []));
-      const toMin = t => { const [h,m]=String(t).split(':').map(Number); return h*60+m; };
-      for (const ev of data.events) (map.get(ev.room)||map.set(ev.room,[]).get(ev.room)).push(ev);
-      for (const [room, list] of map) {
-        list.sort((a,b)=>toMin(a.start)-toMin(b.start));
-        for (let i=0;i<list.length-1;i++){
-          const a=list[i], b=list[i+1];
-          const as=Math.max(toMin(a.start), data.dayStart);
-          const ae=Math.min(toMin(a.end),   data.dayEnd);
-          const bs=Math.max(toMin(b.start), data.dayStart);
-          if (ae>bs) console.warn(`[time-table] Overlap in "${room}":`, a, b, '→ later wins');
-        }
-      }
-    })();
-  </script>
 </section>
