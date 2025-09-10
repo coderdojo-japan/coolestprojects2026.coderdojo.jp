@@ -32,7 +32,7 @@ title: タイムテーブル
       <thead>
         <tr>
           <th scope="col" class="ttable__th ttable__th--start">時間</th>
-          {% comment %} ルーム情報でヘッダーを描画 {% endcomment %}
+          {% comment %} ルーム単位でヘッダーを描画 {% endcomment %}
           {% for room in rooms %}
             <th scope="col"
                 class="ttable__th ttable__th--room"
@@ -44,18 +44,18 @@ title: タイムテーブル
       </thead>
 
       <tbody>
-        {% comment %} スロット情報（行単位）でイベントを描画 {% endcomment %}
+        {% comment %} スロット単位（行単位）でイベントを描画 {% endcomment %}
         {% for slot in (0..total_slots) %}
           <tr>
             <th scope="row" class="ttable__cell ttable__cell--start">{{ time_labels[slot] }}</th>
             
-            {% comment %} 各スロットのイベントを描画 {% endcomment %}
+            {% comment %} 各イベントを描画 {% endcomment %}
             {% for room_index in (0..total_rooms) %}
               {% assign event = events[slot][room_index] %}
               {% assign room  = rooms[room_index] %}
               
               {% if event == 'continued' %}
-                {% comment %} イベント継続中 (rowspan で描画するため出力不要) {% endcomment %}
+                {% comment %} イベント継続中 (rowspan で描画するため出力は不要) {% endcomment %}
               {% elsif event %}
                 {% comment %} イベントを描画 {% endcomment %}
                 {% assign accent = event.accent | default: room.style.color | default: '#c43b3b' %}
