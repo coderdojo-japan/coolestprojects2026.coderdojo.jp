@@ -1,6 +1,3 @@
-require 'active_support/core_ext/integer/time'
-require 'active_support/core_ext/numeric/time'
-
 module Jekyll
   module TimeTableGenerator
     # タイムテーブル表を事前に計算してイベント表形式に変換
