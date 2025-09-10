@@ -5,16 +5,17 @@ title: タイムテーブル
 ---
 {% include navbar.html %}
 
-{% assign tt = site.data.time_table %}
-{% assign slot = tt.slot_minutes | default: 15 %}
-{% assign rooms = tt.rooms %}
-{% assign room_count = rooms | size %}
+{% comment %} 
+  Jekyll プラグインで事前計算されたタイムテーブル表を使用
+  ロジックはプラグインで計算済み。Liquid は描画のみを担当
+{% endcomment %}
 
-{% assign day_start_min = 600 %}
-{% assign day_end_min = 960 %}
-{% assign total_minutes = day_end_min | minus: day_start_min %}
-{% assign slots_count = total_minutes | divided_by: slot %}
-{% assign last_row = slots_count | minus: 1 %}
+{% assign tte         = site.data.time_table_events %}
+{% assign events      = tte.events %}
+{% assign rooms       = tte.rooms %}
+{% assign time_labels = tte.time_labels %}
+{% assign total_slots = tte.total_slots %}
+{% assign total_rooms = tte.total_rooms %}
 
 <section class="max-w-[1200px] mx-auto px-4 sm:px-8 mt-30 xl:mt-15">
   <h2 class="text-4xl text-center mb-8">
@@ -23,94 +24,55 @@ title: タイムテーブル
   </h2>
 
   <div class="ttable-wrap" aria-label="タイムテーブル（横スクロール可）">
-    <table class="ttable" style="--room-count: {{ room_count }};">
+    <table class="ttable" style="--room-count: {{ rooms | size }};">
       <caption>
-        {{ tt.date | default: site.date_event }} のタイムテーブル
+        {{ site.date_event }} のタイムテーブル
       </caption>
 
       <thead>
         <tr>
           <th scope="col" class="ttable__th ttable__th--start">時間</th>
-          {% for r in rooms %}
-            {% assign rstyle = tt.room_styles[r] %}
+          {% comment %} ルーム単位でヘッダーを描画 {% endcomment %}
+          {% for room in rooms %}
             <th scope="col"
                 class="ttable__th ttable__th--room"
-                style="--room-color: {{ rstyle.color | default: '#c43b3b' }};">
-              <span class="ttable__room-cap">{{ r }}</span>
+                style="--room-color: {{ room.style.color | default: '#c43b3b' }};">
+              <span class="ttable__room-cap">{{ room.name }}</span>
             </th>
           {% endfor %}
         </tr>
       </thead>
 
       <tbody>
-        {% for i in (0..last_row) %}
-          {% assign row_min = i | times: slot | plus: day_start_min %}
-          {% assign h = row_min | divided_by: 60 %}
-          {% assign mf = row_min | modulo: 60 | plus: 0 | prepend: '0' | slice: -2, 2 %}
-
+        {% comment %} スロット単位（行単位）でイベントを描画 {% endcomment %}
+        {% for slot in (0..total_slots) %}
           <tr>
-            <!-- 左1列（sticky） -->
-            <th scope="row" class="ttable__cell ttable__cell--start">{{ h }}:{{ mf }}</th>
-
-            {% for r in rooms %}
-              {% assign rstyle = tt.room_styles[r] %}
-              {% assign events_in_room = tt.events | where: 'room', r | sort: 'start' %}
-
-              {% assign active_event = nil %}
-              {% assign active_event_start_index = nil %}
-
-              {% for ev in events_in_room %}
-                {% assign s_h = ev.start | split: ':' | first | plus: 0 %}
-                {% assign s_m = ev.start | split: ':' | last  | plus: 0 %}
-                {% assign e_h = ev.end   | split: ':' | first | plus: 0 %}
-                {% assign e_m = ev.end   | split: ':' | last  | plus: 0 %}
-                {% assign s_min = s_h | times: 60 | plus: s_m %}
-                {% assign e_min = e_h | times: 60 | plus: e_m %}
-
-                {% assign s_clamped = s_min %}
-                {% if s_clamped < day_start_min %}{% assign s_clamped = day_start_min %}{% endif %}
-                {% assign e_clamped = e_min %}
-                {% if e_clamped > day_end_min %}{% assign e_clamped = day_end_min %}{% endif %}
-
-                {% assign span_minutes = e_clamped | minus: s_clamped %}
-                {% if span_minutes > 0 %}
-                  {% assign numerator = span_minutes | plus: slot | minus: 1 %}
-                  {% assign span_slots = numerator | divided_by: slot %}
-                  {% assign s_index = s_clamped | minus: day_start_min | divided_by: slot %}
-                  {% assign e_index = s_index | plus: span_slots %}
-                  {% if i >= s_index and i < e_index %}
-                    {% assign active_event = ev %}
-                    {% assign active_event_start_index = s_index %}
-                  {% endif %}
-                {% endif %}
-              {% endfor %}
-
-              {% if active_event and i == active_event_start_index %}
-                {%- assign s_h = active_event.start | split: ':' | first | plus: 0 -%}
-                {%- assign s_m = active_event.start | split: ':' | last  | plus: 0 -%}
-                {%- assign e_h = active_event.end   | split: ':' | first | plus: 0 -%}
-                {%- assign e_m = active_event.end   | split: ':' | last  | plus: 0 -%}
-                {%- assign s_min = s_h | times: 60 | plus: s_m -%}
-                {%- assign e_min = e_h | times: 60 | plus: e_m -%}
-                {%- if s_min < day_start_min -%}{%- assign s_min = day_start_min -%}{%- endif -%}
-                {%- if e_min > day_end_min -%}{%- assign e_min = day_end_min -%}{%- endif -%}
-                {%- assign span_minutes = e_min | minus: s_min -%}
-                {%- assign numerator = span_minutes | plus: slot | minus: 1 -%}
-                {%- assign span_slots = numerator | divided_by: slot -%}
-                {%- assign accent = active_event.accent | default: rstyle.color -%}
-                <td class="ttable__cell ttable__cell--event" rowspan="{{ span_slots }}" style="--span: {{ span_slots }};">
-                  <div class="ttable__event" style="--accent: {{ accent | default: '#c43b3b' }};">
-                    <div class="ttable__event-time">{{ active_event.start }}–{{ active_event.end }}</div>
-                    <div class="ttable__event-title">{{ active_event.title }}</div>
-                    {% if active_event.subtitle %}
-                      <div class="ttable__event-subtitle">{{ active_event.subtitle }}</div>
-                    {% endif %}
-                    {% if active_event.badge %}
-                      <span class="ttable__badge">{{ active_event.badge }}</span>
-                    {% endif %}
+            <th scope="row" class="ttable__cell ttable__cell--start">{{ time_labels[slot] }}</th>
+            
+            {% comment %} 各イベントを描画 {% endcomment %}
+            {% for room_index in (0..total_rooms) %}
+              {% assign event = events[slot][room_index] %}
+              {% assign room  = rooms[room_index] %}
+              
+              {% if event == 'continued' %}
+                {% comment %} イベント継続中 (rowspan で描画するため出力は不要) {% endcomment %}
+              {% elsif event %}
+                {% comment %} イベントを描画 {% endcomment %}
+                {% assign accent = event.accent | default: room.style.color | default: '#c43b3b' %}
+                
+                <td class="ttable__cell ttable__cell--event"
+                    rowspan="{{ event.duration }}"
+                    style="--span: {{ event.duration }};">
+                  <div class="ttable__event" style="--accent: {{ accent }};">
+                    <div class="ttable__event-time" >{{ event.start }}–{{ event.end }}</div>
+                    <div class="ttable__event-title">{{ event.title }}</div>
+                    {% if event.subtitle %}<div class="ttable__event-subtitle">{{ event.subtitle }}</div>{% endif %}
+                    {% if event.badge %}<span class="ttable__badge">{{ event.badge }}</span>{% endif %}
+                    {% if event.note %}<div class="ttable__event-note">{{ event.note }}</div>{% endif %}
                   </div>
                 </td>
-              {% elsif active_event == nil %}
+              {% else %}
+                {% comment %} イベント無し {% endcomment %}
                 <td class="ttable__cell ttable__cell--empty" aria-label="空き時間"></td>
               {% endif %}
             {% endfor %}
