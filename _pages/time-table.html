@@ -10,11 +10,12 @@ title: タイムテーブル
   ロジックはプラグインで計算済み。Liquid は描画のみを担当
 {% endcomment %}
 
-{% assign ttg         = site.data.time_table_grid %}
-{% assign time_slots  = ttg.time_slots %}
-{% assign rooms       = ttg.rooms %}
-{% assign room_styles = ttg.room_styles %}
-{% assign time_labels = ttg.time_labels %}
+{% assign tte         = site.data.time_table_events %}
+{% assign events      = tte.events %}
+{% assign rooms       = tte.rooms %}
+{% assign time_labels = tte.time_labels %}
+{% assign total_slots = tte.total_slots %}
+{% assign total_rooms = tte.total_rooms %}
 
 <section class="max-w-[1200px] mx-auto px-4 sm:px-8 mt-30 xl:mt-15">
   <h2 class="text-4xl text-center mb-8">
@@ -31,56 +32,47 @@ title: タイムテーブル
       <thead>
         <tr>
           <th scope="col" class="ttable__th ttable__th--start">時間</th>
+          {% comment %} ルーム情報でヘッダーを描画 {% endcomment %}
           {% for room in rooms %}
-            {% assign rstyle = room_styles[room] %}
             <th scope="col"
                 class="ttable__th ttable__th--room"
-                style="--room-color: {{ rstyle.color | default: '#c43b3b' }};">
-              <span class="ttable__room-cap">{{ room }}</span>
+                style="--room-color: {{ room.style.color | default: '#c43b3b' }};">
+              <span class="ttable__room-cap">{{ room.name }}</span>
             </th>
           {% endfor %}
         </tr>
       </thead>
 
       <tbody>
-        {% for time_slot in time_slots %}
-          {% assign slot_index = forloop.index0 %}
-          {% assign time_label = time_labels[slot_index] %}
-
+        {% comment %} スロット情報（行単位）でイベントを描画 {% endcomment %}
+        {% for slot in (0..total_slots) %}
           <tr>
-            <th scope="row" class="ttable__cell ttable__cell--start">{{ time_label }}</th>
-
-            {% for room_event in time_slot %}
-              {% assign room_index = forloop.index0 %}
-              {% assign room   = rooms[room_index] %}
-              {% assign rstyle = room_styles[room] %}
+            <th scope="row" class="ttable__cell ttable__cell--start">{{ time_labels[slot] }}</th>
+            
+            {% comment %} 各スロットのイベントを描画 {% endcomment %}
+            {% for room_index in (0..total_rooms) %}
+              {% assign event = events[slot][room_index] %}
+              {% assign room  = rooms[room_index] %}
               
-              {% if room_event.event %}
-                {% comment %} イベントの開始セル {% endcomment %}
-                {% assign event_data = room_event.event %}
-                {% assign accent = event_data.accent | default: rstyle.color | default: '#c43b3b' %}
+              {% if event == 'continued' %}
+                {% comment %} イベント継続中 (rowspan で描画するため出力不要) {% endcomment %}
+              {% elsif event %}
+                {% comment %} イベントを描画 {% endcomment %}
+                {% assign accent = event.accent | default: room.style.color | default: '#c43b3b' %}
                 
                 <td class="ttable__cell ttable__cell--event"
-                    rowspan="{{ room_event.span }}"
-                    style="--span: {{ room_event.span }};">
+                    rowspan="{{ event.span }}"
+                    style="--span: {{ event.span }};">
                   <div class="ttable__event" style="--accent: {{ accent }};">
-                    <div class="ttable__event-time">{{ event_data.start }}–{{ event_data.end }}</div>
-                    <div class="ttable__event-title">{{ event_data.title }}</div>
-                    {% if event_data.subtitle %}
-                      <div class="ttable__event-subtitle">{{ event_data.subtitle }}</div>
-                    {% endif %}
-                    {% if event_data.badge %}
-                      <span class="ttable__badge">{{ event_data.badge }}</span>
-                    {% endif %}
-                    {% if event_data.note %}
-                      <div class="ttable__event-note">{{ event_data.note }}</div>
-                    {% endif %}
+                    <div class="ttable__event-time" >{{ event.start }}–{{ event.end }}</div>
+                    <div class="ttable__event-title">{{ event.title }}</div>
+                    {% if event.subtitle %}<div class="ttable__event-subtitle">{{ event.subtitle }}</div>{% endif %}
+                    {% if event.badge %}<span class="ttable__badge">{{ event.badge }}</span>{% endif %}
+                    {% if event.note %}<div class="ttable__event-note">{{ event.note }}</div>{% endif %}
                   </div>
                 </td>
-              {% elsif room_event.continued %}
-                {% comment %} 継続イベント（rowspanでカバーされているので出力は不要） {% endcomment %}
               {% else %}
-                {% comment %} 空きイベント {% endcomment %}
+                {% comment %} イベント無し {% endcomment %}
                 <td class="ttable__cell ttable__cell--empty" aria-label="空き時間"></td>
               {% endif %}
             {% endfor %}

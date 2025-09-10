@@ -1,11 +1,9 @@
-# frozen_string_literal: true
-
 require 'active_support/core_ext/integer/time'
 require 'active_support/core_ext/numeric/time'
 
 module Jekyll
   module TimeTableGenerator
-    # タイムテーブル表を事前に計算してグリッド形式に変換
+    # タイムテーブル表を事前に計算してイベント表形式に変換
     # これにより、Liquid テンプレートは単純な表示のみを担当
     class Generator < Jekyll::Generator
       safe true
@@ -17,112 +15,89 @@ module Jekyll
       DEFAULT_DAY_END_HOUR   = 16  # 16:00
 
       def generate(site)
-        return unless site.data['time_table']
-
         tt = site.data['time_table']
+        return unless tt
 
-        # 設定値（Active Support の Duration を使用）
-        slot_duration  = tt.fetch('slot_minutes',   DEFAULT_SLOT_MINUTES).minutes
-        day_start      = tt.fetch('day_start_hour', DEFAULT_DAY_START_HOUR).hours
-        day_end        = tt.fetch('day_end_hour',   DEFAULT_DAY_END_HOUR).hours
-        total_duration = day_end - day_start
-        total_slots = (total_duration / slot_duration).to_i
+        # 設定値を取得
+        slot_minutes = tt.fetch('slot_minutes', DEFAULT_SLOT_MINUTES)
+        day_start    = tt.fetch('day_start_hour', DEFAULT_DAY_START_HOUR)
+        day_end      = tt.fetch('day_end_hour', DEFAULT_DAY_END_HOUR)
+        rooms        = tt.fetch('rooms', [])
+        events       = tt.fetch('events', [])
+        room_styles  = tt.fetch('room_styles', {})
 
-        rooms  = tt.fetch('rooms',  [])
-        events = tt.fetch('events', [])
+        # イベント情報を表形式で生成
+        time_table_events = create_event_table(events, rooms, room_styles, slot_minutes, day_start, day_end)
 
-        # イベントグリッドを作成（行 = 時間スロット、列 = 部屋）
-        event_grid = Array.new(total_slots) { Array.new(rooms.size) }
-
-        # イベントグリッドに各イベントを配置
-        events.each do |event|
-          place_event_on_grid(event, event_grid, rooms, day_start, day_end, slot_duration, total_slots)
-        end
-
-        # 各スロットの時刻を事前計算
-        time_labels = (0...total_slots).map do |slot_index|
-          slot_time = day_start + (slot_index * slot_duration)
-          format_time_label(slot_time)
-        end
-
-        # 計算済みデータをsite.dataに追加（分単位に戻して保存）
-        site.data['time_table_grid'] = {
-          'time_slots'    => event_grid,  # より明確な名前：時間スロットの配列
-          'rooms'         => rooms,
-          'room_styles'   => tt.fetch('room_styles', {}),
-          'time_labels'   => time_labels,
-          'slot_minutes'  => slot_duration.in_minutes.to_i,
-          'day_start_min' => day_start.in_minutes.to_i,
-          'day_end_min'   => day_end.in_minutes.to_i,
-          'total_slots'   => total_slots
-        }
+        # 生成したイベント表データを Liquid に提供
+        site.data['time_table_events'] = time_table_events
       end
 
       private
 
-      def place_event_on_grid(event, event_grid, rooms, day_start, day_end, slot_duration, total_slots)
-        room_index = rooms.index(event['room'])
-        return unless room_index
+      def create_event_table(events, rooms, room_styles, slot_minutes, day_start, day_end)
+        total_slots = ((day_end - day_start) * 60 / slot_minutes).to_i
 
-        # 開始・終了時間を Duration に変換
-        start_time = parse_time_to_duration(event['start'])
-        end_time   = parse_time_to_duration(event['end'])
+        # 時間ラベルを生成
+        time_labels = (0...total_slots).map do |slot|
+          minutes = day_start * 60 + slot * slot_minutes
+          "#{minutes / 60}:%02d" % (minutes % 60)
+        end
 
-        # 表示範囲内に収める（クリッピング）
-        display_start = [start_time, day_start].max
-        display_end   = [end_time,   day_end].min
+        # ルーム情報を生成（room.style でアクセス可能）
+        rooms_data = rooms.map do |room_name|
+          {
+            'name' => room_name,
+            'style' => room_styles[room_name] || {}
+          }
+        end
 
-        # スロットインデックスを計算
-        start_slot, end_slot, span = calculate_slot_indices(display_start, display_end, day_start, slot_duration)
+        # イベント表を生成（2次元配列）
+        table = Array.new(total_slots) { Array.new(rooms.size) }
 
-        # クリッピング済みなので start_slot は必ず有効範囲内
-        # display_start は day_start 以上、day_end 以下に制限されている
-        return if start_slot >= total_slots  # 念のためのチェック（通常はテストで検知）
+        events.each do |event|
+          place_event(event, table, rooms, slot_minutes, day_start, total_slots)
+        end
 
-        # イベント開始セルを配置
-        event_grid[start_slot][room_index] = create_event_cell(event, span, start_slot, end_slot)
-
-        # 継続スロットにマーカーを配置
-        mark_continued_slots(event_grid, room_index, start_slot, end_slot, total_slots)
-      end
-
-      def calculate_slot_indices(display_start, display_end, day_start, slot_duration)
-        start_slot = ((display_start - day_start) / slot_duration).to_i
-        # 終了時刻が正確にスロット境界上の場合、そのスロットを含めない
-        # 例: 10:30終了で15分スロットの場合、10:30-10:45のスロットは含めない
-        end_slot = ((display_end - day_start) / slot_duration).ceil
-        span = end_slot - start_slot
-        [start_slot, end_slot, span]
-      end
-
-      def create_event_cell(event, span, start_slot, end_slot)
         {
-          'event' => event,
-          'span' => span,
-          'start_slot' => start_slot,
-          'end_slot' => end_slot
+          'events'      => table,
+          'rooms'       => rooms_data,
+          'time_labels' => time_labels,
+          'total_slots' => total_slots - 1,  # Liquidの (0..n) は inclusive なので -1
+          'total_rooms' => rooms.size - 1    # Liquidの (0..n) は inclusive なので -1
         }
       end
 
-      def mark_continued_slots(event_grid, room_index, start_slot, end_slot, total_slots)
-        # end_slot を有効範囲内に制限してから反復処理
-        actual_end = [end_slot, total_slots].min
-        (start_slot + 1...actual_end).each do |slot|
-          event_grid[slot][room_index] = { 'continued' => true }
+      def place_event(event, table, rooms, slot_minutes, day_start, total_slots)
+        room_index = rooms.index(event['room'])
+        return unless room_index
+
+        # 時間を分に変換
+        start_minutes = time_to_minutes(event['start'])
+        end_minutes   = time_to_minutes(event['end'])
+
+        # スロット計算
+        start_slot = [(start_minutes - day_start * 60) / slot_minutes, 0].max.to_i
+        end_slot   = [(end_minutes - day_start * 60)   / slot_minutes, total_slots].min.to_i
+        span       = end_slot - start_slot
+
+        return if start_slot >= total_slots || span <= 0
+
+        # Eventにspan情報を追加
+        enhanced_event = event.merge('span' => span)
+        table[start_slot][room_index] = enhanced_event
+
+        # 継続スロットをマーク
+        (start_slot + 1...end_slot).each do |slot|
+          break if slot >= total_slots
+          table[slot][room_index] = 'continued'
         end
       end
 
-      def parse_time_to_duration(time_str)
-        return 0.hours unless time_str
-        time = Time.parse(time_str)
-        time.hour.hours + time.min.minutes
-      end
-
-      def format_time_label(duration)
-        total_minutes = duration.in_minutes.to_i
-        hours = total_minutes / 60
-        minutes = total_minutes % 60
-        format('%d:%02d', hours, minutes)
+      def time_to_minutes(time_str)
+        return 0 unless time_str
+        hours, minutes = time_str.split(':').map(&:to_i)
+        hours * 60 + minutes
       end
     end
   end
