@@ -12,6 +12,7 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-liquify'
   gem 'jekyll-redirect-from'
+  gem 'activesupport' # For time calculations in plugins
 
   # No need this gem because we build by GitHub Actions and serve on Pages.
   # gem 'github-pages'
