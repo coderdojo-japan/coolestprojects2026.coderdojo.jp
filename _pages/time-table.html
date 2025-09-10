@@ -22,7 +22,7 @@ title: タイムテーブル
     Time table
     <span class="block mt-3 text-2xl">タイムテーブル</span>
   </h2>
-  <div class="overflow-x-auto overflow-y-auto h-[500px] border-[1px] border-[#e6e6e9]" aria-label="タイムテーブル（横スクロール可）">
+  <div class="overflow-x-auto border-[1px] border-[#e6e6e9]" aria-label="タイムテーブル（横スクロール可）">
     <table class="ttable" style="--room-count: {{ rooms | size }};">
       <caption>
         {{ site.date_event }} のタイムテーブル
@@ -62,11 +62,9 @@ title: タイムテーブル
                     rowspan="{{ event.duration }}"
                     style="--span: {{ event.duration }};">
                   <div class="ttable__event" style="--accent: {{ accent }};">
-                    <div class="sticky top-[50px]">
-                      <div class="ttable__event-time" >{{ event.start }}–{{ event.end }}</div>
-                      <div class="ttable__event-title">{{ event.title }}</div>
-                      {% if event.subtitle %}<div class="ttable__event-subtitle">{{ event.subtitle }}</div>{% endif %}
-                    </div>
+                    <div class="ttable__event-time" >{{ event.start }}–{{ event.end }}</div>
+                    <div class="ttable__event-title">{{ event.title }}</div>
+                    {% if event.subtitle %}<div class="ttable__event-subtitle">{{ event.subtitle }}</div>{% endif %}
                     {% if event.badge %}<span class="ttable__badge">{{ event.badge }}</span>{% endif %}
                     {% if event.note %}<div class="ttable__event-note">{{ event.note }}</div>{% endif %}
                   </div>

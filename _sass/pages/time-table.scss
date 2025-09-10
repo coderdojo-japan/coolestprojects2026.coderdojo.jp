@@ -4,9 +4,11 @@
   width: 100%;
   max-width: 100%;
   overflow-x: auto;
-  overflow-y: auto;
+  overflow-y: visible;
   -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
   contain: content;
+  scrollbar-gutter: stable both-edges;
 }
 
 /* ====== テーブル ======
