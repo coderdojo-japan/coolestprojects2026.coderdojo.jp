@@ -24,11 +24,8 @@ title: タイムテーブル
   </h2>
   <div class="overflow-x-auto border-[1px] border-[#e6e6e9]" aria-label="タイムテーブル（横スクロール可）">
     <table class="ttable" style="--room-count: {{ rooms | size }};">
-      <caption>
-        {{ site.date_event }} のタイムテーブル
-      </caption>
       <thead>
-        <tr class="sticky z-5">
+        <tr>
           <th scope="col" class="ttable__th ttable__th--start">時間</th>
           {% comment %} ルーム単位でヘッダーを描画 {% endcomment %}
           {% for room in rooms %}
