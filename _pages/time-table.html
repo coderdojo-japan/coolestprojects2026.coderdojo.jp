@@ -54,7 +54,8 @@ title: タイムテーブル
               {% elsif event %}
                 {% comment %} イベントを描画 {% endcomment %}
                 {% assign accent = event.accent | default: room.style.color | default: '#c43b3b' %}
-                
+                {% assign link_url = event.url | default: event.link %}
+
                 <td class="ttable__cell ttable__cell--event"
                     rowspan="{{ event.duration }}"
                     style="--span: {{ event.duration }};">
