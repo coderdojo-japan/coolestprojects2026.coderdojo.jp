@@ -100,7 +100,10 @@
   display: flex;
   flex-direction: column;
   overflow: clip;
+  text-decoration: none;
+  color: inherit;
 }
+.ttable__event[href]{ cursor: pointer; }
 .ttable__event::before{ content:""; position:absolute; inset:0 0 auto 0; height: 6px; background: var(--accent, #c43b3b); }
 .ttable__event-time{ font-weight: 800; font-size: 1.05rem; letter-spacing: .3px; margin: 8px 0 4px; color: #c43b3b; }
 .ttable__event-title{ font-weight: 800; line-height: 1.35; margin-bottom: 4px; color: #121212; }

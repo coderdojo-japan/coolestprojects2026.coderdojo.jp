@@ -58,13 +58,21 @@ title: タイムテーブル
                 <td class="ttable__cell ttable__cell--event"
                     rowspan="{{ event.duration }}"
                     style="--span: {{ event.duration }};">
-                  <div class="ttable__event" style="--accent: {{ accent }};">
-                    <div class="ttable__event-time" >{{ event.start }}–{{ event.end }}</div>
-                    <div class="ttable__event-title">{{ event.title }}</div>
-                    {% if event.subtitle %}<div class="ttable__event-subtitle">{{ event.subtitle }}</div>{% endif %}
-                    {% if event.badge %}<span class="ttable__badge">{{ event.badge }}</span>{% endif %}
-                    {% if event.note %}<div class="ttable__event-note">{{ event.note }}</div>{% endif %}
-                  </div>
+                  {% if link_url %}
+                    <a class="ttable__event" href="{{ link_url | relative_url }}" style="--accent: {{ accent }};">
+                  {% else %}
+                    <div class="ttable__event" style="--accent: {{ accent }};">
+                  {% endif %}
+                      <div class="ttable__event-time" >{{ event.start }}–{{ event.end }}</div>
+                      <div class="ttable__event-title">{{ event.title }}</div>
+                      {% if event.subtitle %}<div class="ttable__event-subtitle">{{ event.subtitle }}</div>{% endif %}
+                      {% if event.badge %}<span class="ttable__badge">{{ event.badge }}</span>{% endif %}
+                      {% if event.note %}<div class="ttable__event-note">{{ event.note }}</div>{% endif %}
+                  {% if link_url %}
+                    </a>
+                  {% else %}
+                    </div>
+                  {% endif %}
                 </td>
               {% else %}
                 {% comment %} イベント無し {% endcomment %}
