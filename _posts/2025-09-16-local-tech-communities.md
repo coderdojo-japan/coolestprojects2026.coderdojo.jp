@@ -14,12 +14,29 @@ permalink: /events/local-tech-communities/
 
 ### 展示コミュニティ一覧
 
-- CuteeWorks
-  - Facebook: <a href='https://www.facebook.com/jyoshidarake/' target='_blank'>@jyoshidarake</a>
-  - Instagram: <a href='https://www.instagram.com/jyoshidarake/' target='_blank'>@jyoshidarake</a>
-- Fablab Saga
-  - Facebook: <a href='/nosuch/' target='_blank'>@nosuch</a>
-  - X (Twitter): <a href='/nosuch/' target='_blank'>@nosuch</a>
-- IX-Party
-  - Instagram: <a href='/nosuch/' target='_blank'>@nosuch</a>
-  - X (Twitter): <a href='/nosuch/' target='_blank'>@nosuch</a>
+#### CuteeWorks
+
+<div class='flex justify-center'>
+  <img class='w-4/5 pb-3' src='/img/sample-1.png' alt='CuteeWorks の活動風景'>
+</div>
+
+- Facebook: <a href='https://www.facebook.com/jyoshidarake/' target='_blank'>@jyoshidarake</a>
+- Instagram: <a href='https://www.instagram.com/jyoshidarake/' target='_blank'>@jyoshidarake</a>
+
+#### Fablab Saga
+
+<div class='flex justify-center'>
+  <img class='w-4/5 pb-3' src='/img/sample-2.png' alt='Fablab Saga の活動風景'>
+</div>
+
+- Facebook: <a href='/nosuch/' target='_blank'>@nosuch</a>
+- X (Twitter): <a href='/nosuch/' target='_blank'>@nosuch</a>
+
+#### IX-Party
+
+<div class='flex justify-center'>
+  <img class='w-4/5 pb-3' src='/img/sample-3.png' alt='IX-Party の活動風景'>
+</div>
+
+- Instagram: <a href='/nosuch/' target='_blank'>@nosuch</a>
+- X (Twitter): <a href='/nosuch/' target='_blank'>@nosuch</a>
