@@ -46,4 +46,4 @@ PCの基本操作ができる方
 本ワークショップは事前の申し込みが必要です<br>
 定員 6 名
 
-<a href='about:blank' target='_blank'>参加申込（Doorkeeper）</a>
+<a href='https://dojocon-japan.doorkeeper.jp/events/189856' target='_blank'>参加申込（Doorkeeper）</a>
