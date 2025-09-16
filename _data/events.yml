@@ -1,3 +1,11 @@
+- title: Blenderでシマエナガを作ろう！
+  outline: |
+    無料で使える3Dソフト「Blender」を使って、かわいい鳥“シマエナガ”をモデリングします。<br>
+    初めてでも大丈夫。みんなで楽しく基本操作を身につけて、オリジナルのシマエナガを作っていきましょう！
+  img: /img/events/blender-shimaenaga.webp
+  tag: イベント
+  url: /events/blender-shimaenaga/
+
 - title: CoderDojoなんでも相談カフェ
   outline: CoderDojoに関わる事であればなんでも相談できるカフェ
   img: /img/events/nandemo-sodan-cafe.webp
