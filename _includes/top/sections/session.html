@@ -1,6 +1,8 @@
-{% comment %} <div id="session" class="max-w-3xl lg:max-w-[1800px] px-8 mx-auto pt-28 -mt-28 mb-16 flex flex-col lg:-mt-64 lg:flex-row items-center lg:items-start">
-  <div class="w-full lg:w-2/5 mb-8 lg:mt-68">
-    <div class="lg:max-w-sm lg:place-self-end lg:mr-[10%]">
+
+<div
+  class="max-w-3xl lg:max-w-[1800px] px-8 mx-auto mt-20 lg:mt-0 mb-16 flex flex-col lg:flex-row items-center lg:items-start">
+  <div class="w-full lg:w-2/5 mb-8 flex justify-end">
+    <div class="lg:max-w-sm lg:place-self-start lg:mr-[10%]">
       <h2 class="text-4xl mb-4 text-center lg:text-left">
         セッション
         <span class="block mt-2 text-2xl">SESSION</span>
@@ -11,36 +13,19 @@
       </p>
     </div>
   </div>
-
-  <ul class="flex flex-wrap gap-x-6 gap-y-12 lg:w-3/5">
-    {% for i in (1..6) %}
-    <li class="flex-1 min-w-full sm:min-w-64">
-      <img class="w-full" src="https://placehold.jp/1920x1080.png" alt="セッションのイメージ">
-      <p class="mt-2">セッションタイトル。2行ぐらいあるかも</p>
-      <p class="text-xs mb-2 leading-5">セッションの説明です。最大2行ぐらいまで許容しそうな雰囲気</p>
-      <p class="text-xs text-gray-400 leading-5">
-        登壇者：仮の団体名・仮の登壇者の氏名<br />
-        所属：仮の所属名</p>
+  <ul class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-6 gap-y-12 lg:-mt-16 lg:w-3/5">
+    {% assign sessions = site.data.sessions | where: "showInTopPage", true | slice: 0, 6 %}
+    {% for session in sessions %}
+    <li class="flex flex-col min-w-0">
+      <a href="{{ session.url }}" class="block hover:opacity-80 transition grow">
+        <img class="w-full md:max-h-[160px] md:object-contain" src="{{ session.img }}" alt="{{ session.title }}" />
+        <p class="mt-2">{{ session.title }}</p>
+        <p class="text-xs mb-2 leading-5">
+          登壇者: {{ session.speaker }}<br />
+          所属: {{ session.affiliation }}
+        </p>
+      </a>
     </li>
     {% endfor %}
   </ul>
-</div> {% endcomment %}
-
-<div id="session" class="max-w-3xl lg:max-w-[1800px] px-8 mx-auto pt-28 -mt-28 mb-16 flex flex-col lg:-mt-64 lg:flex-row items-center lg:items-start">
-  <div class="w-full lg:w-2/5 mb-8 lg:mt-55">
-    <div class="lg:max-w-sm lg:place-self-end lg:mr-[10%]">
-      <h2 class="text-4xl mb-4 text-center lg:text-left">
-        セッション
-        <span class="block mt-2 text-2xl">SESSION</span>
-      </h2>
-      <p class="leading-7 mb-10">
-        さまざまな分野で活やくしている人たちの話を聞いて、考え方やアイデアを広げてみよう。<br />
-        プログラミングや教育、地域での活動など、たくさんのヒントがつまった時間です。
-      </p>
-    </div>
-  </div>
-
-  <div class="lg:mt-50 mt-0 flex item-center justify-center h-[150px] lg:h-[300px] w-full lg:w-3/5">
-    <p class="size-full lg:text-7xl text-2xl text-gray-500 opacity-50 text-center flex items-center justify-center">Coming soon...</p>
-  </div>
 </div>
