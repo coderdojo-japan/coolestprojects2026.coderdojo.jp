@@ -1,0 +1,51 @@
+- title: プログラミング教育の脱構築——生成AI時代における〈学び〉を再考する
+  showInTopPage: false
+  speaker: 宮島 衣瑛（@kiriem_）
+  affiliation: CoderDojo Japan 理事 / 広島大学大学院 特命助教
+  img: /img/sessions/profile/miyajima-kirie.webp
+  tag: 基調講演
+  url: /sessions/keynote1/
+  outline: |
+    生成AIの急速な進展により、「プログラミングを学ぶこと」の意味や価値そのものが、根本から問い直される時代がきています。<br />
+    だからこそ今、子どもたちが〈つくる〉ことを楽しみ、世代を超えた仲間と学び合う CoderDojo コミュニティのような学びの場が、これまで以上に重要な意味を持ってきます。<br />
+    本講演では、「教育・学びとは何か」を根底から問い直す視点から、プログラミング教育の脱構築を提案し、これからの CoderDojo のあり方も皆さんと考えていきたいと思います。
+
+- title: 生成AI時代における子どもたちに必要な力とは？
+  showInTopPage: false
+  speaker: 小宮山 利恵子
+  affiliation: 株式会社リクルート スタディサプリ教育AI研究所所長、 国立大学法人 東京学芸大学大学院教育学研究科教授
+  img: /img/sessions/profile/komiyama-rieko-square.webp
+  tag: 招待講演
+  url: /sessions/keynote2/
+  outline: |
+    生成AIが瞬時に答えを導く時代において、子どもたちに本当に必要なのは「問いを立てる力」です。<br />
+    本講演では、AIに頼るだけでは得られない学びとして、現場体験や五感を通じた身体知、そしてアナログとデジタルをつなぐ教育の可能性を探ります。<br />
+    効率化の先にある“人間ならではの学び”をどう育むのかを考えます。
+
+- title: エンジニアではない私がCoderDojoを立ち上げた
+  showInTopPage: true
+  speaker: 吉田 彩
+  affiliation: CoderDojo早良 チャンピオン
+  img: /img/sessions/thumbnails/session1.webp
+  tag: セッション
+  url: /sessions/1/
+  outline: |
+    プログラミングも出来ない、PCのことも詳しくない、8歳と4歳の子どものママでしかなかった私が、CoderDojo久留米と出会い、息子と通い、そこで出会った人達に憧れ、
+    自分も新しい事にチャレンジしたい、そしてその姿を子どもに見せたいと思いCoderDojo 早良を立ち上げました。<br />
+    しかし知識がない私は立ち上げと運営に苦戦する日々、そんな時に息子がメンターとして助けてくれるように。<br />
+    初回から参加応募30人を超え、チャンピオンに知識がなくとも、みんなで探求する唯一無二のCoderDojo早良です。
+
+- title: CoderDojoに救われて現在親子でメンターをやっている話
+  showInTopPage: true
+  speaker: とり子・memetan
+  affiliation: <br />とり子：CoderDojo香椎 CoderDojoさが メンター <br /> memetan：CoderDojo香椎 CoderDojoさが ユースメンター
+  img: /img/sessions/thumbnails/session2.webp
+  tag: セッション
+  url: /sessions/2/
+  outline: |
+    こだわりが強く周囲に馴染めず不登校だった息子は、主体的に学べるCoderDojoで居場所を感じられました。<br />
+    今では親子でCoderDojoのメンターになり仲間ができ楽しく活動しています。<br />
+    本能のまま意欲的に次々作品やシステムを作り、現在は有難いことに開発の仕事もいただいています。<br />
+    好奇心が強すぎる子への関わりについて、母親の立場から自身の経験をお話します。<br />
+    偉そうに言える立場ではないですが経験談として参考程度に聞いていただければ幸いです。<br />
+    息子本人からも開発の楽しさについて語ります。
