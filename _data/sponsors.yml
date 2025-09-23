@@ -62,6 +62,13 @@
   message: "ITeens Lab（アイティーンズラボ）は、小中高生向けのオンラインITスクール。<br>メタバース教室「Metalife」で全国・世界中の仲間と学び、ゲーム制作・クリエイティブ制作・AI／3DCGなどを実践的に学びます。<br>“好き”を起点にITスキルとリテラシーを伸ばし、子どもたちの〈やってみたい〉を未来の武器に変えていきます。"
   logo_scale: 1
 
+- name: 有限会社サンジュエリー
+  logo: /img/sponsors/sun_jewelry.jpg
+  link: https://sun-j.net
+  type: bronze
+  message: "福岡県久留米市の「サンジュエリー」は、製作工房を併設したジュエリーショップです。職人の手しごとと3DCAD・3Dプリンタによる最新技術を融合し、お客様の想いを形にいたします。オーダーメイドやリフォーム、結婚指輪・婚約指輪から修理まで幅広く対応。「安心して一生付き合えるジュエリー店」として地域に根差し、40周年を迎えました。"
+  logo_scale: 0.9
+
 - name: 一般社団法人<wbr>MA
   tool: ProtoPedia
   logo: /img/sponsors/ProtoPedia.png
