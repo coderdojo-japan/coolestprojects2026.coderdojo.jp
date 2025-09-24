@@ -10,8 +10,8 @@
 .staff {
   // 奇数行目の要素の左右に margin を追加することで、1行の個数を3個に制限する
   // 5, 12, 19, 26, ... の要素は左側に150pxのマージンを追加
-  li:nth-child(7n+5) {
-    margin-left: 150px
+  li:nth-child(7n+5):not(:last-child) {
+    margin-left: 150px;
   }
   // 7 の倍数(7, 14, 21, 28, ...)個目の要素は右側に150pxのマージンを追加
   li:nth-child(7n) {
