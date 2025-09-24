@@ -26,3 +26,12 @@
   img: /img/contests/cover.webp
   tag: コンテスト
   url: /contests/
+
+- title: 身近なものが興味の入り口に。PowerPointから始めるプログラミング
+  outline: |
+    皆さんが普段使っているPowerPoint。その中には実はあまり知られていないコマンドがあるのをご存知ですか？<br>
+    そのあまり知られていないコマンドを使って教材作りやゲーム作りの方法を知り、実際にやってみましょう。
+  img: /img/events/powerpoint-programming.webp
+  tag: ワークショップ
+  url: /events/powerpoint-programming/
+
