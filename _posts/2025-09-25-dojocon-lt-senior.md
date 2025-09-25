@@ -3,11 +3,11 @@ layout: post
 title: 秋だ！みんなで自慢しあいたいちゃいたい！DojoConLT大会！！（大人編）
 date: 2025-09-25 00:00:00 +0900
 categories: event
-permalink: /events/dojocon-lt-adult/
-thumbnail: /img/events/dojocon-lt-adult.webp
+permalink: /events/dojocon-lt-senior/
+thumbnail: /img/events/dojocon-lt-senior.webp
 ---
 
-<img class='w-full pb-8' src='/img/events/dojocon-lt-adult.webp' alt='カバー画像 秋だ！みんなで自慢しあいたいちゃいたい！DojoConLT大会！！（大人編）'>
+<img class='w-full pb-8' src='/img/events/dojocon-lt-senior.webp' alt='カバー画像 秋だ！みんなで自慢しあいたいちゃいたい！DojoConLT大会！！（大人編）'>
 
 「LT」は、5分以内でプレゼンをするという「Lightning Talk」の略語です。<br>
 自分の好きなことなどテーマに沿って5分以内で自由に話をする企画です！<br>
