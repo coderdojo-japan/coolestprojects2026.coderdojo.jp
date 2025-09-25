@@ -3,11 +3,11 @@ layout: post
 title: 秋だ！みんなで自慢しあいたいちゃいたい！DojoConLT大会！！（ニンジャ編）
 date: 2025-09-25 00:00:00 +0900
 categories: event
-permalink: /events/dojocon-lt-ninja/
-thumbnail: /img/events/dojocon-lt-ninja.webp
+permalink: /events/dojocon-lt-junior/
+thumbnail: /img/events/dojocon-lt-junior.webp
 ---
 
-<img class='w-full pb-8' src='/img/events/dojocon-lt-ninja.webp' alt='カバー画像 秋だ！みんなで自慢しあいたいちゃいたい！DojoConLT大会！！（ニンジャ編）'>
+<img class='w-full pb-8' src='/img/events/dojocon-lt-junior.webp' alt='カバー画像 秋だ！みんなで自慢しあいたいちゃいたい！DojoConLT大会！！（ニンジャ編）'>
 
 「LT」は、5分以内でプレゼンをするという「LightningTalk」略語です。<br>
 自分の好きなことなどテーマに沿って5分以内で自由に話をする企画です！<br>
