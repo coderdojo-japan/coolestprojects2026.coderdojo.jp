@@ -24,9 +24,9 @@ thumbnail: /img/events/dojocon-lt-senior.webp
 
 ## 参加者が用意するもの
 
-* 楽しむ気持ち
 * LT用のスライド(.pptx形式)
 * 原稿(必要であれば)
+* 楽しむ気持ち
 
 ### 注意事項
 
