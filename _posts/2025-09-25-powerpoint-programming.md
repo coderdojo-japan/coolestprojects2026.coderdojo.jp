@@ -9,7 +9,7 @@ permalink: /events/powerpoint-programming/
 
 <img class='w-full pb-8' src='/img/events/powerpoint-programming.webp' alt='カバー画像 身近なものが興味の入り口に。PowerPointから始めるプログラミング'>
 
-皆さんが普段使っている「PowerPoint」には、実はコマンドブロックが存在します。<br>
+皆さんが普段使っている「PowerPoint」には、実はコマンドが存在します。<br>
 そのコマンドを使うことで特定の箇所を押すと特定の動作を行わせることが可能になります。<br>
 このコマンドを有効に使うことで、教材として有効に使ったりプログラミングへ興味を持ってもらうようなきっかけになります。<br>
 皆さんもこの機会にPowerPointから始めるプログラミング教育やプログラミングを始めてみませんか？ご参加お待ちしております！
