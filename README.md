@@ -47,8 +47,8 @@
 
 追加・修正したい箇所に応じて、下記リンク先を[上記の修正手順](#how-to)に沿って更新できます。
 
+- [`staff.yml`](https://github.com/coderdojo-japan/dojocon2025.coderdojo.jp/blob/main/_data/staff.yml): スタッフ情報を更新したい
 - [`events.yml`](https://github.com/coderdojo-japan/dojocon2025.coderdojo.jp/blob/main/_data/events.yml): イベント情報を更新したい
-- [`members.yml`](https://github.com/coderdojo-japan/dojocon2025.coderdojo.jp/blob/main/_data/members.yml): スタッフ情報を更新したい
 - [`sessions.yml`](https://github.com/coderdojo-japan/dojocon2025.coderdojo.jp/blob/main/_data/sessions.yml): セッション情報を更新したい
 - [`sponsors.yml`](https://github.com/coderdojo-japan/dojocon2025.coderdojo.jp/tree/main/_data/sponsors.yml): スポンサー情報を更新したい
 - [`workshops.yml`](https://github.com/coderdojo-japan/dojocon2025.coderdojo.jp/blob/main/_data/workshops.yml): ワークショップ情報を更新したい
