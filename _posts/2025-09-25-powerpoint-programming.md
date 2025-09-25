@@ -14,12 +14,10 @@ permalink: /events/powerpoint-programming/
 このコマンドを有効に使うことで、教材として有効に使ったりプログラミングへ興味を持ってもらうようなきっかけになります。<br>
 皆さんもこの機会にPowerPointから始めるプログラミング教育やプログラミングを始めてみませんか？ご参加お待ちしております！
 
-## 事前申し込み
-
-必要であるが飛び込みも可能。<br>
-DoorKeeperにて募集(上限２０名)。
-
-<a href="https://dojocon-japan.doorkeeper.jp/events/190298" target="_blank" >https://dojocon-japan.doorkeeper.jp/events/190298</a>
+### 申し込み
+本ワークショップは原則として事前の申し込みが必要です<br>
+定員 20 名
+<a href="https://dojocon-japan.doorkeeper.jp/events/190298" target="_blank" >参加申込（Doorkeeper）</a>
 
 ## 参加者が用意するもの
 
