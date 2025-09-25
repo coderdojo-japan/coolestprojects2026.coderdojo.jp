@@ -14,12 +14,12 @@ thumbnail: /img/events/dojocon-lt-junior.webp
 今年度の開催テーマである「Inspire Next 〜好奇心に火をつけよう〜」に沿って各人が所属するDojo紹介LT、CoderDojoで頑張っていることLT、好きなこと・ハマっていることLT、自慢LT等聞いている人の好奇心に訴えかけ、聞いている人の好奇心をくすぐるような話をみんなで共有し合いませんか？<br>
 そして、みんなで好きなこと、好きな話で盛り上がりませんか？そんな空間をみんなで作り合う企画です♪
 
-## 事前申し込み
+### 申し込み
 
-原則必要<br>
-DoorKeeperにて募集(上限6名)。
+本ワークショップは事前の申し込みが必要です<br>
+定員 6 名
 
-<a href="https://dojocon-japan.doorkeeper.jp/events/190281" target="_blank" >https://dojocon-japan.doorkeeper.jp/events/190281</a>
+<a href="https://dojocon-japan.doorkeeper.jp/events/190281" target="_blank" >参加申込（Doorkeeper）</a>
 
 ## 参加者が用意するもの
 
