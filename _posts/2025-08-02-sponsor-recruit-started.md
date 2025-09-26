@@ -10,6 +10,13 @@ permalink: /sponsorship/
 <img src="/img/common/coderdojo-nameplate.webp" class="mb-4" loading="lazy" alt="DojoCon Japan Cover Photo"
   title="DojoCon Japan Cover Photo" />
 
+<p class="border rounded px-5 py-3 mb-5">
+  DojoCon Japan 2025 Gold, Silver, Bronze スポンサーの募集は 2025年9月24日 をもって終了しました。<br>
+  ご検討頂いた方を含め、多数のご応募頂きありがとうございました。<br>
+  スポンサーの一覧は下記のページをご覧ください。<br>
+  <a href='/sponsorship/list/'>スポンサー紹介</a>
+</p>
+
 <p class="mb-4">DojoCon Japan 2025 のスポンサー募集を開始いたしました。</p>
 
 <p class="mb-4">
