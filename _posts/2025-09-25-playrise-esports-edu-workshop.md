@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 言葉で強くなる！eスポーツ×教育ワークショップ
-date: 2025-09-25 00:00:00 +0900
+date: 2025-09-25
 categories: event
 permalink: /events/playrise-esports-edu-workshop/
 thumbnail: /img/events/playrise-esports-edu-workshop.webp

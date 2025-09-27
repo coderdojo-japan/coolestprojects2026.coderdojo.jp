@@ -2,7 +2,7 @@
 layout: post
 title: Gold, Silver, Bronze スポンサーの募集を終了しました
 title-in-news-list: Gold, Silver, Bronze スポンサーの募集を終了しました
-date: 2025-09-24T00:00:00Z
+date: 2025-09-24
 categories: news
 tags: スポンサー
 permalink: /news/sponsorship-closed/

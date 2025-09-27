@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CoderDojoなんでも相談カフェ
-date: 2025-09-05T00:00:00 UTC+09:00
+date: 2025-09-05
 categories: event
 thumbnail: /img/events/nandemo-sodan-cafe.webp
 permalink: /events/nandemo-sodan-cafe/
