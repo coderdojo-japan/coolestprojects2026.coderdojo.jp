@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 秋だ！みんなで自慢しあいたいちゃいたい！DojoConLT大会！！（大人編）
-date: 2025-09-27 00:00:00 +0900
+date: 2025-09-28
 categories: event
 permalink: /events/dojocon-lt-senior/
 thumbnail: /img/events/dojocon-lt-senior.webp
