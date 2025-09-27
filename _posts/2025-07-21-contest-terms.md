@@ -1,7 +1,7 @@
 ---
 layout: post
 title: DojoCon Japan 2025 プログラミングコンテスト 参加規約
-date: 2025-07-21T00:00:00 UTC+09:00
+date: 2025-07-21
 permalink: /contests/terms/
 ---
 <img src="/img/common/coderdojo-nameplate.webp" loading="lazy" alt="DojoCon Japan Cover Photo"

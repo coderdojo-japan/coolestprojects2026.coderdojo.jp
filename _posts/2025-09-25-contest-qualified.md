@@ -2,7 +2,7 @@
 layout: post
 title: DojoCon Japan 2025 プログラミングコンテスト ファイナリスト決定
 title-in-news-list: プログラミングコンテストのファイナリストが決定しました
-date: 2025-09-25T00:00:00Z
+date: 2025-09-25
 categories: news
 tag: コンテスト
 permalink: /news/contest-qualified/
