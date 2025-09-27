@@ -11,7 +11,8 @@ title: イベント
 </h2>
 
 <ul class="max-w-7xl mx-auto mb-8 px-4 sm:px-8 flex flex-wrap justify-between gap-y-16">
-  {% for event in site.data.events %}
+  {% assign events = site.data.events | sort: "date" | reverse %}
+  {% for event in events %}
     <li class="w-full md:w-[47%] rounded-xl">
       {% if event.url %}
         <a href="{{ event.url }}">
