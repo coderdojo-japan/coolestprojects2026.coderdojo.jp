@@ -47,3 +47,11 @@
   url: /events/playrise-exhibition/
   date: 2025-09-25
 
+- title: 身近なものが興味の入り口に PowerPointから始めるプログラミング
+  outline: |
+    PowerPoint にはあまり知られていないスクリプティング機能が存在します。<br>
+    本ワークショップではこの機能を利用して教材やゲームを作成する方法を学びます。
+  img: /img/events/powerpoint-programming.webp
+  tag: ワークショップ
+  url: /events/powerpoint-programming/
+  date: 2025-09-28
