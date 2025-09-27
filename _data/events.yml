@@ -5,18 +5,21 @@
   img: /img/events/blender-shimaenaga.webp
   tag: イベント
   url: /events/blender-shimaenaga/
+  date: 2025-09-14
 
 - title: CoderDojoなんでも相談カフェ
   outline: CoderDojoに関わる事であればなんでも相談できるカフェ
   img: /img/events/nandemo-sodan-cafe.webp
   tag: イベント
   url: /events/nandemo-sodan-cafe/
+  date: 2025-09-05
 
 - title: ぼくのかんがえたさいきょうのCoderDojoワークショップ
   outline: 理想のCoderDojoをみんなで考えるワークショップです。ワークシートに自分が考える理想のCoderDojoを書いて、他の参加者とシェアしましょう。
   img: /img/events/saikyo-coderdojo.webp
   tag: ワークショップ
   url: /events/saikyo-coderdojo/
+  date: 2025-08-28
 
 - title: DojoCon Japan 2025 プログラミングコンテスト
   outline: |
@@ -26,6 +29,7 @@
   img: /img/contests/cover.webp
   tag: コンテスト
   url: /contests/
+  date: 2025-07-21
 
 - title: 言葉で強くなる！eスポーツ×教育ワークショップ
   outline: |
@@ -33,6 +37,7 @@
   img: /img/events/playrise-esports-edu-workshop.webp
   tag: ワークショップ
   url: /events/playrise-esports-edu-workshop/
+  date: 2025-09-25
 
 - title: eスポーツとスポーツの交差点：共通点と未来への課題
   outline: |
@@ -40,3 +45,5 @@
   img: /img/events/playrise-exhibition.webp
   tag: 展示
   url: /events/playrise-exhibition/
+  date: 2025-09-25
+
