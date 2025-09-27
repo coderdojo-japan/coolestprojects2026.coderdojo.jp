@@ -14,7 +14,7 @@
     </div>
   </div>
   <ul class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-6 gap-y-12 lg:-mt-16 lg:w-3/5">
-    {% assign events = site.data.events | slice: 0, 6 %}
+    {% assign events = site.data.events | sort: "date" | reverse | slice: 0, 6 %}
     {% for event in events %}
     <li class="flex flex-col min-w-0">
       <a href="{{ event.url }}" class="block hover:opacity-80 transition grow">
