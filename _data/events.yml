@@ -5,18 +5,21 @@
   img: /img/events/blender-shimaenaga.webp
   tag: イベント
   url: /events/blender-shimaenaga/
+  date: 2025-09-14
 
 - title: CoderDojoなんでも相談カフェ
   outline: CoderDojoに関わる事であればなんでも相談できるカフェ
   img: /img/events/nandemo-sodan-cafe.webp
   tag: イベント
   url: /events/nandemo-sodan-cafe/
+  date: 2025-09-05
 
 - title: ぼくのかんがえたさいきょうのCoderDojoワークショップ
   outline: 理想のCoderDojoをみんなで考えるワークショップです。ワークシートに自分が考える理想のCoderDojoを書いて、他の参加者とシェアしましょう。
   img: /img/events/saikyo-coderdojo.webp
   tag: ワークショップ
   url: /events/saikyo-coderdojo/
+  date: 2025-08-28
 
 - title: DojoCon Japan 2025 プログラミングコンテスト
   outline: |
@@ -26,6 +29,41 @@
   img: /img/contests/cover.webp
   tag: コンテスト
   url: /contests/
+  date: 2025-07-21
+
+- title: 言葉で強くなる！eスポーツ×教育ワークショップ
+  outline: |
+    eスポーツを通じて、言語化能力・状況把握力・自己肯定感を育む教育的ワークショップ。ゲームを「楽しむ」だけで終わらせず、自分の言葉で振り返ることで、学びと成長につなげます。
+  img: /img/events/playrise-esports-edu-workshop.webp
+  tag: ワークショップ
+  url: /events/playrise-esports-edu-workshop/
+  date: 2025-09-25
+
+- title: eスポーツとスポーツの交差点：共通点と未来への課題
+  outline: |
+    「eスポーツはスポーツじゃない？」そんな声に対して、日本国内の事例をもとに、両者の共通点と今後の課題を探る展示。法整備や民間理解の促進に向けたヒントを提示します。
+  img: /img/events/playrise-exhibition.webp
+  tag: 展示
+  url: /events/playrise-exhibition/
+  date: 2025-09-25
+
+- title: 身近なものが興味の入り口に PowerPointから始めるプログラミング
+  outline: |
+    PowerPoint にはあまり知られていないスクリプティング機能が存在します。<br>
+    本ワークショップではこの機能を利用して教材やゲームを作成する方法を学びます。
+  img: /img/events/powerpoint-programming.webp
+  tag: ワークショップ
+  url: /events/powerpoint-programming/
+  date: 2025-09-28
+
+- title: 秋だ！みんなで自慢しあいたいちゃいたい！DojoConLT大会！！（ニンジャ編）
+  outline: |
+    DojoCon Japan 2025 では LT 大会を開催します。<br>
+    好奇心をくすぐるような「好き」を共有しましょう。
+  img: /img/events/dojocon-lt-junior.webp
+  tag: ワークショップ
+  url: /events/dojocon-lt-junior/
+  date: 2025-09-28
 
 - title: 秋だ！みんなで自慢しあいたいちゃいたい！DojoConLT大会！！（大人編）
   outline: |

@@ -1,6 +1,6 @@
 MIT License
 
-:memo: **NOTE: This applies only for source codes, not logos and images. See [README#license](https://github.com/coderdojo-japan/dojocon2024.coderdojo.jp#license) for details.**
+:memo: **NOTE: This applies only for source codes, not logos and images. See [README#license](https://github.com/coderdojo-japan/dojocon2025.coderdojo.jp#license) for details.**
 
 Copyright (c) 2016 [DojoCon Japan](https://dojocon.coderdojo.jp/) & [CoderDojo Japan](https://github.com/coderdojo-japan)
 

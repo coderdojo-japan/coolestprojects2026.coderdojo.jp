@@ -2,7 +2,7 @@
 layout: post
 title: 『DojoCon Japan 2025 プログラミングコンテスト』応募方法
 title-in-news-list: 『DojoCon Japan 2025 プログラミングコンテスト』の応募方法を公開しました
-date: 2025-08-02T01:00:00 UTC+09:00
+date: 2025-08-02
 categories: news
 tags: イベント
 permalink: /contests/how-to-apply/
