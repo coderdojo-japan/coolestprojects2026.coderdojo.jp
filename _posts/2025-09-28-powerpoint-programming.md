@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 身近なものが興味の入り口に PowerPointから始めるプログラミング
-date: 2025-09-27 00:00:00 +0900
+date: 2025-09-28
 categories: event
 thumbnail: /img/events/powerpoint-programming.webp
 permalink: /events/powerpoint-programming/
