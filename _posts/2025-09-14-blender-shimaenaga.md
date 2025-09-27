@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Blenderでシマエナガを作ろう！
-date: 2025-09-14T00:00:00Z
+date: 2025-09-14
 categories: event
 thumbnail: /img/events/blender-shimaenaga.webp
 permalink: /events/blender-shimaenaga/

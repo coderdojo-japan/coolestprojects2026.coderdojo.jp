@@ -1,7 +1,7 @@
 ---
 layout: post
 title: eスポーツとスポーツの交差点：共通点と未来への課題
-date: 2025-09-25 00:00:00 +0900
+date: 2025-09-25
 categories: event
 permalink: /events/playrise-exhibition/
 thumbnail: /img/events/playrise-exhibition.webp
