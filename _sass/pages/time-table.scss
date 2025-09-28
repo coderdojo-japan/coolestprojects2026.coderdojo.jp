@@ -1,0 +1,111 @@
+/* ====== スクロール容器 ====== */
+.ttable-wrap{
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: visible;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+  contain: content;
+  scrollbar-gutter: stable both-edges;
+}
+
+/* ====== テーブル ======
+   PCでも「時間は4桁」「会場は全文表示」できるように
+   table-layout: auto と最小幅制約を組み合わせる
+*/
+.ttable{
+  table-layout: fixed;
+  --w-start: 5rem;
+  --room-min: clamp(235px, calc((100dvw - var(--w-start) - 10rem)), 20rem);
+  --row-h: 56px;
+
+  width: calc(var(--w-start) + var(--room-min) * var(--room-count));
+}
+
+/* ヘッダー */
+.ttable caption{
+  text-align: left;
+  font-weight: 700;
+  padding: 10px 12px;
+}
+.ttable thead th{
+  background: #fafafa;
+  border-bottom: 1px solid #e6e6e9;
+  padding: 10px 12px;
+  font-weight: 800;
+  text-align: left;
+  white-space: nowrap;
+}
+.ttable__th--start{ left: 0; min-width: var(--w-start); }
+.ttable thead th.ttable__th--start{ position: sticky; z-index: 4; }
+
+/* 会場ヘッダーと本文セルの最小幅をそろえる（PCで潰れない） */
+.ttable__th--room{ border-left: 1px solid #ececf1; color:#111; background:
+  linear-gradient(0deg, rgba(255,255,255,0.88), rgba(255,255,255,0.88)), var(--room-color, #c43b3b);
+  width: var(--room-min);
+}
+.ttable tbody td{ width: var(--room-min); }
+
+/* 行ストライプ & グリッド線 */
+.ttable tbody tr{ height: var(--row-h); }
+.ttable tbody tr:nth-child(odd){ background: #fff; }
+.ttable tbody tr:nth-child(even){ background: #fcfcfe; }
+.ttable tbody tr{
+  background-image: linear-gradient(to right, rgba(0,0,0,0.10) 50%, rgba(0,0,0,0) 0);
+  background-size: 6px 1px;     /* 破線のピッチ/太さ */
+  background-repeat: repeat-x;
+  background-position: left bottom;
+}
+
+/* セル共通 */
+.ttable__cell{
+  padding: 8px 10px;
+  border-right: 1px solid #f0f0f3;
+  vertical-align: top;
+  /* 固定高さを外し、rowspanで正しく縦に伸びるようにする */
+  height: auto;
+  background-clip: padding-box;
+}
+
+/* 左1列（sticky） */
+.ttable__cell--start{
+  position: sticky; z-index: 2; background: #fff; left: 0;
+  min-width: var(--w-start); font-weight: 700; text-align: left;
+}
+/* stickyの左列は行の背景の上に乗るため、
+   横点線が隠れないよう同じ罫線を重ねる */
+.ttable__cell--start{
+  background-image: linear-gradient(to right, rgba(0,0,0,0.10) 50%, rgba(0,0,0,0) 0);
+  background-size: 6px 1px;
+  background-repeat: repeat-x;
+  background-position: left bottom;
+}
+
+/* 空き枠 */
+.ttable__cell--empty{ background: #fff; }
+
+/* イベント：カード化（CEATEC風） */
+.ttable__cell--event{ background: #fff; }
+.ttable__cell--event .ttable__event{ min-height: calc(var(--row-h) * var(--span, 1)); }
+.ttable__event{
+  position: relative;
+  border: 1px solid #e5e6eb;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 10px 12px 12px;
+  background: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: clip;
+  text-decoration: none;
+  color: inherit;
+}
+.ttable__event[href]{ cursor: pointer; }
+.ttable__event::before{ content:""; position:absolute; inset:0 0 auto 0; height: 6px; background: var(--accent, #c43b3b); }
+.ttable__event-time{ font-weight: 800; font-size: 1.05rem; letter-spacing: .3px; margin: 8px 0 4px; color: #c43b3b; }
+.ttable__event-title{ font-weight: 800; line-height: 1.35; margin-bottom: 4px; color: #121212; }
+.ttable__event-subtitle{ color: #ee7d05; font-weight: 700; font-size: .92rem; line-height: 1.3; }
+.ttable__badge{ position: absolute; top: 8px; right: 10px; padding: 2px 8px; border-radius: 999px; font-size: .85rem; font-weight: 800; color: #fff; background: var(--accent,#c43b3b); box-shadow: 0 1px 4px rgba(0,0,0,.1); }

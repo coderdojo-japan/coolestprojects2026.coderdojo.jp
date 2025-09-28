@@ -1,0 +1,88 @@
+---
+layout: default
+permalink: /time-table/
+title: タイムテーブル
+---
+{% include navbar.html %}
+
+{% comment %} 
+  Jekyll プラグインで事前計算されたタイムテーブル表を使用
+  ロジックはプラグインで計算済み。Liquid は描画のみを担当
+{% endcomment %}
+
+{% assign tte         = site.data.time_table_events %}
+{% assign events      = tte.events %}
+{% assign rooms       = tte.rooms %}
+{% assign time_labels = tte.time_labels %}
+{% assign total_slots = tte.total_slots %}
+{% assign total_rooms = tte.total_rooms %}
+
+<section class="w-[calc(100dvw-40px)] max-w-7xl mx-auto mt-25 xl:mt-5">
+  <h2 class="text-4xl text-center mb-8">
+    Time table
+    <span class="block mt-3 text-2xl">タイムテーブル</span>
+  </h2>
+  <div class="overflow-x-auto border-[1px] border-[#e6e6e9]" aria-label="タイムテーブル（横スクロール可）">
+    <table class="ttable" style="--room-count: {{ rooms | size }};">
+      <thead>
+        <tr>
+          <th scope="col" class="ttable__th ttable__th--start">時間</th>
+          {% comment %} ルーム単位でヘッダーを描画 {% endcomment %}
+          {% for room in rooms %}
+            <th scope="col"
+                class="ttable__th ttable__th--room"
+                style="--room-color: {{ room.style.color | default: '#c43b3b' }};">
+              <span class="ttable__room-cap">{{ room.name }}</span>
+            </th>
+          {% endfor %}
+        </tr>
+      </thead>
+
+      <tbody>
+        {% comment %} スロット単位（行単位）でイベントを描画 {% endcomment %}
+        {% for slot in (0..total_slots) %}
+          <tr>
+            <th scope="row" class="ttable__cell ttable__cell--start">{{ time_labels[slot] }}</th>
+            
+            {% comment %} 各イベントを描画 {% endcomment %}
+            {% for room_index in (0..total_rooms) %}
+              {% assign event = events[slot][room_index] %}
+              {% assign room  = rooms[room_index] %}
+              
+              {% if event == 'continued' %}
+                {% comment %} イベント継続中 (rowspan で描画するため出力は不要) {% endcomment %}
+              {% elsif event %}
+                {% comment %} イベントを描画 {% endcomment %}
+                {% assign accent = event.accent | default: room.style.color | default: '#c43b3b' %}
+                {% assign link_url = event.url | default: event.link %}
+
+                <td class="ttable__cell ttable__cell--event"
+                    rowspan="{{ event.duration }}"
+                    style="--span: {{ event.duration }};">
+                  {% if link_url %}
+                    <a class="ttable__event" href="{{ link_url | relative_url }}" style="--accent: {{ accent }};">
+                  {% else %}
+                    <div class="ttable__event" style="--accent: {{ accent }};">
+                  {% endif %}
+                      <div class="ttable__event-time" >{{ event.start }}–{{ event.end }}</div>
+                      <div class="ttable__event-title">{{ event.title }}</div>
+                      {% if event.subtitle %}<div class="ttable__event-subtitle">{{ event.subtitle }}</div>{% endif %}
+                      {% if event.badge %}<span class="ttable__badge">{{ event.badge }}</span>{% endif %}
+                      {% if event.note %}<div class="ttable__event-note">{{ event.note }}</div>{% endif %}
+                  {% if link_url %}
+                    </a>
+                  {% else %}
+                    </div>
+                  {% endif %}
+                </td>
+              {% else %}
+                {% comment %} イベント無し {% endcomment %}
+                <td class="ttable__cell ttable__cell--empty" aria-label="空き時間"></td>
+              {% endif %}
+            {% endfor %}
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
