@@ -74,21 +74,21 @@
   logo: /img/sponsors/ProtoPedia.png
   link: https://protopedia.net/
   type: inkind
-  message:
-  logo_scale: 1
 
 - name: 株式会社<wbr>ヌーラボ
   tool: Backlog
   logo: /img/sponsors/Nulab.png
   link: https://nulab.com/ja/
   type: inkind
-  message:
-  logo_scale: 0.8
 
 - name: YassLab <wbr>株式会社
   tool: Doorkeeper
   logo: /img/sponsors/YassLab.png
   link: https://yasslab.jp/
   type: inkind
-  message:
-  logo_scale: 0.9
+
+- name: 株式会社<wbr>ステラリンク
+  tool: 会場ネットワーク
+  logo: /img/sponsors/stellalink.png
+  link: https://www.stellalink.co.jp/
+  type: inkind

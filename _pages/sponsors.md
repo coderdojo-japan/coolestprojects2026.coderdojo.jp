@@ -118,11 +118,11 @@ title: スポンサーのご紹介
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img class="max-w-[{{270 | times:sponsor.logo_scale | round}}px] w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | append: "(" | append: sponsor.tool | append:")" | strip_html }}のロゴ">
+          <img class="w-[270px] mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | append: "(" | append: sponsor.tool | append:")" | strip_html }}のロゴ">
         </a>
       {% else %}
         <div class="flex-grow w-full flex items-center justify-center">
-          <img class="w-full mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | append: "(" | append: sponsor.tool | append:")" | strip_html }}のロゴ">
+          <img class="w-[270px] mx-auto mb-3" src="{{ sponsor.logo }}" alt="{{ sponsor.name | append: "(" | append: sponsor.tool | append:")" | strip_html }}のロゴ">
         </div>
       {% endif %}
       <p class="w-full text-center break-keep">{{ sponsor.name }}</p>
