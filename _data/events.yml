@@ -31,22 +31,6 @@
   url: /contests/
   date: 2025-07-21
 
-- title: 言葉で強くなる！eスポーツ×教育ワークショップ
-  outline: |
-    eスポーツを通じて、言語化能力・状況把握力・自己肯定感を育む教育的ワークショップ。ゲームを「楽しむ」だけで終わらせず、自分の言葉で振り返ることで、学びと成長につなげます。
-  img: /img/events/playrise-esports-edu-workshop.webp
-  tag: ワークショップ
-  url: /events/playrise-esports-edu-workshop/
-  date: 2025-09-25
-
-- title: eスポーツとスポーツの交差点：共通点と未来への課題
-  outline: |
-    「eスポーツはスポーツじゃない？」そんな声に対して、日本国内の事例をもとに、両者の共通点と今後の課題を探る展示。法整備や民間理解の促進に向けたヒントを提示します。
-  img: /img/events/playrise-exhibition.webp
-  tag: 展示
-  url: /events/playrise-exhibition/
-  date: 2025-09-25
-
 - title: 身近なものが興味の入り口に PowerPointから始めるプログラミング
   outline: |
     PowerPoint にはあまり知られていないスクリプティング機能が存在します。<br>
