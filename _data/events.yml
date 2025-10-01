@@ -1,9 +1,3 @@
-- title: 地域の技術コミュニティ紹介展示
-  outline: DojoCon九州初開催！開催地である久留米の周辺で活動する技術コミュニティを展示でご紹介します。
-  img: /img/events/local-tech-communities.webp
-  tag: イベント
-  url: /events/local-tech-communities/
-
 - title: Blenderでシマエナガを作ろう！
   outline: |
     無料で使える3Dソフト「Blender」を使って、かわいい鳥“シマエナガ”をモデリングします。<br>
@@ -54,3 +48,10 @@
   tag: ワークショップ
   url: /events/dojocon-lt-senior/
   date: 2025-09-28
+
+- title: 地域の技術コミュニティ紹介展示
+  outline: DojoCon九州初開催！開催地である久留米の周辺で活動する技術コミュニティを展示でご紹介します。
+  img: /img/events/local-tech-communities/thumbnail.webp
+  tag: イベント
+  url: /events/local-tech-communities/
+  date: 2025-10-02
