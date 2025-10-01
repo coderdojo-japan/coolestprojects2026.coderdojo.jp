@@ -13,16 +13,13 @@ task test: [:build] do
     enforce_https:    true,
 
     # NOTE: You can ignore file, URL, and response as follows
-    ignore_files: [
-      /google(.*)\.html/,
-    ],
+    ignore_files: [],
+
+    # Use REGEX to skip testing URLs in a domain
     ignore_urls: [
-      %r{^http://coderdojo-nago.com}, # Use REGEX to skip testing URLs in a domain like this
-      %r{^http://www.2469samurai.com},
-      %r{^http://food.starfree.jp},
-      %r{^http://ichikawa.coderdojo.chiba.jp},
-      %r{^http://coderdojo-sennan.net},
-    ]
+      "http://www.fablab-saga.com/",
+    ],
+
     #ignore_status_ignore: [0, 500, 999],
   }
 
