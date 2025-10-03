@@ -1,6 +1,6 @@
 ---
 layout: post
-title: マイクロビット（micro:bit）でフルカラーLED ネオピクセル（NeoPixel）を自在にコントロール！
+title: micro:bit でフルカラーLED NeoPixel を自在にコントロール！
 date: 2025-10-03
 categories: event
 thumbnail: /img/events/microbit-neopixel-control.webp
@@ -11,16 +11,16 @@ permalink: /events/microbit-neopixel-control/
 
 小さなコンピュータ <ruby>micro:bit<rt>マイクロビット</rt></ruby> を使って、フルカラー <ruby>LED<rt>エルイーディ</rt></ruby> <ruby>NeoPixel<rt>ネオピクセル</rt></ruby>をコントロールし光らせます。
 
-<ruby>micro:bit<rt>マイクロビット</rt></ruby> でのコントロールはすごく簡単なので、いろいろ試して電子工作に応用しよう！
-体験後はNeoPixelを持って帰れるよ！（※貸し出したPC・<ruby>micro:bit<rt>マイクロビット</rt></ruby> は持ち帰れません）
+micro:bit でのコントロールはすごく簡単なので、いろいろ試して電子工作に応用しよう！
+体験後はNeoPixelを持って帰れるよ！（※貸し出したPC・micro:bit は持ち帰れません）
 
 ### ワークショップの内容
 - <ruby>NeoPixel<rt>ネオピクセル</rt></ruby> の紹介
-  - <ruby>NeoPixel<rt>ネオピクセル</rt></ruby> って何？
-- MakeCodeを立ち上げる
-  - <ruby>micro:bit<rt>マイクロビット</rt></ruby> で <ruby>NeoPixel<rt>ネオピクセル</rt></ruby> のコントロール方法
+  - NeoPixel って何？
+- <ruby>MakeCode<rt>メイクコード</rt></ruby> を立ち上げる
+  - micro:bit で NeoPixel のコントロール方法
   - 最初に必要な準備
-- <ruby>micro:bit<rt>マイクロビット</rt></ruby> と <ruby>NeoPixel<rt>ネオピクセル</rt></ruby> の接続
+- micro:bit と NeoPixel の接続
 - まずフルカラーLEDを光らせてみよう
 - 応用
   - 1個ずつ色を変えよう
@@ -35,7 +35,7 @@ PCの基本操作ができる方
 - あったらいい物
   - 自分または家族の <ruby>micro:bit<rt>マイクロビット</rt></ruby>
   - 自分または家族の PC（パソコン）
-  - USBメモリまたは MakeCode アカウント（PCを持ってこられない方）
+  - USBメモリまたは <ruby>MakeCode<rt>メイクコード</rt></ruby> アカウント（PCを持ってこられない方）
 
 ### お申し込み
 - 本ワークショップは事前申し込みは不要です。
