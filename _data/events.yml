@@ -55,3 +55,13 @@
   tag: イベント
   url: /events/local-tech-communities/
   date: 2025-10-02
+
+- title: マイクロビット（micro:bit）でフルカラーLED ネオピクセル（NeoPixel）を自在にコントロール！
+  outline: |
+    小さなコンピュータ micro:bit（マイクロビット）を使って、フルカラーLED（エルイーディ） ネオピクセル（NeoPixel）をコントロールし（光らせ）ます。<br>
+    マイクロビットでのコントロールはすごく簡単なので、いろいろ試して電子工作に応用しよう！<br>
+    体験後はネオピクセルを持って帰れるよ！（※貸し出したPC・マイクロビットは持ち帰れません）
+  img: /img/events/microbit-neopixel-control.webp
+  tag: ワークショップ
+  url: /events/microbit-neopixel-control/
+  date: 2025-10-04
