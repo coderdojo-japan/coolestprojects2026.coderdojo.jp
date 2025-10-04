@@ -1,15 +1,15 @@
 ---
 layout: post
-title: micro:bit でフルカラーLED NeoPixel を自在にコントロール！
-date: 2025-10-03
+title: micro:bit でフルカラー LED NeoPixel を自在にコントロール！
+date: 2025-10-05
 categories: event
 thumbnail: /img/events/microbit-neopixel-control.webp
 permalink: /events/microbit-neopixel-control/
 ---
 
-<img class='w-full pb-8' src='/img/events/microbit-neopixel-control.webp' alt='micro:bit でフルカラーLED ネオピクセル（NeoPixel）を自在にコントロール'>
+<img class='w-full pb-8' src='/img/events/microbit-neopixel-control.webp' alt='micro:bit でフルカラー LED ネオピクセル（NeoPixel）を自在にコントロール'>
 
-小さなコンピュータ <ruby>micro:bit<rt>マイクロビット</rt></ruby> を使って、フルカラー <ruby>LED<rt>エルイーディ</rt></ruby> <ruby>NeoPixel<rt>ネオピクセル</rt></ruby>をコントロールし光らせます。
+小さなコンピュータ <ruby>micro:bit<rt>マイクロビット</rt></ruby> を使って、フルカラー <ruby>LED<rt>エルイーディ</rt></ruby> <ruby>NeoPixel<rt>ネオピクセル</rt></ruby>を光らせます。
 
 micro:bit でのコントロールはすごく簡単なので、いろいろ試して電子工作に応用しよう！
 体験後はNeoPixelを持って帰れるよ！（※貸し出したPC・micro:bit は持ち帰れません）
