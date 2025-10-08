@@ -11,6 +11,17 @@ title: スポンサーのご紹介
 {% assign inkind_sponsors     = site.data.sponsors | where: "type", "inkind"     %}
 {% assign individual_sponsors = site.data.sponsors | where: "type", "individual" %}
 
+<style>
+html {
+  /*
+  画像のロードとsmooth scrollを組み合わせると
+  スクロール位置がずれやすいためスムーススクロールを解除する
+  */
+  scroll-behavior: auto !important;
+}
+</style>
+
+
 <h2 class="text-4xl text-center mb-8 mt-30 xl:mt-15">
   スポンサーのご紹介
   <span class="block mt-5 text-2xl">SPONSORS</span>
@@ -131,7 +142,7 @@ title: スポンサーのご紹介
   {% endfor %}
 </div>
 
-<h3 class="text-2xl mt-15 mx-8 text-center mb-4">個人スポンサー
+<h3 id="individual_sponsor" class="text-2xl mt-15 mx-8 text-center mb-4">個人スポンサー
   <span class="block text-base mt-1">INDIVIDUAL SPONSOR</span>
 </h3>
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-xl mx-auto mb-16">

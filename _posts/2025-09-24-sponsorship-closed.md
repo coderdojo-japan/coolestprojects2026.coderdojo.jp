@@ -8,6 +8,12 @@ tags: スポンサー
 permalink: /news/sponsorship-closed/
 ---
 
+<p class="border rounded px-5 py-3 mb-5">
+	DojoCon Japan 2025 の個人スポンサーを含む全てのスポンサー募集は 2025年10月9日 をもって終了しました。<br>
+	ご検討頂いた方を含め、多数のご応募頂きありがとうございました。
+</p>
+
+
 <p>
   DojoCon Japan 2025 Gold, Silver, Bronze スポンサーの募集は 2025年9月24日 をもって終了しました。<br>
   ご検討頂いた方を含め、多数のご応募頂きありがとうございました。<br>
