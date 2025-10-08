@@ -142,7 +142,7 @@ html {
   {% endfor %}
 </div>
 
-<h3 id="individual_sponsor" class="text-2xl mt-15 mx-8 text-center mb-4">個人スポンサー
+<h3 id="individual_sponsors" class="text-2xl mt-15 mx-8 text-center mb-4">個人スポンサー
   <span class="block text-base mt-1">INDIVIDUAL SPONSOR</span>
 </h3>
 <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-xl mx-auto mb-16">

@@ -14,4 +14,4 @@ DojoCon Japan 2025 個人スポンサーの募集は 2025年10月9日 をもっ�
 
 個人スポンサーは下記のページをご覧ください。
 
-[個人スポンサー一覧](/sponsorship/list/#individual_sponsor)
+[個人スポンサー一覧](/sponsorship/list/#individual_sponsors)
