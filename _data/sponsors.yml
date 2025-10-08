@@ -92,3 +92,21 @@
   logo: /img/sponsors/stellalink.png
   link: https://www.stellalink.co.jp/
   type: inkind
+
+# 個人スポンサー
+- name: 宮野 慧
+  link: https://miyacorata.net
+  type: individual
+
+- name: Katz Ueno
+  link: https://coderdojoowari.org
+  type: individual
+
+- name: 高田悠
+  link: https://coderdojo-iwata.connpass.com/
+  type: individual
+
+- name: 田代　拓也
+  link: https://peatix.com/group/10488940
+  type: individual
+

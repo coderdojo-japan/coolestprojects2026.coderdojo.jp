@@ -130,3 +130,21 @@ title: スポンサーのご紹介
     </div>
   {% endfor %}
 </div>
+
+<h3 class="text-2xl mt-15 mx-8 text-center mb-4">個人スポンサー
+  <span class="block text-base mt-1">INDIVIDUAL SPONSOR</span>
+</h3>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-xl mx-auto mb-16">
+  {% for sponsor in individual_sponsors %}
+    <div class="flex items-center justify-center">
+      {% if sponsor.link %}
+        <a href="{{ sponsor.link }}" target="_blank" rel="noopener noreferrer"
+          class="block text-2xl font-bold text-center transition-transform duration-200 hover:scale-110 cursor-pointer">
+          {{ sponsor.name }}
+        </a>
+      {% else %}
+        <span class="block text-2xl font-bold text-center">{{ sponsor.name }}</span>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
