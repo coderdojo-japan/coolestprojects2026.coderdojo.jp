@@ -63,3 +63,12 @@
   tag: ワークショップ
   url: /events/microbit-neopixel-control/
   date: 2025-10-04
+
+- title: Doodle3Dでお絵描きしたものを3Dプリンタで印刷してみよう
+  outline: |
+    iPadとDoodle3Dを使って3Dモデルをお絵描きしましょう。<br>
+    作成した3Dモデルは3Dプリンターで印刷して持ち帰ることができます。
+  img: /img/events/doodle3d.webp
+  tag: ワークショップ
+  url: /events/doodle3d/
+  date: 2025-10-09
