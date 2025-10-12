@@ -1,4 +1,5 @@
 slot_minutes: 10
+day_end_hour: 17
 
 rooms:
   - 大会議室 (セッション)
@@ -27,55 +28,43 @@ events:
 
   - room:  "大会議室 (セッション)"
     start: "10:10"
-    end:   "10:20"
+    end:   "10:50"
     title: "基調講演 (宮島さん)"
     link:  "/sessions/keynote1/"
 
   - room:  "大会議室 (セッション)"
     start: "11:00"
-    end:   "12:00"
+    end:   "11:50"
     title: "コンテスト作品発表"
-
-  - room:  "大会議室 (セッション)"
-    start: "12:00"
-    end:   "12:40"
-    title: "ランチタイム"
-    note:  "適宜お昼をお取りください"
+    link: "/contests"
 
   - room:  "大会議室 (セッション)"
     start: "12:40"
-    end:   "13:00"
+    end:   "13:30"
     title: "みんなのセッション"
+    link: "/sessions/3/"
 
   - room:  "大会議室 (セッション)"
     start: "13:40"
-    end:   "14:00"
+    end:   "14:10"
     title: "九州チャンピオン座談会"
 
   - room:  "大会議室 (セッション)"
     start: "14:20"
     end:   "14:40"
-    title: "スピーカーセッション とり子さん (20分)"
-
-  - room: 大会議室 (セッション)
-    start: "14:40"
-    end:   "14:50"
-    title: "伸びるかも予備"
+    title: "スピーカーセッション とり子さん"
+    link: "/sessions/2/"
 
   - room:  "大会議室 (セッション)"
     start: "14:50"
     end:   "15:10"
-    title: "スピーカーセッション 早良区Dojoチャンピオン (20分)"
-
-  - room:  "大会議室 (セッション)"
-    start: "15:10"
-    end:   "15:20"
-    title: "スポンサーセッション (2件)"
+    title: "スピーカーセッション 早良区Dojoチャンピオン"
+    link: "/sessions/1/"
 
   - room:  "大会議室 (セッション)"
     start: "15:20"
-    end:   "15:30"
-    title: "招待講演 (小宮山さん)"
+    end:   "16:00"
+    title: "招待講演（小宮山さん）"
     link:  "/sessions/keynote2/"
 
   - room:  "大会議室 (セッション)"
@@ -86,61 +75,98 @@ events:
   - room:  "大会議室 (セッション)"
     start: "16:10"
     end:   "16:20"
-    title: "スポンサーセッション (1件)"
-    note:  "該当なしの場合は CoderDojo Japan 活動報告"
+    title: "スポンサーセッションとCoderDojo Japan 活動報告"
 
   - room:  "大会議室 (セッション)"
     start: "16:20"
     end:   "16:30"
     title: "閉会式"
 
+
   # 展示
   - room:  "展示 (コンテスト用)"
     start: "10:00"
     end:   "16:00"
     title: "ファイナリスト作品展示"
-    note:  "14:00 投票締切"
+    note:  "14:30 投票締切"
 
   - room:  "展示"
     start: "10:00"
     end:   "16:00"
     title: "展示"
 
+
   # WS1 電子工作 (随時受付)
   - room:  "中会議室 (WS1 電子工作)"
     start: "11:00"
     end:   "16:00"
-    title: "電子工作ワークショップ (随時受付)"
+    title: "micro:bitでフルカラーLEDを自在にコントロール"
+    note: "随時受付 12:00~13:00は休憩時間 "
+    link: "/events/microbit-neopixel-control/"
+
 
   # WS2 LTブース
   - room:  "中会議室 (WS2 LTブース)"
     start: "11:20"
     end:   "12:00"
-    title: "Dojo関係者等大人LT (要申込)"
+    title: "Dojo関係者等大人LT"
+    note: "要申込"
+    link: "/events/dojocon-lt-senior/"
 
   - room:  "中会議室 (WS2 LTブース)"
     start: "13:00"
-    end:   "14:00"
-    title: "DojoニンジャLT (要申込)"
+    end:   "13:40"
+    title: "DojoニンジャLT"
+    note: "要申込"
+    link: "/events/dojocon-lt-junior/"
+
+  - room:  "中会議室 (WS2 LTブース)"
+    start: "13:40"
+    end:   "14:40"
+    title: "ぼくのかんがえたさいきょうのCoderDojoワークショップ"
+    note: "発表・投票・表彰を行います。"
+    link: "/events/saikyo-coderdojo/"
+
 
   # WS3
   - room:  "中会議室 (WS3)"
     start: "11:00"
-    end:   "12:00"
-    title: "ブレンダー (要申込)"
+    end:   "12:50"
+    title: "Blenderでシマエナガを作ろう！"
+    note: "要申込"
+    link: "/events/blender-shimaenaga/"
 
   - room:  "中会議室 (WS3)"
-    start: "13:00"
-    end:   "14:00"
-    title: "PLAYRISE"
+    start: "13:10"
+    end:   "13:40"
+    title: "ぼくのかんがえたさいきょうのCoderDojoワークショップ"
+    note: "ワークを行います。"
+    link: "/events/saikyo-coderdojo/"
+
+  - room: "中会議室 (WS3)"
+    start: "14:00"
+    end:   "15:20"
+    title: "親子で学ぶ！AI活用てづくりえほんワークショップ "
+    link: "/events/ai-picture-books/"
+
 
   # WS4
   - room:  "中会議室 (WS4)"
     start: "11:00"
     end:   "12:00"
-    title: "PowerPoint とプログラミング"
+    title: "Doodle3Dでお絵描きしたものを3Dプリンタで印刷してみよう"
+    note: "要申込"
+    link: "/events/doodle3d/"
+
+  - room: "中会議室 (WS4)"
+    start: "12:00"
+    end:   "13:00"
+    title: "Doodle3Dでお絵描きしたものを3Dプリンタで印刷してみよう"
+    note: "随時受付"
+    link: "/events/doodle3d/"
 
   - room:  "中会議室 (WS4)"
-    start: "14:10"
-    end:   "15:00"
-    title: "PowerPoint とプログラミング"
+    start: "13:30"
+    end:   "15:10"
+    title: "プログラミングロボットRoot"
+    note: "随時受付"
