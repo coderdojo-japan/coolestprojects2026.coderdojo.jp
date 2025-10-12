@@ -38,3 +38,7 @@ permalink: /events/local-tech-communities/
 <div class='flex justify-center'>
   <img class='w-4/5 py-3' src='/img/events/local-tech-communities/ix-party.webp' alt='IX-Party の活動風景'>
 </div>
+
+#### team.csv
+
+- Link: <a href='https://best.kurume-u.ac.jp/letter/hashtag/640bd95059edf54ff70617e0/' target='_blank'>#team.csv</a>
