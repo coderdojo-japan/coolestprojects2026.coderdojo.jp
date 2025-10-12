@@ -79,3 +79,12 @@
   tag: ワークショップ
   url: /events/ai-picture-books/
   date: 2025-10-11
+
+- title: プログラミングロボット Root で遊ぼう
+  outline: |
+    <ruby>Root<rt>ルート</rt></ruby>というロボットを動かします。<br>
+    プログラミングでミッションをクリアーしよう！
+  img: /img/events/irobot-root.webp
+  tag: ワークショップ
+  url: /events/irobot-root/
+  date: 2025-10-13
