@@ -13,13 +13,18 @@
 
 /* ====== テーブル ======
    PCでも「時間は4桁」「会場は全文表示」できるように
-   table-layout: auto と最小幅制約を組み合わせる
+   table-layout: fixed と最小幅制約を組み合わせる
 */
 .ttable{
   table-layout: fixed;
+
+  /* 行間の既定 2px を無効化して rowspan 高さと行高を一致させる */
+  border-collapse: separate;
+  border-spacing: 0;
+
   --w-start: 5rem;
   --room-min: clamp(235px, calc((100dvw - var(--w-start) - 10rem)), 20rem);
-  --row-h: 56px;
+  --row-h: 72px;
 
   width: calc(var(--w-start) + var(--room-min) * var(--room-count));
 }
@@ -42,8 +47,9 @@
 .ttable thead th.ttable__th--start{ position: sticky; z-index: 4; }
 
 /* 会場ヘッダーと本文セルの最小幅をそろえる（PCで潰れない） */
-.ttable__th--room{ border-left: 1px solid #ececf1; color:#111; background:
-  linear-gradient(0deg, rgba(255,255,255,0.88), rgba(255,255,255,0.88)), var(--room-color, #c43b3b);
+.ttable__th--room{
+  border-left: 1px solid #ececf1; color:#111;
+  background: linear-gradient(0deg, rgba(255,255,255,0.88), rgba(255,255,255,0.88)), var(--room-color, #c43b3b);
   width: var(--room-min);
 }
 .ttable tbody td{ width: var(--room-min); }
@@ -64,8 +70,7 @@
   padding: 8px 10px;
   border-right: 1px solid #f0f0f3;
   vertical-align: top;
-  /* 固定高さを外し、rowspanで正しく縦に伸びるようにする */
-  height: auto;
+  height: auto;                /* rowspan の高さを素直に反映 */
   background-clip: padding-box;
 }
 
@@ -74,8 +79,7 @@
   position: sticky; z-index: 2; background: #fff; left: 0;
   min-width: var(--w-start); font-weight: 700; text-align: left;
 }
-/* stickyの左列は行の背景の上に乗るため、
-   横点線が隠れないよう同じ罫線を重ねる */
+/* stickyの左列は行の背景の上に乗るため、横点線が隠れないよう同じ罫線を重ねる */
 .ttable__cell--start{
   background-image: linear-gradient(to right, rgba(0,0,0,0.10) 50%, rgba(0,0,0,0) 0);
   background-size: 6px 1px;
@@ -86,17 +90,32 @@
 /* 空き枠 */
 .ttable__cell--empty{ background: #fff; }
 
-/* イベント：カード化（CEATEC風） */
-.ttable__cell--event{ background: #fff; }
-.ttable__cell--event .ttable__event{ min-height: calc(var(--row-h) * var(--span, 1)); }
+/* ====== イベント：カード化（CEATEC風） ======
+   上下余白は CSS 変数 --pad-v で可変。
+   1スロットのイベントのみ 6px、長時間は 0px（16:00 にビタッと届く）
+*/
+.ttable__cell--event{
+  background: #fff;
+  position: relative;    /* 子の absolute の基準 */
+  padding-top: 0;        /* 上下の余白はカード側で管理 */
+  padding-bottom: 0;
+  /* 左右の 10px パディングは .ttable__cell 由来で維持 */
+}
+
+.ttable__cell--event .ttable__event{ min-height: 0; }
+
 .ttable__event{
-  position: relative;
+  position: absolute;
+  /* top/bottom に可変の余白、左右はセルの内側にぴったり */
+  inset: var(--pad-v, 0) 0;
+
   border: 1px solid #e5e6eb;
   border-radius: 14px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-  padding: 10px 12px 12px;
+  padding: 6px 12px 4px;
   background: #fff;
-  height: 100%;
+  height: auto;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   overflow: clip;
@@ -104,8 +123,22 @@
   color: inherit;
 }
 .ttable__event[href]{ cursor: pointer; }
-.ttable__event::before{ content:""; position:absolute; inset:0 0 auto 0; height: 6px; background: var(--accent, #c43b3b); }
-.ttable__event-time{ font-weight: 800; font-size: 1.05rem; letter-spacing: .3px; margin: 8px 0 4px; color: #c43b3b; }
-.ttable__event-title{ font-weight: 800; line-height: 1.35; margin-bottom: 4px; color: #121212; }
-.ttable__event-subtitle{ color: #ee7d05; font-weight: 700; font-size: .92rem; line-height: 1.3; }
-.ttable__badge{ position: absolute; top: 8px; right: 10px; padding: 2px 8px; border-radius: 999px; font-size: .85rem; font-weight: 800; color: #fff; background: var(--accent,#c43b3b); box-shadow: 0 1px 4px rgba(0,0,0,.1); }
+.ttable__event::before{
+  content:""; position:absolute; inset:0 0 auto 0;
+  height: 6px; background: var(--accent, #c43b3b);
+}
+.ttable__event-time{
+  font-weight: 800; font-size: .97rem; letter-spacing: .18px;
+  margin: 1px 0 0; color: #c43b3b;
+}
+.ttable__event-title{
+  font-weight: 800; line-height: 1.2; margin-bottom: 2px; color: #121212;
+}
+.ttable__event-subtitle{
+  color: #ee7d05; font-weight: 700; font-size: .92rem; line-height: 1.3;
+}
+.ttable__badge{
+  position: absolute; top: 8px; right: 10px; padding: 2px 8px;
+  border-radius: 999px; font-size: .85rem; font-weight: 800; color: #fff;
+  background: var(--accent,#c43b3b); box-shadow: 0 1px 4px rgba(0,0,0,.1);
+}

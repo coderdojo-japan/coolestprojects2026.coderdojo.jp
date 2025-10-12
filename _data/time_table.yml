@@ -64,7 +64,7 @@ events:
   - room:  "大会議室 (セッション)"
     start: "15:20"
     end:   "16:00"
-    title: "招待講演（小宮山さん）"
+    title: "招待講演 (小宮山さん)"
     link:  "/sessions/keynote2/"
 
   - room:  "大会議室 (セッション)"
@@ -124,7 +124,7 @@ events:
     start: "13:40"
     end:   "14:40"
     title: "ぼくのかんがえたさいきょうのCoderDojoワークショップ"
-    note: "発表・投票・表彰を行います。"
+    note: "発表・投票・表彰を行います"
     link: "/events/saikyo-coderdojo/"
 
 
@@ -140,7 +140,7 @@ events:
     start: "13:10"
     end:   "13:40"
     title: "ぼくのかんがえたさいきょうのCoderDojoワークショップ"
-    note: "ワークを行います。"
+    note: "ワークを行います"
     link: "/events/saikyo-coderdojo/"
 
   - room: "中会議室 (WS3)"
