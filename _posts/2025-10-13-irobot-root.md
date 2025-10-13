@@ -9,7 +9,9 @@ permalink: /events/irobot-root/
 
 <img class='w-full pb-8' src='/img/events/irobot-root.webp' alt='プログラミングロボット Root で遊ぼう！'>
 
-iPad でブロックを移動させてプログラムを作ります。<br>
+iPad でブロックを移動させてプログラムを作り、 ロボットを動かします。<br>
+プログラミングでミッションをクリアーしよう！
+
 プログラミング初心者向けの20分くらいの体験ワークショップです。
 
 ### 対象
