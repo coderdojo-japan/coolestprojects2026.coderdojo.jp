@@ -99,7 +99,7 @@ events:
     start: "13:00"
     end:   "13:40"
     title: "DojoニンジャLT"
-    note: "要申込"
+    note: "登壇者のみ要申込"
     link: "/events/dojocon-lt-junior/"
 
   - room:  "中会議室 (WS2 LTブース)"
