@@ -41,4 +41,4 @@ permalink: /events/local-tech-communities/
 
 #### team.csv
 
-- Link: <a href='https://best.kurume-u.ac.jp/letter/hashtag/640bd95059edf54ff70617e0/' target='_blank'>#team.csv</a>
+- ホームページ: <a href='https://best.kurume-u.ac.jp/letter/hashtag/640bd95059edf54ff70617e0/' target='_blank'>久留米レター #team.csv</a>
