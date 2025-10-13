@@ -2,7 +2,7 @@
 layout: post
 title: 懇親会募集の開始とLT募集のお知らせ
 title-in-news-list: 懇親会募集の開始とLT募集のお知らせ
-date: 2025-10-13
+date: 2025-10-14
 categories: news
 tags: 懇親会
 permalink: /news/party-and-lt-announcement/
