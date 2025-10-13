@@ -2,84 +2,84 @@ slot_minutes: 10
 day_end_hour: 17
 
 rooms:
-  - 大会議室 (セッション)
-  - 中会議室 (WS1 電子工作)
-  - 中会議室 (WS2 LTブース)
-  - 中会議室 (WS3)
-  - 中会議室 (WS4)
+  - 大会議室（セッション）
+  - 中会議室（WS1 電子工作）
+  - 中会議室（WS2 LTブース）
+  - 中会議室（WS3）
+  - 中会議室（WS4）
 
 room_styles:
-  大会議室 (セッション):   { color: "#c43b3b" }
-  中会議室 (WS1 電子工作): { color: "#2e7d32" }
-  中会議室 (WS2 LTブース): { color: "#1976d2" }
-  中会議室 (WS3):          { color: "#7b1fa2" }
-  中会議室 (WS4):          { color: "#ef6c00" }
+  大会議室（セッション）:   { color: "#c43b3b" }
+  中会議室（WS1 電子工作）: { color: "#2e7d32" }
+  中会議室（WS2 LTブース）: { color: "#1976d2" }
+  中会議室（WS3）:          { color: "#7b1fa2" }
+  中会議室（WS4）:          { color: "#ef6c00" }
 
 events:
-  # 大会議室 (セッション)
-  - room:  "大会議室 (セッション)"
+  # 大会議室（セッション）
+  - room:  "大会議室（セッション）"
     start: "10:00"
     end:   "10:10"
     title: "開会式"
 
-  - room:  "大会議室 (セッション)"
+  - room:  "大会議室（セッション）"
     start: "10:10"
     end:   "10:50"
-    title: "基調講演 (宮島さん)"
+    title: "基調講演（宮島さん）"
     link:  "/sessions/keynote1/"
 
-  - room:  "大会議室 (セッション)"
+  - room:  "大会議室（セッション）"
     start: "11:00"
     end:   "11:50"
     title: "コンテスト作品発表"
     link: "/contests"
 
-  - room:  "大会議室 (セッション)"
+  - room:  "大会議室（セッション）"
     start: "12:40"
     end:   "13:30"
     title: "みんなのセッション"
     link: "/sessions/3/"
 
-  - room:  "大会議室 (セッション)"
+  - room:  "大会議室（セッション）"
     start: "13:40"
     end:   "14:10"
     title: "九州チャンピオン座談会"
 
-  - room:  "大会議室 (セッション)"
+  - room:  "大会議室（セッション）"
     start: "14:20"
     end:   "14:40"
     title: "スピーカーセッション とり子さん"
     link: "/sessions/2/"
 
-  - room:  "大会議室 (セッション)"
+  - room:  "大会議室（セッション）"
     start: "14:50"
     end:   "15:10"
     title: "スピーカーセッション 早良区Dojoチャンピオン"
     link: "/sessions/1/"
 
-  - room:  "大会議室 (セッション)"
+  - room:  "大会議室（セッション）"
     start: "15:20"
     end:   "16:00"
-    title: "招待講演 (小宮山さん)"
+    title: "招待講演（小宮山さん）"
     link:  "/sessions/keynote2/"
 
-  - room:  "大会議室 (セッション)"
+  - room:  "大会議室（セッション）"
     start: "16:00"
     end:   "16:10"
     title: "コンテスト結果発表"
 
-  - room:  "大会議室 (セッション)"
+  - room:  "大会議室（セッション）"
     start: "16:10"
     end:   "16:20"
     title: "スポンサーセッションとCoderDojo Japan 活動報告"
 
-  - room:  "大会議室 (セッション)"
+  - room:  "大会議室（セッション）"
     start: "16:20"
     end:   "16:30"
     title: "閉会式"
 
-  # WS1 電子工作 (随時受付)
-  - room:  "中会議室 (WS1 電子工作)"
+  # WS1 電子工作（随時受付）
+  - room:  "中会議室（WS1 電子工作）"
     start: "11:00"
     end:   "16:00"
     title: "micro:bitでフルカラーLEDを自在にコントロール"
@@ -88,21 +88,21 @@ events:
 
 
   # WS2 LTブース
-  - room:  "中会議室 (WS2 LTブース)"
+  - room:  "中会議室（WS2 LTブース）"
     start: "11:20"
     end:   "12:00"
     title: "Dojo関係者等大人LT"
     note: "登壇者のみ要申込"
     link: "/events/dojocon-lt-senior/"
 
-  - room:  "中会議室 (WS2 LTブース)"
+  - room:  "中会議室（WS2 LTブース）"
     start: "13:00"
     end:   "13:40"
     title: "DojoニンジャLT"
     note: "登壇者のみ要申込"
     link: "/events/dojocon-lt-junior/"
 
-  - room:  "中会議室 (WS2 LTブース)"
+  - room:  "中会議室（WS2 LTブース）"
     start: "13:40"
     end:   "14:40"
     title: "ぼくのかんがえたさいきょうのCoderDojoワークショップ"
@@ -111,21 +111,21 @@ events:
 
 
   # WS3
-  - room:  "中会議室 (WS3)"
+  - room:  "中会議室（WS3）"
     start: "11:00"
     end:   "12:50"
     title: "Blenderでシマエナガを作ろう！"
     note: "要申込"
     link: "/events/blender-shimaenaga/"
 
-  - room:  "中会議室 (WS3)"
+  - room:  "中会議室（WS3）"
     start: "13:10"
     end:   "13:40"
     title: "ぼくのかんがえたさいきょうのCoderDojoワークショップ"
     note: "ワークを行います"
     link: "/events/saikyo-coderdojo/"
 
-  - room: "中会議室 (WS3)"
+  - room: "中会議室（WS3）"
     start: "14:00"
     end:   "15:20"
     title: "親子で学ぶ！AI活用てづくりえほんワークショップ "
@@ -133,21 +133,21 @@ events:
 
 
   # WS4
-  - room:  "中会議室 (WS4)"
+  - room:  "中会議室（WS4）"
     start: "11:00"
     end:   "12:00"
     title: "Doodle3Dでお絵描きしたものを3Dプリンタで印刷してみよう"
     note: "要申込"
     link: "/events/doodle3d/"
 
-  - room: "中会議室 (WS4)"
+  - room: "中会議室（WS4）"
     start: "12:00"
     end:   "13:00"
     title: "Doodle3Dでお絵描きしたものを3Dプリンタで印刷してみよう"
     note: "随時受付"
     link: "/events/doodle3d/"
 
-  - room:  "中会議室 (WS4)"
+  - room:  "中会議室（WS4）"
     start: "13:30"
     end:   "15:10"
     title: "プログラミングロボットRoot"
