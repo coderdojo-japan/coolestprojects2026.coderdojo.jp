@@ -3,7 +3,7 @@
     無料で使える3Dソフト「Blender」を使って、かわいい鳥“シマエナガ”をモデリングします。<br>
     初めてでも大丈夫。みんなで楽しく基本操作を身につけて、オリジナルのシマエナガを作っていきましょう！
   img: /img/events/blender-shimaenaga.webp
-  tag: イベント
+  tag: ワークショップ
   url: /events/blender-shimaenaga/
   date: 2025-09-14
 
@@ -36,7 +36,7 @@
     DojoCon Japan 2025 では LT 大会を開催します。<br>
     好奇心をくすぐるような「好き」を共有しましょう。
   img: /img/events/dojocon-lt-junior.webp
-  tag: ワークショップ
+  tag: イベント
   url: /events/dojocon-lt-junior/
   date: 2025-09-28
 
@@ -45,14 +45,14 @@
     DojoCon Japan 2025 では LT 大会を開催します。<br>
     好奇心をくすぐるような「好き」を共有しましょう。
   img: /img/events/dojocon-lt-senior.webp
-  tag: ワークショップ
+  tag: イベント
   url: /events/dojocon-lt-senior/
   date: 2025-09-28
 
 - title: 地域の技術コミュニティ紹介展示
   outline: DojoCon九州初開催！開催地である久留米の周辺で活動する技術コミュニティを展示でご紹介します。
   img: /img/events/local-tech-communities/thumbnail.webp
-  tag: イベント
+  tag: ブース
   url: /events/local-tech-communities/
   date: 2025-10-02
 
