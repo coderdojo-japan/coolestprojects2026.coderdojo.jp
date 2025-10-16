@@ -25,7 +25,7 @@ events:
   - room:  "大会議室（セッション）"
     start: "10:10"
     end:   "10:50"
-    title: "基調講演<br>プログラミング教育の脱構築——生成AI時代における〈学び〉を再考する<br>(宮島 衣瑛さん)"
+    title: "基調講演<br>プログラミング教育の脱構築——生成AI時代における〈学び〉を再考する<br>（宮島 衣瑛さん）"
     link:  "/sessions/keynote1/"
 
   - room:  "大会議室（セッション）"
@@ -48,19 +48,19 @@ events:
   - room:  "大会議室（セッション）"
     start: "14:20"
     end:   "14:40"
-    title: "CoderDojoに救われて現在親子でメンターをやっている話<br>(とり子さん・memetanさん)"
+    title: "CoderDojoに救われて現在親子でメンターをやっている話<br>（とり子さん・memetanさん）"
     link: "/sessions/2/"
 
   - room:  "大会議室（セッション）"
     start: "14:50"
     end:   "15:10"
-    title: "エンジニアではない私がCoderDojoを立ち上げた<br>(吉田彩さん)"
+    title: "エンジニアではない私がCoderDojoを立ち上げた<br>（吉田彩さん）"
     link: "/sessions/1/"
 
   - room:  "大会議室（セッション）"
     start: "15:20"
     end:   "16:00"
-    title: "招待講演<br>AI時代の子どもたちの学びとは——未来の教育を考える<br>(小宮山 利恵子さん)"
+    title: "招待講演<br>AI時代の子どもたちの学びとは——未来の教育を考える<br>（小宮山 利恵子さん）"
     link:  "/sessions/keynote2/"
 
   - room:  "大会議室（セッション）"
