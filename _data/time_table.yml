@@ -112,7 +112,7 @@ events:
 
   # WS3
   - room:  "中会議室（WS3）"
-    start: "11:00"
+    start: "11:20"
     end:   "12:50"
     title: "Blenderでシマエナガを作ろう！"
     note: "要申込"
