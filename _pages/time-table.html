@@ -5,7 +5,7 @@ title: タイムテーブル
 ---
 {% include navbar.html %}
 
-{% comment %} 
+{% comment %}
   Jekyll プラグインで事前計算されたタイムテーブル表を使用
   ロジックはプラグインで計算済み。Liquid は描画のみを担当
 {% endcomment %}
@@ -17,7 +17,7 @@ title: タイムテーブル
 {% assign total_slots = tte.total_slots %}
 {% assign total_rooms = tte.total_rooms %}
 
-<section class="w-[calc(100dvw-40px)] max-w-7xl mx-auto mt-25 xl:mt-5">
+<section class="w-[calc(100dvw-40px)] max-w-7xl mx-auto mt-25 xl:mt-15">
   <h2 class="text-4xl text-center mb-8">
     タイムテーブル
     <span class="block mt-3 text-2xl">TIME TABLE</span>
@@ -43,12 +43,12 @@ title: タイムテーブル
         {% for slot in (0..total_slots) %}
           <tr>
             <th scope="row" class="ttable__cell ttable__cell--start">{{ time_labels[slot] }}</th>
-            
+
             {% comment %} 各イベントを描画 {% endcomment %}
             {% for room_index in (0..total_rooms) %}
               {% assign event = events[slot][room_index] %}
               {% assign room  = rooms[room_index] %}
-              
+
               {% if event == 'continued' %}
                 {% comment %} イベント継続中 (rowspan で描画するため出力は不要) {% endcomment %}
               {% elsif event %}
