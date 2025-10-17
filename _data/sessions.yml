@@ -3,8 +3,8 @@
   speakers:
     - name: 宮島 衣瑛（@kiriem_）
       affiliation:
-      - CoderDojo Japan 理事
-      - 広島大学大学院 特命助教
+        - CoderDojo Japan 理事
+        - 広島大学大学院 特命助教
   img: /img/sessions/profile/miyajima-kirie.webp
   tag: 基調講演
   url: /sessions/keynote1/
