@@ -1,7 +1,10 @@
 - title: プログラミング教育の脱構築——生成AI時代における〈学び〉を再考する
   showInTopPage: false
-  speaker: 宮島 衣瑛（@kiriem_）
-  affiliation: CoderDojo Japan 理事 / 広島大学大学院 特命助教
+  speakers:
+    - name: 宮島 衣瑛（@kiriem_）
+      affiliation:
+      - CoderDojo Japan 理事
+      - 広島大学大学院 特命助教
   img: /img/sessions/profile/miyajima-kirie.webp
   tag: 基調講演
   url: /sessions/keynote1/
@@ -12,8 +15,11 @@
 
 - title: 生成AI時代における子どもたちに必要な力とは？
   showInTopPage: false
-  speaker: 小宮山 利恵子
-  affiliation: 株式会社リクルート スタディサプリ教育AI研究所所長、 国立大学法人 東京学芸大学大学院教育学研究科教授
+  speakers:
+    - name: 小宮山 利恵子
+      affiliation:
+        - 株式会社リクルート スタディサプリ教育AI研究所所長
+        - 国立大学法人 東京学芸大学大学院教育学研究科教授
   img: /img/sessions/profile/komiyama-rieko-square.webp
   tag: 招待講演
   url: /sessions/keynote2/
@@ -24,8 +30,10 @@
 
 - title: エンジニアではない私がCoderDojoを立ち上げた
   showInTopPage: true
-  speaker: 吉田 彩
-  affiliation: CoderDojo早良 チャンピオン
+  speakers:
+    - name: 吉田 彩
+      affiliation:
+        - CoderDojo早良 チャンピオン
   img: /img/sessions/thumbnails/session1.webp
   tag: セッション
   url: /sessions/1/
@@ -37,8 +45,13 @@
 
 - title: CoderDojoに救われて現在親子でメンターをやっている話
   showInTopPage: true
-  speaker: とり子・memetan
-  affiliation: <br />とり子：CoderDojo香椎 CoderDojoさが メンター <br /> memetan：CoderDojo香椎 CoderDojoさが ユースメンター
+  speakers:
+    - name: とり子 （メンター）
+      affiliation:
+        - CoderDojo 香椎, さが
+    - name: memetan （ユースメンター）
+      affiliation:
+        - CoderDojo 香椎, さが
   img: /img/sessions/thumbnails/session2.webp
   tag: セッション
   url: /sessions/2/
@@ -52,8 +65,9 @@
 
 - title: みんなのセッション
   showInTopPage: true
-  speaker: 宮島衣瑛（進行役）
-  affiliation: CoderDojo Japan 理事
+  speakers:
+    - name: （進行役）宮島衣瑛
+      affiliation: CoderDojo Japan 理事
   img: /img/sessions/thumbnails/session3.webp
   tag: セッション
   url: /sessions/3/

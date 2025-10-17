@@ -21,15 +21,19 @@
       <a href="{{ session.url }}" class="block hover:opacity-80 transition grow">
         <img class="w-full md:max-h-[160px] md:object-contain" src="{{ session.img }}" alt="{{ session.title }}" />
         <p class="mt-2">{{ session.title }}</p>
-        {% if session.speaker %}
-          <p class="text-xs leading-5">
-            登壇者: {{ session.speaker }}
-          </p>
-        {% endif %}
-        {% if session.affiliation %}
-          <p class="text-xs leading-5">
-            所属: {{ session.affiliation }}
-          </p>
+        {% if session.speakers %}
+          <p class="text-xs leading-5">登壇者:</p>
+          <ul class="list-disc text-xs leading-5 pl-6">
+            {% for sp in session.speakers %}
+              <li>{{ sp.name }}
+                {% if sp.affiliation %}
+                  {% for aff in sp.affiliation %}
+                    <br>{{ aff }}
+                  {% endfor %}
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
         {% endif %}
       </a>
     </li>
