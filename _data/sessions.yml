@@ -96,7 +96,6 @@
   tag: セッション
   url: /sessions/5/
   outline: |
-    2016年に公式日本法人『CoderDojo Japan』が設立されて以降、パートナー法人との連携や全国の CoderDojo 活動の支援など、様々な取り組みを実施しています。（参考: <a href='https://codeclub.org/en/our-partners#:~:text=CoderDojo%20Japan' style='text-decoration: underline;'>世界中の公式法人一覧</a>）<br>
+    2016年に公式日本法人『CoderDojo Japan』が設立されて以降、パートナー法人との連携や全国の CoderDojo 活動の支援など、様々な取り組みを実施しています。（参考: <a href='https://codeclub.org/en/our-partners#:~:text=CoderDojo%20Japan' target='_blank' class='underline text-[#cc8f2e]'>世界中の公式法人一覧</a>）<br>
     <br>
     本セッションではこの１年で行った活動実績をお伝えすると共に、これまで通り、これからも、CoderDojo が今後も楽しく活動できるよう進めていることについて皆さんと共有したいと考えています。
-
