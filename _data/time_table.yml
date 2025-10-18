@@ -73,6 +73,7 @@ events:
     start: "16:10"
     end:   "16:20"
     title: "スポンサーセッション,<br>CoderDojo Japan 活動報告"
+    link:  "/sessions/5/"
 
   - room:  "大会議室（セッション）"
     start: "16:20"
