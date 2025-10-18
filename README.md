@@ -2,9 +2,9 @@
 
 <div id='dojocon-japan'></div>
 
-# [:yin_yang:](#dojocon-japan) DojoCon Japan 2025 公式サイト
+# [:yin_yang:](#coolest-projects--japan) Coolest Projects Japan 2026 公式サイト
 
-本ページは DojoCon Japan 公式Webサイトの公開リポジトリです。   
+本ページは Coolest Projects Japan 公式Webサイトの公開リポジトリです。   
 本READMEでは、公式Webサイトの更新方法を目的別にまとめています。   
 
 ( :octocat: [前年度のリポジトリ](#references)を引き継いで再活用しています)
