@@ -67,7 +67,8 @@
   showInTopPage: true
   speakers:
     - name: （進行役）宮島衣瑛
-      affiliation: CoderDojo Japan 理事
+      affiliation:
+        - CoderDojo Japan 理事
   img: /img/sessions/thumbnails/session3.webp
   tag: セッション
   url: /sessions/3/
