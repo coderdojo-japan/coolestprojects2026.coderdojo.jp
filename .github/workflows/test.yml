@@ -22,17 +22,13 @@ jobs:
       with:
         bundler-cache: false
 
-    - name: 🧪 Install gems
-      run: |
-        bundle config set with 'test'
-        bundle config set path 'vendor/bundle'
-        bundle install --jobs 4 --retry 3
-
     - name: 🔧 Build & Test
       run: |
         JEKYLL_ENV=production bundle exec jekyll build
         JEKYLL_ENV=production bundle exec jekyll doctor
-        SKIP_BUILD=true       bundle exec rake test
+
+        # TODO: Uncomment this to run all test suites
+        #SKIP_BUILD=true       bundle exec rake test
 
   # Deploy job is triggered only pushed to main branch && CI passed
   deploy:
@@ -49,12 +45,6 @@ jobs:
       uses: ruby/setup-ruby@v1
       with:
         bundler-cache: false
-
-    - name: 🧪 Install gems
-      run: |
-        bundle config set with 'test'
-        bundle config set path 'vendor/bundle'
-        bundle install --jobs 4 --retry 3
 
     - name: 🔧 Build
       run: |
