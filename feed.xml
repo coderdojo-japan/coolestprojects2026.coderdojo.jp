@@ -1,11 +1,287 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://dojocon2025.coderdojo.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dojocon2025.coderdojo.jp/" rel="alternate" type="text/html" /><updated>2025-10-18T21:30:14+09:00</updated><id>https://dojocon2025.coderdojo.jp/feed.xml</id><title type="html">DojoCon Japan</title><subtitle>DojoCon Japan は CoderDojo コミュニティのカンファレンスイベントです。CoderDojo 関係者を対象に運営ノウハウの共有や関係者同士の交流などを目的として毎年開催されています。</subtitle><entry><title type="html">秋だ！みんなで自慢しあいたいちゃいたい！DojoConLT大会！！（ニンジャ編）</title><link href="https://dojocon2025.coderdojo.jp/events/dojocon-lt-junior/" rel="alternate" type="text/html" title="秋だ！みんなで自慢しあいたいちゃいたい！DojoConLT大会！！（ニンジャ編）" /><published>2025-09-28T00:00:00+09:00</published><updated>2025-09-28T00:00:00+09:00</updated><id>https://dojocon2025.coderdojo.jp/events/dojocon-lt-junior</id><content type="html" xml:base="https://dojocon2025.coderdojo.jp/events/dojocon-lt-junior/"><![CDATA[<p><img class="w-full pb-8" src="/img/events/dojocon-lt-junior.webp" alt="カバー画像 秋だ！みんなで自慢しあいたいちゃいたい！DojoConLT大会！！（ニンジャ編）" /></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://coolestprojects2026.coderdojo.jp//feed.xml" rel="self" type="application/atom+xml" /><link href="https://coolestprojects2026.coderdojo.jp//" rel="alternate" type="text/html" /><updated>2025-10-19T16:24:30+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//feed.xml</id><title type="html">Coolest Projects Japan</title><subtitle>Coolest Projectsは、若者たちが自分の創造力と技術で生み出したプロジェクトを発表・共有するための作品展示イベントです。国内の子ども・若者が集まり、完成度や勝敗を競うのではなく、お互いの作品に触れ、交流し、刺激を与え合うことを目的としています。</subtitle><entry><title type="html">セッション</title><link href="https://coolestprojects2026.coderdojo.jp//sessions/5/" rel="alternate" type="text/html" title="セッション" /><published>2025-10-18T00:00:00+09:00</published><updated>2025-10-18T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//sessions/session5</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//sessions/5/"><![CDATA[<h1 id="coderdojo-japan-活動報告">CoderDojo Japan 活動報告</h1>
 
-<p>「LT」とは、短い時間でプレゼンすることを指す「Lightning Talk」の略語です。<br />
-今回の企画では、CoderDojoの今年度のテーマである「Inspire Next 〜好奇心に火をつけよう〜」に沿って、みんなで5分以内のプレゼンをします！<br />
-各人が所属するDojo紹介LT、CoderDojoでの取組LT、各人に専門分野に関するLT、自慢LTなど、テーマに沿っていればどんな内容でも大丈夫です。<br />
-聞いている人の好奇心をくすぐるようなLTをお待ちしています！<br />
-みんなで好きなこと、好きな話で盛り上がりませんか？<br />
-一緒に楽しい空間を作りましょう♪</p>
+<h2 id="安川-要平やすかわ-ようへい">安川 要平（やすかわ ようへい）</h2>
+
+<p>CoderDojo Japan 代表理事<br />
+<a href="https://x.com/yasulab" target="_blank">@yasulab</a></p>
+
+<div class="max-w-150 mx-auto my-8">
+  <img class="w-full" src="/img/sessions/thumbnails/session5.webp" alt="CoderDojo Japan 活動報告" />
+</div>
+
+<h2 id="登壇者紹介">登壇者紹介</h2>
+
+<p>2012年に下北沢オープンソース Cafe のメンバーと共に日本初の CoderDojo を立ち上げました。当時から現在に到るまで、CoderDojo コミュニティがより活動しやすくなるための<a href="https://news.coderdojo.jp/author/yasulab/" target="_blank">法人連携</a>や<a href="https://www.youtube.com/CoderDojoJapan" target="_blank">周知活動</a>、<a href="https://github.com/coderdojo-japan" target="_blank">システム開発</a>や<a href="https://coderdojo.jp/kata" target="_blank">ドキュメント整備</a>などを続けています。2012年度 IPA 認定<a href="https://www.ipa.go.jp/jinzai/mitou/about.html" target="_blank">未踏</a>スーパークリエータ。</p>
+
+<h2 id="概要">概要</h2>
+
+<p>
+  CoderDojo は子どものためのプログラミング道場です。2011年にアイルランドから始まった<a href="https://map.coderdojo.jp/world" target="_blank">国際的な非営利活動</a>で、日本には<a href="https://map.coderdojo.jp/" target="_blank">200以上の道場</a>があります。2012年に<a href="https://ja.wikipedia.org/wiki/下北沢オープンソースCafe" target="_blank">下北沢オープンソース Cafe</a> のメンバーを中心に日本初の CoderDojo が立ち上がり、2016年には公式日本法人『<a href="https://coderdojo.jp/about" target="_blank">CoderDojo Japan</a>』が設立されました。
+</p>
+
+<div class="max-w-150 mx-auto my-8">
+  <a class="block" href="https://dojocon2016.coderdojo.jp/2016/09/04/coderdojo-japan-was-established.html" target="_blank">
+    <img class="w-full" src="https://i.gyazo.com/7d906b5e03c5cf0665bc071626b47f70.png" alt="CoderDojo Japan 設立時の写真" />
+  </a>
+  &copy; Photo Credit: <a href="https://dojocon2016.coderdojo.jp/" target="_blank">DojoCon Japan 2016</a>
+</div>
+
+<p class="mt-4">
+  公式日本法人が設立されて以降、<a href="https://dojocon.coderdojo.jp/" target="_blank">DojoCon Japan</a> や <a href="https://decadojo.coderdojo.jp/" target="_blank">DecaDojo</a> をはじめ、<a href="https://coderdojo.jp/#partners" target="_blank">パートナー法人</a>との連携して全国の CoderDojo 活動を継続的に支援しています。（参考: <a href="https://codeclub.org/en/our-partners#:~:text=CoderDojo%20Japan" target="_blank">世界中の公式法人一覧</a>）
+</p>
+
+<p class="mt-4">
+  本セッションではこの１年で行った活動実績をお伝えすると共に、これまで通り、これからも、CoderDojo が今後も楽しく活動できるよう進めていることについて皆さんと共有したいと考えています。
+</p>]]></content><author><name></name></author><summary type="html"><![CDATA[CoderDojo Japan 活動報告]]></summary></entry><entry><title type="html">セッション</title><link href="https://coolestprojects2026.coderdojo.jp//sessions/4/" rel="alternate" type="text/html" title="セッション" /><published>2025-10-17T00:00:00+09:00</published><updated>2025-10-17T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//sessions/session4</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//sessions/4/"><![CDATA[<h1 id="九州dojo座談会">九州Dojo座談会</h1>
+
+<h2 id="概要">概要</h2>
+<p>九州には各地にDojoがあるのですが、それぞれのDojoは距離が遠かったり、日程が合わないなどの理由でなかなかコラボしにくかったりします。<br />
+DojoConの場を使って、九州Dojoの特徴や雰囲気などを語り合います！</p>
+
+<div class="flex max-w-150 mx-auto my-8 justify-center">
+  <img class="w-full" src="/img/sessions/thumbnails/session4.webp" alt="九州Dojo座談会" />
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[九州Dojo座談会]]></summary></entry><entry><title type="html">タイムテーブルの公開</title><link href="https://coolestprojects2026.coderdojo.jp//news/time-table/" rel="alternate" type="text/html" title="タイムテーブルの公開" /><published>2025-10-16T00:00:00+09:00</published><updated>2025-10-16T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//news/time-table</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//news/time-table/"><![CDATA[<p>お待たせしました。DojoCon Japan 2025 のタイムテーブルを公開しました。<br />
+各セッション、ワークショップの詳細ページも順次公開していますので、ぜひご覧ください。</p>
+<p class="mt-6">
+  <a href="/time-table/">タイムテーブル</a>
+</p>]]></content><author><name></name></author><category term="news" /><category term="タイムテーブル" /><summary type="html"><![CDATA[お待たせしました。DojoCon Japan 2025 のタイムテーブルを公開しました。 各セッション、ワークショップの詳細ページも順次公開していますので、ぜひご覧ください。 タイムテーブル]]></summary></entry><entry><title type="html">Coolest Projects Japan 2026 のご紹介</title><link href="https://coolestprojects2026.coderdojo.jp//events/coolest-projects/" rel="alternate" type="text/html" title="Coolest Projects Japan 2026 のご紹介" /><published>2025-10-15T00:00:00+09:00</published><updated>2025-10-15T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//events/coolest-projects</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//events/coolest-projects/"><![CDATA[<p><img class="w-full pb-8" src="/img/events/coolest-projects.webp" alt="Coolest Projects Japan 2026 のご紹介" /></p>
+
+<p>
+  2026年3月29日（日）、愛知県名古屋市の なごのキャンパス にて、「Coolest Projects Japan 2026」を開催します！
+</p>
+
+<p class="mt-4">
+  このイベントは、18歳以下の若者による作品展示会です。<br />
+  子どもや学生たちが自分のアイデアや技術をかたちにし、お互いの作品を見せ合って楽しむ、テクノロジー版の文化祭のようなイベントです。
+</p>
+
+<p class="mt-4">
+  作品の完成度や優劣を競うものではなく、創作を通じて出会い、学び、刺激し合うことを目的としています。<br />
+  同世代の参加者同士が自然につながれる雰囲気づくりを大切にしています。
+</p>
+
+<p class="mt-4">
+  Coolest Projects Japan は、英国 Raspberry Pi Foundation （ラズベリーパイ財団） の公式ライセンスのもとで開催され、世界各地で行われている Coolest Projects の 日本版 です。
+</p>
+
+<p class="mt-4">
+  Coolest Projects Japan は DojoCon Japan 2025 にブースを出展します。<br />
+  イベントや応募要項の詳細についてご興味のある方はぜひブースにお越しください。
+</p>]]></content><author><name></name></author><category term="event" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">懇親会募集の開始とLT募集のお知らせ</title><link href="https://coolestprojects2026.coderdojo.jp//news/party-and-lt-announcement/" rel="alternate" type="text/html" title="懇親会募集の開始とLT募集のお知らせ" /><published>2025-10-14T00:00:00+09:00</published><updated>2025-10-14T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//news/party-and-lt-announcement</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//news/party-and-lt-announcement/"><![CDATA[<p>DojoCon Japan 2025の夜、会場と同じ久留米シティプラザ4階にて懇親会を開催します！<br />
+全国から集まった仲間と、食事を楽しみながら交流を深めましょう！</p>
+
+<p>また、懇親会内では<strong>ライトニングトーク（LT）</strong>も実施予定です。<br />
+懇親会参加、LT発表希望の方は、ぜひこちらからお申し込みください。</p>
+
+<ul>
+  <li>🍽️ <a href="https://dojocon-japan.doorkeeper.jp/events/188389" target="_blank">懇親会に参加する</a></li>
+  <li>🎤 <a href="https://dojocon-japan.doorkeeper.jp/events/188392" target="_blank">LTに応募する</a></li>
+</ul>]]></content><author><name></name></author><category term="news" /><category term="懇親会" /><summary type="html"><![CDATA[DojoCon Japan 2025の夜、会場と同じ久留米シティプラザ4階にて懇親会を開催します！ 全国から集まった仲間と、食事を楽しみながら交流を深めましょう！]]></summary></entry><entry><title type="html">プログラミングロボット Root で遊ぼう！</title><link href="https://coolestprojects2026.coderdojo.jp//events/irobot-root/" rel="alternate" type="text/html" title="プログラミングロボット Root で遊ぼう！" /><published>2025-10-13T00:00:00+09:00</published><updated>2025-10-13T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//events/irobot-root</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//events/irobot-root/"><![CDATA[<p><img class="w-full pb-8" src="/img/events/irobot-root.webp" alt="プログラミングロボット Root で遊ぼう！" /></p>
+
+<p>iPad でブロックを移動させてプログラムを作り、 ロボットを動かします。<br />
+プログラミングでミッションをクリアーしよう！</p>
+
+<p>プログラミング初心者向けの20分くらいの体験ワークショップです。</p>
+
+<h3 id="対象">対象</h3>
+
+<p>どなたでも</p>
+
+<p>未就学児の場合は保護者がフォローをお願いします。</p>
+
+<h3 id="申し込み">申し込み</h3>
+
+<p>本ワークショップは事前の申し込みは不要です。<br />
+会場にて 13:30 から 14:40 まで随時受付</p>]]></content><author><name></name></author><category term="event" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">セッション</title><link href="https://coolestprojects2026.coderdojo.jp//sessions/3/" rel="alternate" type="text/html" title="セッション" /><published>2025-10-12T00:00:00+09:00</published><updated>2025-10-12T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//sessions/session3</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//sessions/3/"><![CDATA[<h1 id="みんなのセッション">みんなのセッション</h1>
+<h2 id="宮島-衣瑛進行役">宮島 衣瑛(進行役)</h2>
+<p>CoderDojo Japan 理事</p>
+<div class="flex max-w-100 mx-auto my-4 justify-center">
+  <img class="w-full" src="/img/sessions/profile/miyajima-kirie.webp" alt="宮島 衣瑛" />
+</div>
+
+<h2 id="概要">概要</h2>
+<p>DojoCon Japan 2025 では、一昨年、昨年に引き続き CoderDojo に参加するみなさんが中心のセッション「みんなのセッション」を開催します！</p>
+
+<p>みんなのセッションは、スピーカーさんの話を聞くのではなく、みなさんが体験したこと、やってみたこと、感じたことをシェアする場です。</p>
+
+<p>セッションを通して聴いたこと、感じたことの中から皆さんそれぞれの答えを見つけてください。そして、それらがご自身や CoderDojo での活動の中で活かせるものになれば幸いです。</p>
+
+<p>自分の体験や考えをシェアしたい、他の人の意見を聞きたい、どちらのスタンスでの参加も歓迎です。お気軽にご参加ください。</p>
+
+<h3 id="テーマ">テーマ</h3>
+
+<h4 id="生成aiとプログラミング教育ぶっちゃけどう思う">「生成AIとプログラミング教育、ぶっちゃけどう思う？」</h4>
+
+<p>基調講演で宮島がお話したことを肴に、日頃の CoderDojo でどのような AI の使い方をしているか、子どもたちの様子はどう変わっているか、などなど、多様な視点から議論を深めていければと思います。</p>
+
+<div class="flex max-w-150 mx-auto my-8 justify-center">
+  <img class="w-full" src="/img/sessions/thumbnails/session3.webp" alt="みんなのセッション" />
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[みんなのセッション 宮島 衣瑛(進行役) CoderDojo Japan 理事]]></summary></entry><entry><title type="html">Doodle3Dでお絵描きしたものを3Dプリンタで印刷してみよう</title><link href="https://coolestprojects2026.coderdojo.jp//events/doodle3d/" rel="alternate" type="text/html" title="Doodle3Dでお絵描きしたものを3Dプリンタで印刷してみよう" /><published>2025-10-09T00:00:00+09:00</published><updated>2025-10-09T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//events/doodle3d</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//events/doodle3d/"><![CDATA[<p><img class="w-full pb-8" src="/img/events/doodle3d.webp" alt="Doodle3Dでお絵描きしたものを3Dプリンタで印刷してみよう" /></p>
+
+<p>お絵描きするように3Dモデルを作ることができる「Doodle3D」の使い方を学びましょう。<br />
+3Dプリンタの動く様子も見ることができる楽しいワークショップです。</p>
+
+<p>印刷した作品はお持ち帰りいただけます。</p>
+
+<h2 id="持ち物">持ち物</h2>
+
+<p>iPad をお持ちの方はご持参ください。<br />
+iPad は貸し出しも可能です。</p>
+
+<h2 id="申し込み">申し込み</h2>
+
+<p>本ワークショップには事前申込と当日受付の2枠をご用意しています。</p>
+
+<table class="border-separate border-spacing-x-1 sm:border-spacing-x-4">
+  <tr>
+    <td>11:00-12:00</td>
+    <td>事前申込 (<a href="https://dojocon-japan.doorkeeper.jp/events/191552" target="_blank">Doorkeeper</a>)</td>
+  </tr>
+  <tr>
+    <td>12:00-13:00</td>
+    <td>当日受付</td>
+  </tr>
+</table>]]></content><author><name></name></author><category term="event" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">個人スポンサーの募集を終了しました</title><link href="https://coolestprojects2026.coderdojo.jp//news/individual-sponsor-closed/" rel="alternate" type="text/html" title="個人スポンサーの募集を終了しました" /><published>2025-10-09T00:00:00+09:00</published><updated>2025-10-09T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//news/individual-sponsor-closed</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//news/individual-sponsor-closed/"><![CDATA[<p><img src="/img/common/coderdojo-nameplate.webp" class="mb-4" loading="lazy" alt="DojoCon Japan Cover Photo" title="DojoCon Japan Cover Photo" /></p>
+
+<p>DojoCon Japan 2025 個人スポンサーの募集は 2025年10月9日 をもって終了しました。<br />
+ご検討頂いた方を含め、多数のご応募頂きありがとうございました。</p>
+
+<p>個人スポンサーは下記のページをご覧ください。</p>
+
+<p><a href="/sponsorship/list/#individual_sponsors">個人スポンサー一覧</a></p>]]></content><author><name></name></author><category term="news" /><category term="スポンサー" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">親子で学ぶ！AI活用てづくりえほんワークショップ</title><link href="https://coolestprojects2026.coderdojo.jp//events/ai-picture-books/" rel="alternate" type="text/html" title="親子で学ぶ！AI活用てづくりえほんワークショップ" /><published>2025-10-09T00:00:00+09:00</published><updated>2025-10-09T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//events/ai-picture-books</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//events/ai-picture-books/"><![CDATA[<p><img class="w-full pb-8" src="/img/events/ai-picture-books.webp" alt="親子で学ぶ！AI活用てづくりえほんワークショップ" /></p>
+
+<p>生成AIを使ったえほんづくりのワークショップです。<br />
+起承転結のストーリーづくり、それぞれへの挿絵作り等を通して、生成AIとのかかわり方を学びます。</p>
+
+<h3 id="持ち物">持ち物</h3>
+
+<ul>
+  <li>スマホまたはタブレット
+    <ul>
+      <li>Webブラウザが使用できるものをご用意ください</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="対象">対象</h3>
+
+<p>親子での参加が可能な方</p>
+
+<h3 id="申し込み">申し込み</h3>
+
+<p>本ワークショップは事前の申し込みが必要です。<br />
+定員4名</p>
+
+<p><a href="https://dojocon-japan.doorkeeper.jp/events/190897" target="_blank">参加申込（Doorkeeper）</a></p>]]></content><author><name></name></author><category term="event" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">micro:bit でフルカラー LED NeoPixel を自在にコントロール！</title><link href="https://coolestprojects2026.coderdojo.jp//events/microbit-neopixel-control/" rel="alternate" type="text/html" title="micro:bit でフルカラー LED NeoPixel を自在にコントロール！" /><published>2025-10-05T00:00:00+09:00</published><updated>2025-10-05T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//events/microbit-neopixel-control</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//events/microbit-neopixel-control/"><![CDATA[<p><img class="w-full pb-8" src="/img/events/microbit-neopixel-control.webp" alt="micro:bit でフルカラー LED ネオピクセル（NeoPixel）を自在にコントロール" /></p>
+
+<p>小さなコンピュータ <ruby>micro:bit<rt>マイクロビット</rt></ruby> を使って、フルカラー <ruby>LED<rt>エルイーディ</rt></ruby> <ruby>NeoPixel<rt>ネオピクセル</rt></ruby>を光らせます。</p>
+
+<p>micro:bit でのコントロールはすごく簡単なので、いろいろ試して電子工作に応用しよう！
+体験後はNeoPixelを持って帰れるよ！（※貸し出したPC・micro:bit は持ち帰れません）</p>
+
+<h3 id="ワークショップの内容">ワークショップの内容</h3>
+<ul>
+  <li><ruby>NeoPixel<rt>ネオピクセル</rt></ruby> の紹介
+    <ul>
+      <li>NeoPixel って何？</li>
+    </ul>
+  </li>
+  <li><ruby>MakeCode<rt>メイクコード</rt></ruby> を立ち上げる
+    <ul>
+      <li>micro:bit で NeoPixel のコントロール方法</li>
+      <li>最初に必要な準備</li>
+    </ul>
+  </li>
+  <li>micro:bit と NeoPixel の接続</li>
+  <li>まずフルカラーLEDを光らせてみよう</li>
+  <li>応用
+    <ul>
+      <li>1個ずつ色を変えよう</li>
+      <li>光を動かしてみよう</li>
+      <li>他にもいろいろ試してみよう</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="対象">対象</h3>
+<p>PCの基本操作ができる方</p>
+
+<h3 id="持ち物">持ち物</h3>
+<ul>
+  <li>特に必要ありません。何も持ってこなくても大丈夫</li>
+  <li>あったらいい物
+    <ul>
+      <li>自分または家族の <ruby>micro:bit<rt>マイクロビット</rt></ruby></li>
+      <li>自分または家族の PC（パソコン）</li>
+      <li>USBメモリまたは <ruby>MakeCode<rt>メイクコード</rt></ruby> アカウント（PCを持ってこられない方）</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="お申し込み">お申し込み</h3>
+<ul>
+  <li>本ワークショップは事前申し込みは不要です。</li>
+  <li>参加費無料！</li>
+  <li>参加は随時
+※ただし、混雑時はお待ちいただく場合があります。</li>
+</ul>]]></content><author><name></name></author><category term="event" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">地域の技術コミュニティ紹介展示</title><link href="https://coolestprojects2026.coderdojo.jp//events/local-tech-communities/" rel="alternate" type="text/html" title="地域の技術コミュニティ紹介展示" /><published>2025-10-02T00:00:00+09:00</published><updated>2025-10-02T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//events/local-tech-communities</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//events/local-tech-communities/"><![CDATA[<p><img class="w-full pb-8" src="/img/events/local-tech-communities/thumbnail.webp" alt="地域の技術コミュニティ紹介展示" /></p>
+
+<p>今回のDojoCon Japan 2025では、開催地である久留米の周辺（福岡県・佐賀県など）で活動する技術コミュニティの展示も行います。
+気になるコミュニティがあれば是非活動をチェックして参加してみてください！</p>
+
+<h3 id="展示コミュニティ一覧">展示コミュニティ一覧</h3>
+
+<h4 id="cuteeworks">CuteeWorks</h4>
+
+<ul>
+  <li>Facebook: <a href="https://www.facebook.com/jyoshidarake/" target="_blank">@jyoshidarake</a></li>
+  <li>Instagram: <a href="https://www.instagram.com/jyoshidarake/" target="_blank">@jyoshidarake</a></li>
+</ul>
+
+<div class="flex justify-center">
+  <img class="w-4/5 py-3" src="/img/events/local-tech-communities/cutee-works.webp" alt="CuteeWorks の活動風景" />
+</div>
+
+<h4 id="fablab-saga">Fablab Saga</h4>
+
+<ul>
+  <li>ホームページ: <a href="http://www.fablab-saga.com/" target="_blank">www.fablab-saga.com</a></li>
+</ul>
+
+<div class="flex justify-center">
+  <img class="w-4/5 py-3" src="/img/events/local-tech-communities/fablab-saga.webp" alt="Fablab Saga の活動風景" />
+</div>
+
+<h4 id="ix-party">IX-Party</h4>
+
+<ul>
+  <li>Facebook: <a href="https://www.facebook.com/ix9party/" target="_blank">@ix9party</a></li>
+</ul>
+
+<div class="flex justify-center">
+  <img class="w-4/5 py-3" src="/img/events/local-tech-communities/ix-party.webp" alt="IX-Party の活動風景" />
+</div>
+
+<h4 id="teamcsv">team.csv</h4>
+
+<ul>
+  <li>ホームページ: <a href="https://best.kurume-u.ac.jp/letter/hashtag/640bd95059edf54ff70617e0/" target="_blank">久留米レター #team.csv</a></li>
+</ul>]]></content><author><name></name></author><category term="event" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">秋だ！みんなで自慢しあいたいちゃいたい！DojoConLT大会！！（ニンジャ編）</title><link href="https://coolestprojects2026.coderdojo.jp//events/dojocon-lt-junior/" rel="alternate" type="text/html" title="秋だ！みんなで自慢しあいたいちゃいたい！DojoConLT大会！！（ニンジャ編）" /><published>2025-09-28T00:00:00+09:00</published><updated>2025-09-28T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//events/dojocon-lt-junior</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//events/dojocon-lt-junior/"><![CDATA[<p><img class="w-full pb-8" src="/img/events/dojocon-lt-junior.webp" alt="カバー画像 秋だ！みんなで自慢しあいたいちゃいたい！DojoConLT大会！！（ニンジャ編）" /></p>
+
+<p>
+  「LT」とは、短い時間でプレゼンすることを指す「Lightning Talk」の略語です。<br />
+  今回の企画では、CoderDojoの今年度のテーマである「Inspire Next 〜好奇心に火をつけよう〜」に沿って、みんなで5分以内のプレゼンをします！
+</p>
+
+<p class="mt-4">
+  各人が所属するDojo紹介LT、CoderDojoでの取組LT、各人に専門分野に関するLT、自慢LTなど、テーマに沿っていればどんな内容でも大丈夫です。<br />
+  聞いている人の好奇心をくすぐるようなLTをお待ちしています！
+</p>
+
+<p class="mt-4">
+  みんなで好きなこと、好きな話で盛り上がりませんか？<br />
+  一緒に楽しい空間を作りましょう♪
+</p>
 
 <h3 id="申し込み">申し込み</h3>
 
@@ -14,49 +290,7 @@
 
 <p><a href="https://dojocon-japan.doorkeeper.jp/events/190281" target="_blank">参加申込（Doorkeeper）</a></p>
 
-<h2 id="参加者が用意するもの">参加者が用意するもの</h2>
-
-<ul>
-  <li>LT 用のスライド
-    <ul>
-      <li>最大 5 分</li>
-      <li>.pptx 形式</li>
-    </ul>
-  </li>
-  <li>原稿
-    <ul>
-      <li>必要に応じて</li>
-    </ul>
-  </li>
-</ul>
-
-<h3 id="注意事項">注意事項</h3>
-
-<ul>
-  <li>LT 用のスライドデータは .pptx 形式でご提出ください。
-    <ul>
-      <li>イベント当日の 1 週間前にスライド提出用の Google フォームをメールにてお送りします。</li>
-    </ul>
-  </li>
-  <li>当日は提出頂いたスライドデータを収めたパソコンを演台にご用意します</li>
-  <li>提出頂いたスライド内に不適切な表現等がある場合は修正をお願いする場合があります。あらかじめご了承ください。</li>
-</ul>]]></content><author><name></name></author><category term="event" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">秋だ！みんなで自慢しあいたいちゃいたい！DojoConLT大会！！（大人編）</title><link href="https://dojocon2025.coderdojo.jp/events/dojocon-lt-senior/" rel="alternate" type="text/html" title="秋だ！みんなで自慢しあいたいちゃいたい！DojoConLT大会！！（大人編）" /><published>2025-09-28T00:00:00+09:00</published><updated>2025-09-28T00:00:00+09:00</updated><id>https://dojocon2025.coderdojo.jp/events/dojocon-lt-senior</id><content type="html" xml:base="https://dojocon2025.coderdojo.jp/events/dojocon-lt-senior/"><![CDATA[<p><img class="w-full pb-8" src="/img/events/dojocon-lt-senior.webp" alt="カバー画像 秋だ！みんなで自慢しあいたいちゃいたい！DojoConLT大会！！（大人編）" /></p>
-
-<p>「LT」とは、短い時間でプレゼンすることを指す「Lightning Talk」の略語です。<br />
-今回の企画では、CoderDojoの今年度のテーマである「Inspire Next 〜好奇心に火をつけよう〜」に沿って、みんなで5分以内のプレゼンをします！<br />
-各人が所属するDojo紹介LT、CoderDojoでの取組LT、各人に専門分野に関するLT、自慢LTなど、テーマに沿っていればどんな内容でも大丈夫です。<br />
-聞いている人の好奇心をくすぐるようなLTをお待ちしています！<br />
-みんなで好きなこと、好きな話で盛り上がりませんか？<br />
-一緒に楽しい空間を作りましょう♪</p>
-
-<h3 id="申し込み">申し込み</h3>
-
-<p>本ワークショップは事前の申し込みが必要です<br />
-定員 6 名</p>
-
-<p><a href="https://dojocon-japan.doorkeeper.jp/events/190280" target="_blank">参加申込（Doorkeeper）</a></p>
-
-<h2 id="参加者が用意するもの">参加者が用意するもの</h2>
+<h3 id="参加者が用意するもの">参加者が用意するもの</h3>
 
 <ul>
   <li>LT 用のスライド
@@ -81,38 +315,60 @@
     </ul>
   </li>
   <li>当日は提出頂いたスライドデータを収めたパソコンを演台にご用意します。</li>
-  <li>提出頂いたスライド内に不適切な表現等がある場合は修正をお願いする場合があります。あらかじめご了承ください。</li>
-</ul>]]></content><author><name></name></author><category term="event" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">身近なものが興味の入り口に PowerPointから始めるプログラミング</title><link href="https://dojocon2025.coderdojo.jp/events/powerpoint-programming/" rel="alternate" type="text/html" title="身近なものが興味の入り口に PowerPointから始めるプログラミング" /><published>2025-09-28T00:00:00+09:00</published><updated>2025-09-28T00:00:00+09:00</updated><id>https://dojocon2025.coderdojo.jp/events/powerpoint-programming</id><content type="html" xml:base="https://dojocon2025.coderdojo.jp/events/powerpoint-programming/"><![CDATA[<p><img class="w-full pb-8" src="/img/events/powerpoint-programming.webp" alt="カバー画像 身近なものが興味の入り口に PowerPointから始めるプログラミング" /></p>
+  <li>提出頂いたスライド内に不適切な表現等がある場合は修正をお願いする場合があります。<br />
+あらかじめご了承ください。</li>
+</ul>]]></content><author><name></name></author><category term="event" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">秋だ！みんなで自慢しあいたいちゃいたい！DojoConLT大会！！（大人編）</title><link href="https://coolestprojects2026.coderdojo.jp//events/dojocon-lt-senior/" rel="alternate" type="text/html" title="秋だ！みんなで自慢しあいたいちゃいたい！DojoConLT大会！！（大人編）" /><published>2025-09-28T00:00:00+09:00</published><updated>2025-09-28T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//events/dojocon-lt-senior</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//events/dojocon-lt-senior/"><![CDATA[<p><img class="w-full pb-8" src="/img/events/dojocon-lt-senior.webp" alt="カバー画像 秋だ！みんなで自慢しあいたいちゃいたい！DojoConLT大会！！（大人編）" /></p>
 
-<p>プレゼンテーションソフトの PowerPoint にはあまり知られていないスクリプティング機能が存在します。<br />
-このスクリプティング機能は使い方次第で教材やゲームなど様々に応用が可能です。</p>
+<p>
+  「LT」とは、短い時間でプレゼンすることを指す「Lightning Talk」の略語です。<br />
+  今回の企画では、CoderDojoの今年度のテーマである「Inspire Next 〜好奇心に火をつけよう〜」に沿って、みんなで5分以内のプレゼンをします！
+</p>
 
-<p>プログラミングを取り入れた教育や趣味の入口として挑戦してみてはいかがでしょうか。<br />
-皆様のご参加をお待ちしています。</p>
+<p class="mt-4">
+  各人が所属するDojo紹介LT、CoderDojoでの取組LT、各人に専門分野に関するLT、自慢LTなど、テーマに沿っていればどんな内容でも大丈夫です。<br />
+  聞いている人の好奇心をくすぐるようなLTをお待ちしています！
+</p>
+
+<p class="mt-4">
+  みんなで好きなこと、好きな話で盛り上がりませんか？<br />
+  一緒に楽しい空間を作りましょう♪
+</p>
 
 <h3 id="申し込み">申し込み</h3>
-<p>本ワークショップは原則として事前の申し込みが必要です<br />
-定員 20 名</p>
 
-<p><a href="https://dojocon-japan.doorkeeper.jp/events/190298" target="_blank">参加申込（Doorkeeper）</a></p>
+<p>本ワークショップは事前の申し込みが必要です<br />
+定員 6 名</p>
 
-<h2 id="参加者が用意するもの">参加者が用意するもの</h2>
+<p><a href="https://dojocon-japan.doorkeeper.jp/events/190280" target="_blank">参加申込（Doorkeeper）</a></p>
+
+<h3 id="参加者が用意するもの">参加者が用意するもの</h3>
 
 <ul>
-  <li>PowerPoint が使えるPC
+  <li>LT 用のスライド
     <ul>
-      <li>PowerPoint 以外のプレゼンテーションソフトやタブレット PC は不可</li>
-      <li>PC の貸し出しも可能です</li>
+      <li>最大 5 分</li>
+      <li>.pptx 形式</li>
     </ul>
   </li>
-  <li>電源アダプタ
+  <li>原稿
     <ul>
       <li>必要に応じて</li>
     </ul>
   </li>
 </ul>
 
-<p>貸出 PC を利用される場合は作成したデータをお持ち帰り頂くための USB メモリをご用意ください。</p>]]></content><author><name></name></author><category term="event" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">DojoCon Japan 2025 プログラミングコンテスト ファイナリスト決定</title><link href="https://dojocon2025.coderdojo.jp/news/contest-qualified/" rel="alternate" type="text/html" title="DojoCon Japan 2025 プログラミングコンテスト ファイナリスト決定" /><published>2025-09-25T00:00:00+09:00</published><updated>2025-09-25T00:00:00+09:00</updated><id>https://dojocon2025.coderdojo.jp/news/contest-qualified</id><content type="html" xml:base="https://dojocon2025.coderdojo.jp/news/contest-qualified/"><![CDATA[<p>DojoCon Japan 2025 プログラミングコンテストのファイナリストが決定しました。<br />
+<h3 id="注意事項">注意事項</h3>
+
+<ul>
+  <li>LT 用のスライドデータは .pptx 形式でご提出ください。
+    <ul>
+      <li>イベント当日の 1 週間前にスライド提出用の Google フォームをメールにてお送りします。</li>
+    </ul>
+  </li>
+  <li>当日は提出頂いたスライドデータを収めたパソコンを演台にご用意します。</li>
+  <li>提出頂いたスライド内に不適切な表現等がある場合は修正をお願いする場合があります。<br />
+あらかじめご了承ください。</li>
+</ul>]]></content><author><name></name></author><category term="event" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">DojoCon Japan 2025 プログラミングコンテスト ファイナリスト決定</title><link href="https://coolestprojects2026.coderdojo.jp//news/contest-qualified/" rel="alternate" type="text/html" title="DojoCon Japan 2025 プログラミングコンテスト ファイナリスト決定" /><published>2025-09-25T00:00:00+09:00</published><updated>2025-09-25T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//news/contest-qualified</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//news/contest-qualified/"><![CDATA[<p>DojoCon Japan 2025 プログラミングコンテストのファイナリストが決定しました。<br />
 以下の 6 作品の中から当日参加者の投票で白帯・黒帯各コースの優勝作品が選出されます。</p>
 
 <h3 id="黒帯コース">黒帯コース</h3>
@@ -134,27 +390,14 @@
 <p class="mt-6">
   ご応募いただいたすべての作品は下記のページをご確認ください。<br />
   <a href="https://protopedia.net/event/dojocon2025" target="_blank">DojoCon Japan 2025 応募作品</a>
-</p>]]></content><author><name></name></author><category term="news" /><category term="コンテスト" /><summary type="html"><![CDATA[DojoCon Japan 2025 プログラミングコンテストのファイナリストが決定しました。 以下の 6 作品の中から当日参加者の投票で白帯・黒帯各コースの優勝作品が選出されます。]]></summary></entry><entry><title type="html">言葉で強くなる！eスポーツ×教育ワークショップ</title><link href="https://dojocon2025.coderdojo.jp/events/playrise-esports-edu-workshop/" rel="alternate" type="text/html" title="言葉で強くなる！eスポーツ×教育ワークショップ" /><published>2025-09-25T00:00:00+09:00</published><updated>2025-09-25T00:00:00+09:00</updated><id>https://dojocon2025.coderdojo.jp/events/playrise-esports-edu-workshop</id><content type="html" xml:base="https://dojocon2025.coderdojo.jp/events/playrise-esports-edu-workshop/"><![CDATA[<p><img class="w-full pb-8" src="/img/events/playrise-esports-edu-workshop.webp" alt="言葉で強くなる！eスポーツ×教育ワークショップ" /></p>
+</p>]]></content><author><name></name></author><category term="news" /><category term="コンテスト" /><summary type="html"><![CDATA[DojoCon Japan 2025 プログラミングコンテストのファイナリストが決定しました。 以下の 6 作品の中から当日参加者の投票で白帯・黒帯各コースの優勝作品が選出されます。]]></summary></entry><entry><title type="html">Gold, Silver, Bronze スポンサーの募集を終了しました</title><link href="https://coolestprojects2026.coderdojo.jp//news/sponsorship-closed/" rel="alternate" type="text/html" title="Gold, Silver, Bronze スポンサーの募集を終了しました" /><published>2025-09-24T00:00:00+09:00</published><updated>2025-09-24T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//news/sponsorship-closed</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//news/sponsorship-closed/"><![CDATA[<p><img src="/img/common/coderdojo-nameplate.webp" class="mb-4" loading="lazy" alt="DojoCon Japan Cover Photo" title="DojoCon Japan Cover Photo" /></p>
 
-<p>このワークショップでは、教育的なeスポーツ体験を通じて、参加者の「言語化能力」「状況把握力」「自己分析力」を育てることを目的としています。単なるゲーム体験ではなく、プレイ後に自分の行動や選択を言葉にすることで、自己理解を深め、自己肯定感の向上を目指します。<br />
-対象は小中高生から若年層まで。言葉の引き出しや非認知能力の育成に関心のある教育関係者、保護者の方にもおすすめです。ゲームが持つ教育的価値を体感しながら、言葉の力で自分を強くする時間を一緒に過ごしましょう。</p>
-
-<h3 id="事前申し込み">事前申し込み</h3>
-<p>事前申し込みは不要です。直接会場にお越しください。</p>
-
-<p>対象年齢：小学生〜高校生（保護者・教育関係者の見学可）
-ファシリテーター：CHIKA（PLAYRISE 代表）</p>]]></content><author><name></name></author><category term="event" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">eスポーツとスポーツの交差点：共通点と未来への課題</title><link href="https://dojocon2025.coderdojo.jp/events/playrise-exhibition/" rel="alternate" type="text/html" title="eスポーツとスポーツの交差点：共通点と未来への課題" /><published>2025-09-25T00:00:00+09:00</published><updated>2025-09-25T00:00:00+09:00</updated><id>https://dojocon2025.coderdojo.jp/events/playrise-exhibition</id><content type="html" xml:base="https://dojocon2025.coderdojo.jp/events/playrise-exhibition/"><![CDATA[<p><img class="w-full pb-8" src="/img/events/playrise-exhibition.webp" alt=" eスポーツとスポーツの交差点 共通点と未来への課題" /></p>
-
-<p class="mb-4">
-  eスポーツと伝統的なスポーツは、しばしば「異なるもの」として語られます。しかし、競技性・戦略性・チームワーク・フィジカル／メンタルの鍛錬など、共通点も数多く存在します。<br />
-  この展示では、日本国内のeスポーツ事例を中心に、スポーツとの類似点を可視化しながら、法的整備の遅れや民間理解の課題にも触れていきます。教育・行政・民間がどう連携すべきか、地域社会に根ざしたeスポーツの未来像を一緒に考える場として、ぜひご覧ください。
+<p class="border rounded px-5 py-3 mb-5">
+	DojoCon Japan 2025 の個人スポンサーを含む全てのスポンサー募集は 2025年10月9日 をもって終了しました。<br />
+	ご検討頂いた方を含め、多数のご応募頂きありがとうございました。
 </p>
 
-<ul>
-  <li>展示時間：DojoCon Japan 2025 開催時間中、常設展示</li>
-  <li>展示者：CHIKA（PLAYRISE 代表）</li>
-  <li>備考：展示内容は変更になる場合があります。最新情報はSNSをご確認ください。</li>
-</ul>]]></content><author><name></name></author><category term="event" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Gold, Silver, Bronze スポンサーの募集を終了しました</title><link href="https://dojocon2025.coderdojo.jp/news/sponsorship-closed/" rel="alternate" type="text/html" title="Gold, Silver, Bronze スポンサーの募集を終了しました" /><published>2025-09-24T00:00:00+09:00</published><updated>2025-09-24T00:00:00+09:00</updated><id>https://dojocon2025.coderdojo.jp/news/sponsorship-closed</id><content type="html" xml:base="https://dojocon2025.coderdojo.jp/news/sponsorship-closed/"><![CDATA[<p>
+<p>
   DojoCon Japan 2025 Gold, Silver, Bronze スポンサーの募集は 2025年9月24日 をもって終了しました。<br />
   ご検討頂いた方を含め、多数のご応募頂きありがとうございました。<br />
   スポンサーの一覧は下記のページをご覧ください。<br />
@@ -164,7 +407,7 @@
 <p class="mt-6">
   また、引き続き個人スポンサーは募集を継続していますので、ご検討頂いている方はお早めにご登録ください。<br />
   <a href="https://dojocon-japan.doorkeeper.jp/events/188180" target="_blank">個人スポンサーの応募</a>
-</p>]]></content><author><name></name></author><category term="news" /><category term="スポンサー" /><summary type="html"><![CDATA[DojoCon Japan 2025 Gold, Silver, Bronze スポンサーの募集は 2025年9月24日 をもって終了しました。 ご検討頂いた方を含め、多数のご応募頂きありがとうございました。 スポンサーの一覧は下記のページをご覧ください。 スポンサー紹介]]></summary></entry><entry><title type="html">セッション</title><link href="https://dojocon2025.coderdojo.jp/sessions/1/" rel="alternate" type="text/html" title="セッション" /><published>2025-09-20T00:00:00+09:00</published><updated>2025-09-20T00:00:00+09:00</updated><id>https://dojocon2025.coderdojo.jp/sessions/session1</id><content type="html" xml:base="https://dojocon2025.coderdojo.jp/sessions/1/"><![CDATA[<h1 id="エンジニアではない私がcoderdojoを立ち上げた">エンジニアではない私がCoderDojoを立ち上げた</h1>
+</p>]]></content><author><name></name></author><category term="news" /><category term="スポンサー" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">セッション</title><link href="https://coolestprojects2026.coderdojo.jp//sessions/1/" rel="alternate" type="text/html" title="セッション" /><published>2025-09-20T00:00:00+09:00</published><updated>2025-09-20T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//sessions/session1</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//sessions/1/"><![CDATA[<h1 id="エンジニアではない私がcoderdojoを立ち上げた">エンジニアではない私がCoderDojoを立ち上げた</h1>
 <h2 id="吉田彩よしだ-あや">吉田彩（よしだ あや）</h2>
 <p>CoderDojo早良 チャンピオン</p>
 <div class="flex max-w-100 mx-auto my-4 justify-center">
@@ -176,9 +419,9 @@
 
 <h2 id="概要">概要</h2>
 <p>プログラミングも出来ない、PCのことも詳しくない、8歳と4歳の子どものママでしかなかった私が、CoderDojo久留米と出会い、息子と通い、そこで出会った人達に憧れ、自分も新しい事にチャレンジしたい、そしてその姿を子どもに見せたいと思いCoderDojo 早良を立ち上げました。しかし知識がない私は立ち上げと運営に苦戦する日々、そんな時に息子がメンターとして助けてくれるように。初回から参加応募30人を超え、チャンピオンに知識がなくとも、みんなで探求する唯一無二のCoderDojo早良です。</p>
-<div class="flex max-w-100 mx-auto my-8 justify-center">
+<div class="flex max-w-150 mx-auto my-8 justify-center">
   <img class="w-full" src="/img/sessions/thumbnails/session1.webp" alt="" />
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[エンジニアではない私がCoderDojoを立ち上げた 吉田彩（よしだ あや） CoderDojo早良 チャンピオン]]></summary></entry><entry><title type="html">セッション</title><link href="https://dojocon2025.coderdojo.jp/sessions/2/" rel="alternate" type="text/html" title="セッション" /><published>2025-09-20T00:00:00+09:00</published><updated>2025-09-20T00:00:00+09:00</updated><id>https://dojocon2025.coderdojo.jp/sessions/session2</id><content type="html" xml:base="https://dojocon2025.coderdojo.jp/sessions/2/"><![CDATA[<h1 id="coderdojoに救われて現在親子でメンターをやっている話">CoderDojoに救われて現在親子でメンターをやっている話</h1>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[エンジニアではない私がCoderDojoを立ち上げた 吉田彩（よしだ あや） CoderDojo早良 チャンピオン]]></summary></entry><entry><title type="html">セッション</title><link href="https://coolestprojects2026.coderdojo.jp//sessions/2/" rel="alternate" type="text/html" title="セッション" /><published>2025-09-20T00:00:00+09:00</published><updated>2025-09-20T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//sessions/session2</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//sessions/2/"><![CDATA[<h1 id="coderdojoに救われて現在親子でメンターをやっている話">CoderDojoに救われて現在親子でメンターをやっている話</h1>
 <h2 id="とり子memetan">とり子・memetan</h2>
 <p>とり子：CoderDojo香椎 CoderDojoさが メンター<br />
 memetan：CoderDojo香椎 CoderDojoさが ユースメンター</p>
@@ -197,9 +440,9 @@ memetan（息子）：コンテスト受賞歴多数、13歳で未踏Jr採択、
 好奇心が強すぎる子への関わりについて、母親の立場から自身の経験をお話します。
 偉そうに言える立場ではないですが経験談として参考程度に聞いていただければ幸いです。<br />
 息子本人からも開発の楽しさについて語ります。</p>
-<div class="flex max-w-100 mx-auto my-8 justify-center">
+<div class="flex max-w-150 mx-auto my-8 justify-center">
   <img class="w-full" src="/img/sessions/thumbnails/session2.webp" alt="CoderDojoに救われて現在親子でメンターをやっている話" />
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CoderDojoに救われて現在親子でメンターをやっている話 とり子・memetan とり子：CoderDojo香椎 CoderDojoさが メンター memetan：CoderDojo香椎 CoderDojoさが ユースメンター]]></summary></entry><entry><title type="html">Blenderでシマエナガを作ろう！</title><link href="https://dojocon2025.coderdojo.jp/events/blender-shimaenaga/" rel="alternate" type="text/html" title="Blenderでシマエナガを作ろう！" /><published>2025-09-14T00:00:00+09:00</published><updated>2025-09-14T00:00:00+09:00</updated><id>https://dojocon2025.coderdojo.jp/events/blender-shimaenaga</id><content type="html" xml:base="https://dojocon2025.coderdojo.jp/events/blender-shimaenaga/"><![CDATA[<p><img class="w-full pb-8" src="/img/events/blender-shimaenaga.webp" alt="カバー画像 Blenderでシマエナガを作ろう！" /></p>
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[CoderDojoに救われて現在親子でメンターをやっている話 とり子・memetan とり子：CoderDojo香椎 CoderDojoさが メンター memetan：CoderDojo香椎 CoderDojoさが ユースメンター]]></summary></entry><entry><title type="html">Blenderでシマエナガを作ろう！</title><link href="https://coolestprojects2026.coderdojo.jp//events/blender-shimaenaga/" rel="alternate" type="text/html" title="Blenderでシマエナガを作ろう！" /><published>2025-09-14T00:00:00+09:00</published><updated>2025-09-14T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//events/blender-shimaenaga</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//events/blender-shimaenaga/"><![CDATA[<p><img class="w-full pb-8" src="/img/events/blender-shimaenaga.webp" alt="カバー画像 Blenderでシマエナガを作ろう！" /></p>
 
 <p>無料で使える3Dソフト「Blender」を使って、かわいい鳥“シマエナガ”をモデリングします。<br />
 初めてでも大丈夫。みんなで楽しく基本操作を身につけて、オリジナルのシマエナガを作っていきましょう！</p>
@@ -257,7 +500,7 @@ memetan（息子）：コンテスト受賞歴多数、13歳で未踏Jr採択、
 <p>本ワークショップは事前の申し込みが必要です<br />
 定員 6 名</p>
 
-<p><a href="https://dojocon-japan.doorkeeper.jp/events/189856" target="_blank">参加申込（Doorkeeper）</a></p>]]></content><author><name></name></author><category term="event" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">CoderDojoなんでも相談カフェ</title><link href="https://dojocon2025.coderdojo.jp/events/nandemo-sodan-cafe/" rel="alternate" type="text/html" title="CoderDojoなんでも相談カフェ" /><published>2025-09-05T00:00:00+09:00</published><updated>2025-09-05T00:00:00+09:00</updated><id>https://dojocon2025.coderdojo.jp/events/nandemo-sodan-cafe</id><content type="html" xml:base="https://dojocon2025.coderdojo.jp/events/nandemo-sodan-cafe/"><![CDATA[<p><img src="/img/events/nandemo-sodan-cafe.webp" alt="" /></p>
+<p><a href="https://dojocon-japan.doorkeeper.jp/events/189856" target="_blank">参加申込（Doorkeeper）</a></p>]]></content><author><name></name></author><category term="event" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">CoderDojoなんでも相談カフェ</title><link href="https://coolestprojects2026.coderdojo.jp//events/nandemo-sodan-cafe/" rel="alternate" type="text/html" title="CoderDojoなんでも相談カフェ" /><published>2025-09-05T00:00:00+09:00</published><updated>2025-09-05T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//events/nandemo-sodan-cafe</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//events/nandemo-sodan-cafe/"><![CDATA[<p><img src="/img/events/nandemo-sodan-cafe.webp" alt="" /></p>
 
 <p class="my-8">
   「CoderDojoなんでも相談カフェ」は、<strong>CoderDojoに関わるあらゆることを気軽に相談できる交流スペースです。</strong><br />
@@ -286,7 +529,7 @@ memetan（息子）：コンテスト受賞歴多数、13歳で未踏Jr採択、
 
 <h2 id="その他必要なもの">その他必要なもの</h2>
 
-<p>新しい一歩を踏み出す好奇心！</p>]]></content><author><name></name></author><category term="event" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">開催概要</title><link href="https://dojocon2025.coderdojo.jp/outline/" rel="alternate" type="text/html" title="開催概要" /><published>2025-09-05T00:00:00+09:00</published><updated>2025-09-05T00:00:00+09:00</updated><id>https://dojocon2025.coderdojo.jp/outline</id><content type="html" xml:base="https://dojocon2025.coderdojo.jp/outline/"><![CDATA[<h3>開催日時</h3>
+<p>新しい一歩を踏み出す好奇心！</p>]]></content><author><name></name></author><category term="event" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">開催概要</title><link href="https://coolestprojects2026.coderdojo.jp//outline/" rel="alternate" type="text/html" title="開催概要" /><published>2025-09-05T00:00:00+09:00</published><updated>2025-09-05T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//outline</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//outline/"><![CDATA[<h3>開催日時</h3>
 <p><time>2025年10月25日（土）10時〜17時</time></p>
 
 <h3>開催場所</h3>
@@ -343,7 +586,7 @@ memetan（息子）：コンテスト受賞歴多数、13歳で未踏Jr採択、
 <h3>久留米市について</h3>
 <ul>
   <li><a href="https://welcome-kurume.com">久留米公式観光サイト ほとめきの街</a></li>
-</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[開催日時 2025年10月25日（土）10時〜17時]]></summary></entry><entry><title type="html">参加受付を開始しました</title><link href="https://dojocon2025.coderdojo.jp/registration/" rel="alternate" type="text/html" title="参加受付を開始しました" /><published>2025-09-01T00:00:00+09:00</published><updated>2025-09-01T00:00:00+09:00</updated><id>https://dojocon2025.coderdojo.jp/registration</id><content type="html" xml:base="https://dojocon2025.coderdojo.jp/registration/"><![CDATA[<p>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[開催日時 2025年10月25日（土）10時〜17時]]></summary></entry><entry><title type="html">参加受付を開始しました</title><link href="https://coolestprojects2026.coderdojo.jp//registration/" rel="alternate" type="text/html" title="参加受付を開始しました" /><published>2025-09-01T00:00:00+09:00</published><updated>2025-09-01T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//registration</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//registration/"><![CDATA[<p>
   DojoCon Japan 2025 の参加受付を開始しました。<br />
   以下の注意事項をご確認の上、 <a href="https://dojocon-japan.doorkeeper.jp/events/187904" target="_blank">DoorKeeper</a> からお申し込みください。
 </p>
@@ -389,7 +632,7 @@ memetan（息子）：コンテスト受賞歴多数、13歳で未踏Jr採択、
     <td>子ども二人目</td>
     <td>同伴者チケット2を1枚</td>
   </tr>
-</table>]]></content><author><name></name></author><category term="news" /><category term="参加受付" /><summary type="html"><![CDATA[DojoCon Japan 2025 の参加受付を開始しました。 以下の注意事項をご確認の上、 DoorKeeper からお申し込みください。]]></summary></entry><entry><title type="html">当日スタッフ募集</title><link href="https://dojocon2025.coderdojo.jp/staff/" rel="alternate" type="text/html" title="当日スタッフ募集" /><published>2025-09-01T00:00:00+09:00</published><updated>2025-09-01T00:00:00+09:00</updated><id>https://dojocon2025.coderdojo.jp/staff</id><content type="html" xml:base="https://dojocon2025.coderdojo.jp/staff/"><![CDATA[<style>
+</table>]]></content><author><name></name></author><category term="news" /><category term="参加受付" /><summary type="html"><![CDATA[DojoCon Japan 2025 の参加受付を開始しました。 以下の注意事項をご確認の上、 DoorKeeper からお申し込みください。]]></summary></entry><entry><title type="html">当日スタッフ募集</title><link href="https://coolestprojects2026.coderdojo.jp//staff/" rel="alternate" type="text/html" title="当日スタッフ募集" /><published>2025-09-01T00:00:00+09:00</published><updated>2025-09-01T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//staff</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//staff/"><![CDATA[<style>
   @media (max-width: 640px) {
     h2 {
       font-size: 2em;
@@ -457,7 +700,7 @@ memetan（息子）：コンテスト受賞歴多数、13歳で未踏Jr採択、
       <td>
         久留米シティプラザ<wbr />
         （福岡県久留米市六ツ門町８−１）<wbr />
-        （<a href="https://maps.app.goo.gl/9gpxs56cK1cyMbdQ6" target="_blank">Google Maps</a>）
+        （<a href="" target="_blank">Google Maps</a>）
       </td>
     </tr>
   </table>
@@ -484,7 +727,7 @@ memetan（息子）：コンテスト受賞歴多数、13歳で未踏Jr採択、
     <li><a href="https://dojocon2017.coderdojo.jp/">DojoCon Japan 2017</a></li>
     <li><a href="https://dojocon2016.coderdojo.jp/">DojoCon Japan 2016</a></li>
   </ul>
-</div>]]></content><author><name></name></author><category term="news" /><category term="当日スタッフ" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">基調講演</title><link href="https://dojocon2025.coderdojo.jp/sessions/keynote1/" rel="alternate" type="text/html" title="基調講演" /><published>2025-08-28T00:00:00+09:00</published><updated>2025-08-28T00:00:00+09:00</updated><id>https://dojocon2025.coderdojo.jp/sessions/keynote1</id><content type="html" xml:base="https://dojocon2025.coderdojo.jp/sessions/keynote1/"><![CDATA[<h1 id="プログラミング教育の脱構築生成ai時代における学びを再考する">プログラミング教育の脱構築——生成AI時代における〈学び〉を再考する</h1>
+</div>]]></content><author><name></name></author><category term="news" /><category term="当日スタッフ" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">基調講演</title><link href="https://coolestprojects2026.coderdojo.jp//sessions/keynote1/" rel="alternate" type="text/html" title="基調講演" /><published>2025-08-28T00:00:00+09:00</published><updated>2025-08-28T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//sessions/keynote1</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//sessions/keynote1/"><![CDATA[<h1 id="プログラミング教育の脱構築生成ai時代における学びを再考する">プログラミング教育の脱構築——生成AI時代における〈学び〉を再考する</h1>
 
 <h2 id="宮島-衣瑛みやじま-きりえ">宮島 衣瑛（みやじま きりえ）</h2>
 <p>CoderDojo Japan 理事<br />
@@ -500,7 +743,7 @@ memetan（息子）：コンテスト受賞歴多数、13歳で未踏Jr採択、
 <h2 id="概要">概要</h2>
 <p>生成AIの急速な進展により、「プログラミングを学ぶこと」の意味や価値そのものが、根本から問い直される時代がきています。<br />
 だからこそ今、子どもたちが〈つくる〉ことを楽しみ、世代を超えた仲間と学び合う CoderDojo コミュニティのような学びの場が、これまで以上に重要な意味を持ってきます。<br />
-本講演では、「教育・学びとは何か」を根底から問い直す視点から、プログラミング教育の脱構築を提案し、これからの CoderDojo のあり方も皆さんと考えていきたいと思います。</p>]]></content><author><name></name></author><summary type="html"><![CDATA[プログラミング教育の脱構築——生成AI時代における〈学び〉を再考する]]></summary></entry><entry><title type="html">招待講演</title><link href="https://dojocon2025.coderdojo.jp/sessions/keynote2/" rel="alternate" type="text/html" title="招待講演" /><published>2025-08-28T00:00:00+09:00</published><updated>2025-08-28T00:00:00+09:00</updated><id>https://dojocon2025.coderdojo.jp/sessions/keynote2</id><content type="html" xml:base="https://dojocon2025.coderdojo.jp/sessions/keynote2/"><![CDATA[<h1 id="生成ai時代における子どもたちに必要な力とは">生成AI時代における子どもたちに必要な力とは？</h1>
+本講演では、「教育・学びとは何か」を根底から問い直す視点から、プログラミング教育の脱構築を提案し、これからの CoderDojo のあり方も皆さんと考えていきたいと思います。</p>]]></content><author><name></name></author><summary type="html"><![CDATA[プログラミング教育の脱構築——生成AI時代における〈学び〉を再考する]]></summary></entry><entry><title type="html">招待講演</title><link href="https://coolestprojects2026.coderdojo.jp//sessions/keynote2/" rel="alternate" type="text/html" title="招待講演" /><published>2025-08-28T00:00:00+09:00</published><updated>2025-08-28T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//sessions/keynote2</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//sessions/keynote2/"><![CDATA[<h1 id="生成ai時代における子どもたちに必要な力とは">生成AI時代における子どもたちに必要な力とは？</h1>
 
 <h2 id="小宮山-利恵子こみやま-りえこ">小宮山 利恵子（こみやま りえこ）</h2>
 <p>株式会社リクルート スタディサプリ教育AI研究所所長<br />
@@ -514,7 +757,7 @@ memetan（息子）：コンテスト受賞歴多数、13歳で未踏Jr採択、
 <p>1977年東京都生まれ。早稲田大学大学院修了後、衆議院にて国会議員秘書。その後、株式会社ベネッセコーポレーションにて会長秘書等を経て、2015年よりリクルート教育研究所所長。教育とテクノロジー、アントレプレナーシップ（起業家精神）領域を探究。AI時代における「人間にしかできない力」をテーマに、現場体験や五感、身体知を重視した教育実践を推進。「鮨 銀座おのでら」で修行、「鮨 銀座おのでら 鮨アカデミー」寿司職人コース修了。著書に『好奇心を学びに変える「なぜ？どうして？」の伸ばし方』（ディスカヴァー・トゥエンティワン、2025年）、『教育AIが変える21世紀の学び』（共訳、北大路出版、2020年）等。</p>
 
 <h2 id="概要">概要</h2>
-<p>生成AIが瞬時に答えを導く時代において、子どもたちに本当に必要なのは「問いを立てる力」です。本講演では、AIに頼るだけでは得られない学びとして、現場体験や五感を通じた身体知、そしてアナログとデジタルをつなぐ教育の可能性を探ります。効率化の先にある“人間ならではの学び”をどう育むのかを考えます。</p>]]></content><author><name></name></author><summary type="html"><![CDATA[生成AI時代における子どもたちに必要な力とは？]]></summary></entry><entry><title type="html">ぼくのかんがえたさいきょうのCoderDojoワークショップ</title><link href="https://dojocon2025.coderdojo.jp/events/saikyo-coderdojo/" rel="alternate" type="text/html" title="ぼくのかんがえたさいきょうのCoderDojoワークショップ" /><published>2025-08-28T00:00:00+09:00</published><updated>2025-08-28T00:00:00+09:00</updated><id>https://dojocon2025.coderdojo.jp/events/saikyo-coderdojo</id><content type="html" xml:base="https://dojocon2025.coderdojo.jp/events/saikyo-coderdojo/"><![CDATA[<h2 id="対象者">対象者</h2>
+<p>生成AIが瞬時に答えを導く時代において、子どもたちに本当に必要なのは「問いを立てる力」です。本講演では、AIに頼るだけでは得られない学びとして、現場体験や五感を通じた身体知、そしてアナログとデジタルをつなぐ教育の可能性を探ります。効率化の先にある“人間ならではの学び”をどう育むのかを考えます。</p>]]></content><author><name></name></author><summary type="html"><![CDATA[生成AI時代における子どもたちに必要な力とは？]]></summary></entry><entry><title type="html">ぼくのかんがえたさいきょうのCoderDojoワークショップ</title><link href="https://coolestprojects2026.coderdojo.jp//events/saikyo-coderdojo/" rel="alternate" type="text/html" title="ぼくのかんがえたさいきょうのCoderDojoワークショップ" /><published>2025-08-28T00:00:00+09:00</published><updated>2025-08-28T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//events/saikyo-coderdojo</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//events/saikyo-coderdojo/"><![CDATA[<h2 id="対象者">対象者</h2>
 <ul>
   <li>CoderDojoの運営に口を出せる人（チャンピオン、メンター、その他協力者）</li>
   <li>これからCoderDojoを立ち上げたいと思っている人</li>
@@ -531,7 +774,7 @@ memetan（息子）：コンテスト受賞歴多数、13歳で未踏Jr採択、
 ※ワークシートや筆記用具はこちらで準備します。<br />
 <br /></p>
 
-<p><img src="/img/events/saikyo-coderdojo.webp" alt="" /></p>]]></content><author><name></name></author><category term="event" /><summary type="html"><![CDATA[対象者 CoderDojoの運営に口を出せる人（チャンピオン、メンター、その他協力者） これからCoderDojoを立ち上げたいと思っている人 理想のCoderDojoについて熱く語りたい人]]></summary></entry><entry><title type="html">『DojoCon Japan 2025 プログラミングコンテスト』応募方法</title><link href="https://dojocon2025.coderdojo.jp/contests/how-to-apply/" rel="alternate" type="text/html" title="『DojoCon Japan 2025 プログラミングコンテスト』応募方法" /><published>2025-08-02T00:00:00+09:00</published><updated>2025-08-02T00:00:00+09:00</updated><id>https://dojocon2025.coderdojo.jp/contests/contest-how-to-apply</id><content type="html" xml:base="https://dojocon2025.coderdojo.jp/contests/how-to-apply/"><![CDATA[<style>
+<p><img src="/img/events/saikyo-coderdojo.webp" alt="" /></p>]]></content><author><name></name></author><category term="event" /><summary type="html"><![CDATA[対象者 CoderDojoの運営に口を出せる人（チャンピオン、メンター、その他協力者） これからCoderDojoを立ち上げたいと思っている人 理想のCoderDojoについて熱く語りたい人]]></summary></entry><entry><title type="html">『DojoCon Japan 2025 プログラミングコンテスト』応募方法</title><link href="https://coolestprojects2026.coderdojo.jp//contests/how-to-apply/" rel="alternate" type="text/html" title="『DojoCon Japan 2025 プログラミングコンテスト』応募方法" /><published>2025-08-02T00:00:00+09:00</published><updated>2025-08-02T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//contests/contest-how-to-apply</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//contests/how-to-apply/"><![CDATA[<style>
 .bordered {
   border: 1px solid #ddd;
 }
@@ -779,7 +1022,7 @@ li {
   </p>
 </div>
 
-<p>不明点があれば、お問い合わせフォーム（<a target="_blank" href="https://forms.gle/t9ctDcuZZ8cqqFtR6">https://forms.gle/t9ctDcuZZ8cqqFtR6</a>）にてお知らせください。</p>]]></content><author><name></name></author><category term="news" /><category term="イベント" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">DojoCon Japan 2025 スポンサー募集のお知らせ</title><link href="https://dojocon2025.coderdojo.jp/sponsorship/" rel="alternate" type="text/html" title="DojoCon Japan 2025 スポンサー募集のお知らせ" /><published>2025-08-02T00:00:00+09:00</published><updated>2025-08-02T00:00:00+09:00</updated><id>https://dojocon2025.coderdojo.jp/sponsor-recruit-started</id><content type="html" xml:base="https://dojocon2025.coderdojo.jp/sponsorship/"><![CDATA[<p><img src="/img/common/coderdojo-nameplate.webp" class="mb-4" loading="lazy" alt="DojoCon Japan Cover Photo" title="DojoCon Japan Cover Photo" /></p>
+<p>不明点があれば、お問い合わせフォーム（<a target="_blank" href=""></a>）にてお知らせください。</p>]]></content><author><name></name></author><category term="news" /><category term="イベント" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">DojoCon Japan 2025 スポンサー募集のお知らせ</title><link href="https://coolestprojects2026.coderdojo.jp//sponsorship/" rel="alternate" type="text/html" title="DojoCon Japan 2025 スポンサー募集のお知らせ" /><published>2025-08-02T00:00:00+09:00</published><updated>2025-08-02T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//sponsor-recruit-started</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//sponsorship/"><![CDATA[<p><img src="/img/common/coderdojo-nameplate.webp" class="mb-4" loading="lazy" alt="DojoCon Japan Cover Photo" title="DojoCon Japan Cover Photo" /></p>
 
 <p class="border rounded px-5 py-3 mb-5">
   DojoCon Japan 2025 Gold, Silver, Bronze スポンサーの募集は 2025年9月24日 をもって終了しました。<br />
@@ -819,7 +1062,7 @@ li {
 <p>
   ぜひ、多くの方々と一緒に DojoCon の熱気を九州の地で感じられるよう、
   ご支援・ご協賛をお待ちしております。
-</p>]]></content><author><name></name></author><category term="news" /><category term="スポンサー" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">DojoCon Japan 2025 プログラミングコンテスト</title><link href="https://dojocon2025.coderdojo.jp/contests/" rel="alternate" type="text/html" title="DojoCon Japan 2025 プログラミングコンテスト" /><published>2025-07-21T00:00:00+09:00</published><updated>2025-07-21T00:00:00+09:00</updated><id>https://dojocon2025.coderdojo.jp/contest-outline</id><content type="html" xml:base="https://dojocon2025.coderdojo.jp/contests/"><![CDATA[<p class="border rounded px-5 py-3 mb-5">
+</p>]]></content><author><name></name></author><category term="news" /><category term="スポンサー" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">DojoCon Japan 2025 プログラミングコンテスト</title><link href="https://coolestprojects2026.coderdojo.jp//contests/" rel="alternate" type="text/html" title="DojoCon Japan 2025 プログラミングコンテスト" /><published>2025-07-21T00:00:00+09:00</published><updated>2025-07-21T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//contest-outline</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//contests/"><![CDATA[<p class="border rounded px-5 py-3 mb-5">
   DojoCon Japan 2025 プログラミングコンテストの作品募集は2025年9月7日をもって終了しました。<br />
   たくさんのご応募ありがとうございました。<br />
   応募作品の一覧は下記のページをご覧ください。<br />
@@ -1044,8 +1287,8 @@ li {
 <h2>コンテストについてのお問い合わせ先</h2>
 
 <p>
-  コンテストに関するお問い合わせは <a href="https://forms.gle/t9ctDcuZZ8cqqFtR6" target="_blank">DojoCon Japan 2025 お問い合わせフォーム</a> にお願いいたします。
-</p>]]></content><author><name></name></author><category term="news" /><category term="イベント" /><summary type="html"><![CDATA[DojoCon Japan 2025 プログラミングコンテストの作品募集は2025年9月7日をもって終了しました。 たくさんのご応募ありがとうございました。 応募作品の一覧は下記のページをご覧ください。 DojoCon Japan 2025 応募作品]]></summary></entry><entry><title type="html">DojoCon Japan 2025 プログラミングコンテスト 参加規約</title><link href="https://dojocon2025.coderdojo.jp/contests/terms/" rel="alternate" type="text/html" title="DojoCon Japan 2025 プログラミングコンテスト 参加規約" /><published>2025-07-21T00:00:00+09:00</published><updated>2025-07-21T00:00:00+09:00</updated><id>https://dojocon2025.coderdojo.jp/contests/contest-terms</id><content type="html" xml:base="https://dojocon2025.coderdojo.jp/contests/terms/"><![CDATA[<p><img src="/img/common/coderdojo-nameplate.webp" loading="lazy" alt="DojoCon Japan Cover Photo" title="DojoCon Japan Cover Photo" class="mb-4" /></p>
+  コンテストに関するお問い合わせは <a href="" target="_blank">DojoCon Japan 2025 お問い合わせフォーム</a> にお願いいたします。
+</p>]]></content><author><name></name></author><category term="news" /><category term="イベント" /><summary type="html"><![CDATA[DojoCon Japan 2025 プログラミングコンテストの作品募集は2025年9月7日をもって終了しました。 たくさんのご応募ありがとうございました。 応募作品の一覧は下記のページをご覧ください。 DojoCon Japan 2025 応募作品]]></summary></entry><entry><title type="html">DojoCon Japan 2025 プログラミングコンテスト 参加規約</title><link href="https://coolestprojects2026.coderdojo.jp//contests/terms/" rel="alternate" type="text/html" title="DojoCon Japan 2025 プログラミングコンテスト 参加規約" /><published>2025-07-21T00:00:00+09:00</published><updated>2025-07-21T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp//contests/contest-terms</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp//contests/terms/"><![CDATA[<p><img src="/img/common/coderdojo-nameplate.webp" loading="lazy" alt="DojoCon Japan Cover Photo" title="DojoCon Japan Cover Photo" class="mb-4" /></p>
 
 <p>
   「DojoCon Japan 2025プログラミングコンテスト」（以下「本⼤会」といいます）は、DojoCon Japan実⾏委員会（併せて以下「主催者」といいます）が主催するプログラミングコンテストです。
@@ -1129,7 +1372,7 @@ li {
   <li>個⼈情報取り扱い責任者：DojoCon Japan 実⾏委員⻑</li>
   <li>
     個⼈情報に関するご相談、開⽰等に関するお問い合わせは以下にご連絡ください。 <br />
-    <a href="https://forms.gle/t9ctDcuZZ8cqqFtR6" target="_blank">DojoCon Japan 2025 お問い合わせフォーム</a>
+    <a href="" target="_blank">DojoCon Japan 2025 お問い合わせフォーム</a>
   </li>
 </ol>
 
