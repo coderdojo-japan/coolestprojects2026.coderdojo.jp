@@ -20,7 +20,7 @@ jobs:
     - name: 💎 Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        bundler-cache: false
+        bundler-cache: true
 
     - name: 🔧 Build & Test
       run: |
@@ -44,7 +44,7 @@ jobs:
     - name: 💎 Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        bundler-cache: false
+        bundler-cache: true
 
     - name: 🔧 Build
       run: |
