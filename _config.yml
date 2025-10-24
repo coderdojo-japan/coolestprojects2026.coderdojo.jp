@@ -1,15 +1,15 @@
-# Site settings
-# You can create any custom variable you would like,
-# and they will be accessible like {{ site.your_variable }}.
+# Global Site Config
+#
+# You can create any custom variable you like,
+# and it will be accessible like: {{ site.your_variable }}
 
-future: true
-timezone: Asia/Tokyo
+url: https://coolestprojects2026.coderdojo.jp
 year: 2026
+timezone: Asia/Tokyo
+
 title: Coolest Projects Japan
 subtitle: 創造力と技術で生み出したプロジェクトを発表・共有できる、子どものための作品展示会
-description: >-
-  Coolest Projectsは、若者たちが自分の創造力と技術で生み出したプロジェクトを発表・共有するための作品展示イベントです。国内の子ども・若者が集まり、完成度や勝敗を競うのではなく、お互いの作品に触れ、交流し、刺激を与え合うことを目的としています。
-url: https://coolestprojects2026.coderdojo.jp/
+description: Coolest Projectsは、若者たちが自分の創造力と技術で生み出したプロジェクトを発表・共有するための作品展示イベントです。国内の子ども・若者が集まり、完成度や勝敗を競うのではなく、お互いの作品に触れ、交流し、刺激を与え合うことを目的としています。
 date_event: 2026年3月29日（日曜）
 venue: なごのキャンパス＠名古屋
 email: coolestprojects2026@coderdojo.jp
