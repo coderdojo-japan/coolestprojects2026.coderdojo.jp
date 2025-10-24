@@ -32,7 +32,7 @@ layout: plain
 
 <div class='container'>
   <div style='margin-top: 1.0em;'>
-    <img src="/img/logo.webp" loading="lazy" width='50%'
+    <img src="/img/cpj_digital.svg" loading="lazy" width='50%'
      alt="CoderDojo Logo"
      title="CoderDojo Logo" />
   </div>
