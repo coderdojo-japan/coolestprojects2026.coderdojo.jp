@@ -1,5 +1,6 @@
 ---
 layout: plain
+redirect_from: /privacy/index.html
 ---
 
 <style>
