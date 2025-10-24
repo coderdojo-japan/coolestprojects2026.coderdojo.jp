@@ -74,7 +74,7 @@ layout: plain
     </a>
   </div>
   <div style='margin-top: 1.0em; margin-bottom: 2.5em; font-size: 55%;'>
-    <a href='https://forms.gle/oeHK1BnXxLZkeM258' style='text-decoration: none;'>
+    <a href='https://forms.gle/QLE4j3vFnXiteHqSA' style='text-decoration: none;'>
       &raquo; Coolest Projects に応募する
     </a>
   </div>
