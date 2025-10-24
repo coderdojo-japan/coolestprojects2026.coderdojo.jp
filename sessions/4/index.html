@@ -11,50 +11,50 @@
   <title>セッション | Coolest Projects Japan 2026</title>
   
 
-  <!-- Meta -------------------------- -->
-  <meta property="fb:app_id" content="1750803431730303" />
-  <meta name="twitter:card"  content="summary_large_image" />
-  <meta name="twitter:site"  content="@DojoConJapan" />
+  <!-- OGP for Social Services -->
+  <meta property="fb:admins" content="715330868">
+  <meta property="fb:app_id" content="805184859580207">
+  <meta name="twitter:card"  content="summary" />
+  <!--<meta name="twitter:site"  content="@??????" />-->
   
   <meta name="twitter:title" content="セッション | Coolest Projects Japan 2026" />
   <meta property="og:title"  content="セッション | Coolest Projects Japan 2026" />
   
 
   
-  <meta name="twitter:image" content="https://coolestprojects2026.coderdojo.jp//img/sessions/thumbnails/session4.webp" />
-  <meta property="og:image"  content="https://coolestprojects2026.coderdojo.jp//img/sessions/thumbnails/session4.webp" />
+  <meta name="twitter:image" content="https://coolestprojects2026.coderdojo.jp/img/sessions/thumbnails/session4.webp" />
+  <meta property="og:image"  content="https://coolestprojects2026.coderdojo.jp/img/sessions/thumbnails/session4.webp" />
   
 
   
   <meta property="og:type" content="article" />
   
 
-  <meta property="og:url"          content="https://coolestprojects2026.coderdojo.jp//sessions/4/" />
   
   <meta property="og:description"  content="Coolest Projectsは、若者たちが自分の創造力と技術で生み出したプロジェクトを発表・共有するための作品展示イベントです。国内の子ども・若者が集まり、完成度や勝敗を競うのではなく、お互いの作品に触れ、交流し、刺激を与え合うことを目的としています。" />
   <meta name="twitter:description" content="Coolest Projectsは、若者たちが自分の創造力と技術で生み出したプロジェクトを発表・共有するための作品展示イベントです。国内の子ども・若者が集まり、完成度や勝敗を競うのではなく、お互いの作品に触れ、交流し、刺激を与え合うことを目的としています。" />
   <meta name="description"         content="Coolest Projectsは、若者たちが自分の創造力と技術で生み出したプロジェクトを発表・共有するための作品展示イベントです。国内の子ども・若者が集まり、完成度や勝敗を競うのではなく、お互いの作品に触れ、交流し、刺激を与え合うことを目的としています。" />
   
 
-  <!-- Google Analytics -------------------------- -->
+  <!-- Google Analytics and Tag Manager (gtag.js) only in Production-->
   
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-40RZ5HKFJ0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- TODO: Set gtag.js when it gets ready.
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0123456789"></script>
+  <script>
+   window.dataLayer = window.dataLayer || [];
+   function gtag(){dataLayer.push(arguments);}
+   gtag('js', new Date());
 
-  gtag('config', 'G-40RZ5HKFJ0');
-</script>
-
+   gtag('config', 'G-0123456789');
+  </script>
+  -->
   
 
   <!-- Favicon -------------------------- -->
-  <link rel="icon" href="/img/favicon/favicon.svg" sizes="any" type="image/svg+xml">
-  <link rel="icon" href="/img/favicon/favicon.webp" sizes="512" type="image/webp">
-  <link rel="apple-touch-icon" href="/img/favicon/apple-touch-icon.png"> <!-- 192x192px -->
-  <!-- favicon.ico をルートディレクトリにそっと置く。しかしheadには書かない。 -->
+  <link rel="icon" href="/img/coderdojo.svg"  sizes="any" type="image/svg+xml">
+  <link rel="icon" href="/img/coderdojo.webp" sizes="512" type="image/webp">
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png"> <!-- 192x192px -->
+  <!-- MEMO: デフォルト用に favicon.ico をルートディレクトリにも置く: /favicon.ico -->
 
   <!-- CSS Framework -------------------------- -->
   <!-- Font Awasome https://fontawesome.com/ -->
@@ -63,8 +63,34 @@
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4.1.14" integrity="sha512-M4ecs0CyhBq7W0PeumwMxVaA9pWbhuD4mCqGTe7/357R8/avaeGSJAtk2dYCgFrZyWvjq1Sju0Wcyf2jnP941Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <!-- CSS -------------------------- -->
-  <!-- DojoCon CSS -->
-  <link rel="stylesheet" href="/css/main.css?3ba454d" />
+  <link rel="stylesheet" href='/css/main.css?v=2025-10-24_12-22-26' />
+  <style type="text/css">
+    @import"https://fonts.googleapis.com/css2?family=Space+Mono&display=swap";
+    html { scroll-behavior:smooth }
+    body {
+      font-family:"Roboto","Noto Sans JP",sans-serif;
+      margin:0;
+      text-align:center;
+      color:#046;
+      padding-top:60px;
+    }
+    .container {
+      text-align: center;
+      font-size: 4vw;
+      font-family: 'Space Mono';
+    }
+  
+    .cursor::after{
+      content:"_";
+      animation: blink 1s infinite
+    }
+    @keyframes blink{
+      0%   { opacity:0 }
+      50%  { opacity:0 }
+      51%  { opacity:1 }
+      100% { opacity:1 }
+    }
+  </style>
 </head>
 
 
