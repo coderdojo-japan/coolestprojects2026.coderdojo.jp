@@ -2,14 +2,40 @@
 layout: plain
 ---
 
+<style type="text/css">
+  @import"https://fonts.googleapis.com/css2?family=Space+Mono&display=swap";
+  html { scroll-behavior:smooth }
+  body {
+    font-family:"Roboto","Noto Sans JP",sans-serif;
+    margin:0;
+    text-align:center;
+    color:#046;
+    padding-top:60px;
+  }
+  .container {
+    text-align: center;
+    font-size: 4vw;
+    font-family: 'Space Mono';
+  }
+  
+  .cursor::after{
+    content:"_";
+    animation: blink 1s infinite
+  }
+  @keyframes blink{
+    0%   { opacity:0 }
+    50%  { opacity:0 }
+    51%  { opacity:1 }
+    100% { opacity:1 }
+  }
+</style>
+
 <body>
   <div class='container'>
     <div style='margin-top: 1.0em;'>
-      <center>
-	<img src="/img/logo.webp" loading="lazy" width='50%'
-	     alt="CoderDojo Logo"
-	   title="CoderDojo Logo" />
-      </center>
+      <img src="/img/logo.webp" loading="lazy" width='50%'
+           alt="CoderDojo Logo"
+         title="CoderDojo Logo" />
     </div>
     <div style="margin-top: 1.0em;">Coolest Projects Japan</div>
     <div style="margin-top: 0.0em;">2026</div>
