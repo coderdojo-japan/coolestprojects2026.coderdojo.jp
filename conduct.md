@@ -27,12 +27,12 @@ layout: plain
 
   <p>
     困ったことや不安な状況があれば、迷わずイベント運営チームへお知らせください。<br>
-    問い合わせ窓口: <a href='https://forms.gle/pDkX4gUwaugfkn2M7'>https://forms.gle/pDkX4gUwaugfkn2M7</a>
+    問い合わせ窓口: <a href='{{ site.contact }}'>{{ site.contact }}</a>
   </p>
   
   <p>
-    Coolest Projects Japan 実行委員会<br>
-    連絡先: coolestprojects2026@coderdojo.jp<br>
+    {{ site.title }} 実行委員会<br>
+    連絡先: {{ site.email }}<br>
     最終更新日: 2025年10月5日<br>
   </p>
 

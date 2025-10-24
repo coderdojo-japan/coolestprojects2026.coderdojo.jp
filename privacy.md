@@ -87,8 +87,8 @@ layout: plain
   </p>
   <br>
   <p>
-    Coolest Projects Japan 実行委員会<br>
-    連絡先: coolestprojects2026@coderdojo.jp<br>
+    {{ site.title }} 実行委員会<br>
+    連絡先: {{ site.email }}<br>
     最終更新日: 2025年10月3日<br>
   </p>
 
