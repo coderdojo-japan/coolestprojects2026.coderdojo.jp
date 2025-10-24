@@ -4,6 +4,7 @@ layout: plain
 
 <style type="text/css">
   @import"https://fonts.googleapis.com/css2?family=Space+Mono&display=swap";
+  @import"https://fonts.googleapis.com/css2?family=League+Gothic&display=swap";
   html { scroll-behavior:smooth }
   body {
     font-family: "Roboto","Noto Sans JP",sans-serif;
@@ -49,9 +50,12 @@ layout: plain
      alt="CoderDojo Logo"
      title="CoderDojo Logo" />
   </div>
-  <div style="margin-top: 1.0em;">Coolest Projects Japan</div>
-  <div style="margin-top: 0.0em;">2026</div>
-  <div style="margin-top: 0.5em;">2026年3月29日（日曜）開催決定!</div>
+
+  <div style="margin-top: 1.0em; font-family: 'League Gothic', sans-serif; text-transform: uppercase; font-size: 150%;">
+    Coolest Projects Japan 2026
+  </div>
+
+  <div style="margin-top: 1.5em;">2026年3月29日（日曜）開催決定!</div>
   <div style="margin-top: 0.5em;">なごのキャンパス＠名古屋</div>
   <!--<div style="margin-top: 0.5em;" class="cursor">SAVE THE DATE</div>-->
 
