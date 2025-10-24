@@ -6,15 +6,15 @@ layout: plain
   @import"https://fonts.googleapis.com/css2?family=Space+Mono&display=swap";
   html { scroll-behavior:smooth }
   body {
-    font-family:"Roboto","Noto Sans JP",sans-serif;
-    margin:0;
-    text-align:center;
-    color:#046;
-    padding-top:60px;
+    font-family: "Roboto","Noto Sans JP",sans-serif;
+    margin:      0;
+    text-align:  center;
+    color:       #046;
+    padding-top: 60px;
   }
   .container {
-    text-align: center;
-    font-size: 4vw;
+    text-align:  center;
+    font-size:   4vw;
     font-family: 'Space Mono';
   }
   
@@ -23,10 +23,23 @@ layout: plain
     animation: blink 1s infinite
   }
   @keyframes blink{
-    0%   { opacity:0 }
-    50%  { opacity:0 }
-    51%  { opacity:1 }
-    100% { opacity:1 }
+    0%   { opacity: 0 }
+    50%  { opacity: 0 }
+    51%  { opacity: 1 }
+    100% { opacity: 1 }
+  }
+
+  .youtube{
+    position:    relative;
+    width:       100%;
+    padding-top: 56.25%;
+  }
+  .youtube iframe{
+    position: absolute;
+    top:      0;
+    right:    0;
+    width:    100% !important;
+    height:   100% !important;
   }
 </style>
 
@@ -40,9 +53,13 @@ layout: plain
   <div style="margin-top: 0.0em;">2026</div>
   <div style="margin-top: 0.5em;">2026年3月29日（日曜）開催決定!</div>
   <div style="margin-top: 0.5em;">なごのキャンパス＠名古屋</div>
-  <div style="margin-top: 0.5em;" class="cursor">SAVE THE DATE</div>
+  <!--<div style="margin-top: 0.5em;" class="cursor">SAVE THE DATE</div>-->
 
-  <div style='margin-top: 2.0em; margin-bottom: 0.5em; font-size: 55%;'>
+  <div class="youtube" style='margin-top: 1.5em;'>
+    <iframe width="100%" title="What is Coolest Projects?" src="https://www.youtube.com/embed/U1BYsFKuJ7U?list=PLxyaWvsfmq4_DXJg9TZTWiESoMoHssrFS" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+  <div style='margin-top: 2.5em; margin-bottom: 0.5em; font-size: 55%;'>
     <a href='https://docs.google.com/presentation/d/1MAX_O_2FhmLvBU52SnWe6jGR0QgAcglN/edit' style='text-decoration: none;'>
       &raquo; スポンサーシップのご案内
     </a>
