@@ -30,41 +30,39 @@ layout: plain
   }
 </style>
 
-<body>
-  <div class='container'>
-    <div style='margin-top: 1.0em;'>
-      <img src="/img/logo.webp" loading="lazy" width='50%'
-           alt="CoderDojo Logo"
-         title="CoderDojo Logo" />
-    </div>
-    <div style="margin-top: 1.0em;">Coolest Projects Japan</div>
-    <div style="margin-top: 0.0em;">2026</div>
-    <div style="margin-top: 0.5em;">2026年3月29日（日曜）開催決定!</div>
-    <div style="margin-top: 0.5em;">なごのキャンパス＠名古屋</div>
-    <div style="margin-top: 0.5em;" class="cursor">SAVE THE DATE</div>
-
-    <div style='margin-top: 2.0em; margin-bottom: 0.5em; font-size: 55%;'>
-      <a href='https://docs.google.com/presentation/d/1MAX_O_2FhmLvBU52SnWe6jGR0QgAcglN/edit' style='text-decoration: none;'>
-	&raquo; スポンサーシップのご案内
-      </a>
-    </div>
-    <div style='margin-top: 1.0em; margin-bottom: 2.5em; font-size: 55%;'>
-      <a href='https://www.google.com/search?q=Coolest+Projects' style='text-decoration: none;'>
-	&raquo; Coolest Projects で検索する
-      </a>
-    </div>
-
-    <div style='margin-top: 2.0em;'>
-      <img src="/img/cover-photo.webp" loading="lazy" width='100%'
-       alt="CoderDojo Object"
-       title="CoderDojo Object" />
-    </div>
-
-    <div style='margin-top: 2.0em; margin-bottom: 5.5em; font-size: 35%;'>
-      Coolest Projects Japan 実行委員会<br>
-      ＆<br>
-      <a href='https://coderdojo.jp/about' style='text-decoration:none; color: #046;'>一般社団法人 CoderDojo Japan</a>
-    </div>
-
+<div class='container'>
+  <div style='margin-top: 1.0em;'>
+    <img src="/img/logo.webp" loading="lazy" width='50%'
+     alt="CoderDojo Logo"
+     title="CoderDojo Logo" />
   </div>
-</body>
+  <div style="margin-top: 1.0em;">Coolest Projects Japan</div>
+  <div style="margin-top: 0.0em;">2026</div>
+  <div style="margin-top: 0.5em;">2026年3月29日（日曜）開催決定!</div>
+  <div style="margin-top: 0.5em;">なごのキャンパス＠名古屋</div>
+  <div style="margin-top: 0.5em;" class="cursor">SAVE THE DATE</div>
+
+  <div style='margin-top: 2.0em; margin-bottom: 0.5em; font-size: 55%;'>
+    <a href='https://docs.google.com/presentation/d/1MAX_O_2FhmLvBU52SnWe6jGR0QgAcglN/edit' style='text-decoration: none;'>
+      &raquo; スポンサーシップのご案内
+    </a>
+  </div>
+  <div style='margin-top: 1.0em; margin-bottom: 2.5em; font-size: 55%;'>
+    <a href='https://www.google.com/search?q=Coolest+Projects' style='text-decoration: none;'>
+      &raquo; Coolest Projects で検索する
+    </a>
+  </div>
+
+  <div style='margin-top: 2.0em;'>
+    <img src="/img/cover-photo.webp" loading="lazy" width='100%'
+     alt="CoderDojo Object"
+     title="CoderDojo Object" />
+  </div>
+
+  <div style='margin-top: 2.0em; margin-bottom: 5.5em; font-size: 35%;'>
+    Coolest Projects Japan 実行委員会<br>
+    ＆<br>
+    <a href='https://coderdojo.jp/about' style='text-decoration:none; color: #046;'>一般社団法人 CoderDojo Japan</a>
+  </div>
+
+</div>
