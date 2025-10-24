@@ -60,7 +60,7 @@ layout: plain
   <!--<div style="margin-top: 0.5em;" class="cursor">SAVE THE DATE</div>-->
 
   <div class="youtube" style='margin-top: 1.5em;'>
-    <iframe width="100%" title="What is Coolest Projects?" src="https://www.youtube.com/embed/U1BYsFKuJ7U?list=PLxyaWvsfmq4_DXJg9TZTWiESoMoHssrFS" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="100%" title="What is Coolest Projects?" src="https://www.youtube.com/embed/l8udUqCLXY8?list=PL94GDfaSQTmIifXDGOaEoEgviPSv36OEo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
   <div style='margin-top: 2.5em; margin-bottom: 0.5em; font-size: 55%;'>
