@@ -47,11 +47,17 @@ layout: plain
       &raquo; スポンサーシップのご案内
     </a>
   </div>
-  <div style='margin-top: 1.0em; margin-bottom: 2.5em; font-size: 55%;'>
+  <div style='margin-top: 1.0em; margin-bottom: 0.5em; font-size: 55%;'>
     <a href='https://www.google.com/search?q=Coolest+Projects' style='text-decoration: none;'>
       &raquo; Coolest Projects で検索する
     </a>
   </div>
+  <div style='margin-top: 1.0em; margin-bottom: 2.5em; font-size: 55%;'>
+    <a href='https://forms.gle/oeHK1BnXxLZkeM258' style='text-decoration: none;'>
+      &raquo; Coolest Projects に応募する
+    </a>
+  </div>
+  
 
   <div style='margin-top: 2.0em;'>
     <img src="/img/cover-photo.webp" loading="lazy" width='100%'
