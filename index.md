@@ -62,7 +62,9 @@ layout: plain
   <div class="youtube" style='margin-top: 1.5em;'>
     <iframe width="100%" title="What is Coolest Projects?" src="https://www.youtube.com/embed/l8udUqCLXY8?list=PL94GDfaSQTmIifXDGOaEoEgviPSv36OEo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-
+  <img src="/img/coolest_project_japan_2026_selection.png" loading="lazy" width='100%'
+      alt="CoderDojo Object"
+      title="CoderDojo Object" />
   <div style='margin-top: 2.5em; margin-bottom: 0.5em; font-size: 80%;'>
     <a href='https://docs.google.com/presentation/d/1MAX_O_2FhmLvBU52SnWe6jGR0QgAcglN/edit' style='text-decoration: none;'>
       &raquo; スポンサーシップのご案内
@@ -79,11 +81,19 @@ layout: plain
       &raquo; Coolest Projects で検索する
     </a>
   </div>
-  <div style='margin-top: 1.0em; margin-bottom: 2.5em; font-size: 80%;'>
+  <div style='margin-top: 1.0em; margin-bottom: 0.5em; font-size: 80%;'>
     <a href='https://forms.gle/QLE4j3vFnXiteHqSA' style='text-decoration: none;'>
       &raquo; Coolest Projects に応募する
     </a>
   </div>
+
+  <div style='margin-top: 1.0em; margin-bottom: 2.5em; font-size: 80%;'>
+    <a href='https://docs.google.com/document/d/1q18dQOj6LvbcKfoCdc6kVtexPzc0agypQuoslw7AiEw/edit?usp=sharing' style='text-decoration: none;'>
+      &raquo; 応募要項
+    </a>
+  </div>
+
+  
   
 
   <div style='margin-top: 2.0em;'>
