@@ -240,9 +240,9 @@ layout: plain
     <!-- ナビゲーションリンク -->
     <div class="flex flex-wrap justify-center gap-6 mb-8 text-gray-700">
       <a href="/" class="hover:text-gray-900 transition-colors font-medium">ホーム</a>
-      <a href="https://coderdojo.jp/code-of-conduct" target="_blank" class="hover:text-gray-900 transition-colors font-medium">行動規範</a>
-      <a href="https://coderdojo.jp/privacy" target="_blank" class="hover:text-gray-900 transition-colors font-medium">プライバシーポリシー</a>
-      <a href="mailto:info@coderdojo.jp" class="hover:text-gray-900 transition-colors font-medium">お問い合わせ</a>
+      <a href="/conduct" class="hover:text-gray-900 transition-colors font-medium">行動規範</a>
+      <a href="/privacy" class="hover:text-gray-900 transition-colors font-medium">プライバシーポリシー</a>
+      <a href="/contact" class="hover:text-gray-900 transition-colors font-medium">お問い合わせ</a>
     </div>
 
     <!-- コピーライト -->
