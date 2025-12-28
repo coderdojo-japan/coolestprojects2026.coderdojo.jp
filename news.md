@@ -1,0 +1,432 @@
+---
+layout: plain
+---
+
+<style type="text/css">
+  @import"https://fonts.googleapis.com/css2?family=Space+Mono&display=swap";
+  @import"https://fonts.googleapis.com/css2?family=League+Gothic&display=swap";
+
+  html {
+    scroll-behavior: smooth
+  }
+
+  body {
+    font-family: "Roboto", "Noto Sans JP", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* テキストを2行で切り取る */
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  /* 本文のスタイリング */
+  #detail-content h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    color: #221C35;
+  }
+
+  #detail-content h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    color: #221C35;
+  }
+
+  #detail-content h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    color: #221C35;
+  }
+
+  #detail-content p {
+    margin-bottom: 1em;
+    line-height: 1.75;
+  }
+
+  #detail-content ul, #detail-content ol {
+    margin-bottom: 1em;
+    padding-left: 2em;
+  }
+
+  #detail-content li {
+    margin-bottom: 0.5em;
+  }
+
+  #detail-content a {
+    color: #00AFAA;
+    text-decoration: underline;
+  }
+
+  #detail-content a:hover {
+    color: #008a86;
+  }
+
+  #detail-content img {
+    max-width: 100%;
+    height: auto;
+    margin: 1.5em 0;
+    border-radius: 0.5rem;
+  }
+
+  #detail-content blockquote {
+    border-left: 4px solid #00AFAA;
+    padding-left: 1em;
+    margin: 1.5em 0;
+    font-style: italic;
+    color: #666;
+  }
+
+  #detail-content code {
+    background-color: #f5f5f5;
+    padding: 0.2em 0.4em;
+    border-radius: 0.25rem;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9em;
+  }
+
+  #detail-content pre {
+    background-color: #f5f5f5;
+    padding: 1em;
+    border-radius: 0.5rem;
+    overflow-x: auto;
+    margin: 1.5em 0;
+  }
+
+  #detail-content pre code {
+    background-color: transparent;
+    padding: 0;
+  }
+</style>
+
+<header class="bg-white w-full shadow-sm">
+  <div class="mx-auto px-6">
+    <div class="flex h-30 items-center justify-between">
+      <a class="block flex items-center gap-3" href="/">
+        <img src="/img/cpj.svg" loading="lazy" class="h-20" alt="CoderDojo Logo" title="CoderDojo Logo" />
+        <h1 class='text-2xl md:text-4xl font-bold uppercase tracking-wider' style="font-family: 'League Gothic', sans-serif;">
+          Coolest Projects Japan 2026
+        </h1>
+      </a>
+
+      <nav aria-label="Global" class="hidden md:block">
+        <ul class="flex items-center gap-6 text-xl">
+          <li>
+            <a class="text-gray-500 transition hover:text-gray-500/75" href="/about"> 開催概要 </a>
+          </li>
+
+          <li>
+            <a class="text-gray-500 transition hover:text-gray-500/75" href="/events"> イベント </a>
+          </li>
+
+          <li>
+            <a class="text-gray-500 transition hover:text-gray-500/75" href="/sponsors"> スポンサー </a>
+          </li>
+
+          <li>
+            <a class="text-gray-500 transition hover:text-gray-500/75" href="/contact"> お問い合わせ </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main class="flex-grow">
+  <!-- ヒーローセクション -->
+  <div class="py-24 text-center" style="background-color: #E5A800;">
+    <h1 class="text-5xl md:text-7xl font-bold text-white mb-4">お知らせ</h1>
+    <p class="text-2xl md:text-4xl font-bold text-white uppercase tracking-wider" style="font-family: 'League Gothic', sans-serif;">NEWS</p>
+  </div>
+
+  <!-- コンテンツエリア -->
+  <div class="bg-white py-16 px-4">
+    <div class="max-w-4xl mx-auto">
+
+      <!-- ローディング表示 -->
+      <div id="loading" class="text-center py-12">
+      </div>
+
+      <!-- エラー表示 -->
+      <div id="error" class="text-center py-12" style="display: none;">
+        <p class="text-xl" style="color: #444444;">お知らせの読み込みに失敗しました。</p>
+      </div>
+
+      <!-- お知らせ一覧 -->
+      <div id="news-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" style="display: none;"></div>
+
+      <!-- お知らせがない場合 -->
+      <div id="no-news" class="text-center py-12" style="display: none;">
+        <p class="text-xl" style="color: #444444;">現在お知らせはありません。</p>
+      </div>
+
+      <!-- お知らせ詳細 -->
+      <div id="news-detail" style="display: none;">
+        <!-- 戻るボタン -->
+        <div class="mb-8">
+          <a href="/news" class="inline-flex items-center text-black hover:text-gray-700 font-bold">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+            </svg>
+            一覧に戻る
+          </a>
+        </div>
+
+        <!-- 詳細コンテンツ -->
+        <article>
+          <!-- カテゴリー -->
+          <div class="mb-4">
+            <span id="detail-category" class="px-4 py-2 text-sm font-bold rounded-full"></span>
+          </div>
+
+          <!-- タイトル -->
+          <h1 id="detail-title" class="text-3xl md:text-4xl font-bold mb-4" style="color: #221C35;"></h1>
+
+          <!-- 日付 -->
+          <div class="mb-8">
+            <span id="detail-date" class="text-sm text-gray-700"></span>
+          </div>
+
+          <!-- サムネイル画像 -->
+          <div id="detail-thumbnail" class="mb-8"></div>
+
+          <!-- 本文 -->
+          <div id="detail-content" class="prose prose-lg max-w-none" style="color: #444444;">
+          </div>
+        </article>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    // microCMS設定
+    const SERVICE_ID = 'coolestprojectsjapan';
+    const API_KEY = 'DzUDluMiFTTHxAT2AJEJzFTzX4GdHVpXG9Il';
+    const ENDPOINT = 'news';
+
+    // カテゴリーごとの色設定
+    const categoryColors = {
+      'お知らせ': { bg: '#FFE8B0', text: '#221C35' },
+      '重要なお知らせ': { bg: '#E5A800', text: '#FFFFFF' },
+      '募集情報': { bg: '#00AFAA', text: '#FFFFFF' }
+    };
+
+    // 日付フォーマット関数
+    function formatDate(dateString) {
+      const date = new Date(dateString);
+      const year = date.getFullYear();
+      const month = String(date.getMonth() + 1).padStart(2, '0');
+      const day = String(date.getDate()).padStart(2, '0');
+      return `${year}.${month}.${day}`;
+    }
+
+    // お知らせHTML生成
+    function createNewsHTML(news) {
+      const colors = categoryColors[news.category] || categoryColors['お知らせ'];
+      const date = news.publishedAt || news.createdAt;
+
+      // サムネイル画像部分
+      const thumbnailHTML = news.thumbnail
+        ? `<img src="${news.thumbnail.url}" alt="${news.title}" class="w-full h-full object-cover">`
+        : `<div class="w-full h-full flex items-center justify-center">
+             <span class="text-2xl font-bold text-gray-400">NO IMAGE</span>
+           </div>`;
+
+      // 本文からHTMLタグを除去してプレーンテキストに変換
+      const tempDiv = document.createElement('div');
+      tempDiv.innerHTML = news.content;
+      const plainText = tempDiv.textContent || tempDiv.innerText || '';
+
+      return `
+        <a href="/news#${news.id}" class="block h-full">
+          <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 h-full flex flex-col">
+            <div class="h-48 bg-gray-200 overflow-hidden">
+              ${thumbnailHTML}
+            </div>
+            <div class="p-6 flex-1 flex flex-col">
+              <div class="flex items-center gap-2 mb-3">
+                <span class="px-3 py-1 text-xs font-bold rounded-full" style="background-color: ${colors.bg}; color: ${colors.text};">${news.category}</span>
+              </div>
+              <h2 class="text-xl font-bold mb-3 line-clamp-2" style="color: #221C35;">
+                ${news.title}
+              </h2>
+              <p class="text-gray-600 mb-4 flex-1 line-clamp-2">
+                ${plainText}
+              </p>
+              <div class="flex items-center justify-between mt-auto">
+                <span class="text-sm text-gray-700">${formatDate(date)}</span>
+              </div>
+            </div>
+          </article>
+        </a>
+      `;
+    }
+
+    // 詳細ページを表示
+    async function displayNewsDetail(newsId) {
+      try {
+        const response = await fetch(
+          `https://${SERVICE_ID}.microcms.io/api/v1/${ENDPOINT}/${newsId}`,
+          {
+            headers: {
+              'X-MICROCMS-API-KEY': API_KEY
+            }
+          }
+        );
+
+        if (!response.ok) {
+          throw new Error('データの取得に失敗しました');
+        }
+
+        const news = await response.json();
+        const colors = categoryColors[news.category] || categoryColors['お知らせ'];
+        const date = news.publishedAt || news.createdAt;
+
+        // 一覧を非表示、詳細を表示
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('news-list').style.display = 'none';
+        document.getElementById('news-detail').style.display = 'block';
+
+        // 詳細データを設定
+        document.getElementById('detail-category').textContent = news.category;
+        document.getElementById('detail-category').style.backgroundColor = colors.bg;
+        document.getElementById('detail-category').style.color = colors.text;
+
+        document.getElementById('detail-title').textContent = news.title;
+        document.getElementById('detail-date').textContent = formatDate(date);
+
+        // サムネイル画像
+        if (news.thumbnail) {
+          document.getElementById('detail-thumbnail').innerHTML = `
+            <img src="${news.thumbnail.url}" alt="${news.title}" class="w-full rounded-lg shadow-lg">
+          `;
+        } else {
+          document.getElementById('detail-thumbnail').innerHTML = '';
+        }
+
+        // 本文
+        document.getElementById('detail-content').innerHTML = news.content;
+
+      } catch (error) {
+        console.error('Error fetching news detail:', error);
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('error').style.display = 'block';
+      }
+    }
+
+    // microCMSからデータ取得
+    async function fetchNews() {
+      try {
+        const response = await fetch(
+          `https://${SERVICE_ID}.microcms.io/api/v1/${ENDPOINT}?orders=-publishedAt,-createdAt`,
+          {
+            headers: {
+              'X-MICROCMS-API-KEY': API_KEY
+            }
+          }
+        );
+
+        if (!response.ok) {
+          throw new Error('データの取得に失敗しました');
+        }
+
+        const data = await response.json();
+
+        // ローディング非表示
+        document.getElementById('loading').style.display = 'none';
+
+        if (data.contents && data.contents.length > 0) {
+          // お知らせを表示
+          const newsListElement = document.getElementById('news-list');
+          newsListElement.innerHTML = data.contents.map(news => createNewsHTML(news)).join('');
+          newsListElement.style.display = 'grid';
+        } else {
+          // お知らせがない場合
+          document.getElementById('no-news').style.display = 'block';
+        }
+      } catch (error) {
+        console.error('Error fetching news:', error);
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('error').style.display = 'block';
+      }
+    }
+
+    // URLハッシュをチェックして表示を切り替え
+    function checkHash() {
+      const hash = window.location.hash.substring(1); // #を除去
+      if (hash) {
+        // ハッシュがある場合は詳細ページを表示
+        displayNewsDetail(hash);
+      } else {
+        // ハッシュがない場合は一覧を表示
+        fetchNews();
+      }
+    }
+
+    // ページ読み込み時とハッシュ変更時に実行
+    window.addEventListener('load', checkHash);
+    window.addEventListener('hashchange', checkHash);
+  </script>
+</main>
+
+<!-- フッター -->
+<footer class="bg-gray-50 border-t border-gray-200 py-12">
+  <div class="max-w-5xl mx-auto px-6">
+
+    <!-- ロゴ -->
+    <div class="flex justify-center mb-8">
+      <img src="/img/cpj.svg" loading="lazy" class="h-24" alt="Coolest Projects Japan Logo" title="Coolest Projects Japan" />
+    </div>
+
+    <!-- ソーシャルメディアアイコン -->
+    <div class="flex justify-center gap-6 mb-8">
+      <!-- X (Twitter) -->
+      <a href="https://x.com/cprojectsjapan" target="_blank" rel="noopener noreferrer" class="text-gray-700">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+        </svg>
+      </a>
+
+      <!-- Facebook -->
+      <a href="https://www.facebook.com/profile.php?id=61584750750420" target="_blank" rel="noopener noreferrer" class="text-gray-700">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+        </svg>
+      </a>
+
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/coolestprojectsjp/" target="_blank" rel="noopener noreferrer" class="text-gray-700">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+        </svg>
+      </a>
+    </div>
+
+    <!-- ナビゲーションリンク -->
+    <div class="flex flex-wrap justify-center gap-6 mb-8 text-gray-700">
+      <a href="/" class="hover:text-gray-900 transition-colors font-medium">ホーム</a>
+      <a href="https://coderdojo.jp/code-of-conduct" target="_blank" class="hover:text-gray-900 transition-colors font-medium">行動規範</a>
+      <a href="https://coderdojo.jp/privacy" target="_blank" class="hover:text-gray-900 transition-colors font-medium">プライバシーポリシー</a>
+      <a href="mailto:info@coderdojo.jp" class="hover:text-gray-900 transition-colors font-medium">お問い合わせ</a>
+    </div>
+
+    <!-- コピーライト -->
+    <div class="text-center text-gray-600 text-sm">
+      <p>© Coolest Projects Japan 2026 実行委員会</p>
+    </div>
+
+  </div>
+</footer>
