@@ -62,3 +62,4 @@ exclude:
   - LICENSE.md
   - Rakefile
   - README.md
+  - node_modules
