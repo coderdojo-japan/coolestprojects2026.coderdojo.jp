@@ -93,7 +93,7 @@ layout: plain
         <div class="mb-24">
           <div class="flex items-center mb-12">
             <div class="flex-1 border-t-2" style="border-color: #00AFAA;"></div>
-            <h3 class="px-4 sm:px-6 text-xl sm:text-2xl font-bold text-center" style="color: #00AFAA;">ダイアモンドスポンサー（募集中）</h3>
+            <h3 class="px-4 sm:px-6 text-xl sm:text-2xl font-bold text-center" style="color: #00AFAA;">ダイアモンドスポンサー（締切済）</h3>
             <div class="flex-1 border-t-2" style="border-color: #00AFAA;"></div>
           </div>
         </div>

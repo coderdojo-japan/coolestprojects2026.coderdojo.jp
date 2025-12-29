@@ -81,7 +81,7 @@ layout: plain
     </div>
 
     <div class="text-center font-bold text-xl text-white">
-      <p>世界中のニンジャたちが集う、クリエイティブな祭典。君のアイデアで未来をハックしよう。</p>
+      <p>日本中の子供たちが集う、クリエイティブな祭典。君のアイデアで未来をハックしよう。</p>
     </div>
 
     <div class="flex gap-4 justify-center mt-10">
@@ -208,15 +208,26 @@ layout: plain
           <p class="text-gray-600 leading-relaxed">Raspberry Pi、Arduino、micro:bitを使ったロボットや電子工作。センサーやモーターを組み合わせて、動く作品を作ろう。</p>
         </div>
 
-        <!-- その他 -->
+        <!-- Creative -->
         <div class="bg-white rounded-2xl p-8 shadow-lg">
-          <div class="p-4 rounded-xl bg-gradient-to-br from-slate-500 to-slate-700 mb-6 shadow-lg inline-block">
+          <div class="p-4 rounded-xl bg-gradient-to-br from-yellow-400 to-orange-500 mb-6 shadow-lg inline-block">
             <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
             </svg>
           </div>
-          <h4 class="text-2xl font-bold text-gray-900 mb-3">その他</h4>
-          <p class="text-gray-600 leading-relaxed">AI、データサイエンス、音楽制作、デジタルアートなど、上記のカテゴリーに収まらない革新的なプロジェクト。新しい挑戦を待っています。</p>
+          <h4 class="text-2xl font-bold text-gray-900 mb-3">Creative</h4>
+          <p class="text-gray-600 leading-relaxed">音楽制作、デジタルアート、映像編集、3Dモデリングなど、クリエイティブな表現を形にしたプロジェクト。あなたの感性を作品にしよう。</p>
+        </div>
+
+        <!-- AI -->
+        <div class="bg-white rounded-2xl p-8 shadow-lg">
+          <div class="p-4 rounded-xl bg-gradient-to-br from-teal-400 to-blue-600 mb-6 shadow-lg inline-block">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <h4 class="text-2xl font-bold text-gray-900 mb-3">AI</h4>
+          <p class="text-gray-600 leading-relaxed">機械学習、画像認識、自然言語処理、データ分析など、AIを活用したプロジェクト。最新のAI技術で未来を創造しよう。</p>
         </div>
 
       </div>
