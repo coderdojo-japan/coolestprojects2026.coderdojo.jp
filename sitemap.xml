@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://coolestprojects2026.coderdojo.jp/about.html</loc>
+</url>
+<url>
+<loc>https://coolestprojects2026.coderdojo.jp/apply.html</loc>
+</url>
+<url>
 <loc>https://coolestprojects2026.coderdojo.jp/conduct.html</loc>
+</url>
+<url>
+<loc>https://coolestprojects2026.coderdojo.jp/contact.html</loc>
+</url>
+<url>
+<loc>https://coolestprojects2026.coderdojo.jp/events.html</loc>
 </url>
 <url>
 <loc>https://coolestprojects2026.coderdojo.jp/</loc>
 </url>
 <url>
+<loc>https://coolestprojects2026.coderdojo.jp/news.html</loc>
+</url>
+<url>
 <loc>https://coolestprojects2026.coderdojo.jp/privacy.html</loc>
+</url>
+<url>
+<loc>https://coolestprojects2026.coderdojo.jp/sponsors.html</loc>
 </url>
 </urlset>
