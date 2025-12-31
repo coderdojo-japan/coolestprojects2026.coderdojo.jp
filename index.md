@@ -5,107 +5,454 @@ layout: plain
 <style type="text/css">
   @import"https://fonts.googleapis.com/css2?family=Space+Mono&display=swap";
   @import"https://fonts.googleapis.com/css2?family=League+Gothic&display=swap";
-  html { scroll-behavior:smooth }
-  body {
-    font-family: "Roboto","Noto Sans JP",sans-serif;
-    margin:      0;
-    text-align:  center;
-    color:       #046;
-    padding-top: 60px;
-  }
-  .container {
-    text-align:  center;
-    font-size:   4vw;
-    font-family: 'Space Mono';
-  }
-  
-  .cursor::after{
-    content:"_";
-    animation: blink 1s infinite
-  }
-  @keyframes blink{
-    0%   { opacity: 0 }
-    50%  { opacity: 0 }
-    51%  { opacity: 1 }
-    100% { opacity: 1 }
+
+  html {
+    scroll-behavior: smooth
   }
 
-  .youtube{
-    position:    relative;
-    width:       100%;
-    padding-top: 56.25%;
+  body {
+    font-family: "Roboto", "Noto Sans JP", sans-serif;
+    margin: 0;
   }
-  .youtube iframe{
-    position: absolute;
-    top:      0;
-    right:    0;
-    width:    100% !important;
-    height:   100% !important;
+
+  .cursor::after {
+    content: "_";
+    animation: blink 1s infinite;
+  }
+
+  @keyframes blink {
+
+    0%,
+    50% {
+      opacity: 0
+    }
+
+    51%,
+    100% {
+      opacity: 1
+    }
   }
 </style>
 
-<div class='container'>
-  <div style='margin-top: 1.0em;'>
-    <img src="/img/cpj.svg" loading="lazy" width='50%'
-     alt="CoderDojo Logo"
-     title="CoderDojo Logo" />
+<header class="bg-white w-full shadow-sm">
+  <div class="mx-auto px-6">
+    <div class="flex h-30 items-center justify-between">
+      <a class="block flex items-center gap-3" href="#">
+        <img src="/img/cpj.svg" loading="lazy" class="h-20" alt="CoderDojo Logo" title="CoderDojo Logo" />
+        <h1 class='text-2xl md:text-4xl font-bold uppercase tracking-wider' style="font-family: 'League Gothic', sans-serif;">
+          Coolest Projects Japan 2026
+        </h1>
+      </a>
+
+      <nav aria-label="Global" class="hidden md:block">
+        <ul class="flex items-center gap-6 text-xl">
+          <li>
+            <a class="text-gray-500 transition hover:text-gray-500/75" href="/about"> 開催概要 </a>
+          </li>
+
+          <li>
+            <a class="text-gray-500 transition hover:text-gray-500/75" href="/events"> イベント </a>
+          </li>
+          
+          <li>
+            <a class="text-gray-500 transition hover:text-gray-500/75" href="/sponsors"> スポンサー </a>
+          </li>
+
+          <li>
+            <a class="text-gray-500 transition hover:text-gray-500/75" href="/contact"> お問い合わせ </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </div>
+</header>
 
-  <div style="margin-top: 1.0em; font-family: 'League Gothic', sans-serif; text-transform: uppercase; font-size: 150%;">
-    Coolest Projects Japan 2026
+<div class='min-h-screen flex flex-col justify-center  px-4 relative' style="background-image: url('/img/contests/img/IMG_7235.JPG'); background-size: cover; background-position: center;">
+  <div class='absolute inset-0 bg-black opacity-40'></div>
+  <div class='max-w-5xl mx-auto relative z-10'>
+
+    <!-- ロゴ -->
+    <div class='flex text-center justify-center mb-8'>
+      <!-- <h1 class='text-8xl sm:text-9xl font-bold uppercase tracking-wider' style="font-family: 'League Gothic', sans-serif;">
+        Coolest<br>Projects<br>Japan<br>2026
+      </h1> -->
+      <img src="/img/cpj.svg" loading="lazy" class='h-70 sm:h-100' alt="CoderDojo Logo"
+        title="CoderDojo Logo" />
+    </div>
+
+    <div class="text-center font-bold text-xl text-white">
+      <p>日本中の子供たちが集う、クリエイティブな祭典。君のアイデアで未来をハックしよう。</p>
+    </div>
+
+    <div class="flex gap-4 justify-center mt-10">
+      <div class="flex border p-3 rounded-2xl border-2 items-center border-white">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+          class="size-6 text-white">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+        </svg>
+        <span class="ml-2 font-bold text-sm text-white">2026年3月29日 (日)</span>
+      </div>
+      <div class="flex border p-3 rounded-2xl border-2 items-center border-white">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+          class="size-6 text-white">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+        </svg>
+        <span class="ml-2 font-bold text-sm text-white">なごのキャンパス</span>
+      </div>
+    </div>
+
+    <div class="flex justify-center">
+      <a class="group relative inline-block mt-8" href="/apply">
+        <span class="absolute inset-0 translate-x-1.5 translate-y-1.5 bg-teal-500 transition-transform group-hover:translate-x-0 group-hover:translate-y-0"></span>
+        <span class="relative inline-block border-2 border-white px-8 py-3 text-sm font-bold tracking-widest text-white uppercase">
+          今すぐ応募する
+        </span>
+      </a>
+    </div>
   </div>
-
-  <div style="margin-top: 1.5em;">2026年3月29日（日曜）開催決定!</div>
-  <div style="margin-top: 0.5em;">なごのキャンパス＠名古屋</div>
-  <!--<div style="margin-top: 0.5em;" class="cursor">SAVE THE DATE</div>-->
-
-  <div class="youtube" style='margin-top: 1.5em;'>
-    <iframe width="100%" title="What is Coolest Projects?" src="https://www.youtube.com/embed/l8udUqCLXY8?list=PL94GDfaSQTmIifXDGOaEoEgviPSv36OEo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-  <img src="/img/coolest_project_japan_2026_selection.png" loading="lazy" width='100%'
-      alt="CoderDojo Object"
-      title="CoderDojo Object" />
-  <div style='margin-top: 2.5em; margin-bottom: 0.5em; font-size: 80%;'>
-    <a href='https://docs.google.com/presentation/d/1MAX_O_2FhmLvBU52SnWe6jGR0QgAcglN/edit' style='text-decoration: none;'>
-      &raquo; スポンサーシップのご案内
-    </a>
-  </div>
-  <div style='margin-top: 1.0em; margin-bottom: 0.5em; font-size: 80%;'>
-    <a href='https://forms.gle/dfUGhwX1fFJRe7XZ9' style='text-decoration: none;'>
-      &raquo; スタッフ募集に関するご案内
-    </a>
-  </div>
 
-  <div style='margin-top: 1.0em; margin-bottom: 0.5em; font-size: 80%;'>
-    <a href='https://www.google.com/search?q=Coolest+Projects' style='text-decoration: none;'>
-      &raquo; Coolest Projects で検索する
-    </a>
-  </div>
-  <div style='margin-top: 1.0em; margin-bottom: 0.5em; font-size: 80%;'>
-    <a href='https://forms.gle/QLE4j3vFnXiteHqSA' style='text-decoration: none;'>
-      &raquo; Coolest Projects に応募する
-    </a>
-  </div>
+<div class='bg-white py-12 px-4'>
+  <div class='max-w-7xl mx-auto'>
+    
 
-  <div style='margin-top: 1.0em; margin-bottom: 2.5em; font-size: 80%;'>
-    <a href='https://docs.google.com/document/d/1q18dQOj6LvbcKfoCdc6kVtexPzc0agypQuoslw7AiEw/edit?usp=sharing' style='text-decoration: none;'>
-      &raquo; 応募要項
-    </a>
+    <div class="mt-12">
+      <!-- グリッドレイアウトで横並び -->
+      <div class="grid md:grid-cols-2 gap-12 sm:gap-24 items-stretch">
+
+        <!-- 左側：画像（スマホでは下に表示） -->
+        <div class="order-2 md:order-1">
+          <img src="/img/contests/img/IMG_7269.JPG" alt="Coolest Projects イベントの様子"
+            class="w-full aspect-square rounded-2xl shadow-lg object-cover" loading="lazy" />
+        </div>
+
+        <!-- 右側：テキストコンテンツ（スマホでは上に表示） -->
+        <div class="order-1 md:order-2">
+          <div class="mb-8 sm:mb-14">
+            <h1 class='text-5xl sm:text-6xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block' style="font-family: 'League Gothic', sans-serif; color: #221C35;">ABOUT</h1>
+            <p class="text-xl mt-2" style="color: #444444;">イベント紹介</p>
+          </div>
+          <h2 class="text-2xl sm:text-5xl font-bold">君の「作りたい」を世界へ。</h2>
+          <p class="mt-5 text-xl sm:text-2xl">Coolest Projectsは、18歳以下の子どもたちのための世界的な作品展示イベントです。プログラミングやテクノロジーを使って作った独自のアイデアや作品を、コミュニティ全体で称賛し合います。順位を競うコンテストではありません。あなたの情熱、創造性、そして技術的な挑戦を世界中の仲間と共有する場所です。</p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="mt-24">
+      <div class="text-center mb-8">
+        <h1 class='text-5xl sm:text-6xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block'
+          style="font-family: 'League Gothic', sans-serif; color: #221C35;">CATEGORIES</h1>
+        <p class="text-xl mt-2" style="color: #444444;">カテゴリー</p>
+      </div>
+
+      <!-- カテゴリーカード -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+
+        <!-- Visual Programming -->
+        <div class="bg-white rounded-2xl p-8 shadow-lg">
+          <div class="p-4 rounded-xl bg-gradient-to-br from-orange-400 to-red-500 mb-6 shadow-lg inline-block">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+            </svg>
+          </div>
+          <h4 class="text-2xl font-bold text-gray-900 mb-3">Visual Programming</h4>
+          <p class="text-gray-600 leading-relaxed">Scratch、Kodu、MakeCodeなどのブロック型言語を使った創造的なプロジェクト。micro:bitやArduinoと組み合わせたハードウェア制御も歓迎です。</p>
+        </div>
+
+        <!-- Web -->
+        <div class="bg-white rounded-2xl p-8 shadow-lg">
+          <div class="p-4 rounded-xl bg-gradient-to-br from-blue-400 to-cyan-500 mb-6 shadow-lg inline-block">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+            </svg>
+          </div>
+          <h4 class="text-2xl font-bold text-gray-900 mb-3">Web</h4>
+          <p class="text-gray-600 leading-relaxed">HTML、CSS、JavaScriptを使って作るウェブサイトやウェブアプリケーション。インタラクティブなデザインや便利なツールで、あなたのアイデアを表現しよう。</p>
+        </div>
+
+        <!-- Games -->
+        <div class="bg-white rounded-2xl p-8 shadow-lg">
+          <div class="p-4 rounded-xl bg-gradient-to-br from-purple-400 to-pink-500 mb-6 shadow-lg inline-block">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <h4 class="text-2xl font-bold text-gray-900 mb-3">Games</h4>
+          <p class="text-gray-600 leading-relaxed">Python、Unity、Unreal Engine、Godotなど、あらゆる言語やエンジンで作られたゲーム作品。2Dアクション、3D冒険、パズルゲームまで、君のゲームを見せてくれ。</p>
+        </div>
+
+        <!-- Mobile Apps -->
+        <div class="bg-white rounded-2xl p-8 shadow-lg">
+          <div class="p-4 rounded-xl bg-gradient-to-br from-indigo-400 to-purple-600 mb-6 shadow-lg inline-block">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <h4 class="text-2xl font-bold text-gray-900 mb-3">Mobile Apps</h4>
+          <p class="text-gray-600 leading-relaxed">スマホやタブレットで動く便利なアプリ、楽しいエンタメアプリ、役立つ情報アプリなど。実機またはエミュレータでのデモでOKです。</p>
+        </div>
+
+        <!-- Hardware -->
+        <div class="bg-white rounded-2xl p-8 shadow-lg">
+          <div class="p-4 rounded-xl bg-gradient-to-br from-green-400 to-emerald-600 mb-6 shadow-lg inline-block">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+            </svg>
+          </div>
+          <h4 class="text-2xl font-bold text-gray-900 mb-3">Hardware</h4>
+          <p class="text-gray-600 leading-relaxed">Raspberry Pi、Arduino、micro:bitを使ったロボットや電子工作。センサーやモーターを組み合わせて、動く作品を作ろう。</p>
+        </div>
+
+        <!-- Creative -->
+        <div class="bg-white rounded-2xl p-8 shadow-lg">
+          <div class="p-4 rounded-xl bg-gradient-to-br from-yellow-400 to-orange-500 mb-6 shadow-lg inline-block">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+            </svg>
+          </div>
+          <h4 class="text-2xl font-bold text-gray-900 mb-3">Creative</h4>
+          <p class="text-gray-600 leading-relaxed">音楽制作、デジタルアート、映像編集、3Dモデリングなど、クリエイティブな表現を形にしたプロジェクト。あなたの感性を作品にしよう。</p>
+        </div>
+
+        <!-- AI -->
+        <div class="bg-white rounded-2xl p-8 shadow-lg">
+          <div class="p-4 rounded-xl bg-gradient-to-br from-teal-400 to-blue-600 mb-6 shadow-lg inline-block">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <h4 class="text-2xl font-bold text-gray-900 mb-3">AI</h4>
+          <p class="text-gray-600 leading-relaxed">機械学習、画像認識、自然言語処理、データ分析など、AIを活用したプロジェクト。最新のAI技術で未来を創造しよう。</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- NEWS セクション -->
+    <div class="mt-24">
+      <div class="text-center mb-16">
+        <h1 class='text-5xl sm:text-6xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block'
+          style="font-family: 'League Gothic', sans-serif; color: #221C35;">NEWS</h1>
+        <p class="text-xl mt-2" style="color: #444444;">お知らせ</p>
+      </div>
+
+      <!-- ローディング表示 -->
+      <div id="news-loading" class="text-center py-12">
+      </div>
+
+      <!-- お知らせ一覧 -->
+      <div id="news-list" class="grid grid-cols-1 md:grid-cols-3 gap-6" style="display: none;"></div>
+
+      <!-- もっと見るボタン -->
+      <div class="text-center mt-8">
+        <a class="group relative inline-block" href="/news">
+          <span class="absolute inset-0 translate-x-1.5 translate-y-1.5 bg-teal-500 transition-transform group-hover:translate-x-0 group-hover:translate-y-0"></span>
+          <span class="relative inline-block border-2 border-current px-8 py-3 text-sm font-bold tracking-widest text-black uppercase">
+            もっと見る
+          </span>
+        </a>
+      </div>
+    </div>
+
+    <div class="mt-24">
+      <div class="text-center mb-16">
+        <h1 class='text-5xl sm:text-6xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block'
+          style="font-family: 'League Gothic', sans-serif; color: #221C35;">SPONSORS</h1>
+        <p class="text-xl mt-2" style="color: #444444;">スポンサー</p>
+      </div>
+
+      <div class="text-center mb-16">
+        <p class="text-xl mb-12" style="color: #444444;">Coolest Projects 2026では、次世代のクリエイターを応援してくださる<br>スポンサー様を募集しています。</p>
+
+        <!-- スポンサー資料 -->
+        <div class="mb-12 max-w-4xl mx-auto">
+          <div class='relative w-full' style='padding-top: 56.25%;'>
+            <iframe class='absolute top-0 left-0 w-full h-full rounded-2xl'
+              src="https://docs.google.com/presentation/d/1MAX_O_2FhmLvBU52SnWe6jGR0QgAcglN/embed?start=false&loop=false&delayms=3000"
+              frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
+            </iframe>
+          </div>
+        </div>
+
+        <div class="flex justify-center">
+          <a class="group relative inline-block" href="/sponsors">
+            <span class="absolute inset-0 translate-x-1.5 translate-y-1.5 bg-teal-500 transition-transform group-hover:translate-x-0 group-hover:translate-y-0"></span>
+            <span class="relative inline-block border-2 border-current px-8 py-3 text-sm font-bold tracking-widest text-black uppercase">
+              スポンサー申し込み
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+
   </div>
-
-  
-  
-
-  <div style='margin-top: 2.0em;'>
-    <img src="/img/cover-photo.webp" loading="lazy" width='100%'
-     alt="CoderDojo Object"
-     title="CoderDojo Object" />
-  </div>
-
-  <div style='margin-top: 2.0em; margin-bottom: 5.5em; font-size: 35%;'>
-    Coolest Projects Japan 実行委員会<br>
-    ＆<br>
-    <a href='https://coderdojo.jp/about' style='text-decoration:none; color: #046;'>一般社団法人 CoderDojo Japan</a>
-  </div>
-
 </div>
+
+<style>
+  /* テキストを2行で切り取る */
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+</style>
+
+<script>
+  // microCMS設定
+  const SERVICE_ID = 'coolestprojectsjapan';
+  const API_KEY = 'DzUDluMiFTTHxAT2AJEJzFTzX4GdHVpXG9Il';
+  const ENDPOINT = 'news';
+
+  // カテゴリーごとの色設定
+  const categoryColors = {
+    'お知らせ': { bg: '#FFE8B0', text: '#221C35' },
+    '重要なお知らせ': { bg: '#E5A800', text: '#FFFFFF' },
+    '募集情報': { bg: '#00AFAA', text: '#FFFFFF' }
+  };
+
+  // 日付フォーマット関数
+  function formatDate(dateString) {
+    const date = new Date(dateString);
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const day = String(date.getDate()).padStart(2, '0');
+    return `${year}.${month}.${day}`;
+  }
+
+  // お知らせカードHTML生成
+  function createNewsCard(news) {
+    const colors = categoryColors[news.category] || categoryColors['お知らせ'];
+    const date = news.publishedAt || news.createdAt;
+
+    // サムネイル画像部分
+    const thumbnailHTML = news.thumbnail
+      ? `<img src="${news.thumbnail.url}" alt="${news.title}" class="w-full h-full object-cover">`
+      : `<div class="w-full h-full flex items-center justify-center">
+           <span class="text-2xl font-bold text-gray-400">NO IMAGE</span>
+         </div>`;
+
+    // 本文からHTMLタグを除去してプレーンテキストに変換
+    const tempDiv = document.createElement('div');
+    tempDiv.innerHTML = news.content;
+    const plainText = tempDiv.textContent || tempDiv.innerText || '';
+
+    return `
+      <a href="/news#${news.id}" class="block h-full">
+        <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 h-full flex flex-col">
+          <div class="h-48 bg-gray-200 overflow-hidden">
+            ${thumbnailHTML}
+          </div>
+          <div class="p-6 flex-1 flex flex-col">
+            <div class="flex items-center gap-2 mb-3">
+              <span class="px-3 py-1 text-xs font-bold rounded-full" style="background-color: ${colors.bg}; color: ${colors.text};">${news.category}</span>
+            </div>
+            <h2 class="text-xl font-bold mb-3 line-clamp-2" style="color: #221C35;">
+              ${news.title}
+            </h2>
+            <p class="text-gray-600 mb-4 flex-1 line-clamp-2">
+              ${plainText}
+            </p>
+            <div class="flex items-center justify-between mt-auto">
+              <span class="text-sm text-gray-700">${formatDate(date)}</span>
+            </div>
+          </div>
+        </article>
+      </a>
+    `;
+  }
+
+  // microCMSからお知らせを取得（最新3件）
+  async function fetchLatestNews() {
+    try {
+      const response = await fetch(
+        `https://${SERVICE_ID}.microcms.io/api/v1/${ENDPOINT}?orders=-publishedAt,-createdAt&limit=3`,
+        {
+          headers: {
+            'X-MICROCMS-API-KEY': API_KEY
+          }
+        }
+      );
+
+      if (!response.ok) {
+        throw new Error('データの取得に失敗しました');
+      }
+
+      const data = await response.json();
+
+      // ローディング非表示
+      document.getElementById('news-loading').style.display = 'none';
+
+      if (data.contents && data.contents.length > 0) {
+        // お知らせを表示
+        const newsListElement = document.getElementById('news-list');
+        newsListElement.innerHTML = data.contents.map(news => createNewsCard(news)).join('');
+        newsListElement.style.display = 'grid';
+      }
+    } catch (error) {
+      console.error('Error fetching news:', error);
+      document.getElementById('news-loading').style.display = 'none';
+    }
+  }
+
+  // ページ読み込み時に実行
+  fetchLatestNews();
+</script>
+
+<!-- フッター -->
+<footer class="bg-gray-50 border-t border-gray-200 py-12">
+  <div class="max-w-5xl mx-auto px-6">
+
+    <!-- ロゴ -->
+    <div class="flex justify-center mb-8">
+      <img src="/img/cpj.svg" loading="lazy" class="h-24" alt="Coolest Projects Japan Logo" title="Coolest Projects Japan" />
+    </div>
+
+    <!-- ソーシャルメディアアイコン -->
+    <div class="flex justify-center gap-6 mb-8">
+      <!-- X (Twitter) -->
+      <a href="https://x.com/cprojectsjapan" target="_blank" rel="noopener noreferrer" class="text-gray-700">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+        </svg>
+      </a>
+
+      <!-- Facebook -->
+      <a href="https://www.facebook.com/profile.php?id=61584750750420" target="_blank" rel="noopener noreferrer" class="text-gray-700">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+        </svg>
+      </a>
+
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/coolestprojectsjp/" target="_blank" rel="noopener noreferrer" class="text-gray-700">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+        </svg>
+      </a>
+    </div>
+
+    <!-- ナビゲーションリンク -->
+    <div class="flex flex-wrap justify-center gap-6 mb-8 text-gray-700">
+      <a href="/" class="hover:text-gray-900 transition-colors font-medium">ホーム</a>
+      <a href="/conduct" class="hover:text-gray-900 transition-colors font-medium">行動規範</a>
+      <a href="/privacy" class="hover:text-gray-900 transition-colors font-medium">プライバシーポリシー</a>
+      <a href="/contact" class="hover:text-gray-900 transition-colors font-medium">お問い合わせ</a>
+    </div>
+
+    <!-- コピーライト -->
+    <div class="text-center text-gray-600 text-sm">
+      <p>© Coolest Projects Japan 2026 実行委員会</p>
+    </div>
+
+  </div>
+</footer>
+
+
+
+   

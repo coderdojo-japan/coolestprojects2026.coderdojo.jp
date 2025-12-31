@@ -1,0 +1,277 @@
+---
+layout: plain
+---
+
+<style type="text/css">
+  @import"https://fonts.googleapis.com/css2?family=Space+Mono&display=swap";
+  @import"https://fonts.googleapis.com/css2?family=League+Gothic&display=swap";
+
+  html {
+    scroll-behavior: smooth
+  }
+
+  body {
+    font-family: "Roboto", "Noto Sans JP", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+</style>
+
+<header class="bg-white w-full shadow-sm">
+  <div class="mx-auto px-6">
+    <div class="flex h-30 items-center justify-between">
+      <a class="block flex items-center gap-3" href="/">
+        <img src="/img/cpj.svg" loading="lazy" class="h-20" alt="CoderDojo Logo" title="CoderDojo Logo" />
+        <h1 class='text-2xl md:text-4xl font-bold uppercase tracking-wider' style="font-family: 'League Gothic', sans-serif;">
+          Coolest Projects Japan 2026
+        </h1>
+      </a>
+
+      <nav aria-label="Global" class="hidden md:block">
+        <ul class="flex items-center gap-6 text-xl">
+          <li>
+            <a class="text-gray-500 transition hover:text-gray-500/75" href="/about"> 開催概要 </a>
+          </li>
+
+          <li>
+            <a class="text-gray-500 transition hover:text-gray-500/75" href="/events"> イベント </a>
+          </li>
+
+          <li>
+            <a class="text-gray-500 transition hover:text-gray-500/75" href="/sponsors"> スポンサー </a>
+          </li>
+
+          <li>
+            <a class="text-gray-500 transition hover:text-gray-500/75" href="/contact"> お問い合わせ </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main class="flex-grow">
+  <!-- ヒーローセクション -->
+  <div class="py-24 text-center" style="background-color: #E5A800;">
+    <h1 class="text-5xl md:text-7xl font-bold text-white mb-4">応募</h1>
+    <p class="text-2xl md:text-4xl font-bold text-white uppercase tracking-wider" style="font-family: 'League Gothic', sans-serif;">APPLY</p>
+  </div>
+
+  <!-- コンテンツエリア -->
+  <div class="bg-white py-16 px-4">
+    <div class="max-w-6xl mx-auto">
+
+      <!-- 応募の流れセクション -->
+      <div class="mb-24">
+        <!-- セクションタイトル -->
+        <div class="text-center mb-16">
+          <h2 class='text-4xl sm:text-5xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block' style="font-family: 'League Gothic', sans-serif; color: #221C35;">FLOW</h2>
+          <p class="text-xl mt-2" style="color: #444444;">流れ</p>
+        </div>
+
+        <!-- スローガン -->
+        <div class="text-center mb-16 max-w-4xl mx-auto">
+          <p class="text-xl leading-relaxed" style="color: #221C35;">
+            「正解」なんてない、あるのはキミの「ワクワク」だけ！<br />
+            その「大好き」を爆発させて、世界を驚かす「大発明」を応募してね！
+          </p>
+        </div>
+
+        <!-- 4 Cards x 2 Rows Layout --> 
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+          <!-- Step 01 -->
+          <div class="relative w-full">
+            <div class="bg-white border-4 p-6 rounded-2xl shadow-lg h-full flex flex-col items-center text-center" style="border-color: #E5A800;">
+              <div class="w-14 h-14 rounded-full flex items-center justify-center mb-4 shadow-lg" style="background-color: #E5A800;">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+                </svg>
+              </div>
+              <div class="font-black text-5xl absolute top-4 right-4 select-none" style="font-family: 'Space Mono', monospace; color: #E5A800;">01</div>
+              <h3 class="text-xl font-bold mb-1" style="color: #221C35;">アイデア開発</h3>
+              <p class="text-gray-600 text-sm leading-relaxed mt-2">キミの「大好き」を形にしよう！</p>
+            </div>
+          </div>
+
+          <!-- Step 02 -->
+          <div class="relative w-full">
+            <div class="bg-white border-4 p-6 rounded-2xl shadow-lg h-full flex flex-col items-center text-center" style="border-color: #00AFAA;">
+              <div class="w-14 h-14 rounded-full flex items-center justify-center mb-4 shadow-lg" style="background-color: #00AFAA;">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                </svg>
+              </div>
+              <div class="font-black text-5xl absolute top-4 right-4 select-none" style="font-family: 'Space Mono', monospace; color: #00AFAA;">02</div>
+              <h3 class="text-xl font-bold mb-1" style="color: #221C35;">応募締め切り</h3>
+              <div class="font-bold text-lg mb-2" style="color: #00AFAA;">1月25日</div>
+              <p class="text-gray-600 text-sm leading-relaxed">この日までに応募してね！</p>
+            </div>
+          </div>
+
+          <!-- Step 03 -->
+          <div class="relative w-full">
+            <div class="bg-white border-4 p-6 rounded-2xl shadow-lg h-full flex flex-col items-center text-center" style="border-color: #E5A800;">
+              <div class="w-14 h-14 rounded-full flex items-center justify-center mb-4 shadow-lg" style="background-color: #E5A800;">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path>
+                </svg>
+              </div>
+              <div class="font-black text-5xl absolute top-4 right-4 select-none" style="font-family: 'Space Mono', monospace; color: #E5A800;">03</div>
+              <h3 class="text-xl font-bold mb-1" style="color: #221C35;">審査期間</h3>
+              <p class="text-gray-600 text-sm leading-relaxed mt-2">ワクワクしながら作品を仕上げよう！</p>
+            </div>
+          </div>
+
+          <!-- Step 04 -->
+          <div class="relative w-full">
+            <div class="bg-white border-4 p-6 rounded-2xl shadow-lg h-full flex flex-col items-center text-center" style="border-color: #00AFAA;">
+              <div class="w-14 h-14 rounded-full flex items-center justify-center mb-4 shadow-lg" style="background-color: #00AFAA;">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                </svg>
+              </div>
+              <div class="font-black text-5xl absolute top-4 right-4 select-none" style="font-family: 'Space Mono', monospace; color: #00AFAA;">04</div>
+              <h3 class="text-xl font-bold mb-1" style="color: #221C35;">決定通知</h3>
+              <div class="font-bold text-lg mb-2" style="color: #00AFAA;">2月18日</div>
+              <p class="text-gray-600 text-sm leading-relaxed">通知を待って次の準備をしよう！</p>
+            </div>
+          </div>
+
+          <!-- Step 05 -->
+          <div class="relative w-full">
+            <div class="bg-white border-4 p-6 rounded-2xl shadow-lg h-full flex flex-col items-center text-center" style="border-color: #E5A800;">
+              <div class="w-14 h-14 rounded-full flex items-center justify-center mb-4 shadow-lg" style="background-color: #E5A800;">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                </svg>
+              </div>
+              <div class="font-black text-5xl absolute top-4 right-4 select-none" style="font-family: 'Space Mono', monospace; color: #E5A800;">05</div>
+              <h3 class="text-xl font-bold mb-1" style="color: #221C35;">登録受付</h3>
+              <p class="text-gray-600 text-sm leading-relaxed mt-2">展示フォームに作品を登録しよう！</p>
+            </div>
+          </div>
+
+          <!-- Step 06 -->
+          <div class="relative w-full">
+            <div class="bg-white border-4 p-6 rounded-2xl shadow-lg h-full flex flex-col items-center text-center" style="border-color: #00AFAA;">
+              <div class="w-14 h-14 rounded-full flex items-center justify-center mb-4 shadow-lg" style="background-color: #00AFAA;">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+              </div>
+              <div class="font-black text-5xl absolute top-4 right-4 select-none" style="font-family: 'Space Mono', monospace; color: #00AFAA;">06</div>
+              <h3 class="text-xl font-bold mb-1" style="color: #221C35;">展示締め切り</h3>
+              <div class="font-bold text-lg mb-2" style="color: #00AFAA;">2月25日</div>
+              <p class="text-gray-600 text-sm leading-relaxed">この日までに登録を完了してね！</p>
+            </div>
+          </div>
+
+          <!-- Step 07 -->
+          <div class="relative w-full">
+            <div class="bg-white border-4 p-6 rounded-2xl shadow-lg h-full flex flex-col items-center text-center" style="border-color: #E5A800;">
+              <div class="w-14 h-14 rounded-full flex items-center justify-center mb-4 shadow-lg" style="background-color: #E5A800;">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
+                </svg>
+              </div>
+              <div class="font-black text-5xl absolute top-4 right-4 select-none" style="font-family: 'Space Mono', monospace; color: #E5A800;">07</div>
+              <h3 class="text-xl font-bold mb-1" style="color: #221C35;">作品仕上げ</h3>
+              <p class="text-gray-600 text-sm leading-relaxed mt-2">ラストスパート！最高の作品に仕上げよう！</p>
+            </div>
+          </div>
+
+          <!-- Step 08 -->
+          <div class="relative w-full">
+            <div class="bg-white border-4 p-6 rounded-2xl shadow-lg h-full flex flex-col items-center text-center" style="border-color: #00AFAA;">
+              <div class="w-14 h-14 rounded-full flex items-center justify-center mb-4 shadow-lg" style="background-color: #00AFAA;">
+                <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+              </div>
+              <div class="font-black text-5xl absolute top-4 right-4 select-none" style="font-family: 'Space Mono', monospace; color: #00AFAA;">08</div>
+              <h3 class="text-xl font-bold mb-1" style="color: #221C35;">イベント開催</h3>
+              <div class="font-bold text-lg mb-2" style="color: #00AFAA;">3月29日</div>
+              <p class="text-gray-600 text-sm leading-relaxed">いよいよ開催！みんなで楽しもう！</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 応募セクション -->
+      <div class="mb-24">
+        <!-- セクションタイトル -->
+        <div class="text-center mb-12">
+          <h2 class='text-4xl sm:text-5xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block' style="font-family: 'League Gothic', sans-serif; color: #221C35;">APPLY</h2>
+          <p class="text-xl mt-2" style="color: #444444;">応募</p>
+        </div>
+
+        <!-- 応募説明 -->
+        <div class="text-center mb-12">
+          <p class="text-xl mb-8" style="color: #444444;">
+            Coolest Projects Japan 2026に作品を応募しよう！<br>
+            下のボタンから応募フォームに進んでください。
+          </p>
+          <a class="group relative inline-block" href="https://forms.gle/QLE4j3vFnXiteHqSA" target="_blank">
+            <span class="absolute inset-0 translate-x-1.5 translate-y-1.5 bg-teal-500 transition-transform group-hover:translate-x-0 group-hover:translate-y-0"></span>
+            <span class="relative inline-block border-2 border-current px-8 py-3 text-sm font-bold tracking-widest text-black uppercase">
+              応募フォームへ
+            </span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<!-- フッター -->
+<footer class="bg-gray-50 border-t border-gray-200 py-12">
+  <div class="max-w-5xl mx-auto px-6">
+
+    <!-- ロゴ -->
+    <div class="flex justify-center mb-8">
+      <img src="/img/cpj.svg" loading="lazy" class="h-24" alt="Coolest Projects Japan Logo" title="Coolest Projects Japan" />
+    </div>
+
+    <!-- ソーシャルメディアアイコン -->
+    <div class="flex justify-center gap-6 mb-8">
+      <!-- X (Twitter) -->
+      <a href="https://x.com/cprojectsjapan" target="_blank" rel="noopener noreferrer" class="text-gray-700">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+        </svg>
+      </a>
+
+      <!-- Facebook -->
+      <a href="https://www.facebook.com/profile.php?id=61584750750420" target="_blank" rel="noopener noreferrer" class="text-gray-700">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+        </svg>
+      </a>
+
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/coolestprojectsjp/" target="_blank" rel="noopener noreferrer" class="text-gray-700">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+        </svg>
+      </a>
+    </div>
+
+    <!-- ナビゲーションリンク -->
+    <div class="flex flex-wrap justify-center gap-6 mb-8 text-gray-700">
+      <a href="/" class="hover:text-gray-900 transition-colors font-medium">ホーム</a>
+      <a href="/conduct" class="hover:text-gray-900 transition-colors font-medium">行動規範</a>
+      <a href="/privacy" class="hover:text-gray-900 transition-colors font-medium">プライバシーポリシー</a>
+      <a href="/contact" class="hover:text-gray-900 transition-colors font-medium">お問い合わせ</a>
+    </div>
+
+    <!-- コピーライト -->
+    <div class="text-center text-gray-600 text-sm">
+      <p>© Coolest Projects Japan 2026 実行委員会</p>
+    </div>
+
+  </div>
+</footer>

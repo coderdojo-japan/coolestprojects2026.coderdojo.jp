@@ -1,90 +1,191 @@
 ---
 layout: plain
-redirect_from: /privacy/index.html
 ---
 
-<style>
-  @import url("../legal.css");
+<style type="text/css">
+  @import"https://fonts.googleapis.com/css2?family=Space+Mono&display=swap";
+  @import"https://fonts.googleapis.com/css2?family=League+Gothic&display=swap";
+
+  html {
+    scroll-behavior: smooth
+  }
+
+  body {
+    font-family: "Roboto", "Noto Sans JP", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
 </style>
 
-<a href="/" class="link-chevron">TOPに戻る</a>
+<header class="bg-white w-full shadow-sm">
+  <div class="mx-auto px-6">
+    <div class="flex h-30 items-center justify-between">
+      <a class="block flex items-center gap-3" href="/">
+        <img src="/img/cpj.svg" loading="lazy" class="h-20" alt="CoderDojo Logo" title="CoderDojo Logo" />
+        <h1 class='text-2xl md:text-4xl font-bold uppercase tracking-wider' style="font-family: 'League Gothic', sans-serif;">
+          Coolest Projects Japan 2026
+        </h1>
+      </a>
 
-# プライバシーポリシー
+      <nav aria-label="Global" class="hidden md:block">
+        <ul class="flex items-center gap-6 text-xl">
+          <li>
+            <a class="text-gray-500 transition hover:text-gray-500/75" href="/about"> 開催概要 </a>
+          </li>
 
-<img src="/img/cover-photo.webp" loading="lazy" width='100%'
- alt="Cover Photo" title="Cover Photo" />
+          <li>
+            <a class="text-gray-500 transition hover:text-gray-500/75" href="/events"> イベント </a>
+          </li>
 
-Coolest Projects Japan 実行委員会 (以下、当実行委員会) では、利用者の個人情報をお預かりしています。当実行委員会は、利用者が安心して本サイトおよび当実行委員会にお問い合わせできるよう、個人情報に関する法令を尊守し、適切に個人情報の取り扱いを致します。
+          <li>
+            <a class="text-gray-500 transition hover:text-gray-500/75" href="/sponsors"> スポンサー </a>
+          </li>
 
-## 1. 個人情報の収集
+          <li>
+            <a class="text-gray-500 transition hover:text-gray-500/75" href="/contact"> お問い合わせ </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
 
-当実行委員会ではメールまたはフォームで情報を送付していただく際に、利用者の個人情報を収集することがあります。収集するにあたっては、利用目的を明記の上、適法かつ公正な手段で収集します。当実行委員会が収集することのある個人情報は以下の通りです。
+<main class="flex-grow">
+  <!-- ヒーローセクション -->
+  <div class="py-24 text-center" style="background-color: #E5A800;">
+    <h1 class="text-5xl md:text-7xl font-bold text-white mb-4">プライバシーポリシー</h1>
+    <p class="text-2xl md:text-4xl font-bold text-white uppercase tracking-wider" style="font-family: 'League Gothic', sans-serif;">Privacy Policy</p>
+  </div>
 
-- お名前
-- メールアドレス
-- お問い合わせの内容
-- フォームからの回答
-- 上記を組み合わせることで個人の特定ができる情報
+  <!-- コンテンツエリア -->
+  <div class="bg-white py-16 px-4">
+    <div class="max-w-4xl mx-auto">
 
+      <p class="text-xl mb-12" style="color: #444444;">
+        Coolest Projects Japan 実行委員会 (以下、当実行委員会) では、利用者の個人情報をお預かりしています。当実行委員会は、利用者が安心して本サイトおよび当実行委員会にお問い合わせできるよう、個人情報に関する法令を尊守し、適切に個人情報の取り扱いを致します。
+      </p>
 
-## 2. 個人情報の利用
+      <h2 class="text-2xl font-bold mb-4 mt-8" style="color: #221C35;">1. 個人情報の収集</h2>
+      <p class="text-lg mb-4" style="color: #444444;">
+        当実行委員会ではメールまたはフォームで情報を送付していただく際に、利用者の個人情報を収集することがあります。収集するにあたっては、利用目的を明記の上、適法かつ公正な手段で収集します。当実行委員会が収集することのある個人情報は以下の通りです。
+      </p>
+      <ul class="text-lg mb-8 list-disc pl-8" style="color: #444444; line-height: 2;">
+        <li>お名前</li>
+        <li>メールアドレス</li>
+        <li>お問い合わせの内容</li>
+        <li>フォームからの回答</li>
+        <li>上記を組み合わせることで個人の特定ができる情報</li>
+      </ul>
 
-当実行委員会が利用者からお預かりした個人情報の利用目的は以下の通りです。
+      <h2 class="text-2xl font-bold mb-4 mt-8" style="color: #221C35;">2. 個人情報の利用</h2>
+      <p class="text-lg mb-4" style="color: #444444;">
+        当実行委員会が利用者からお預かりした個人情報の利用目的は以下の通りです。
+      </p>
+      <ul class="text-lg mb-8 list-disc pl-8" style="color: #444444; line-height: 2;">
+        <li>お問い合わせの返信</li>
+        <li>物品の受領および送付</li>
+        <li>当実行委員会サイト及びシステムの品質向上</li>
+        <li>イベント参加申し込みの管理</li>
+        <li>ボランティア行事保険で補償金を申請する際、社会保険事務所・保険会社に提出する参加者一覧リスト（有事の際のみ）</li>
+      </ul>
 
-- お問い合わせの返信
-- 物品の受領および送付
-- 当実行委員会サイト及びシステムの品質向上
-- イベント参加申し込みの管理
-- ボランティア行事保険で補償金を申請する際、社会保険事務所・保険会社に提出する参加者一覧リスト（有事の際のみ）
+      <h2 class="text-2xl font-bold mb-4 mt-8" style="color: #221C35;">3. 個人情報の開示</h2>
+      <p class="text-lg mb-4" style="color: #444444;">
+        当実行委員会では収集した個人情報について、下記の場合を除いては利用者に断りなく第三者に開示・提供することはありません。
+      </p>
+      <ul class="text-lg mb-8 list-disc pl-8" style="color: #444444; line-height: 2;">
+        <li>法令に基づく場合、および国の機関もしくは地方公共団体またはその委託を受けた者が法令の定める事務を遂行することに対して協力する必要がある場合</li>
+        <li>人の生命、身体または財産の保護のために必要がある場合であって、本人の同意を得ることが困難である場合</li>
+        <li>本サイトの一部または全部の運用を、関連会社で管理する必要があった場合</li>
+        <li>集計分析等によって得られた情報を、個人を特定できない形で業務提携先等に開示または提供する場合</li>
+        <li>「個人情報の利用目的」の範囲内において、外部の企業等業務を遂行する者に個人情報を預託する場合</li>
+      </ul>
 
+      <h2 class="text-2xl font-bold mb-4 mt-8" style="color: #221C35;">4. 個人情報の訂正、削除</h2>
+      <p class="text-lg mb-8" style="color: #444444;">
+        利用者からお預かりした個人情報の訂正・削除は下記の問い合せ先よりお知らせ下さい。
+      </p>
+      <ul class="text-lg mb-8 list-disc pl-8" style="color: #444444; line-height: 2;">
+        <li>問い合わせ窓口: <a href="https://forms.gle/pDkX4gUwaugfkn2M7" style="color: #00AFAA; text-decoration: underline;">https://forms.gle/pDkX4gUwaugfkn2M7</a></li>
+      </ul>
 
-## 3. 個人情報の開示
+      <h2 class="text-2xl font-bold mb-4 mt-8" style="color: #221C35;">5. Cookieの使用について</h2>
+      <p class="text-lg mb-8" style="color: #444444;">
+        当実行委員会では、それぞれの利用者に合わせた情報を提供するため、Cookieを使用することがありますが、これにより個人を特定できる情報の収集を行えるものではありません。また、cookieの受け入れを希望されない場合は、ブラウザの設定等でいつでもCookieを破棄していただけます。
+      </p>
 
-当実行委員会では収集した個人情報について、下記の場合を除いては利用者に断りなく第三者に開示・提供することはありません。
+      <h2 class="text-2xl font-bold mb-4 mt-8" style="color: #221C35;">6. SSLの使用について</h2>
+      <p class="text-lg mb-8" style="color: #444444;">
+        個人情報の入力時には、セキュリティ確保のため、これらの情報が傍受、妨害または改竄されることを防ぐ目的でSSL技術を使用しております。 プライバシーポリシーの変更、収集する個人情報の変更、利用目的の変更、またはその他プライバシーポリシーの変更を行う際は、当ページでの変更を持って公表とさせていただきます。
+      </p>
 
-- 法令に基づく場合、および国の機関もしくは地方公共団体またはその委託を受けた者が法令の定める事務を遂行することに対して協力する必要がある場合
-- 人の生命、身体または財産の保護のために必要がある場合であって、本人の同意を得ることが困難である場合
-- 本サイトの一部または全部の運用を、関連会社で管理する必要があった場合
-- 集計分析等によって得られた情報を、個人を特定できない形で業務提携先等に開示または提供する場合
-- 「個人情報の利用目的」の範囲内において、外部の企業等業務を遂行する者に個人情報を預託する場合
+      <h2 class="text-2xl font-bold mb-4 mt-8" style="color: #221C35;">7. Google Analyticsの利用について</h2>
+      <p class="text-lg mb-4" style="color: #444444;">
+        本サイトではホームページの利用状況を把握するためにGoogle Analyticsを利用しています。 Google Analyticsから提供されるCookieを使用していますが、Google Analyticsによって個人を特定する情報は取得していません。
+      </p>
+      <p class="text-lg mb-4" style="color: #444444;">
+        Google Analyticsの利用により収集されたデータは、Google社のプライバシーポリシーに基づいて管理されています。利用規約・プライバシーポリシーについてはGoogle社のホームページでご確認ください。
+      </p>
+      <ul class="text-lg mb-4 list-disc pl-8" style="color: #444444; line-height: 2;">
+        <li>Googleのサービスを使用するサイトやアプリから収集した情報のGoogleによる使用: <a href="https://www.google.com/intl/ja/policies/privacy/partners/" style="color: #00AFAA; text-decoration: underline;">https://www.google.com/intl/ja/policies/privacy/partners/</a></li>
+        <li>Google Analyticsの利用規約: <a href="https://www.google.com/analytics/terms/jp.html" style="color: #00AFAA; text-decoration: underline;">https://www.google.com/analytics/terms/jp.html</a></li>
+        <li>Google社のプライバシーポリシー: <a href="https://www.google.com/intl/ja/policies/privacy/" style="color: #00AFAA; text-decoration: underline;">https://www.google.com/intl/ja/policies/privacy/</a></li>
+      </ul>
+      <p class="text-lg mb-8" style="color: #444444;">
+        なお、Google Analyticsのサービス利用による損害については、当実行委員会は責任を負わないものとします。
+      </p>
 
+    </div>
+  </div>
+</main>
 
-## 4. 個人情報の訂正、削除
+<!-- フッター -->
+<footer class="bg-gray-50 border-t border-gray-200 py-12">
+  <div class="max-w-5xl mx-auto px-6">
 
-利用者からお預かりした個人情報の訂正・削除は下記の問い合せ先よりお知らせ下さい。
+    <!-- ロゴ -->
+    <div class="flex justify-center mb-8">
+      <img src="/img/cpj.svg" loading="lazy" class="h-24" alt="Coolest Projects Japan Logo" title="Coolest Projects Japan" />
+    </div>
 
-- 問い合わせ窓口: [https://forms.gle/pDkX4gUwaugfkn2M7](https://forms.gle/pDkX4gUwaugfkn2M7)
+    <!-- ソーシャルメディアアイコン -->
+    <div class="flex justify-center gap-6 mb-8">
+      <!-- X (Twitter) -->
+      <a href="https://x.com/cprojectsjapan" target="_blank" rel="noopener noreferrer" class="text-gray-700">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+        </svg>
+      </a>
 
+      <!-- Facebook -->
+      <a href="https://www.facebook.com/profile.php?id=61584750750420" target="_blank" rel="noopener noreferrer" class="text-gray-700">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+        </svg>
+      </a>
 
-## 5. Cookieの使用について
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/coolestprojectsjp/" target="_blank" rel="noopener noreferrer" class="text-gray-700">
+        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+        </svg>
+      </a>
+    </div>
 
-当実行委員会では、それぞれの利用者に合わせた情報を提供するため、Cookieを使用することがありますが、これにより個人を特定できる情報の収集を行えるものではありません。また、cookieの受け入れを希望されない場合は、ブラウザの設定等でいつでもCookieを破棄していただけます。
+    <!-- ナビゲーションリンク -->
+    <div class="flex flex-wrap justify-center gap-6 mb-8 text-gray-700">
+      <a href="/" class="hover:text-gray-900 transition-colors font-medium">ホーム</a>
+      <a href="/conduct" class="hover:text-gray-900 transition-colors font-medium">行動規範</a>
+      <a href="/privacy" class="hover:text-gray-900 transition-colors font-medium">プライバシーポリシー</a>
+      <a href="/contact" class="hover:text-gray-900 transition-colors font-medium">お問い合わせ</a>
+    </div>
 
+    <!-- コピーライト -->
+    <div class="text-center text-gray-600 text-sm">
+      <p>© Coolest Projects Japan 2026 実行委員会</p>
+    </div>
 
-## 6. SSLの使用について
-
-個人情報の入力時には、セキュリティ確保のため、これらの情報が傍受、妨害または改竄されることを防ぐ目的でSSL技術を使用しております。 プライバシーポリシーの変更、収集する個人情報の変更、利用目的の変更、またはその他プライバシーポリシーの変更を行う際は、当ページでの変更を持って公表とさせていただきます。
-
-
-## 7. Google Analyticsの利用について
-
-本サイトではホームページの利用状況を把握するためにGoogle Analyticsを利用しています。 Google Analyticsから提供されるCookieを使用していますが、Google Analyticsによって個人を特定する情報は取得していません。
-
-Google Analyticsの利用により収集されたデータは、Google社のプライバシーポリシーに基づいて管理されています。
-利用規約・プライバシーポリシーについてはGoogle社のホームページでご確認ください。
-
-- Googleのサービスを使用するサイトやアプリから収集した情報のGoogleによる使用: [https://www.google.com/intl/ja/policies/privacy/partners/](https://www.google.com/intl/ja/policies/privacy/partners/)
-- Google Analyticsの利用規約: [https://www.google.com/analytics/terms/jp.html](https://www.google.com/analytics/terms/jp.html)
-- Google社のプライバシーポリシー: [https://www.google.com/intl/ja/policies/privacy/](https://www.google.com/intl/ja/policies/privacy/)
-
-なお、Google Analyticsのサービス利用による損害については、当実行委員会は責任を負わないものとします。
-
-<br>
-
-<div style='text-align: right;'>
-  {{ site.title }} 実行委員会<br>
-  {{ site.email }}<br>
-  最終更新日: 2025年10月3日<br>
-</div>
-
-<a href="/" class="link-chevron" style="margin-top: 30px;">TOPに戻る</a>
+  </div>
+</footer>
