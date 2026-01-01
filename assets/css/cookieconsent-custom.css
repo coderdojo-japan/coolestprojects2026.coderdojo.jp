@@ -1,0 +1,48 @@
+/* Cookie Consent Custom Styles - Teal Theme */
+
+/* ボタン共通スタイル */
+#cc-main button {
+  font-weight: 700 !important;
+  padding: 0.75rem 2rem !important;
+  transition: all 0.3s ease !important;
+}
+
+/* Primary button (同意する・拒否する) - Teal background, no border, white text */
+#cc-main .cm__btn--primary,
+#cc-main .pm__btn--primary {
+  background-color: #14b8a6 !important; /* teal-500 */
+  border: none !important;
+  color: #ffffff !important;
+}
+
+#cc-main .cm__btn--primary:hover,
+#cc-main .pm__btn--primary:hover {
+  background-color: #0d9488 !important; /* teal-600 */
+}
+
+/* Secondary button (詳細設定) - White background, black border and text */
+#cc-main .cm__btn--secondary,
+#cc-main .pm__btn--secondary {
+  background-color: #ffffff !important;
+  border: 2px solid #000000 !important;
+  color: #000000 !important;
+}
+
+#cc-main .cm__btn--secondary:hover,
+#cc-main .pm__btn--secondary:hover {
+  background-color: #f9fafb !important;
+}
+
+/* Toggle switch active state */
+#cc-main .section__toggle.toggle--checked .toggle__icon {
+  background-color: #14b8a6 !important; /* Tailwind teal-500 */
+}
+
+/* Links */
+#cc-main a.cc-link {
+  color: #14b8a6 !important; /* Tailwind teal-500 */
+}
+
+#cc-main a.cc-link:hover {
+  color: #0d9488 !important; /* Tailwind teal-600 */
+}
