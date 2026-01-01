@@ -112,29 +112,20 @@ layout: plain
       </ul>
 
       <h2 class="text-2xl font-bold mb-4 mt-8" style="color: #221C35;">5. Cookieの使用について</h2>
+      <p class="text-lg mb-4" style="color: #444444;">
+        当サイトでは、以下のCookieを使用しています。
+      </p>
+      <ul class="text-lg mb-4 list-disc pl-8" style="color: #444444; line-height: 2;">
+        <li><strong>必須Cookie:</strong> Cookie同意ステータスを管理するために使用されます。このCookieは、ユーザーの同意設定を記憶し、サイトの基本機能に必要なため、無効にすることはできません。</li>
+        <li><strong>機能Cookie:</strong> Google フォーム、Google ドキュメント、YouTube動画などの埋め込みコンテンツを表示するために使用されます。これらのCookieは、Google Inc.やYouTube LLC等によって提供され、各社のプライバシーポリシーに準拠します。ユーザーは初回訪問時に、これらのCookieの使用を許可または拒否することができます。拒否した場合、埋め込みコンテンツは表示されず、代わりに外部リンクが表示されます。</li>
+      </ul>
       <p class="text-lg mb-8" style="color: #444444;">
-        当実行委員会では、それぞれの利用者に合わせた情報を提供するため、Cookieを使用することがありますが、これにより個人を特定できる情報の収集を行えるものではありません。また、cookieの受け入れを希望されない場合は、ブラウザの設定等でいつでもCookieを破棄していただけます。
+        当サイトでは、トラッキングCookie、分析ツール（Google Analyticsなど）は使用していません。Cookieに関する設定は、初回訪問時の同意バナーまたはブラウザの設定からいつでも変更できます。
       </p>
 
       <h2 class="text-2xl font-bold mb-4 mt-8" style="color: #221C35;">6. SSLの使用について</h2>
       <p class="text-lg mb-8" style="color: #444444;">
-        個人情報の入力時には、セキュリティ確保のため、これらの情報が傍受、妨害または改竄されることを防ぐ目的でSSL技術を使用しております。 プライバシーポリシーの変更、収集する個人情報の変更、利用目的の変更、またはその他プライバシーポリシーの変更を行う際は、当ページでの変更を持って公表とさせていただきます。
-      </p>
-
-      <h2 class="text-2xl font-bold mb-4 mt-8" style="color: #221C35;">7. Google Analyticsの利用について</h2>
-      <p class="text-lg mb-4" style="color: #444444;">
-        本サイトではホームページの利用状況を把握するためにGoogle Analyticsを利用しています。 Google Analyticsから提供されるCookieを使用していますが、Google Analyticsによって個人を特定する情報は取得していません。
-      </p>
-      <p class="text-lg mb-4" style="color: #444444;">
-        Google Analyticsの利用により収集されたデータは、Google社のプライバシーポリシーに基づいて管理されています。利用規約・プライバシーポリシーについてはGoogle社のホームページでご確認ください。
-      </p>
-      <ul class="text-lg mb-4 list-disc pl-8" style="color: #444444; line-height: 2;">
-        <li>Googleのサービスを使用するサイトやアプリから収集した情報のGoogleによる使用: <a href="https://www.google.com/intl/ja/policies/privacy/partners/" style="color: #00AFAA; text-decoration: underline;">https://www.google.com/intl/ja/policies/privacy/partners/</a></li>
-        <li>Google Analyticsの利用規約: <a href="https://www.google.com/analytics/terms/jp.html" style="color: #00AFAA; text-decoration: underline;">https://www.google.com/analytics/terms/jp.html</a></li>
-        <li>Google社のプライバシーポリシー: <a href="https://www.google.com/intl/ja/policies/privacy/" style="color: #00AFAA; text-decoration: underline;">https://www.google.com/intl/ja/policies/privacy/</a></li>
-      </ul>
-      <p class="text-lg mb-8" style="color: #444444;">
-        なお、Google Analyticsのサービス利用による損害については、当実行委員会は責任を負わないものとします。
+        個人情報の入力時には、セキュリティ確保のため、これらの情報が傍受、妨害または改竄されることを防ぐ目的でSSL技術を使用しております。プライバシーポリシーの変更、収集する個人情報の変更、利用目的の変更、またはその他プライバシーポリシーの変更を行う際は、当ページでの変更を持って公表とさせていただきます。
       </p>
 
     </div>

@@ -66,13 +66,24 @@ layout: plain
       <!-- 開催概要 -->
       <div class="mb-16">
 
-        <!-- YouTube動画 -->
         <div class="mb-16 max-w-4xl mx-auto">
-          <div class='relative w-full' style='padding-top: 56.25%;'>
+          <div data-category="functional" class='relative w-full' style='padding-top: 56.25%;'>
             <iframe class='absolute top-0 left-0 w-full h-full rounded-2xl' title="3分でわかるCoolest Projects Japan"
-              src="https://www.youtube.com/embed/l8udUqCLXY8?list=PL94GDfaSQTmIifXDGOaEoEgviPSv36OEo" frameborder="0"
+              data-src="https://www.youtube.com/embed/l8udUqCLXY8?list=PL94GDfaSQTmIifXDGOaEoEgviPSv36OEo" frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
+          </div>
+
+          <div data-category="!functional" class="bg-gray-100 border-2 border-gray-50 rounded-2xl px-8 py-30 text-center">
+            <p class="text-lg mb-4">
+              このコンテンツを表示するには、機能Cookieの許可が必要です。
+            </p>
+            <a class="group relative inline-block" href="https://www.youtube.com/watch?v=l8udUqCLXY8&list=PL94GDfaSQTmIifXDGOaEoEgviPSv36OEo" target="_blank">
+              <span class="absolute inset-0 translate-x-1.5 translate-y-1.5 bg-teal-500 transition-transform group-hover:translate-x-0 group-hover:translate-y-0"></span>
+              <span class="relative inline-block border-2 border-current px-8 py-3 text-sm font-bold tracking-widest text-black uppercase">
+                資料を別タブで開く
+              </span>
+            </a>
           </div>
         </div>
 
@@ -149,8 +160,20 @@ layout: plain
             <h3 class='text-4xl sm:text-5xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block' style="font-family: 'League Gothic', sans-serif; color: #221C35;">ACCESS</h3>
             <p class="text-xl mt-2" style="color: #444444;">アクセス</p>
           </div>
-          <div class="rounded-2xl overflow-hidden shadow-lg">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83881.69282584515!2d136.76410603446325!3d35.15418320107424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600377509b30ad27%3A0x7135c8b1be3ed740!2z44Gq44GU44Gu44Kt44Oj44Oz44OR44K5!5e0!3m2!1sja!2sjp!4v1766923169286!5m2!1sja!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div data-category="functional" class="rounded-2xl overflow-hidden shadow-lg">
+            <iframe data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83881.69282584515!2d136.76410603446325!3d35.15418320107424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600377509b30ad27%3A0x7135c8b1be3ed740!2z44Gq44GU44Gu44Kt44Oj44Oz44OR44K5!5e0!3m2!1sja!2sjp!4v1766923169286!5m2!1sja!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+          <div data-category="!functional" class="bg-gray-100 border-2 border-gray-50 rounded-2xl px-8 py-30 text-center">
+            <p class="text-lg mb-4">
+              このコンテンツを表示するには、機能Cookieの許可が必要です。
+            </p>
+            <a class="group relative inline-block" href="https://www.google.com/maps/place/%E3%81%AA%E3%81%94%E3%81%AE%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%82%B9/@35.1541832,136.7641061,12z" target="_blank">
+              <span class="absolute inset-0 translate-x-1.5 translate-y-1.5 bg-teal-500 transition-transform group-hover:translate-x-0 group-hover:translate-y-0"></span>
+              <span class="relative inline-block border-2 border-current px-8 py-3 text-sm font-bold tracking-widest text-black uppercase">
+                資料を別タブで開く
+              </span>
+            </a>
           </div>
         </div>
 
