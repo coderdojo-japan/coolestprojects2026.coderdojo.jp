@@ -269,13 +269,24 @@ layout: plain
       <div class="text-center mb-16">
         <p class="text-xl mb-12" style="color: #444444;">Coolest Projects 2026では、次世代のクリエイターを応援してくださる<br>スポンサー様を募集しています。</p>
 
-        <!-- スポンサー資料 -->
         <div class="mb-12 max-w-4xl mx-auto">
-          <div class='relative w-full' style='padding-top: 56.25%;'>
+          <div data-category="functional" class='relative w-full' style='padding-top: 56.25%;'>
             <iframe class='absolute top-0 left-0 w-full h-full rounded-2xl'
-              src="https://docs.google.com/presentation/d/1MAX_O_2FhmLvBU52SnWe6jGR0QgAcglN/embed?start=false&loop=false&delayms=3000"
+              data-src="https://docs.google.com/presentation/d/1MAX_O_2FhmLvBU52SnWe6jGR0QgAcglN/embed?start=false&loop=false&delayms=3000"
               frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
             </iframe>
+          </div>
+
+          <div data-category="!functional" class="bg-gray-100 border-2 border-gray-50 rounded-2xl px-8 py-30 text-center">
+            <p class="text-lg mb-4">
+              このコンテンツを表示するには、機能Cookieの許可が必要です。
+            </p>
+            <a class="group relative inline-block" href="https://docs.google.com/presentation/d/1MAX_O_2FhmLvBU52SnWe6jGR0QgAcglN/edit" target="_blank">
+              <span class="absolute inset-0 translate-x-1.5 translate-y-1.5 bg-teal-500 transition-transform group-hover:translate-x-0 group-hover:translate-y-0"></span>
+              <span class="relative inline-block border-2 border-current px-8 py-3 text-sm font-bold tracking-widest text-black uppercase">
+                資料を別タブで開く
+              </span>
+            </a>
           </div>
         </div>
 
