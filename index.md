@@ -67,8 +67,22 @@ layout: plain
         <span class="ml-2 font-bold text-sm text-white">なごのキャンパス</span>
       </div>
     </div>
-    <div class="flex justify-center">
-      <a class="button-push" href="/apply"> 今すぐ応募する </a>
+    <div class="text-center mb-8">
+      <h3 class="text-3xl font-bold mb-8" style="color: #221C35;">応募する</h3>
+      <div class="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center sm:items-stretch max-w-sm sm:max-w-4xl mx-auto px-4">
+        <a class="button-push sm:flex-1" href="/apply" style="background-color: #E5A800; margin: 0;">
+          <span class="text-lg">作品応募</span><br>
+          <span class="text-sm opacity-90">作品を展示する</span>
+        </a>
+        <a class="button-push sm:flex-1" href="/events" style="background-color: #00AFAA; margin: 0;">
+          <span class="text-lg">来場応募</span><br>
+          <span class="text-sm opacity-90">イベントに参加する</span>
+        </a>
+        <a class="button-push sm:flex-1" href="/staff" style="background-color: #E5A800; margin: 0;">
+          <span class="text-lg">運営応募</span><br>
+          <span class="text-sm opacity-90">スタッフとして参加する</span>
+        </a>
+      </div>
     </div>
   </div>
 </div>
@@ -90,7 +104,6 @@ layout: plain
             <p class="text-xl mt-2" style="color: #444444;">イベント紹介</p>
           </div>
           <h2 class="text-2xl sm:text-5xl font-bold">君の「作りたい」を世界へ。</h2>
-          <button class="button">今すぐ応募する</button>
           <p class="mt-5 text-xl sm:text-2xl">Coolest Projectsは、18歳以下の子どもたちのための世界的な作品展示イベントです。プログラミングやテクノロジーを使って作った独自のアイデアや作品を、コミュニティ全体で称賛し合います。順位を競うコンテストではありません。あなたの情熱、創造性、そして技術的な挑戦を世界中の仲間と共有する場所です。</p>
         </div>
       </div>
