@@ -1,0 +1,13 @@
+a {
+  color: #27B;
+  text-decoration: none;
+}
+
+.page-head {
+  background-color: #E5A800;
+  padding: 10vh 2vw;
+}
+
+.page-head h1 {
+  color: #fff;
+}

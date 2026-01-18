@@ -34,39 +34,6 @@ layout: plain
   }
 </style>
 
-<header class="bg-white w-full shadow-sm">
-  <div class="mx-auto px-6">
-    <div class="flex h-30 items-center justify-between">
-      <a class="block flex items-center gap-3" href="#">
-        <img src="/img/cpj.svg" loading="lazy" class="h-20" alt="CoderDojo Logo" title="CoderDojo Logo" />
-        <h1 class='text-2xl md:text-4xl font-bold uppercase tracking-wider' style="font-family: 'League Gothic', sans-serif;">
-          Coolest Projects Japan 2026
-        </h1>
-      </a>
-
-      <nav aria-label="Global" class="hidden md:block">
-        <ul class="flex items-center gap-6 text-xl">
-          <li>
-            <a class="text-gray-500 transition hover:text-gray-500/75" href="/about"> 開催概要 </a>
-          </li>
-
-          <li>
-            <a class="text-gray-500 transition hover:text-gray-500/75" href="/events"> イベント </a>
-          </li>
-          
-          <li>
-            <a class="text-gray-500 transition hover:text-gray-500/75" href="/sponsors"> スポンサー </a>
-          </li>
-
-          <li>
-            <a class="text-gray-500 transition hover:text-gray-500/75" href="/contact"> お問い合わせ </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-</header>
-
 <div class='min-h-screen flex flex-col justify-center  px-4 relative' style="background-image: url('/img/contests/img/IMG_7235.JPG'); background-size: cover; background-position: center;">
   <div class='absolute inset-0 bg-black opacity-40'></div>
   <div class='max-w-5xl mx-auto relative z-10'>
