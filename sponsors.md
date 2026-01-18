@@ -9,7 +9,7 @@ hero_subtitle: "COOLEST PARTNERS"
   <div class="max-w-6xl mx-auto">
       <div class="text-center mb-16">
         <p class="text-xl mb-4" style="color: #444444;">Coolest Projects Japanはスポンサーのご協力により開催されています。協賛くださいました、皆様ありがとうございます。</p>
-        <p class="text-xl mb-12" style="color: #444444;">また、現在スポンサーを募集しております。ご興味をお持ちいただけましたら、詳細を下記のGoogle Slidesよりご覧ください。</p>
+        <p class="text-xl mb-12" style="color: #444444;">また、現在スポンサーを募集しております。下記のスライドにて詳細をご確認いただけます。</p>
         <a class="button-push" href="https://docs.google.com/forms/d/e/1FAIpQLSeFFPTWsQeBajyiKeSOFZrGgQlDy2CijsQ6qg07uEK25dLttw/viewform?usp=preview"> スポンサーに申し込む(Google Form) </a>
         <div class="mb-12 max-w-4xl mx-auto">
           <div data-category="functional" class='relative w-full' style='padding-top: 56.25%;'>
