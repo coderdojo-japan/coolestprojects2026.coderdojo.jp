@@ -13,7 +13,7 @@ hero_subtitle: "CONTACT"
           Coolest Projects Japan 2026に関するお問い合わせは、<br>
           下のボタンからお問い合わせフォームに進んでください。
         </p>
-        <a class="button-push" href="https://docs.google.com/forms/d/e/1FAIpQLScBHEgR8eNJtaWvbciXBYlVA9FXZDU7iVxkHmi0Bd3cJeJWGw/viewform" target="_blank"> お問い合わせ(Google Form)</a>
+        <a class="button-push" href="https://docs.google.com/forms/d/e/1FAIpQLScBHEgR8eNJtaWvbciXBYlVA9FXZDU7iVxkHmi0Bd3cJeJWGw/viewform" target="_blank"> お問い合わせフォームへ </a>
       </div>
     </div>
   </div>
