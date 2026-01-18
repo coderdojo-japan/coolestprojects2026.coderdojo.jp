@@ -5,11 +5,12 @@
   
   /* --- カラーパレット --- */
   --clr-gold: #C39600;
-  --clr-light-gold: #FFF3D7;
+  --clr-light-gold: #FCF2E5;
   --clr-bold-gold: #B88E00;
   --clr-black: #444444;
   --clr-white: #FFFFFF;
-  --clr-cyan: #00AFAA;
+  --clr-cyan: #00BFB9;
+  --clr-light-cyan: #9CF1EC;
   --clr-bold-blue: #221C35;
   --clr-gray: #908F8F;
 
@@ -41,8 +42,8 @@
   --clr-txt-caption: var(--clr-gray);
   --clr-hero-bg: var(--clr-gold);
   --clr-button-push-bg: var(--clr-cyan);
-  --clr-header-txt: var(--clr-bold-gold);
   --clr-button-push-txt: var(--clr-bold-blue);
+  --clr-header-txt: var(--clr-bold-gold);
   --clr-button-base-bg: var(--clr-gold);
   --clr-button-base-txt: var(--clr-white);
   --clr-footer-bg: var(--clr-light-gold);
@@ -100,7 +101,7 @@ a:hover {
 }
 
 .button-push{
-  color: var(--clr-white);
+  color: var(--clr-bold-blue);
   background-color: var(--clr-button-push-bg);
   border: solid var(--clr-txt-main) 2px;
   border-radius: 6px;
@@ -110,7 +111,7 @@ a:hover {
   text-align: center;
   text-decoration: none;
   transition: .3s;
-  width: 30%;
+  width: fit-content;
   min-width: 240px;
   position: relative;
   box-shadow: 4px 4px 0 1px var(--clr-txt-main);
@@ -147,5 +148,6 @@ footer {
   color: var(--clr-footer-txt);
   font-weight: var(--fw-body);
   font-size: var(--fs-body);
-  padding: 3rem;
+  padding-bottom: 1rem;
+  padding-top: 4rem;
 }
