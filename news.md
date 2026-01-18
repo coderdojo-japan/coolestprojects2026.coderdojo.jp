@@ -66,6 +66,12 @@ hero_subtitle: "NEWS"
       '募集情報': { bg: '#00AFAA', text: '#FFFFFF' }
     };
 
+    // URLを自動リンク化する関数
+    function linkifyUrls(text) {
+      const urlPattern = /(\b(https?|ftp):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/gim;
+      return text.replace(urlPattern, '<a href="$1" target="_blank" rel="noopener noreferrer" style="color: #00AFAA; text-decoration: underline;">$1</a>');
+    }
+
     // 日付フォーマット関数
     function formatDate(dateString) {
       const date = new Date(dateString);
@@ -159,8 +165,8 @@ hero_subtitle: "NEWS"
           document.getElementById('detail-thumbnail').innerHTML = '';
         }
 
-        // 本文
-        document.getElementById('detail-content').innerHTML = news.content;
+        // 本文（URLを自動リンク化）
+        document.getElementById('detail-content').innerHTML = linkifyUrls(news.content);
 
       } catch (error) {
         console.error('Error fetching news detail:', error);
