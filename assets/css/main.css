@@ -1,15 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+@theme {
+  /* Tailwindカスタムカラー定義 */
+  /* ベースカラー */
+  --color-base: #FFE8B0;
+
+  /* メインカラー (プライマリ) - WEB用 */
+  --color-primary: #E5A800;
+  --color-primary-light: #FCF2E5;
+  --color-primary-dark: #B88E00;
+
+  /* アクセントカラー (セカンダリ) */
+  --color-secondary: #00AFAA;
+  --color-secondary-light: #9CF1EC;
+  --color-secondary-dark: #008B87;
+
+  /* その他の色 */
+  --color-accent: #221C35;
+  --color-neutral: #444444;
+  --color-neutral-light: #908F8F;
+}
+
 :root {
   /* ========== パレット ========== */
-  
+
   /* --- カラーパレット --- */
-  --clr-gold: #C39600;
+  --clr-gold: #E5A800;
   --clr-light-gold: #FCF2E5;
   --clr-bold-gold: #B88E00;
   --clr-black: #444444;
   --clr-white: #FFFFFF;
-  --clr-cyan: #00BFB9;
+  --clr-cyan: #00AFAA;
   --clr-light-cyan: #9CF1EC;
   --clr-bold-blue: #221C35;
   --clr-gray: #908F8F;
