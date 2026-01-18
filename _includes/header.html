@@ -1,29 +1,39 @@
-<header class="bg-white w-full shadow-sm">
-  <div class="mx-auto px-6">
-    <div class="flex h-30 items-center justify-between">
-      <a class="block flex items-center gap-3" href="/">
-        <img src="/img/cpj.svg" loading="lazy" class="h-20" alt="CoderDojo Logo" title="CoderDojo Logo" />
-      </a>
+<!-- ヘッダー本体 -->
+<header class="bg-white w-full sticky top-0 z-50 shadow-sm">
 
-      <nav aria-label="Global" class="hidden md:block">
-        <ul class="flex items-center gap-6 text-xl">
-          <li>
-            <a class="text-gray-500 transition hover:text-gray-500/75" href="/about"> 開催概要 </a>
-          </li>
+  <div class="mx-auto">
 
-          <li>
-            <a class="text-gray-500 transition hover:text-gray-500/75" href="/events"> イベント </a>
-          </li>
+    <div class="flex py-1 px-4 items-center justify-between">
 
-          <li>
-            <a class="text-gray-500 transition hover:text-gray-500/75" href="/sponsors"> スポンサー </a>
-          </li>
+      <div class="items-center flex justify-between gap-8">
+        <a class="block flex items-center gap-4 py-3" href="/">
+          <img
+            src="/img/cpj.svg"
+            class="h-12"
+            alt="Coolest Projects Japan Logo"
+            title="Coolest Projects Japan Logo"
+          />
+        </a>
 
-          <li>
-            <a class="text-gray-500 transition hover:text-gray-500/75" href="/contact"> お問い合わせ </a>
-          </li>
-        </ul>
-      </nav>
+        <nav aria-label="Global" class="hidden md:block">
+          <ul class="flex items-center gap-6 text-xl">
+            <li>
+              <a class="header-txt" href="/about"> 開催概要 </a>
+            <li>
+              <a class="header-txt" href="/events"> イベント </a>
+            </li>
+            <li>
+              <a class="header-txt" href="/sponsors"> スポンサー </a>
+            </li>
+            <li>
+              <a class="header-txt" href="/contact"> お問い合わせ </a>
+            </li>
+          </ul>
+        </nav>
+
+      </div>
+
+      <a href="/apply" class="button-base">応募する</a>
     </div>
   </div>
 </header>

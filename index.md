@@ -103,6 +103,7 @@ layout: plain
             <p class="text-xl mt-2" style="color: #444444;">イベント紹介</p>
           </div>
           <h2 class="text-2xl sm:text-5xl font-bold">君の「作りたい」を世界へ。</h2>
+          <button class="button">今すぐ応募する</button>
           <p class="mt-5 text-xl sm:text-2xl">Coolest Projectsは、18歳以下の子どもたちのための世界的な作品展示イベントです。プログラミングやテクノロジーを使って作った独自のアイデアや作品を、コミュニティ全体で称賛し合います。順位を競うコンテストではありません。あなたの情熱、創造性、そして技術的な挑戦を世界中の仲間と共有する場所です。</p>
         </div>
 
