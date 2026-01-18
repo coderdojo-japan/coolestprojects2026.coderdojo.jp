@@ -64,7 +64,7 @@ redirect_from:
       </p>
       <ul class="text-lg mb-4 list-disc pl-8" style="color: #444444; line-height: 2;">
         <li><strong>必須Cookie:</strong> Cookie同意ステータスを管理するために使用されます。このCookieは、ユーザーの同意設定を記憶し、サイトの基本機能に必要なため、無効にすることはできません。</li>
-        <li><strong>機能Cookie:</strong> Google フォーム、Google ドキュメント、YouTube動画などの埋め込みコンテンツを表示するために使用されます。これらのCookieは、Google Inc.やYouTube LLC等によって提供され、各社のプライバシーポリシーに準拠します。ユーザーは初回訪問時に、これらのCookieの使用を許可または拒否することができます。拒否した場合、埋め込みコンテンツは表示されず、代わりに外部リンクが表示されます。</li>
+        <li><strong>機能Cookie:</strong> Google フォーム、Google ドキュメント、YouTube動画などの埋め込みコンテンツを表示するために使用されます。これらのCookieは、Google LLCによって提供され、同社のプライバシーポリシーに準拠します。ユーザーは初回訪問時に、これらのCookieの使用を許可または拒否することができます。拒否した場合、埋め込みコンテンツは表示されず、代わりに外部リンクが表示されます。</li>
       </ul>
       <p class="text-lg mb-8" style="color: #444444;">
         当サイトでは、トラッキングCookie、分析ツール（Google Analyticsなど）は使用していません。Cookieに関する設定は、初回訪問時の同意バナーまたはブラウザの設定からいつでも変更できます。
