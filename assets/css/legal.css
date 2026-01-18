@@ -1,3 +1,5 @@
+/* どこにも読み込まれていない謎CSSファイル */
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
 
 body {
@@ -32,11 +34,6 @@ ol > li > ol > li {
     display: inline-block;
     vertical-align: top;
     margin-left: 40px;
-}
-
-a {
-    color: #27B;
-    text-decoration: none;
 }
 
 .link-chevron {
