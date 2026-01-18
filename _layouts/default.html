@@ -113,9 +113,13 @@
 
   <body>
     {% include header.html %}
-
     <main class="flex-grow">
-      {% include hero.html %}
+      <header class="hero">
+        <div class="hero-container">
+          <h1 class="hero-title">{{ page.hero_title }}</h1>
+          <p class="hero-subtitle">{{ page.hero_subtitle }}</p>
+        </div>
+      </header>
       {{ content }}
     </main>
 

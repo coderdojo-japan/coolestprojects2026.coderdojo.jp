@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  /* ========== パレット ========== */
+  
+  /* --- カラーパレット --- */
+  --clr-gold: #C39600;
+  --clr-light-gold: #FCF2E5;
+  --clr-bold-gold: #B88E00;
+  --clr-black: #444444;
+  --clr-white: #FFFFFF;
+  --clr-cyan: #00BFB9;
+  --clr-light-cyan: #9CF1EC;
+  --clr-bold-blue: #221C35;
+  --clr-gray: #908F8F;
+
+  /* --- フォントパレット --- */
+  --ff-roboto: "Roboto", sans-serif;
+  --ff-league-gothic: "League Gothic", sans-serif;
+
+  /* --- フォントサイズパレット --- */
+  --fs-xs: 0.75rem;    /* 12px */
+  --fs-sm: 0.875rem;   /* 14px */
+  --fs-base: 1rem;     /* 16px */
+  --fs-lg: 1.125rem;   /* 18px */
+  --fs-xl: 1.25rem;    /* 20px */
+  --fs-2xl: 1.5rem;    /* 24px */
+  --fs-3xl: 1.875rem;  /* 30px */
+  --fs-4xl: 2.25rem;   /* 36px */
+  --fs-5xl: 3rem;      /* 48px */
+  --fs-6xl: 3.75rem;   /* 60px */
+
+  /* --- フォントウェイトパレット --- */
+  --fw-light: 400;
+  --fw-base: 600;
+  --fw-bold: 800;
+
+  /* ========== テーマ ========== */
+
+  /* --- カラーテーマ --- */
+  --clr-txt-main: var(--clr-black);
+  --clr-txt-caption: var(--clr-gray);
+  --clr-hero-bg: var(--clr-gold);
+  --clr-button-push-bg: var(--clr-cyan);
+  --clr-button-push-txt: var(--clr-bold-blue);
+  --clr-header-txt: var(--clr-bold-gold);
+  --clr-button-base-bg: var(--clr-gold);
+  --clr-button-base-txt: var(--clr-white);
+  --clr-footer-bg: var(--clr-light-gold);
+  --clr-footer-txt: var(--clr-bold-gold);
+
+  /* --- フォントテーマー --- */
+  --ff-heading: var(--ff-league-gothic);
+  --ff-body: var(--ff-roboto);
+
+  /* --- フォントサイズテーマ --- */
+  --fs-h1: var(--fs-4xl); /* ページタイトル */
+  --fs-h2: var(--fs-3xl); /* セクション見出し */
+  --fs-h3: var(--fs-2xl); /* 小見出し */
+  --fs-body: var(--fs-base); /* 本文 */
+  --fs-caption: var(--fs-xs); /* キャプション */
+
+  /* --- フォントウェイトテーマ --- */
+  --fw-caption: var(--fw-light);
+  --fw-body: var(--fw-base);
+  --fw-heading: var(--fw-bold);
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  background-color: var(--clr-hero-bg);
+  padding: 5rem 1rem;
+  color: var(--clr-white);
+  font-family: var(--ff-body);
+  font-weight: var(--fw-heading);
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0rem;
+  flex-direction: column;
+}
+
+.hero h1{
+  font-size: var(--fs-h1);
+}
+
+.hero-subtitle{
+  font-size: var(--fs-base);
+  text-transform: uppercase;
+}
+
+.button-push{
+  color: var(--clr-bold-blue);
+  background-color: var(--clr-button-push-bg);
+  border: solid var(--clr-txt-main) 2px;
+  border-radius: 6px;
+  display: block;
+  font-weight: var(--fw-bold);
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none;
+  transition: .3s;
+  width: fit-content;
+  min-width: 240px;
+  position: relative;
+  box-shadow: 4px 4px 0 1px var(--clr-txt-main);
+  margin: 40px auto;
+  &:hover{
+    box-shadow: none;
+    transform: translateX(4px)  translateY(4px);
+  }
+  &::before{
+    content: '» ';
+  }
+}
+
+.button-base {
+  color: var(--clr-button-base-txt);
+  font-family: var(--ff-body);
+  font-weight: var(--fw-bold);
+  background-color: var(--clr-button-base-bg);
+  padding: 0.8rem 1.6rem;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+
+.header-txt {
+  font-family: var(--ff-body);
+  font-weight: var(--fw-heading);
+  font-size: var(--fs-base);
+  color: var(--clr-header-txt);
+}
+
+footer {
+  background-color: var(--clr-footer-bg);
+  color: var(--clr-footer-txt);
+  font-weight: var(--fw-body);
+  font-size: var(--fs-body);
+  padding-bottom: 1rem;
+  padding-top: 4rem;
+}

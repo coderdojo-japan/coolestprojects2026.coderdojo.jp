@@ -7,12 +7,10 @@ hero_subtitle: "COOLEST PARTNERS"
 <!-- コンテンツエリア -->
 <div class="bg-white py-16 px-4">
   <div class="max-w-6xl mx-auto">
-
       <div class="text-center mb-16">
         <p class="text-xl mb-4" style="color: #444444;">Coolest Projects Japanはスポンサーのご協力により開催されています。協賛くださいました、皆様ありがとうございます。</p>
-
-        <p class="text-xl mb-12" style="color: #444444;">また、現在スポンサーを募集しております。ご興味をお持ちいただけましたら、詳細を下記のリンクよりご覧ください。</p>
-
+        <p class="text-xl mb-12" style="color: #444444;">また、現在スポンサーを募集しております。下記のスライドにて詳細をご確認いただけます。</p>
+        <a class="button-push" href="https://docs.google.com/forms/d/e/1FAIpQLSeFFPTWsQeBajyiKeSOFZrGgQlDy2CijsQ6qg07uEK25dLttw/viewform?usp=preview"> スポンサーに申し込む(Google Form) </a>
         <div class="mb-12 max-w-4xl mx-auto">
           <div data-category="functional" class='relative w-full' style='padding-top: 56.25%;'>
             <iframe class='absolute top-0 left-0 w-full h-full rounded-2xl'
@@ -20,7 +18,6 @@ hero_subtitle: "COOLEST PARTNERS"
               frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
             </iframe>
           </div>
-
           <div data-category="!functional" class="bg-gray-100 border-2 border-gray-50 rounded-2xl px-8 py-30 text-center">
             <p class="text-lg mb-4">
               このコンテンツを表示するには、機能Cookieの許可が必要です。
@@ -33,15 +30,7 @@ hero_subtitle: "COOLEST PARTNERS"
             </a>
           </div>
         </div>
-
-        <a class="group relative inline-block" href="https://docs.google.com/forms/d/e/1FAIpQLSeFFPTWsQeBajyiKeSOFZrGgQlDy2CijsQ6qg07uEK25dLttw/viewform?usp=preview" target="_blank">
-          <span class="absolute inset-0 translate-x-1.5 translate-y-1.5 bg-teal-500 transition-transform group-hover:translate-x-0 group-hover:translate-y-0"></span>
-          <span class="relative inline-block border-2 border-current px-8 py-3 text-sm font-bold tracking-widest text-black uppercase">
-            スポンサーになる
-          </span>
-        </a>
       </div>
-
       <!-- スポンサー一覧 -->
       <div class="mb-16">
         <!-- Diamond Sponsor -->
@@ -52,7 +41,6 @@ hero_subtitle: "COOLEST PARTNERS"
             <div class="flex-1 border-t-2" style="border-color: #00AFAA;"></div>
           </div>
         </div>
-
         <!-- Platinum Sponsor -->
         <div class="mb-24">
           <div class="flex items-center mb-12">
@@ -61,7 +49,6 @@ hero_subtitle: "COOLEST PARTNERS"
             <div class="flex-1 border-t-2" style="border-color: #00AFAA;"></div>
           </div>
         </div>
-
         <!-- Gold Sponsor -->
         <div class="mb-24">
           <div class="flex items-center mb-12">
@@ -69,7 +56,6 @@ hero_subtitle: "COOLEST PARTNERS"
             <h3 class="px-4 sm:px-6 text-xl sm:text-2xl font-bold text-center" style="color: #00AFAA;">ゴールドスポンサー</h3>
             <div class="flex-1 border-t-2" style="border-color: #00AFAA;"></div>
           </div>
-
           <div class="text-center mb-16">
             <div class="flex justify-center mb-6 px-4">
               <img src="/img/contests/sponsors/smartone.png" alt="株式会社SmartOne" class="w-full max-w-md sm:max-w-lg max-h-48 object-contain">
@@ -77,7 +63,6 @@ hero_subtitle: "COOLEST PARTNERS"
             <p class="text-xl font-bold" style="color: #221C35;">株式会社SmartOne</p>
           </div>
         </div>
-
         <!-- Silver Sponsors -->
         <div class="mb-24">
           <div class="flex items-center mb-12">
@@ -85,7 +70,6 @@ hero_subtitle: "COOLEST PARTNERS"
             <h3 class="px-4 sm:px-6 text-xl sm:text-2xl font-bold text-center" style="color: #00AFAA;">シルバースポンサー</h3>
             <div class="flex-1 border-t-2" style="border-color: #00AFAA;"></div>
           </div>
-
           <!-- Seeed -->
           <div class="text-center mb-16">
             <div class="flex justify-center mb-6 px-4">
@@ -93,7 +77,6 @@ hero_subtitle: "COOLEST PARTNERS"
             </div>
             <p class="text-xl font-bold" style="color: #221C35;">Seeed株式会社</p>
           </div>
-
           <!-- ITアドバイザー -->
           <div class="text-center mb-16">
             <div class="flex justify-center mb-6 px-4">
@@ -101,7 +84,6 @@ hero_subtitle: "COOLEST PARTNERS"
             </div>
             <p class="text-xl font-bold" style="color: #221C35;">株式会社ITアドバイザー</p>
           </div>
-
           <!-- パイク -->
           <div class="text-center mb-16">
             <div class="flex justify-center mb-6 px-4">
@@ -109,7 +91,6 @@ hero_subtitle: "COOLEST PARTNERS"
             </div>
             <p class="text-xl font-bold" style="color: #221C35;">株式会社パイク</p>
           </div>
-
           <!-- LSS -->
           <div class="text-center mb-16">
             <div class="flex justify-center mb-6 px-4">
@@ -118,7 +99,6 @@ hero_subtitle: "COOLEST PARTNERS"
             <p class="text-xl font-bold" style="color: #221C35;">一般社団法人ライフスキルサポート協会</p>
           </div>
         </div>
-
         <!-- Bronze Sponsor -->
         <div class="mb-24">
           <div class="flex items-center mb-12">
@@ -127,7 +107,6 @@ hero_subtitle: "COOLEST PARTNERS"
             <div class="flex-1 border-t-2" style="border-color: #00AFAA;"></div>
           </div>
         </div>
-
         <!-- In-Kind Sponsors -->
         <div class="mb-24">
           <div class="flex items-center mb-12">
@@ -135,7 +114,6 @@ hero_subtitle: "COOLEST PARTNERS"
             <h3 class="px-4 sm:px-6 text-xl sm:text-2xl font-bold text-center" style="color: #00AFAA;">機材・物品提供</h3>
             <div class="flex-1 border-t-2" style="border-color: #00AFAA;"></div>
           </div>
-
           <!-- YassLab -->
           <div class="text-center mb-16">
             <div class="flex justify-center mb-6 px-4">
@@ -144,7 +122,6 @@ hero_subtitle: "COOLEST PARTNERS"
             <p class="text-xl font-bold" style="color: #221C35;">YassLab 株式会社</p>
           </div>
         </div>
-
         <!-- Individual Sponsors -->
         <div>
           <div class="flex items-center mb-12">
@@ -154,6 +131,5 @@ hero_subtitle: "COOLEST PARTNERS"
           </div>
         </div>
       </div>
-
     </div>
   </div>

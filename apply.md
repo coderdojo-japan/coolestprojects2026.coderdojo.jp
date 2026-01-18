@@ -159,14 +159,8 @@ hero_subtitle: "APPLY"
             Coolest Projects Japan 2026に作品を応募しよう！<br>
             下のボタンから応募フォームに進んでください。
           </p>
-          <a class="group relative inline-block" href="https://forms.gle/QLE4j3vFnXiteHqSA" target="_blank">
-            <span class="absolute inset-0 translate-x-1.5 translate-y-1.5 bg-teal-500 transition-transform group-hover:translate-x-0 group-hover:translate-y-0"></span>
-            <span class="relative inline-block border-2 border-current px-8 py-3 text-sm font-bold tracking-widest text-black uppercase">
-              応募フォームへ
-            </span>
-          </a>
+          <a class="button-push"> 応募フォームへ </a>
         </div>
       </div>
-
     </div>
   </div>
