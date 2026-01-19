@@ -74,7 +74,7 @@ layout: plain
           <span class="text-lg">作品応募</span><br>
           <span class="text-sm opacity-90">作品を展示する</span>
         </a>
-        <a class="button-push sm:flex-1" href="/events" style="background-color: #00AFAA; margin: 0;">
+        <a class="button-push sm:flex-1" href="/register" style="background-color: #00AFAA; margin: 0;">
           <span class="text-lg">来場応募</span><br>
           <span class="text-sm opacity-90">イベントに参加する</span>
         </a>
