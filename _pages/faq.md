@@ -2,9 +2,10 @@
 layout: default
 hero_title: "よくある質問"
 hero_subtitle: "FAQ"
+permalink: /faq/
 redirect_from:
-  - /q-and-a
-  - /qa
+  - /q-and-a/
+  - /qa/
 ---
 
 

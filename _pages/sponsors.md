@@ -2,6 +2,7 @@
 layout: default
 hero_title: "スポンサー"
 hero_subtitle: "COOLEST PARTNERS"
+permalink: /sponsors/
 ---
 
 <!-- コンテンツエリア -->

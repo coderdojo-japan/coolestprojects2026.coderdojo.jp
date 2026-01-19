@@ -2,6 +2,7 @@
 layout: default
 hero_title: "運営に参加する"
 hero_subtitle: "join us"
+permalink: /staff/
 ---
 
 <div class="bg-white py-16 px-4">
