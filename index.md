@@ -308,6 +308,7 @@ layout: plain
             </section>
           </div>
           -->
+          <a href="/sponsors" class="button-push"> スポンサーページを見る </a>
       </div>
     </div>
   </div>
