@@ -59,7 +59,7 @@ permalink: /sponsors/
           </div>
           <div class="text-center mb-16">
             <div class="flex justify-center mb-6 px-4">
-              <img src="/img/contests/sponsors/smartone.png" alt="株式会社SmartOne" class="w-full max-w-md sm:max-w-lg max-h-48 object-contain">
+              <img src="/img/contests/sponsor-logos/smartone.webp" alt="株式会社SmartOne" class="w-full max-w-md sm:max-w-lg max-h-48 object-contain">
             </div>
             <p class="text-xl font-bold" style="color: #221C35;">株式会社SmartOne</p>
           </div>

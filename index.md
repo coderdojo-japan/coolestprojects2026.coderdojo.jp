@@ -213,7 +213,7 @@ layout: plain
         <p class="text-xl mt-2" style="color: #444444;">スポンサー</p>
       </div>
       <div class="text-center mb-16">
-        <p class="text-xl mb-12" style="color: #444444;">Coolest Projects 2026では、次世代のクリエイターを応援してくださる<br>スポンサー様を募集しています。</p>
+        <p class="text-xl mb-12" style="color: #444444;">Coolest Projects Japanはスポンサーのご協力により開催されています。協賛くださいました、皆様ありがとうございます。</p>
         <section class="sponsors">
           <h3> プラチナスポンサー </h3>
         </section>
