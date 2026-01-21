@@ -213,7 +213,102 @@ layout: plain
         <p class="text-xl mt-2" style="color: #444444;">スポンサー</p>
       </div>
       <div class="text-center mb-16">
-        <p class="text-xl mb-12" style="color: #444444;">Coolest Projects 2026では、次世代のクリエイターを応援してくださる<br>スポンサー様を募集しています。</p>
+        <p class="text-xl mb-12" style="color: #444444;">Coolest Projects Japanはスポンサーのご協力により開催されています。協賛くださいました、皆様ありがとうございます。</p>
+        <!-- スポンサー一覧 -->
+        <div class="mb-16">
+          <!-- Diamond Sponsor
+          <div class="mb-24">
+            <div class="flex items-center mb-12">
+              <div class="flex-1 border-t-2" style="border-color: #00AFAA;"></div>
+              <h3 class="px-4 sm:px-6 text-xl sm:text-2xl font-bold text-center" style="color: #00AFAA;">ダイアモンドスポンサー（締切済）</h3>
+              <div class="flex-1 border-t-2" style="border-color: #00AFAA;"></div>
+            </div>
+          </div>
+          -->
+          <!-- Platinum Sponsor --->
+          <div class="mb-24">
+            <section class="sponsors">
+              <h3> プラチナスポンサー </h3>
+            </section>
+            <div class="flex justify-center mb-6 px-4">
+              <a href="https://www.kurusugawa.jp/" target="_blank" rel="noopener noreferrer" class="inline-block">
+                <img src="/img/contests/sponsor-logos/kurusugawa-computer-inc.svg" alt="有限会社来栖川電算_ロゴ" class="w-100 sm:w-120 h-auto max-h-32 object-contain">
+              </a>
+            </div>
+          </div>
+          <!-- Gold Sponsor -->
+          <div class="mb-24">
+            <section class="sponsors">
+              <h3> ゴールドスポンサー </h3>
+            </section>
+            <div class="flex justify-center mb-6 px-4">
+              <a href="https://smartone-robot.com/" target="_blank" rel="noopener noreferrer" class="inline-block">
+                <img src="/img/contests/sponsor-logos/smartone.svg" alt="株式会社SmartOne" class="w-full max-w-md sm:max-w-lg max-h-48 object-contain">
+              </a>
+            </div>
+          </div>
+          <!-- Silver Sponsors -->
+          <div class="mb-24 px-4">
+            <section class="sponsors mb-12">
+              <h3> シルバースポンサー </h3>
+            </section>
+            <div class="flex flex-wrap justify-center items-center gap-8 sm:gap-4">
+              <a href="https://www.seeed.co.jp/" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
+                <img src="/img/contests/sponsor-logos/seeed.webp" alt="Seeed株式会社_ロゴ" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
+              </a>
+              <a href="https://it-a-net.co.jp/" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
+                <img src="/img/contests/sponsor-logos/it-adviser.webp" alt="株式会社ITアドバイザー_ロゴ" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
+              </a>
+              <a target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
+                <img src="/img/contests/sponsor-logos/pike.webp" alt="株式会社パイク_ロゴ" class="w-28 sm:w-40 h-auto max-h-32 object-contain">
+              </a>
+              <a href="https://lifeskill.or.jp/" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
+                <img src="/img/contests/sponsor-logos/life-skill-support-association.webp" alt="一般社団法人ライフスキルサポート協会_ロゴ" class="w-52 sm:w-70 h-auto max-h-32 object-contain">
+              </a>
+            </div>
+          </div>
+        </div>
+          <!-- Bronze Sponsor
+          <div class="mb-24">
+            <section class="sponsors">
+              <h3> ブロンズスポンサー </h3>
+            </section>
+          </div>
+          -->
+          <!-- In-Kind Sponsors -->
+          <div class="mb-24 px-4">
+            <section class="sponsors mb-12">
+              <h3> 機材・物品提供 </h3>
+            </section>
+            <div class="flex flex-wrap justify-center items-center gap-12 sm:gap-8">
+              <a href="https://yasslab.jp/ja/" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
+                <img src="/img/contests/sponsor-logos/yasslab.svg" alt="YassLab株式会社_ロゴ" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
+              </a>
+              <a href="https://www.grips.co.jp/" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
+                <img src="/img/contests/sponsor-logos/grips.webp" alt="株式会社GRIPS_ロゴ" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
+              </a>
+              <a href="https://kata-studio.hr-sano.net" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
+                <img src="/img/contests/sponsor-logos/lab-sbsb.svg" alt="lab-sbsb_ロゴ" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
+              </a>
+              <a href="https://dmcouncil.or.jp/" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
+                <img src="/img/contests/sponsor-logos/digital-monozukuri-council.webp" alt="NPO法人デジタルものづくり協議会_ロゴ" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
+              </a>
+              <a href="https://protopedia.net/" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
+                <img src="/img/contests/sponsor-logos/ptoropedia_beside.webp" alt="ProtoPedia_ロゴ" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
+              </a>
+              <a href="https://www.stellalink.co.jp/" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
+                <img src="/img/contests/sponsor-logos/stellalink.svg" alt="stellalink_ロゴ" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
+              </a>
+            </div>
+          </div>
+          <!-- Individual Sponsors
+          <div class="mb-24">
+            <section class="sponsors">
+              <h3> 個人スポンサー </h3>
+            </section>
+          </div>
+          -->
+          <a href="/sponsors" class="button-push"> スポンサーページを見る </a>
       </div>
     </div>
   </div>
