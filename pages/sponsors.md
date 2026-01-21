@@ -59,7 +59,7 @@ permalink: /sponsors/
           </div>
           <div class="text-center mb-16">
             <div class="flex justify-center mb-6 px-4">
-              <img src="/img/contests/sponsor-logos/smartone.webp" alt="株式会社SmartOne" class="w-full max-w-md sm:max-w-lg max-h-48 object-contain">
+              <img src="/img/contests/sponsor-logos/smartone.svg" alt="株式会社SmartOne" class="w-full max-w-md sm:max-w-lg max-h-48 object-contain">
             </div>
             <p class="text-xl font-bold" style="color: #221C35;">株式会社SmartOne</p>
           </div>
@@ -74,28 +74,28 @@ permalink: /sponsors/
           <!-- Seeed -->
           <div class="text-center mb-16">
             <div class="flex justify-center mb-6 px-4">
-              <img src="/img/contests/sponsors/seed.png" alt="Seeed株式会社" class="w-full max-w-xs sm:max-w-md max-h-40 object-contain">
+              <img src="/img/contests/sponsor-logos/seeed.webp" alt="Seeed株式会社" class="w-full max-w-xs sm:max-w-md max-h-40 object-contain">
             </div>
             <p class="text-xl font-bold" style="color: #221C35;">Seeed株式会社</p>
           </div>
           <!-- ITアドバイザー -->
           <div class="text-center mb-16">
             <div class="flex justify-center mb-6 px-4">
-              <img src="/img/contests/sponsors/itadviser.jpg" alt="株式会社ITアドバイザー" class="w-full max-w-xs sm:max-w-md max-h-40 object-contain">
+              <img src="/img/contests/sponsor-logos/it-adviser.webp" alt="株式会社ITアドバイザー" class="w-full max-w-xs sm:max-w-md max-h-40 object-contain">
             </div>
             <p class="text-xl font-bold" style="color: #221C35;">株式会社ITアドバイザー</p>
           </div>
           <!-- パイク -->
           <div class="text-center mb-16">
             <div class="flex justify-center mb-6 px-4">
-              <img src="/img/contests/sponsors/pike.png" alt="株式会社パイク" class="w-full max-w-xs sm:max-w-md max-h-40 object-contain">
+              <img src="/img/contests/sponsor-logos/pike.webp" alt="株式会社パイク" class="w-full max-w-xs sm:max-w-md max-h-40 object-contain">
             </div>
             <p class="text-xl font-bold" style="color: #221C35;">株式会社パイク</p>
           </div>
           <!-- LSS -->
           <div class="text-center mb-16">
             <div class="flex justify-center mb-6 px-4">
-              <img src="/img/contests/sponsors/lss_logo - 佐藤吉徳.png" alt="一般社団法人ライフスキルサポート協会" class="w-full max-w-xs sm:max-w-md max-h-40 object-contain">
+              <img src="/img/contests/sponsor-logos/life-skill-support-association.webp" alt="一般社団法人ライフスキルサポート協会" class="w-full max-w-xs sm:max-w-md max-h-40 object-contain">
             </div>
             <p class="text-xl font-bold" style="color: #221C35;">一般社団法人ライフスキルサポート協会</p>
           </div>
@@ -118,7 +118,7 @@ permalink: /sponsors/
           <!-- YassLab -->
           <div class="text-center mb-16">
             <div class="flex justify-center mb-6 px-4">
-              <img src="/img/contests/sponsors/yasslab.svg" alt="YassLab 株式会社" class="w-full max-w-xs sm:max-w-md max-h-32 object-contain">
+              <img src="/img/contests/sponsor-logos/yasslab.svg" alt="YassLab 株式会社" class="w-full max-w-xs sm:max-w-md max-h-32 object-contain">
             </div>
             <p class="text-xl font-bold" style="color: #221C35;">YassLab 株式会社</p>
           </div>
