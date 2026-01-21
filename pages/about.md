@@ -2,6 +2,7 @@
 layout: default
 hero_title: "開催概要"
 hero_subtitle: "ABOUT"
+permalink: /about/
 ---
 
 <!-- コンテンツエリア -->

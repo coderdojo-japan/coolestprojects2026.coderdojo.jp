@@ -2,6 +2,7 @@
 layout: default
 hero_title: "来場応募"
 hero_subtitle: "EVENTS"
+permalink: /events/
 ---
 
 <div class="bg-white py-16 px-4">

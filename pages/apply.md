@@ -2,6 +2,7 @@
 layout: default
 hero_title: "応募"
 hero_subtitle: "APPLY"
+permalink: /apply/
 ---
 
 <!-- コンテンツエリア -->

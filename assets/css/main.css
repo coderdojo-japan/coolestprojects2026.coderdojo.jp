@@ -25,12 +25,12 @@
   /* ========== パレット ========== */
 
   /* --- カラーパレット --- */
-  --clr-gold: #E5A800;
+  --clr-gold: #C39600;
   --clr-light-gold: #FCF2E5;
   --clr-bold-gold: #B88E00;
   --clr-black: #444444;
   --clr-white: #FFFFFF;
-  --clr-cyan: #00AFAA;
+  --clr-cyan: #00BFB9;
   --clr-light-cyan: #9CF1EC;
   --clr-bold-blue: #221C35;
   --clr-gray: #908F8F;
@@ -65,7 +65,7 @@
   --clr-button-push-bg: var(--clr-cyan);
   --clr-button-push-txt: var(--clr-bold-blue);
   --clr-header-txt: var(--clr-bold-gold);
-  --clr-button-base-bg: var(--clr-gold);
+  --clr-button-base-bg: var(--clr-bold-gold);
   --clr-button-base-txt: var(--clr-white);
   --clr-footer-bg: var(--clr-light-gold);
   --clr-footer-txt: var(--clr-bold-gold);
