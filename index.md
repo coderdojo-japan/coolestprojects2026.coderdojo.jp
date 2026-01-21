@@ -214,6 +214,9 @@ layout: plain
       </div>
       <div class="text-center mb-16">
         <p class="text-xl mb-12" style="color: #444444;">Coolest Projects 2026では、次世代のクリエイターを応援してくださる<br>スポンサー様を募集しています。</p>
+        <section class="sponsors">
+          <h3> プラチナスポンサー </h3>
+        </section>
       </div>
     </div>
   </div>
