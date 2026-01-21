@@ -180,6 +180,7 @@ footer {
     font-size: var(--fs-h3);
     font-weight: var(--fw-heading);
     text-align: center;
+    margin-bottom: 1.5em;
     &::after{
       content: '';
       display: block;
