@@ -53,7 +53,8 @@
 
   /* --- フォントウェイトパレット --- */
   --fw-light: 400;
-  --fw-base: 600;
+  --fw-base: 500;
+  --fw-semibold: 600;
   --fw-bold: 800;
 
   /* ========== テーマ ========== */
@@ -79,116 +80,184 @@
   --fs-h1: var(--fs-4xl); /* ページタイトル */
   --fs-h2: var(--fs-3xl); /* セクション見出し */
   --fs-h3: var(--fs-2xl); /* 小見出し */
-  --fs-body: var(--fs-base); /* 本文 */
+  --fs-body: var(--fs-xl); /* 本文 */
+  --fs-heading-s: var(--fs-base); /* 小見出し（サブ） */
   --fs-caption: var(--fs-xs); /* キャプション */
 
   /* --- フォントウェイトテーマ --- */
   --fw-caption: var(--fw-light);
   --fw-body: var(--fw-base);
-  --fw-heading: var(--fw-bold);
+  --fw-heading-s: var(--fw-semibold);
+  --fw-heading-l: var(--fw-bold);
 }
 
-a:hover {
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-.hero {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-self: stretch;
-  background-color: var(--clr-hero-bg);
-  padding: 5rem 1rem;
-  color: var(--clr-white);
-  font-family: var(--ff-body);
-  font-weight: var(--fw-heading);
-}
-
-.hero-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0rem;
-  flex-direction: column;
-}
-
-.hero h1{
-  font-size: var(--fs-h1);
-}
-
-.hero-subtitle{
-  font-size: var(--fs-base);
-  text-transform: uppercase;
-}
-
-.button-push{
-  color: var(--clr-bold-blue);
-  background-color: var(--clr-button-push-bg);
-  border: solid var(--clr-txt-main) 2px;
-  border-radius: 6px;
-  display: block;
-  font-weight: var(--fw-bold);
-  padding: 1rem 1.6rem;
-  text-align: center;
-  text-decoration: none;
-  transition: .3s;
-  width: fit-content;
-  min-width: 240px;
-  position: relative;
-  box-shadow: 4px 4px 0 1px var(--clr-txt-main);
-  margin: 40px auto;
-  &:hover{
-    box-shadow: none;
-    transform: translateX(4px)  translateY(4px);
+@layer base {
+  a:hover {
+    text-decoration: underline;
+    cursor: pointer;
   }
-  &::before{
-    content: '» ';
+
+  footer {
+    background-color: var(--clr-footer-bg);
+    color: var(--clr-footer-txt);
+    font-weight: var(--fw-heading-l);
+    font-size: var(--fs-heading-s);
+    padding-bottom: 1rem;
+    padding-top: 4rem;
   }
 }
 
-.button-base {
-  color: var(--clr-button-base-txt);
-  font-family: var(--ff-body);
-  font-weight: var(--fw-bold);
-  background-color: var(--clr-button-base-bg);
-  padding: 0.8rem 1.6rem;
-  cursor: pointer;
-  border-radius: 8px;
-}
+@layer components {
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    background-color: var(--clr-hero-bg);
+    padding: 5rem 1rem;
+    color: var(--clr-white);
+    font-family: var(--ff-body);
+    font-weight: var(--fw-heading-l);
+  }
 
+  .hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0rem;
+    flex-direction: column;
+  }
 
-.header-txt {
-  font-family: var(--ff-body);
-  font-weight: var(--fw-heading);
-  font-size: var(--fs-base);
-  color: var(--clr-header-txt);
-}
+  .hero h1{
+    font-size: var(--fs-h1);
+  }
 
-footer {
-  background-color: var(--clr-footer-bg);
-  color: var(--clr-footer-txt);
-  font-weight: var(--fw-body);
-  font-size: var(--fs-body);
-  padding-bottom: 1rem;
-  padding-top: 4rem;
-}
+  .hero-subtitle{
+    font-size: var(--fs-base);
+    text-transform: uppercase;
+  }
 
-.sponsors{
-  h3 {
-    margin-bottom: 0.5em;
-    font-size: var(--fs-h3);
-    font-weight: var(--fw-heading);
+  .button-push{
+    color: var(--clr-bold-blue);
+    background-color: var(--clr-button-push-bg);
+    border: solid var(--clr-txt-main) 2px;
+    border-radius: 6px;
+    display: block;
+    font-weight: var(--fw-bold);
+    padding: 1rem 1.6rem;
     text-align: center;
-    margin-bottom: 1.5em;
-    &::after{
-      content: '';
-      display: block;
-      background-color: var(--clr-high-light);
-      height: 0.5rem;
-      margin: -0.6em auto 0;
-      width: 20%;
-      min-width: 6rem;
+    text-decoration: none;
+    transition: .3s;
+    width: fit-content;
+    min-width: 240px;
+    position: relative;
+    box-shadow: 4px 4px 0 1px var(--clr-txt-main);
+    margin: 40px auto;
+    &:hover{
+      box-shadow: none;
+      transform: translateX(4px)  translateY(4px);
     }
+    &::before{
+      content: '» ';
+    }
+  }
+
+  .button-base {
+    color: var(--clr-button-base-txt);
+    font-family: var(--ff-body);
+    font-weight: var(--fw-bold);
+    background-color: var(--clr-button-base-bg);
+    padding: 0.8rem 1.6rem;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+  .header-txt {
+    font-family: var(--ff-body);
+    font-weight: var(--fw-heading-l);
+    font-size: var(--fs-base);
+    color: var(--clr-header-txt);
+  }
+
+  .sponsors{
+    h3 {
+      margin-bottom: 0.5em;
+      font-size: var(--fs-h3);
+      font-weight: var(--fw-heading-l);
+      text-align: center;
+      margin-bottom: 1.5em;
+      &::after{
+        content: '';
+        display: block;
+        background-color: var(--clr-high-light);
+        height: 0.5rem;
+        margin: -0.6em auto 0;
+        width: 20%;
+        min-width: 6rem;
+      }
+    }
+  }
+
+  .md-container {
+    max-width: 56rem; /* max-w-4xl = 56rem */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4rem 1rem;
+  }
+
+  .md-container {
+    max-width: 56rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .md-heading1 {
+    font-size: var(--fs-h1);
+    color: var(--clr-txt-main);
+    font-weight: var(--fw-heading-l);
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .md-heading2 {
+    font-size: var(--fs-h2);
+    color: var(--clr-txt-main);
+    font-weight: var(--fw-heading-s);
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  .md-body {
+    font-size: var(--fs-body);
+    color: var(--clr-txt-main);
+    font-weight: var(--fw-body);
+    margin-bottom: 1em;
+  }
+
+  .md-point-list1 {
+    list-style-type: disc;
+    padding-left: 2rem;
+    color: var(--clr-txt-main);
+    font-weight: var(--fw-body);
+    font-size: var(--fs-body);
+    margin-bottom: 1em;
+  }
+
+  .md-point-list2 {
+    list-style-type: circle;
+    padding-left: 2rem;
+    color: var(--clr-txt-main);
+    font-weight: var(--fw-body);
+    font-size: var(--fs-body);
+    margin-bottom: 1em;
+  }
+
+  .md-number-list {
+    list-style-type: decimal;
+    padding-left: 2rem;
+    color: var(--clr-txt-main);
+    font-weight: var(--fw-body);
+    font-size: var(--fs-body);
+    margin-bottom: 1em;
   }
 }
