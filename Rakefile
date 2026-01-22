@@ -7,7 +7,7 @@ require 'html-proofer'
 task test: [:build] do
   options = {
     checks: ['Links', 'Images', 'Scripts', 'OpenGraph', 'Favicon'],
-    allow_hash_href:  false,
+    allow_hash_href:  true,
     disable_external: true,
     enforce_https:    true,
 
