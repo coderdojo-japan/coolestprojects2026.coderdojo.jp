@@ -26,9 +26,7 @@ jobs:
       run: |
         JEKYLL_ENV=production bundle exec jekyll build
         JEKYLL_ENV=production bundle exec jekyll doctor
-
-        # TODO: Uncomment this to run all test suites
-        #SKIP_BUILD=true       bundle exec rake test
+        SKIP_BUILD=true       bundle exec rake test
 
   # Deploy job is triggered only pushed to main branch && CI passed
   deploy:
