@@ -235,7 +235,6 @@
   }
 
   .md-point-list1 {
-    @apply pl-8 list-disc;
     list-style-type: disc;
     padding-left: 2rem;
     color: var(--clr-txt-main);
@@ -245,7 +244,6 @@
   }
 
   .md-point-list2 {
-    @apply pl-8 list-circle;
     list-style-type: circle;
     padding-left: 2rem;
     color: var(--clr-txt-main);
@@ -255,7 +253,6 @@
   }
 
   .md-number-list {
-    @apply pl-8 list-decimal;
     list-style-type: decimal;
     padding-left: 2rem;
     color: var(--clr-txt-main);
