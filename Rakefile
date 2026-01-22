@@ -11,13 +11,11 @@ task test: [:build] do
     disable_external: true,
     enforce_https:    true,
 
-    # NOTE: You can ignore file, URL, and response as follows
+    # Use REGEX to ignore files in tests like: /example(.*)\.html/
     ignore_files: [],
 
-    # Use REGEX to skip testing URLs in a domain
-    ignore_urls: [
-      "http://www.fablab-saga.com/",
-    ],
+    # Use REGEX to ignore URLs in test like: /example.com/
+    ignore_urls: [],
 
     #ignore_status_ignore: [0, 500, 999],
   }
