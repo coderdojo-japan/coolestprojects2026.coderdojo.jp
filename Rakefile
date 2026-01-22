@@ -3,10 +3,11 @@ task default: 'test'
 # HTML Proofer helps to detect broken links.
 # https://github.com/gjtorikian/html-proofer
 require 'html-proofer'
+require_relative '_tests/custom_checks'
 
 task test: [:build] do
   options = {
-    checks: ['Links', 'Images', 'Scripts', 'OpenGraph', 'Favicon'],
+    checks: ['Links', 'Images', 'Scripts', 'OpenGraph', 'Favicon', 'TrailingSlash'],
     allow_hash_href:  false,
     disable_external: true,
     enforce_https:    true,
