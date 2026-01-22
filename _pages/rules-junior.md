@@ -9,7 +9,7 @@ permalink: /rules-junior/
 <div class="md-section">
   <div class="md-container">
     <p class="md-body"> みんなが安心して、楽しくみられるようにするためのルールだよ！ </p>
-    <h1 class="md-heading1"> 🚫やってはいけないこと </h1>
+    <h1 class="md-heading2"> 🚫 やってはいけないこと </h1>
     <ul class="md-number-list">
       <li>
         だれかの作品を 勝手に使わない（著作権）
@@ -48,9 +48,9 @@ permalink: /rules-junior/
         </ul>
       </li>
     </ul>
-    <h1 class="md-heading1"> 🌟だいじな合言葉 </h1>
-    <p class="md-body"> 「これを見た人は、あんしんして えがおになれるかな？」</p>
-    <h1 class="md-heading1"> 👨‍👩‍👧保護者・メンターの方へ </h1>
+    <h1 class="md-heading2"> 🌟 だいじな合言葉 </h1>
+    <p class="md-body"> 「これを見た人は、安心して、笑顔になれるかな？」</p>
+    <h1 class="md-heading2"> 👨‍👩‍👧 保護者・メンターの方へ </h1>
     <ul class="md-point-list1">
       <li> 本ページは、著作権・個人情報・公序良俗に配慮したこども向け展示ガイドです。 </li>
       <li> 法的助言ではなく、一般的な情報として提供しています。 </li>
