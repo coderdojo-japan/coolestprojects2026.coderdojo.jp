@@ -1,14 +1,19 @@
 <section id="faq">
-  <h2>
-    <a href='/#faq'><i class="far fa-comments-question green"></i></a>
-    よくある質問
-  </h2>
+  <div class="text-center mb-16 pt-12">
+    <h1 class="text-5xl sm:text-6xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block" style="font-family: 'League Gothic', sans-serif; color: #221C35;">FAQ</h1>
+    <p class="text-xl mt-2" style="color: #444444;">よくある質問と回答</p>
+  </div>
   <div class="qanda">
   {% for faq in site.data.faq %}
     {% if faq.q and faq.a %}
     <div class="qanda-one">
       <input type="checkbox" id="faq_{{ faq.q }}">
-      <label for="faq_{{ faq.q }}"><i class="fas fa-question-circle green"></i> {{ faq.q }}</label>
+      <label for="faq_{{ faq.q }}">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="faq-icon">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+        </svg>
+        {{ faq.q }}
+      </label>
       <p class="qanda-a">{{ faq.a }}</p>
     </div>
     {% endif %}
