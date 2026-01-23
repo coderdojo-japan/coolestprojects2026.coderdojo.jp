@@ -260,4 +260,71 @@
     font-size: var(--fs-body);
     margin-bottom: 1em;
   }
+
+  .qanda {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+
+  .qanda-one {
+    margin-bottom: 16px;
+    text-align: left;
+  }
+
+  .qanda-one input {
+    display: none;
+  }
+
+  .qanda-one label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 16px 20px;
+    transition: box-shadow 0.3s;
+  }
+
+  .qanda-one label:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  .qanda-one label .faq-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+    flex-shrink: 0;
+    color: #00AFAA;
+    stroke: #00AFAA;
+  }
+
+  .qanda-a {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    background-color: #eff2f6;
+    border-radius: 8px;
+    margin-top: 8px;
+    padding: 0 20px;
+  }
+
+  .qanda-one input:checked ~ .qanda-a {
+    max-height: 1000px;
+    opacity: 1;
+    padding: 20px;
+    margin-top: 8px;
+  }
+
+  .qanda-a p {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #444;
+  }
 }
