@@ -314,6 +314,8 @@ layout: plain
   </div>
 </div>
 
+{% include faq.html %}
+
 <style>
   /* テキストを2行で切り取る */
   .line-clamp-2 {
@@ -321,6 +323,12 @@ layout: plain
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
+  }
+
+  /* FAQセクションの背景色 */
+  #faq {
+    background-color: #eff2f6;
+    padding-bottom: 48px;
   }
 </style>
 
