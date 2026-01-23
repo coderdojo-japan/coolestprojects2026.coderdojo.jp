@@ -311,10 +311,9 @@ layout: plain
           <a href="/sponsors" class="button-push"> スポンサーページを見る </a>
       </div>
     </div>
+    {% include faq.html %}
   </div>
 </div>
-
-{% include faq.html %}
 
 <style>
   /* テキストを2行で切り取る */
@@ -323,12 +322,6 @@ layout: plain
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
-  }
-
-  /* FAQセクションの背景色 */
-  #faq {
-    background-color: #eff2f6;
-    padding-bottom: 48px;
   }
 </style>
 
