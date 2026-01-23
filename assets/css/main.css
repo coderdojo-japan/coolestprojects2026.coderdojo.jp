@@ -260,4 +260,42 @@
     font-size: var(--fs-body);
     margin-bottom: 1em;
   }
+
+  .qanda-a{
+  height: 0;
+  opacity: 0;
+  transition: .3s;
+  font-size: 0;
+  }
+  .qanda-one{
+    text-align: left;
+    margin-bottom: 4px;
+    input{
+      display: none;
+    }
+    input:checked ~ .qanda-a{
+      height: auto;
+      opacity: 1;
+      padding: 10px 0;
+      font-size: 1em;
+    }
+    label{
+      background-color: #fff;
+      border-radius: 4px;
+      display: block;
+      padding: 12px;
+      transition: .3s;
+
+      &:hover{
+        font-weight: bold;
+        transition: .3s;
+        cursor: pointer;
+        text-decoration: underline;
+      }
+
+    }
+    p{
+      margin: 4px;
+    }
+  }
 }

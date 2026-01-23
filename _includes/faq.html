@@ -1,0 +1,17 @@
+<section id="faq">
+  <h2>
+    <a href='/#faq'><i class="far fa-comments-question green"></i></a>
+    よくある質問
+  </h2>
+  <div class="qanda">
+  {% for faq in site.data.faq %}
+    {% if faq.q and faq.a %}
+    <div class="qanda-one">
+      <input type="checkbox" id="faq_{{ faq.q }}">
+      <label for="faq_{{ faq.q }}"><i class="fas fa-question-circle green"></i> {{ faq.q }}</label>
+      <p class="qanda-a">{{ faq.a }}</p>
+    </div>
+    {% endif %}
+  {% endfor %}
+  </div>
+</section>

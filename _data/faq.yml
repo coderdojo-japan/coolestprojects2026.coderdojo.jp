@@ -1,0 +1,25 @@
+# FAQ データの構成
+#
+#- q: 質問
+#  a: 質問への回答
+#  q_en: （省略可）英語版の質問
+#  a_en: （省略可）英語版の質問への回答
+#
+# 日本語 FAQ https://jr.mitou.org/#faq
+# 英語版 FAQ https://jr.mitou.org/english/#faq
+#
+# 以下、コピペ用
+#- q: 
+#  a: 
+#  q_en: # 省略可
+#  a_en: # 省略可
+
+
+- q: Coolest Projects Japan は誰が運営していますか？
+  a: Coolest Projects Japan
+- q: あああ
+  a: いいい
+- q: ううう
+  a: えええ
+- q: おおお
+  a: かかか

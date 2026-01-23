@@ -311,6 +311,7 @@ layout: plain
           <a href="/sponsors" class="button-push"> スポンサーページを見る </a>
       </div>
     </div>
+    {% include faq.html %}
   </div>
 </div>
 
