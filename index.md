@@ -48,7 +48,7 @@ layout: plain
     <div class="text-center font-bold text-xl text-white">
       <p>日本中の子供たちが集う、クリエイティブな祭典。君のアイデアで未来をハックしよう。</p>
     </div>
-    <div class="flex gap-4 justify-center mt-10">
+    <div class="flex gap-4 justify-center mt-10 pb-8">
       <div class="flex border p-3 rounded-2xl border-2 items-center border-white">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
           class="size-6 text-white">
@@ -68,12 +68,13 @@ layout: plain
       </div>
     </div>
     <div class="text-center mb-8">
-      <h3 class="text-3xl font-bold mb-8" style="color: #221C35;">応募する</h3>
       <div class="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center sm:items-stretch max-w-sm sm:max-w-4xl mx-auto px-4">
+        <!---
         <a class="button-push sm:flex-1" href="/apply" style="background-color: #E5A800; margin: 0;">
           <span class="text-lg">作品応募</span><br>
           <span class="text-sm opacity-90">作品を展示する</span>
         </a>
+        --->
         <a class="button-push sm:flex-1" href="/register" style="background-color: #00AFAA; margin: 0;">
           <span class="text-lg">来場応募</span><br>
           <span class="text-sm opacity-90">イベントに参加する</span>
