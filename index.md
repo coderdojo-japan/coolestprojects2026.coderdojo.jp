@@ -110,7 +110,12 @@ layout: plain
           <p class="mt-5 text-xl sm:text-2xl">Coolest Projectsは、18歳以下の子どもたちのための世界的な作品展示イベントです。プログラミングやテクノロジーを使って作った独自のアイデアや作品を、コミュニティ全体で称賛し合います。順位を競うコンテストではありません。あなたの情熱、創造性、そして技術的な挑戦を世界中の仲間と共有する場所です。</p>
         </div>
       </div>
+
+      <div class="text-center mt-8">
+        <a class="button-push" href="/about">開催概要を見る</a>
+      </div>
     </div>
+
     <div class="mt-24">
       <div class="text-center mb-8">
         <h1 class='text-5xl sm:text-6xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block'
@@ -193,7 +198,7 @@ layout: plain
       </div>
     </div>
     <!-- NEWS セクション -->
-    <div class="mt-24">
+    <div class="pt-24" id="news">
       <div class="text-center mb-16">
         <h1 class='text-5xl sm:text-6xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block'
           style="font-family: 'League Gothic', sans-serif; color: #221C35;">NEWS</h1>
@@ -207,9 +212,11 @@ layout: plain
         {% endfor %}
       </div>
       <!-- もっと見るボタン -->
+      <!-- Temporarily disabled until we have more news posts
       <div class="text-center mt-8">
         <a class="button-push" href="/news"> もっと見る </a>
       </div>
+      -->
     </div>
     <div class="mt-24">
       <div class="text-center mb-16">
