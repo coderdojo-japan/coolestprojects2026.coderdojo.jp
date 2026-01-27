@@ -51,17 +51,10 @@
             </div>
 
             <!-- サムネイル画像 -->
-            {% if page.thumbnail %}
-              <div class="mb-8">
-                <img src="{{ page.thumbnail }}" alt="{{ page.title }}" class="w-full rounded-lg shadow-lg">
-              </div>
-            {% endif %}
-            <!-- Temporarily disabled default thumbnail for comparison
             {% assign thumbnail = page.thumbnail | default: "/img/cover.jpg" %}
             <div class="mb-8">
               <img src="{{ thumbnail }}" alt="{{ page.title }}" class="w-full rounded-lg shadow-lg">
             </div>
-            -->
 
             <!-- 本文 -->
             <div class="prose prose-lg max-w-none" style="color: #444444;">
