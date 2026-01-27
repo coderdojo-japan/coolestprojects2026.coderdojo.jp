@@ -2,7 +2,6 @@
 layout: default
 hero_title: "行動規範"
 hero_subtitle: "Code of Conduct"
-permalink: /conduct/
 ---
 
 <!-- コンテンツエリア -->

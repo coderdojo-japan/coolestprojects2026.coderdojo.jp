@@ -2,7 +2,6 @@
 layout: default
 hero_title: "スポンサー"
 hero_subtitle: "COOLEST PARTNERS"
-permalink: /sponsors/
 ---
 
 <!-- TODO: 最適化する -->
