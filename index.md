@@ -216,13 +216,10 @@ layout: plain
           {% include news_card.html post=post %}
         {% endfor %}
       </div>
-      <!-- もっと見るボタン -->
-      <!-- Temporarily disabled until we have more news posts
-      <div class="text-center mt-8">
-        <a class="button-push" href="/news"> もっと見る </a>
-      </div>
-      -->
+
+      <!-- もっと見るボタン is temporarily disabled until we have more news posts: <div class="text-center mt-8"><a class="button-push" href="/news"> もっと見る </a></div>-->
     </div>
+
     <div class="pt-36" id="sponsors">
       <div class="text-center mb-16">
 	<a href="#sponsors" style="text-decoration: none;">
