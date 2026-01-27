@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+    <main class="flex-grow">
+      <header class="hero">
+        <div class="hero-container">
+          <h1 class="hero-title">お知らせ</h1>
+          <p class="hero-subtitle">NEWS</p>
+        </div>
+      </header>
+
+      <div class="bg-white py-16 px-4">
+        <div class="max-w-4xl mx-auto">
+          <!-- 戻るボタン -->
+          <div class="mb-8">
+            <a href="/news" class="inline-flex items-center text-black hover:text-gray-700 font-bold">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+              </svg>
+              一覧に戻る
+            </a>
+          </div>
+
+          <article>
+            <!-- カテゴリーバッジ -->
+            {% if page.tags %}
+              <div class="mb-4">
+                {% for tag in page.tags %}
+                  {% if tag == "お知らせ" %}
+                    <span class="px-4 py-2 text-sm font-bold rounded-full" style="background-color: #FFE8B0; color: #221C35;">{{ tag }}</span>
+                  {% elsif tag == "重要なお知らせ" %}
+                    <span class="px-4 py-2 text-sm font-bold rounded-full" style="background-color: #E5A800; color: #FFFFFF;">{{ tag }}</span>
+                  {% elsif tag == "募集情報" %}
+                    <span class="px-4 py-2 text-sm font-bold rounded-full" style="background-color: #00AFAA; color: #FFFFFF;">{{ tag }}</span>
+                  {% else %}
+                    <span class="px-4 py-2 text-sm font-bold rounded-full" style="background-color: #FFE8B0; color: #221C35;">{{ tag }}</span>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            {% endif %}
+
+            <!-- タイトル -->
+            <h1 class="text-3xl md:text-4xl font-bold mb-4" style="color: #221C35;">{{ page.title }}</h1>
+
+            <!-- 日付 -->
+            <div class="mb-8">
+              <span class="text-sm text-gray-700">{{ page.date | date: "%Y.%m.%d" }}</span>
+            </div>
+
+            <!-- サムネイル画像 -->
+            {% if page.thumbnail %}
+              <div class="mb-8">
+                <img src="{{ page.thumbnail }}" alt="{{ page.title }}" class="w-full rounded-lg shadow-lg">
+              </div>
+            {% endif %}
+            <!-- Temporarily disabled default thumbnail for comparison
+            {% assign thumbnail = page.thumbnail | default: "/img/cover.jpg" %}
+            <div class="mb-8">
+              <img src="{{ thumbnail }}" alt="{{ page.title }}" class="w-full rounded-lg shadow-lg">
+            </div>
+            -->
+
+            <!-- 本文 -->
+            <div class="prose prose-lg max-w-none" style="color: #444444;">
+              {{ content }}
+            </div>
+          </article>
+        </div>
+      </div>
+    </main>
+
+    {% include footer.html %}
+
+    <script type="module" src="/assets/js/cookieconsent-config.js"></script>
+  </body>
+</html>
