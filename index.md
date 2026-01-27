@@ -116,6 +116,21 @@ layout: plain
       </div>
     </div>
 
+
+    <!-- 展示までの流れ「FLOW」 -->
+    <div class="pt-36" id="flow">
+      <div class="text-center mb-16">
+	<a href="#flow" style="text-decoration: none;">
+	  <h2 class='text-4xl sm:text-5xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block' style="font-family: 'League Gothic', sans-serif; color: #221C35;">FLOW</h2>
+	  <p class="text-xl mt-2" style="color: #444444;">展示までの流れ</p>
+	</a>
+      </div>
+
+      <div class="text-center mb-8 max-w-4xl mx-auto">
+	<img src="/img/contests/coolest_project_japan_2026_selection.png" alt="応募の流れ" class="w-full rounded-2xl">
+      </div>
+    </div>
+
     <div class="pt-36" id="categories">
       <div class="text-center mb-8">
 	<a href="#categories" style="text-decoration: none;">
