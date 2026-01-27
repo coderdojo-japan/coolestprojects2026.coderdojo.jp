@@ -2,7 +2,6 @@
 layout: default
 hero_title: "来場応募する"
 hero_subtitle: "Registration"
-permalink: /register/
 redirect_from:
   - /registration/
 ---

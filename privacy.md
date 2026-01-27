@@ -2,7 +2,6 @@
 layout: default
 hero_title: "プライバシーポリシー"
 hero_subtitle: "PRIVACY POLICY"
-permalink: /privacy/
 redirect_from:
   - /privacy-policy/
 ---

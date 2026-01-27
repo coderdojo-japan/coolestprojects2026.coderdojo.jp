@@ -2,7 +2,6 @@
 layout: default
 hero_title: "お知らせ"
 hero_subtitle: "NEWS"
-permalink: /news/
 ---
 
 <div class="bg-white py-16 px-4">

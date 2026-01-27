@@ -23,6 +23,8 @@ contact: https://forms.gle/pDkX4gUwaugfkn2M7
 #registration: https://dojocon-japan.doorkeeper.jp/events/176163
 
 # Build settings
+permalink: pretty  # Generate /about/ instead of /about.html
+
 plugins:
   - jekyll-feed
   - jekyll-include-cache

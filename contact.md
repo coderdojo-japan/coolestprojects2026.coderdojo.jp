@@ -2,7 +2,6 @@
 layout: default
 hero_title: "お問い合わせ"
 hero_subtitle: "CONTACT"
-permalink: /contact/
 ---
 
 <!-- コンテンツエリア -->

@@ -2,7 +2,6 @@
 layout: default
 hero_title: "展示のおやくそく"
 hero_subtitle: "display rules"
-permalink: /rules-junior/
 ---
 
 <!-- コンテンツエリア -->
