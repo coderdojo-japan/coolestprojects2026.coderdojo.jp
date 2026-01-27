@@ -199,11 +199,13 @@ layout: plain
           style="font-family: 'League Gothic', sans-serif; color: #221C35;">NEWS</h1>
         <p class="text-xl mt-2" style="color: #444444;">お知らせ</p>
       </div>
-      <!-- ローディング表示 -->
-      <div id="news-loading" class="text-center py-12">
+      <!-- お知らせ一覧（最新3件） -->
+      {% assign latest_news = site.posts | where: "categories", "news" | sort: "date" | reverse | limit: 3 %}
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {% for post in latest_news %}
+          {% include news_card.html post=post %}
+        {% endfor %}
       </div>
-      <!-- お知らせ一覧 -->
-      <div id="news-list" class="grid grid-cols-1 md:grid-cols-3 gap-6" style="display: none;"></div>
       <!-- もっと見るボタン -->
       <div class="text-center mt-8">
         <a class="button-push" href="/news"> もっと見る </a>
@@ -335,103 +337,3 @@ layout: plain
   }
 </style>
 
-<script>
-  // microCMS設定
-  const SERVICE_ID = 'coolestprojectsjapan';
-  const API_KEY = 'DzUDluMiFTTHxAT2AJEJzFTzX4GdHVpXG9Il';
-  const ENDPOINT = 'news';
-
-  // カテゴリーごとの色設定
-  const categoryColors = {
-    'お知らせ': { bg: '#FFE8B0', text: '#221C35' },
-    '重要なお知らせ': { bg: '#E5A800', text: '#FFFFFF' },
-    '募集情報': { bg: '#00AFAA', text: '#FFFFFF' }
-  };
-
-  // 日付フォーマット関数
-  function formatDate(dateString) {
-    const date = new Date(dateString);
-    const year = date.getFullYear();
-    const month = String(date.getMonth() + 1).padStart(2, '0');
-    const day = String(date.getDate()).padStart(2, '0');
-    return `${year}.${month}.${day}`;
-  }
-
-  // お知らせカードHTML生成
-  function createNewsCard(news) {
-    const colors = categoryColors[news.category] || categoryColors['お知らせ'];
-    const date = news.publishedAt || news.createdAt;
-
-    // サムネイル画像部分
-    const thumbnailHTML = news.thumbnail
-      ? `<img src="${news.thumbnail.url}" alt="${news.title}" class="w-full h-full object-cover">`
-      : `<div class="w-full h-full flex items-center justify-center">
-           <span class="text-2xl font-bold text-gray-400">NO IMAGE</span>
-         </div>`;
-
-    // 本文からHTMLタグを除去してプレーンテキストに変換
-    const tempDiv = document.createElement('div');
-    tempDiv.innerHTML = news.content;
-    const plainText = tempDiv.textContent || tempDiv.innerText || '';
-
-    return `
-      <a href="/news#${news.id}" class="block h-full">
-        <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 h-full flex flex-col">
-          <div class="h-48 bg-gray-200 overflow-hidden">
-            ${thumbnailHTML}
-          </div>
-          <div class="p-6 flex-1 flex flex-col">
-            <div class="flex items-center gap-2 mb-3">
-              <span class="px-3 py-1 text-xs font-bold rounded-full" style="background-color: ${colors.bg}; color: ${colors.text};">${news.category}</span>
-            </div>
-            <h2 class="text-xl font-bold mb-3 line-clamp-2" style="color: #221C35;">
-              ${news.title}
-            </h2>
-            <p class="text-gray-600 mb-4 flex-1 line-clamp-2">
-              ${plainText}
-            </p>
-            <div class="flex items-center justify-between mt-auto">
-              <span class="text-sm text-gray-700">${formatDate(date)}</span>
-            </div>
-          </div>
-        </article>
-      </a>
-    `;
-  }
-
-  // microCMSからお知らせを取得（最新3件）
-  async function fetchLatestNews() {
-    try {
-      const response = await fetch(
-        `https://${SERVICE_ID}.microcms.io/api/v1/${ENDPOINT}?orders=-publishedAt,-createdAt&limit=3`,
-        {
-          headers: {
-            'X-MICROCMS-API-KEY': API_KEY
-          }
-        }
-      );
-
-      if (!response.ok) {
-        throw new Error('データの取得に失敗しました');
-      }
-
-      const data = await response.json();
-
-      // ローディング非表示
-      document.getElementById('news-loading').style.display = 'none';
-
-      if (data.contents && data.contents.length > 0) {
-        // お知らせを表示
-        const newsListElement = document.getElementById('news-list');
-        newsListElement.innerHTML = data.contents.map(news => createNewsCard(news)).join('');
-        newsListElement.style.display = 'grid';
-      }
-    } catch (error) {
-      console.error('Error fetching news:', error);
-      document.getElementById('news-loading').style.display = 'none';
-    }
-  }
-
-  // ページ読み込み時に実行
-  fetchLatestNews();
-</script>

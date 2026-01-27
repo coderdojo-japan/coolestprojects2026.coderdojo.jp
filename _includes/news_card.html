@@ -1,0 +1,47 @@
+{% assign post = include.post %}
+{% assign first_tag = post.tags | first | default: "お知らせ" %}
+
+<a href="{{ post.url }}" class="block h-full">
+  <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 h-full flex flex-col">
+    <!-- サムネイル -->
+    <div class="h-48 bg-gray-200 overflow-hidden">
+      {% if post.thumbnail %}
+        <img src="{{ post.thumbnail }}" alt="{{ post.title }}" class="w-full h-full object-cover">
+      {% else %}
+        <div class="w-full h-full flex items-center justify-center">
+          <span class="text-2xl font-bold text-gray-400">NO IMAGE</span>
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="p-6 flex-1 flex flex-col">
+      <!-- カテゴリーバッジ -->
+      <div class="flex items-center gap-2 mb-3">
+        {% if first_tag == "お知らせ" %}
+          <span class="px-3 py-1 text-xs font-bold rounded-full" style="background-color: #FFE8B0; color: #221C35;">{{ first_tag }}</span>
+        {% elsif first_tag == "重要なお知らせ" %}
+          <span class="px-3 py-1 text-xs font-bold rounded-full" style="background-color: #E5A800; color: #FFFFFF;">{{ first_tag }}</span>
+        {% elsif first_tag == "募集情報" %}
+          <span class="px-3 py-1 text-xs font-bold rounded-full" style="background-color: #00AFAA; color: #FFFFFF;">{{ first_tag }}</span>
+        {% else %}
+          <span class="px-3 py-1 text-xs font-bold rounded-full" style="background-color: #FFE8B0; color: #221C35;">{{ first_tag }}</span>
+        {% endif %}
+      </div>
+
+      <!-- タイトル -->
+      <h2 class="text-xl font-bold mb-3 line-clamp-2" style="color: #221C35;">
+        {{ post.title }}
+      </h2>
+
+      <!-- 抜粋 -->
+      <p class="text-gray-600 mb-4 flex-1 line-clamp-2">
+        {{ post.excerpt | strip_html | truncate: 100 }}
+      </p>
+
+      <!-- 日付 -->
+      <div class="flex items-center justify-between mt-auto">
+        <span class="text-sm text-gray-700">{{ post.date | date: "%Y.%m.%d" }}</span>
+      </div>
+    </div>
+  </article>
+</a>
