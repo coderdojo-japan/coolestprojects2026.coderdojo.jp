@@ -2,6 +2,16 @@
 <html lang="ja" dir="ltr">
   {% include head.html %}
 
+  <style>
+    /* 段落間のスペースを追加 */
+    .news-content p {
+      margin-bottom: 1.5rem;
+    }
+    .news-content p:last-child {
+      margin-bottom: 0;
+    }
+  </style>
+
   <body>
     {% include header.html %}
     <main class="flex-grow">
@@ -57,7 +67,7 @@
             </div>
 
             <!-- 本文 -->
-            <div class="prose prose-lg max-w-none" style="color: #444444;">
+            <div class="prose prose-lg max-w-none news-content" style="color: #444444;">
               {{ content }}
             </div>
           </article>
