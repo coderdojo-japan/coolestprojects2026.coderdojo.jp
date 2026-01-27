@@ -110,12 +110,19 @@ layout: plain
           <p class="mt-5 text-xl sm:text-2xl">Coolest Projectsは、18歳以下の子どもたちのための世界的な作品展示イベントです。プログラミングやテクノロジーを使って作った独自のアイデアや作品を、コミュニティ全体で称賛し合います。順位を競うコンテストではありません。あなたの情熱、創造性、そして技術的な挑戦を世界中の仲間と共有する場所です。</p>
         </div>
       </div>
+
+      <div class="text-center mt-12">
+        <a class="button-push" href="/about">開催概要を見る</a>
+      </div>
     </div>
-    <div class="mt-24">
+
+    <div class="pt-36" id="categories">
       <div class="text-center mb-8">
-        <h1 class='text-5xl sm:text-6xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block'
-          style="font-family: 'League Gothic', sans-serif; color: #221C35;">CATEGORIES</h1>
-        <p class="text-xl mt-2" style="color: #444444;">カテゴリー</p>
+	<a href="#categories" style="text-decoration: none;">
+          <h1 class='text-5xl sm:text-6xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block'
+           style="font-family: 'League Gothic', sans-serif; color: #221C35;">CATEGORIES</h1>
+          <p class="text-xl mt-2" style="color: #444444;">カテゴリー</p>
+	</a>
       </div>
       <!-- カテゴリーカード -->
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
@@ -192,12 +199,15 @@ layout: plain
         </div>
       </div>
     </div>
+
     <!-- NEWS セクション -->
-    <div class="mt-24">
+    <div class="pt-36" id="news">
       <div class="text-center mb-16">
-        <h1 class='text-5xl sm:text-6xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block'
-          style="font-family: 'League Gothic', sans-serif; color: #221C35;">NEWS</h1>
-        <p class="text-xl mt-2" style="color: #444444;">お知らせ</p>
+	<a href="#news" style="text-decoration: none;">
+          <h1 class='text-5xl sm:text-6xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block'
+           style="font-family: 'League Gothic', sans-serif; color: #221C35;">NEWS</h1>
+          <p class="text-xl mt-2" style="color: #444444;">お知らせ</p>
+	</a>
       </div>
       <!-- お知らせ一覧（最新3件） -->
       {% assign latest_news = site.posts | where: "categories", "news" | sort: "date" | reverse | limit: 3 %}
@@ -206,16 +216,17 @@ layout: plain
           {% include news_card.html post=post %}
         {% endfor %}
       </div>
-      <!-- もっと見るボタン -->
-      <div class="text-center mt-8">
-        <a class="button-push" href="/news"> もっと見る </a>
-      </div>
+
+      <!-- もっと見るボタン is temporarily disabled until we have more news posts: <div class="text-center mt-8"><a class="button-push" href="/news"> もっと見る </a></div>-->
     </div>
-    <div class="mt-24">
+
+    <div class="pt-36" id="sponsors">
       <div class="text-center mb-16">
-        <h1 class='text-5xl sm:text-6xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block'
-          style="font-family: 'League Gothic', sans-serif; color: #221C35;">SPONSORS</h1>
-        <p class="text-xl mt-2" style="color: #444444;">スポンサー</p>
+	<a href="#sponsors" style="text-decoration: none;">
+          <h1 class='text-5xl sm:text-6xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block'
+           style="font-family: 'League Gothic', sans-serif; color: #221C35;">SPONSORS</h1>
+          <p class="text-xl mt-2" style="color: #444444;">スポンサー</p>
+	</a>
       </div>
       <div class="text-center mb-16">
         <p class="text-xl mb-12" style="color: #444444;">Coolest Projects Japanはスポンサーのご協力により開催されています。協賛くださいました、皆様ありがとうございます。</p>
@@ -313,7 +324,7 @@ layout: plain
             </section>
           </div>
           -->
-          <a href="/sponsors" class="button-push"> スポンサーページを見る </a>
+          <a href="/sponsors" class="button-push"> スポンサー募集のご案内を見る </a>
       </div>
     </div>
   </div>
