@@ -2,6 +2,38 @@
 <html lang="ja" dir="ltr">
   {% include head.html %}
 
+  <style>
+    /* 段落間のスペースを追加 */
+    .news-content p {
+      margin-bottom: 1.5rem;
+    }
+    .news-content p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* 見出しのスタイル */
+    .news-content h2 {
+      font-size: 1.75rem;
+      font-weight: bold;
+      color: #221C35;
+      margin-top: 2.5rem;
+      margin-bottom: 1.25rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 3px solid #00AFAA;
+    }
+    .news-content h3 {
+      font-size: 1.375rem;
+      font-weight: bold;
+      color: #221C35;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+    .news-content h2:first-child,
+    .news-content h3:first-child {
+      margin-top: 0;
+    }
+  </style>
+
   <body>
     {% include header.html %}
     <main class="flex-grow">
@@ -57,7 +89,7 @@
             </div>
 
             <!-- 本文 -->
-            <div class="prose prose-lg max-w-none" style="color: #444444;">
+            <div class="prose prose-lg max-w-none news-content" style="color: #444444;">
               {{ content }}
             </div>
           </article>
