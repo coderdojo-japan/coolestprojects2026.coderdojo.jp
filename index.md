@@ -127,7 +127,7 @@ layout: plain
       </div>
 
       <div class="text-center mb-8 max-w-4xl mx-auto">
-	<img src="/img/contests/coolest_project_japan_2026_selection.png" alt="応募の流れ" class="w-full rounded-2xl">
+	<img src="/img/contests/flow.webp" alt="展示までの流れ" class="w-full rounded-2xl">
       </div>
     </div>
 
