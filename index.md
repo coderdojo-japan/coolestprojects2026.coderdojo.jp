@@ -34,7 +34,7 @@ layout: plain
   }
 </style>
 
-<div class='min-h-screen flex flex-col justify-center  px-4 relative' style="background-image: url('/img/contests/img/IMG_7235.JPG'); background-size: cover; background-position: center;">
+<div class='min-h-screen flex flex-col justify-center  px-4 relative' style="background-image: url('/img/contests/img/IMG_7235.webp'); background-size: cover; background-position: center;">
   <div class='absolute inset-0 bg-black opacity-40'></div>
   <div class='max-w-5xl mx-auto relative z-10'>
     <!-- ロゴ -->
@@ -95,7 +95,7 @@ layout: plain
       <div class="grid md:grid-cols-2 gap-12 sm:gap-24 items-stretch">
         <!-- 左側：画像（スマホでは下に表示） -->
         <div class="order-2 md:order-1">
-          <img src="/img/contests/img/IMG_7269.JPG" alt="Coolest Projects イベントの様子"
+          <img src="/img/contests/img/IMG_7269.webp" alt="Coolest Projects イベントの様子"
             class="w-full aspect-square rounded-2xl shadow-lg object-cover" loading="lazy" />
         </div>
         <!-- 右側：テキストコンテンツ（スマホでは上に表示） -->
