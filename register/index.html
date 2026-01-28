@@ -50,8 +50,8 @@
 
     <div class="flex py-1 px-4 items-center justify-between">
 
-      <div class="items-center flex justify-between gap-8">
-        <a class="block flex items-center gap-4 py-3" href="/">
+      <div class="items-center flex justify-between gap-8 flex-1">
+        <a class="flex items-center gap-4 py-3" href="/">
           <img
             src="/img/cpj.svg"
             class="h-12"
@@ -60,6 +60,7 @@
           />
         </a>
 
+        <!-- デスクトップナビゲーション -->
         <nav aria-label="Global" class="hidden md:block">
           <ul class="flex items-center gap-6 text-xl">
             <li>
@@ -75,16 +76,89 @@
               <a class="header-txt" href="/register"> 来場応募する </a>
             </li>
             <li>
-              <a class="header-txt" href="/faq"> よくある質問 </a>
+              <a class="header-txt" href="/contact"> お問い合わせ </a>
             </li>
           </ul>
         </nav>
 
+        <!-- ハンバーガーメニューボタン（モバイル） -->
+        <button id="mobile-menu-button" class="md:hidden p-2 text-gray-700 hover:bg-gray-100 rounded-lg transition">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>
+        </button>
+
       </div>
       <!--- <a href="/apply" class="button-base"> 作品を応募する </a> --->
     </div>
+
+    <!-- モバイルメニュー -->
+    <div id="mobile-menu" class="md:hidden bg-white border-t border-gray-200 overflow-hidden transition-all duration-300 ease-in-out" style="max-height: 0;">
+      <nav class="px-4 py-4">
+        <ul class="flex flex-col gap-4">
+          <li>
+            <a class="header-txt block py-2 px-4 text-lg hover:bg-gray-100 rounded-lg transition" href="/about"> 開催概要 </a>
+          </li>
+          <li>
+            <a class="header-txt block py-2 px-4 text-lg hover:bg-gray-100 rounded-lg transition" href="/#news"> お知らせ </a>
+          </li>
+          <li>
+            <a class="header-txt block py-2 px-4 text-lg hover:bg-gray-100 rounded-lg transition" href="/sponsors"> スポンサー </a>
+          </li>
+          <li>
+            <a class="header-txt block py-2 px-4 text-lg hover:bg-gray-100 rounded-lg transition" href="/register"> 来場応募する </a>
+          </li>
+          <li>
+            <a class="header-txt block py-2 px-4 text-lg hover:bg-gray-100 rounded-lg transition" href="/contact"> お問い合わせ </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </div>
 </header>
+
+<!-- ハンバーガーメニューのスクリプト -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const menuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
+    let isOpen = false;
+
+    function openMenu() {
+      isOpen = true;
+      mobileMenu.style.maxHeight = mobileMenu.scrollHeight + 'px';
+    }
+
+    function closeMenu() {
+      isOpen = false;
+      mobileMenu.style.maxHeight = '0';
+    }
+
+    menuButton.addEventListener('click', function(e) {
+      e.stopPropagation();
+      if (isOpen) {
+        closeMenu();
+      } else {
+        openMenu();
+      }
+    });
+
+    // メニュー内のリンクをクリックしたらメニューを閉じる
+    const menuLinks = mobileMenu.querySelectorAll('a');
+    menuLinks.forEach(link => {
+      link.addEventListener('click', function() {
+        closeMenu();
+      });
+    });
+
+    // メニュー外をクリックしたら閉じる
+    document.addEventListener('click', function(event) {
+      if (isOpen && !menuButton.contains(event.target) && !mobileMenu.contains(event.target)) {
+        closeMenu();
+      }
+    });
+  });
+</script>
     <main class="flex-grow">
       <header class="hero">
         <div class="hero-container">
@@ -139,7 +213,6 @@
         <a href="/#news">お知らせ</a>
         <a href="/register">来場応募する</a>
         <a href="/staff">運営に参加する</a>
-        <a href="/faq">よくある質問</a>
         <a href="/rules-junior">展示のお約束(ジュニア) </a>
         <a href="/conduct">行動規範</a>
         <a href="/privacy">プライバシーポリシー</a>
