@@ -159,21 +159,27 @@ hero_subtitle: "COOLEST PARTNERS"
             <h3> シルバースポンサー </h3>
           </section>
           <div class="flex flex-wrap justify-center items-center gap-8 sm:gap-4">
-            <a href="https://www.seeed.co.jp/" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
-              <img src="/img/contests/sponsor-logos/seeed.webp" alt="Seeed株式会社_ロゴ" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
-            </a>
             <a href="https://it-a-net.co.jp/" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
-              <img src="/img/contests/sponsor-logos/it-adviser.webp" alt="株式会社ITアドバイザー_ロゴ" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
+              <img src="/img/contests/sponsor-logos/it-adviser.webp" alt="株式会社ITアドバイザー_ロゴ"
+                class="w-40 sm:w-56 h-auto max-h-32 object-contain">
+            </a>
+            <a href="https://www.seeed.co.jp/" target="_blank" rel="noopener"
+              class="block transition-transform hover:scale-105">
+              <img src="/img/contests/sponsor-logos/seeed.webp" alt="Seeed株式会社_ロゴ"
+                class="w-40 sm:w-56 h-auto max-h-32 object-contain">
             </a>
             <a data-proofer-ignore target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
-              <img src="/img/contests/sponsor-logos/pike.webp" alt="株式会社パイク_ロゴ" class="w-28 sm:w-40 h-auto max-h-32 object-contain">
+              <img src="/img/contests/sponsor-logos/pike.webp" alt="株式会社パイク_ロゴ"
+                class="w-28 sm:w-40 h-auto max-h-32 object-contain">
             </a>
-            <a href="https://lifeskill.or.jp/" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
-              <img src="/img/contests/sponsor-logos/life-skill-support-association.webp" alt="一般社団法人ライフスキルサポート協会_ロゴ" class="w-52 sm:w-70 h-auto max-h-32 object-contain">
+            <a href="https://lifeskill.or.jp/" target="_blank" rel="noopener"
+              class="block transition-transform hover:scale-105">
+              <img src="/img/contests/sponsor-logos/life-skill-support-association.webp" alt="一般社団法人ライフスキルサポート協会_ロゴ"
+                class="w-52 sm:w-70 h-auto max-h-32 object-contain">
             </a>
           </div>
         </div>
-      </div>
+        </div>
         <!-- Bronze Sponsor
         <div class="mb-24">
           <section class="sponsors">
@@ -188,22 +194,32 @@ hero_subtitle: "COOLEST PARTNERS"
           </section>
           <div class="flex flex-wrap justify-center items-center gap-12 sm:gap-8">
             <a href="https://yasslab.jp/ja/" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
-              <img src="/img/contests/sponsor-logos/yasslab.svg" alt="YassLab株式会社_ロゴ" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
+              <img src="/img/contests/sponsor-logos/yasslab.svg" alt="YassLab株式会社_ロゴ"
+                class="w-40 sm:w-56 h-auto max-h-32 object-contain">
             </a>
-            <a href="https://www.grips.co.jp/" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
-              <img src="/img/contests/sponsor-logos/grips.webp" alt="株式会社GRIPS_ロゴ" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
+            <a href="https://www.grips.co.jp/" target="_blank" rel="noopener"
+              class="block transition-transform hover:scale-105">
+              <img src="/img/contests/sponsor-logos/grips.webp" alt="株式会社GRIPS_ロゴ"
+                class="w-40 sm:w-56 h-auto max-h-32 object-contain">
             </a>
-            <a href="https://kata-studio.hr-sano.net" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
-              <img src="/img/contests/sponsor-logos/lab-sbsb.svg" alt="lab-sbsb_ロゴ" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
+            <a href="https://dmcouncil.or.jp/" target="_blank" rel="noopener"
+              class="block transition-transform hover:scale-105">
+              <img src="/img/contests/sponsor-logos/digital-monozukuri-council.webp" alt="NPO法人デジタルものづくり協議会_ロゴ"
+                class="w-40 sm:w-56 h-auto max-h-32 object-contain">
             </a>
-            <a href="https://dmcouncil.or.jp/" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
-              <img src="/img/contests/sponsor-logos/digital-monozukuri-council.webp" alt="NPO法人デジタルものづくり協議会_ロゴ" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
+            <a href="https://kata-studio.hr-sano.net" target="_blank" rel="noopener"
+              class="block transition-transform hover:scale-105">
+              <img src="/img/contests/sponsor-logos/lab-sbsb.svg" alt="lab-sbsb_ロゴ"
+                class="w-40 sm:w-56 h-auto max-h-32 object-contain">
             </a>
             <a href="https://protopedia.net/" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
-              <img src="/img/contests/sponsor-logos/ptoropedia_beside.webp" alt="ProtoPedia_ロゴ" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
+              <img src="/img/contests/sponsor-logos/ptoropedia_beside.webp" alt="ProtoPedia_ロゴ"
+                class="w-40 sm:w-56 h-auto max-h-32 object-contain">
             </a>
-            <a href="https://www.stellalink.co.jp/" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
-              <img src="/img/contests/sponsor-logos/stellalink.svg" alt="stellalink_ロゴ" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
+            <a href="https://www.stellalink.co.jp/" target="_blank" rel="noopener"
+              class="block transition-transform hover:scale-105">
+              <img src="/img/contests/sponsor-logos/stellalink.svg" alt="stellalink_ロゴ"
+                class="w-40 sm:w-56 h-auto max-h-32 object-contain">
             </a>
           </div>
         </div>
