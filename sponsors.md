@@ -11,7 +11,7 @@ hero_subtitle: "COOLEST PARTNERS"
   <div class="max-w-6xl mx-auto">
       <div class="text-center mb-16">
         <p class="text-xl mb-4" style="color: #444444;">Coolest Projects Japanはスポンサーのご協力により開催されています。協賛くださいました、皆様ありがとうございます。</p>
-        <p class="text-xl mb-12" style="color: #444444;">また、現在スポンサーを募集しております。下記のスライドにて詳細をご確認いただけます。</p>
+        <p class="text-xl mb-12" style="color: #444444;">現在は Bronze と個人スポンサーのみ募集をしております。詳細は下記スライドからご確認いただけます。</p>
 
         <div class="mb-12 max-w-4xl mx-auto">
           <!-- PDF Viewer -->
