@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>リダイレクト中... | {{ site.title }}</title>
+  <link rel="canonical" href="{{ page.redirect_to }}">
+  <script>location = "{{ page.redirect_to }}"</script>
+  <meta http-equiv="refresh" content="0; url={{ page.redirect_to }}">
+  <meta name="robots" content="noindex">
+</head>
+<body>
+  <h1>リダイレクト中&hellip;</h1>
+  <a href="{{ page.redirect_to }}">自動的にリダイレクトされない場合はこちらをクリックしてください。</a>
+</body>
+</html>
