@@ -196,7 +196,7 @@ hero_subtitle: "COOLEST PARTNERS"
         <!-- In-Kind Sponsors -->
         <div class="mb-24 px-4">
           <section class="sponsors mb-12">
-            <h3> 機材・物品提供 </h3>
+            <h3> In-Kindスポンサー(機材・物品・サービス提供) </h3>
           </section>
           <div class="flex flex-wrap justify-center items-center gap-12 sm:gap-8">
             <a href="https://yasslab.jp/ja/" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
