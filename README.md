@@ -1,4 +1,4 @@
-[![Test & Deploy](https://github.com/coderdojo-japan/dojocon2025.coderdojo.jp/workflows/Test%20&%20Deploy/badge.svg)](https://github.com/coderdojo-japan/dojocon2025.coderdojo.jp/actions?query=workflow%3A%22Test+%26+Deploy%22)
+[![Test & Deploy](https://github.com/coderdojo-japan/coolestprojects2026.coderdojo.jp/workflows/Test%20&%20Deploy/badge.svg)](https://github.com/coderdojo-japan/coolestprojects2026.coderdojo.jp/actions?query=workflow%3A%22Test+%26+Deploy%22)
 
 <div id='dojocon-japan'></div>
 
@@ -30,30 +30,31 @@
 
 ## [:memo:](#how-to-update) Webサイトの更新方法
 
-[`_data`](https://github.com/coderdojo-japan/dojocon2025.coderdojo.jp/tree/main/_data) フォルダ内に `ファイル名.yml` という YAML ファイルがあり、このファイルを修正すると Session 情報や Member 情報などを更新できます。
+[`_data`](https://github.com/coderdojo-japan/coolestprojects2026.coderdojo.jp/tree/main/_data) フォルダ内に `ファイル名.yml` という YAML ファイルがあり、このファイルを修正すると Session 情報や Member 情報などを更新できます。
 
 なおそれぞれの YAML ファイルは次のような形式で書かれています。
 
 ```yml
-# events.yml のデータ例
-
-- title: ニンジャ大博覧会
-  text: ニンジャ大博覧会は、CoderDojoに参加する子どもたち（ニンジャ）によるオンラインと現地の2箇所で開催する作品展示会です。プログラミング作品はもちろん、マインクラフト作品もOK。ぜひみんなの作品を見せてください、楽しみにまってます！
-  img: /img/2023/event/ninja-big-expo.jpg
-  time: オンライン＆現地
-  tag: 要申し込み
-  url: /expo/
+# In-Kind Sponsors (機材・物品・サービス提供)
+- name: YassLab株式会社
+  img:  yasslab.svg
+  type: inkind
+  link: https://yasslab.jp/ja/
 ```
 
 追加・修正したい箇所に応じて、下記リンク先を[上記の修正手順](#how-to)に沿って更新できます。
 
-- [`staff.yml`](https://github.com/coderdojo-japan/dojocon2025.coderdojo.jp/blob/main/_data/staff.yaml): スタッフ情報を更新したい
-- [`events.yml`](https://github.com/coderdojo-japan/dojocon2025.coderdojo.jp/blob/main/_data/events.yml): イベント情報を更新したい
-- [`sessions.yml`](https://github.com/coderdojo-japan/dojocon2025.coderdojo.jp/blob/main/_data/sessions.yml): セッション情報を更新したい
-- [`sponsors.yml`](https://github.com/coderdojo-japan/dojocon2025.coderdojo.jp/tree/main/_data/sponsors.yml): スポンサー情報を更新したい
-- [`workshops.yml`](https://github.com/coderdojo-japan/dojocon2025.coderdojo.jp/blob/main/_data/workshops.yml): ワークショップ情報を更新したい
-- [`projects.yml`](https://github.com/coderdojo-japan/dojocon2025.coderdojo.jp/blob/main/_data/projects.yml): ニンジャ大博覧会の作品情報を更新したい
+- [`staff.yml`](https://github.com/coderdojo-japan/coolestprojects2026.coderdojo.jp/blob/main/_data/staff.yaml): スタッフ情報を更新したい
+- [`sponsors.yml`](https://github.com/coderdojo-japan/coolestprojects2026.coderdojo.jp/tree/main/_data/sponsors.yml): スポンサー情報を更新したい
+
+<!--
+- [`staff.yml`](https://github.com/coderdojo-japan/coolestprojects2026.coderdojo.jp/blob/main/_data/staff.yaml): スタッフ情報を更新したい
+- [`events.yml`](https://github.com/coderdojo-japan/coolestprojects2026.coderdojo.jp/blob/main/_data/events.yml): イベント情報を更新したい
+- [`sessions.yml`](https://github.com/coderdojo-japan/coolestprojects2026.coderdojo.jp/blob/main/_data/sessions.yml): セッション情報を更新したい
+- [`workshops.yml`](https://github.com/coderdojo-japan/coolestprojects2026.coderdojo.jp/blob/main/_data/workshops.yml): ワークショップ情報を更新したい
+- [`projects.yml`](https://github.com/coderdojo-japan/coolestprojects2026.coderdojo.jp/blob/main/_data/projects.yml): ニンジャ大博覧会の作品情報を更新したい
    - 参考: [Google 検索 - ニンジャ大博覧会](https://www.google.com/search?q=%E3%83%8B%E3%83%B3%E3%82%B8%E3%83%A3%E5%A4%A7%E5%8D%9A%E8%A6%A7%E4%BC%9A)
+-->
 
 <br>
 
@@ -122,9 +123,9 @@ $ bundle exec jekyll server
 $ bundle exec rake test
 ```
 
-テスト内容の詳細は [`Rakefile`](https://github.com/coderdojo-japan/dojocon2025.coderdojo.jp/blob/main/Rakefile) をご参照ください。
+テスト内容の詳細は [`Rakefile`](https://github.com/coderdojo-japan/coolestprojects2026.coderdojo.jp/blob/main/Rakefile) をご参照ください。
 
-上記テストは [GitHub Actions](https://github.com/coderdojo-japan/dojocon2025.coderdojo.jp/actions) 上でも動いています。GitHub Actionsで動かしているタスクは [`.github/workflows`](https://github.com/coderdojo-japan/dojocon2025.coderdojo.jp/tree/main/.github/workflows) ディレクトリから確認できます :eyes: :white_check_mark: 
+上記テストは [GitHub Actions](https://github.com/coderdojo-japan/coolestprojects2026.coderdojo.jp/actions) 上でも動いています。GitHub Actionsで動かしているタスクは [`.github/workflows`](https://github.com/coderdojo-japan/coolestprojects2026.coderdojo.jp/tree/main/.github/workflows) ディレクトリから確認できます :eyes: :white_check_mark: 
 
 <br>
 
@@ -166,7 +167,7 @@ The source codes, such as HTML/CSS/JavaScript and Ruby codes not declared before
 
 <hr>
          
-<a href='https://github.com/coderdojo-japan/dojocon2025.coderdojo.jp/blob/main/LICENSE.md'>The MIT License</a>
+<a href='https://github.com/coderdojo-japan/coolestprojects2026.coderdojo.jp/blob/main/LICENSE.md'>The MIT License</a>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
