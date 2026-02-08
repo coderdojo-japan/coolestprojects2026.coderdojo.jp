@@ -7,7 +7,7 @@
 本ページは Coolest Projects Japan 公式Webサイトの公開リポジトリです。   
 本READMEでは、公式Webサイトの更新方法を目的別にまとめています。   
 
-( :octocat: [前年度のリポジトリ](#references)を引き継いで再活用しています)
+( :octocat: [関連リポジトリ](#references)を引き継いで再活用しています)
 
 <br>
 
@@ -133,6 +133,7 @@ $ bundle exec rake test
 
 ## [:octocat:](#references) 関連リポジトリ
 
+- [coderdojo-japan/dojocon2025.coderdojo.jp](https://github.com/coderdojo-japan/dojocon2025.coderdojo.jp)
 - [coderdojo-japan/dojocon2024.coderdojo.jp](https://github.com/coderdojo-japan/dojocon2024.coderdojo.jp)
 - [coderdojo-japan/dojocon2023.coderdojo.jp](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp)
 - :memo: 2022年は [WordPress で構築](https://dojocon2022.coderdojo.jp/)されているため GitHub リポジトリは無し
@@ -183,4 +184,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## [©](#copyright) Copyright
 
-DojoCon Japan 実行委員会 & 一般社団法人 CoderDojo Japan ([@coderdojo-japan](https://github.com/coderdojo-japan)).
+Coolest Projects Japan 実行委員会 & 一般社団法人 CoderDojo Japan ([@coderdojo-japan](https://github.com/coderdojo-japan)).
