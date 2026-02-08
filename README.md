@@ -44,7 +44,7 @@
 
 追加・修正したい箇所に応じて、下記リンク先を[上記の修正手順](#how-to)に沿って更新できます。
 
-- [`staff.yml`](https://github.com/coderdojo-japan/coolestprojects2026.coderdojo.jp/blob/main/_data/staff.yaml): スタッフ情報を更新したい
+- [`faq.yml`](https://github.com/coderdojo-japan/coolestprojects2026.coderdojo.jp/blob/main/_data/faq.yml): FAQ (よくある質問と回答) を更新したい
 - [`sponsors.yml`](https://github.com/coderdojo-japan/coolestprojects2026.coderdojo.jp/tree/main/_data/sponsors.yml): スポンサー情報を更新したい
 
 <!--
