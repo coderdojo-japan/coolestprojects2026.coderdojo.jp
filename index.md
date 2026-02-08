@@ -245,17 +245,22 @@ layout: plain
       </div>
       <div class="text-center mb-16">
         <p class="text-xl mb-12" style="color: #444444;">Coolest Projects Japanはスポンサーのご協力により開催されています。協賛くださいました、皆様ありがとうございます。</p>
+
         <!-- スポンサー一覧 -->
         <div class="mb-16">
-          <!-- Diamond Sponsor
+
+          <!-- Diamond Sponsor -->
           <div class="mb-24">
-            <div class="flex items-center mb-12">
-              <div class="flex-1 border-t-2" style="border-color: #00AFAA;"></div>
-              <h3 class="px-4 sm:px-6 text-xl sm:text-2xl font-bold text-center" style="color: #00AFAA;">ダイアモンドスポンサー（締切済）</h3>
-              <div class="flex-1 border-t-2" style="border-color: #00AFAA;"></div>
+            <section class="sponsors">
+              <h3> ダイアモンドスポンサー </h3>
+            </section>
+            <div class="flex justify-center mb-6 px-4">
+              <a href="https://broadcomfoundation.org/" target="_blank" rel="noopener noreferrer" class="inline-block">
+                <img src="/img/contests/sponsor-logos/broadcom-foundation.svg" alt="Broadcom Foundation Logo" class="w-200 sm:w-240 h-auto max-h-64 object-contain">
+              </a>
             </div>
           </div>
-          -->
+
           <!-- Platinum Sponsor --->
           <div class="mb-24">
             <section class="sponsors">
@@ -267,6 +272,7 @@ layout: plain
               </a>
             </div>
           </div>
+
           <!-- Gold Sponsor -->
           <div class="mb-24">
             <section class="sponsors">
@@ -278,6 +284,7 @@ layout: plain
               </a>
             </div>
           </div>
+
           <!-- Silver Sponsors -->
           <div class="mb-24 px-4">
             <section class="sponsors mb-12">
@@ -299,14 +306,16 @@ layout: plain
             </div>
           </div>
         </div>
-          <!-- Bronze Sponsor
+
+        <!-- Bronze Sponsor
           <div class="mb-24">
             <section class="sponsors">
               <h3> ブロンズスポンサー </h3>
             </section>
           </div>
           -->
-          <!-- In-Kind Sponsors -->
+
+        <!-- In-Kind Sponsors -->
           <div class="mb-24 px-4">
             <section class="sponsors mb-12">
               <h3> In-Kindスポンサー(機材・物品・サービス提供) </h3>
@@ -332,6 +341,7 @@ layout: plain
               </a>
             </div>
           </div>
+
           <!-- Individual Sponsors
           <div class="mb-24">
             <section class="sponsors">
@@ -339,6 +349,7 @@ layout: plain
             </section>
           </div>
           -->
+
           <a href="/sponsors" class="button-push"> スポンサー募集のご案内を見る </a>
       </div>
     </div>
