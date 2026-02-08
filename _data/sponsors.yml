@@ -1,27 +1,28 @@
 # Coolest Projects Japan 2026 スポンサー情報
 # スポンサーの追加・変更はこのファイルを編集してください
+# 画像を置く場所はコチラ: /img/contests/sponsor-logos/
 
 # Diamond Sponsor
 - name: Broadcom Foundation
-  img: broadcom-foundation.svg
+  img:  broadcom-foundation.svg
   type: diamond
   link: https://broadcomfoundation.org/
 
 # Platinum Sponsor
 - name: 有限会社来栖川電算
-  img: kurusugawa-computer-inc.svg
+  img:  kurusugawa-computer-inc.svg
   type: platinum
   link: https://www.kurusugawa.jp/
 
 # Gold Sponsor
 - name: 株式会社SmartOne
-  img: smartone.svg
+  img:  smartone.svg
   type: gold
   link: https://smartone-robot.com/
 
 # Silver Sponsors
 - name: 株式会社ITアドバイザー
-  img: it-adviser.webp
+  img:  it-adviser.webp
   type: silver
   link: https://it-a-net.co.jp/
 
@@ -31,42 +32,42 @@
   link: https://www.seeed.co.jp/
 
 - name: 株式会社パイク
-  img: pike.webp
+  img:  pike.webp
   type: silver
   link: ""
 
 - name: 一般社団法人ライフスキルサポート協会
-  img: life-skill-support-association.webp
+  img:  life-skill-support-association.webp
   type: silver
   link: https://lifeskill.or.jp/
 
 # In-Kind Sponsors (機材・物品・サービス提供)
 - name: YassLab株式会社
-  img: yasslab.svg
+  img:  yasslab.svg
   type: inkind
   link: https://yasslab.jp/ja/
 
 - name: 株式会社GRIPS
-  img: grips.webp
+  img:  grips.webp
   type: inkind
   link: https://www.grips.co.jp/
 
 - name: NPO法人デジタルものづくり協議会
-  img: digital-monozukuri-council.webp
+  img:  digital-monozukuri-council.webp
   type: inkind
   link: https://dmcouncil.or.jp/
 
 - name: lab-sbsb
-  img: lab-sbsb.svg
+  img:  lab-sbsb.svg
   type: inkind
   link: https://kata-studio.hr-sano.net
 
 - name: ProtoPedia
-  img: ptoropedia_beside.webp
+  img:  ptoropedia_beside.webp
   type: inkind
   link: https://protopedia.net/
 
 - name: stellalink
-  img: stellalink.svg
+  img:  stellalink.svg
   type: inkind
   link: https://www.stellalink.co.jp/
