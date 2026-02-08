@@ -244,7 +244,7 @@ layout: plain
 	</a>
       </div>
       <div class="text-center mb-16">
-        <p class="text-xl mb-12" style="color: #444444;">Coolest Projects Japanはスポンサーのご協力により開催されています。協賛くださいました、皆様ありがとうございます。</p>
+        <p class="text-xl mb-12" style="color: #444444;">Coolest Projects Japanは<a href='/sponsors/'>スポンサーのご協力</a>により開催されています。協賛くださいました、皆様ありがとうございます。</p>
 
         <!-- スポンサー一覧 -->
         <div class="mb-16">
