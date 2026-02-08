@@ -104,9 +104,7 @@ layout: plain
             <h1 class='text-5xl sm:text-6xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block' style="font-family: 'League Gothic', sans-serif; color: #221C35;">ABOUT</h1>
             <p class="text-xl mt-2" style="color: #444444;">イベント紹介</p>
           </div>
-          <h2 class="text-2xl sm:text-5xl font-bold">
-	    作品展示イベント
-	  </h2>
+          <h2 class="text-2xl sm:text-5xl font-bold">作品展示イベント</h2>
           <p class="mt-5 text-xl sm:text-2xl">Coolest Projectsは、18歳以下の子どもたちのための世界的な作品展示イベントです。プログラミングやテクノロジーを使って作った独自のアイデアや作品を、コミュニティ全体で称賛し合います。順位を競うコンテストではありません。あなたの情熱、創造性、そして技術的な挑戦を世界中の仲間と共有する場所です。</p>
         </div>
       </div>
@@ -120,24 +118,24 @@ layout: plain
     <!-- 展示までの流れ「FLOW」 -->
     <div class="pt-36" id="flow">
       <div class="text-center mb-16">
-	<a href="#flow" style="text-decoration: none;">
-	  <h2 class='text-4xl sm:text-5xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block' style="font-family: 'League Gothic', sans-serif; color: #221C35;">FLOW</h2>
-	  <p class="text-xl mt-2" style="color: #444444;">展示までの流れ</p>
-	</a>
+    <a href="#flow" style="text-decoration: none;">
+      <h2 class='text-4xl sm:text-5xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block' style="font-family: 'League Gothic', sans-serif; color: #221C35;">FLOW</h2>
+      <p class="text-xl mt-2" style="color: #444444;">展示までの流れ</p>
+    </a>
       </div>
 
       <div class="text-center mb-8 max-w-4xl mx-auto">
-	<img src="/img/contests/flow.webp" alt="展示までの流れ" class="w-full rounded-2xl">
+    <img src="/img/contests/flow.webp" alt="展示までの流れ" class="w-full rounded-2xl">
       </div>
     </div>
 
     <div class="pt-36" id="categories">
       <div class="text-center mb-8">
-	<a href="#categories" style="text-decoration: none;">
+    <a href="#categories" style="text-decoration: none;">
           <h1 class='text-5xl sm:text-6xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block'
-           style="font-family: 'League Gothic', sans-serif; color: #221C35;">CATEGORIES</h1>
+            style="font-family: 'League Gothic', sans-serif; color: #221C35;">CATEGORIES</h1>
           <p class="text-xl mt-2" style="color: #444444;">カテゴリー</p>
-	</a>
+    </a>
       </div>
       <!-- カテゴリーカード -->
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
@@ -218,11 +216,11 @@ layout: plain
     <!-- NEWS セクション -->
     <div class="pt-36" id="news">
       <div class="text-center mb-16">
-	<a href="#news" style="text-decoration: none;">
+    <a href="#news" style="text-decoration: none;">
           <h1 class='text-5xl sm:text-6xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block'
            style="font-family: 'League Gothic', sans-serif; color: #221C35;">NEWS</h1>
           <p class="text-xl mt-2" style="color: #444444;">お知らせ</p>
-	</a>
+    </a>
       </div>
       <!-- お知らせ一覧（最新3件） -->
       {% assign latest_news = site.posts | where: "categories", "news" | sort: "date" | reverse | limit: 3 %}
@@ -237,140 +235,28 @@ layout: plain
 
     <div class="pt-36" id="sponsors">
       <div class="text-center mb-16">
-	<a href="#sponsors" style="text-decoration: none;">
+        <a href="#sponsors" style="text-decoration: none;">
           <h1 class='text-5xl sm:text-6xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block'
-           style="font-family: 'League Gothic', sans-serif; color: #221C35;">SPONSORS</h1>
-          <p class="text-xl mt-2" style="color: #444444;">スポンサー</p>
-	</a>
+            style="font-family: 'League Gothic', sans-serif; color: #221C35;">SPONSORS</h1>
+        <p class="text-xl mt-2" style="color: #444444;">スポンサー</p>
+        </a>
       </div>
       <div class="text-center mb-16">
         <p class="text-xl mb-12" style="color: #444444;">Coolest Projects Japanは<a href='/sponsors/'>スポンサーのご協力</a>により開催されています。協賛くださいました、皆様ありがとうございます。</p>
-
-        <!-- スポンサー一覧 -->
-        <div class="mb-16">
-
-          <!-- Diamond Sponsor -->
-          <div class="mb-24">
-            <section class="sponsors">
-              <h3> ダイアモンドスポンサー </h3>
-            </section>
-            <div class="flex justify-center mb-6 px-4">
-              <a href="https://broadcomfoundation.org/" target="_blank" rel="noopener noreferrer" class="inline-block">
-                <img src="/img/contests/sponsor-logos/broadcom-foundation.svg" alt="Broadcom Foundation Logo" class="w-200 sm:w-240 h-auto max-h-64 object-contain">
-              </a>
-            </div>
-          </div>
-
-          <!-- Platinum Sponsor --->
-          <div class="mb-24">
-            <section class="sponsors">
-              <h3> プラチナスポンサー </h3>
-            </section>
-            <div class="flex justify-center mb-6 px-4">
-              <a href="https://www.kurusugawa.jp/" target="_blank" rel="noopener noreferrer" class="inline-block">
-                <img src="/img/contests/sponsor-logos/kurusugawa-computer-inc.svg" alt="有限会社来栖川電算_ロゴ" class="w-100 sm:w-120 h-auto max-h-32 object-contain">
-              </a>
-            </div>
-          </div>
-
-          <!-- Gold Sponsor -->
-          <div class="mb-24">
-            <section class="sponsors">
-              <h3> ゴールドスポンサー </h3>
-            </section>
-            <div class="flex justify-center mb-6 px-4">
-              <a href="https://smartone-robot.com/" target="_blank" rel="noopener noreferrer" class="inline-block">
-                <img src="/img/contests/sponsor-logos/smartone.svg" alt="株式会社SmartOne" class="w-full max-w-md sm:max-w-lg max-h-48 object-contain">
-              </a>
-            </div>
-          </div>
-
-          <!-- Silver Sponsors -->
-          <div class="mb-24 px-4">
-            <section class="sponsors mb-12">
-              <h3> シルバースポンサー </h3>
-            </section>
-            <div class="flex flex-wrap justify-center items-center gap-8 sm:gap-4">
-              <a href="https://it-a-net.co.jp/" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
-                <img src="/img/contests/sponsor-logos/it-adviser.webp" alt="株式会社ITアドバイザー_ロゴ" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
-              </a>
-              <a href="https://www.seeed.co.jp/" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
-                <img src="/img/contests/sponsor-logos/seeed.webp" alt="Seeed株式会社_ロゴ" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
-              </a>
-              <a data-proofer-ignore target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
-                <img src="/img/contests/sponsor-logos/pike.webp" alt="株式会社パイク_ロゴ" class="w-28 sm:w-40 h-auto max-h-32 object-contain">
-              </a>
-              <a href="https://lifeskill.or.jp/" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
-                <img src="/img/contests/sponsor-logos/life-skill-support-association.webp" alt="一般社団法人ライフスキルサポート協会_ロゴ" class="w-52 sm:w-70 h-auto max-h-32 object-contain">
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Bronze Sponsor
-          <div class="mb-24">
-            <section class="sponsors">
-              <h3> ブロンズスポンサー </h3>
-            </section>
-          </div>
-          -->
-
-        <!-- In-Kind Sponsors -->
-          <div class="mb-24 px-4">
-            <section class="sponsors mb-12">
-              <h3> In-Kindスポンサー(機材・物品・サービス提供) </h3>
-            </section>
-            <div class="flex flex-wrap justify-center items-center gap-12 sm:gap-8">
-              <a href="https://yasslab.jp/ja/" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
-                <img src="/img/contests/sponsor-logos/yasslab.svg" alt="YassLab株式会社_ロゴ" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
-              </a>
-              <a href="https://www.grips.co.jp/" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
-                <img src="/img/contests/sponsor-logos/grips.webp" alt="株式会社GRIPS_ロゴ" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
-              </a>
-                            <a href="https://dmcouncil.or.jp/" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
-                <img src="/img/contests/sponsor-logos/digital-monozukuri-council.webp" alt="NPO法人デジタルものづくり協議会_ロゴ" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
-              </a>
-              <a href="https://kata-studio.hr-sano.net" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
-                <img src="/img/contests/sponsor-logos/lab-sbsb.svg" alt="lab-sbsb_ロゴ" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
-              </a>
-              <a href="https://protopedia.net/" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
-                <img src="/img/contests/sponsor-logos/ptoropedia_beside.webp" alt="ProtoPedia_ロゴ" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
-              </a>
-              <a href="https://www.stellalink.co.jp/" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
-                <img src="/img/contests/sponsor-logos/stellalink.svg" alt="stellalink_ロゴ" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
-              </a>
-            </div>
-          </div>
-
-          <!-- Individual Sponsors
-          <div class="mb-24">
-            <section class="sponsors">
-              <h3> 個人スポンサー </h3>
-            </section>
-          </div>
-          -->
-
-          <a href="/sponsors" class="button-push"> スポンサー募集のご案内を見る </a>
+        {% include sponsors.html %}
+        <a href="/sponsors" class="button-push"> スポンサー募集のご案内を見る </a>
       </div>
     </div>
+
   </div>
 </div>
 
 {% include faq.html %}
 
 <style>
-  /* テキストを2行で切り取る */
-  .line-clamp-2 {
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-
   /* FAQセクションの背景色 */
   #faq {
     background-color: #eff2f6;
     padding-bottom: 48px;
   }
 </style>
-
