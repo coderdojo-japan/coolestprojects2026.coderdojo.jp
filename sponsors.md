@@ -112,6 +112,45 @@ hero_subtitle: "COOLEST PARTNERS"
           }
           document.getElementById('next-page').addEventListener('click', onNextPage);
 
+          // キャンバスのクリックでページ移動（3分割）
+          canvas.addEventListener('click', function(e) {
+            const rect = canvas.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const canvasWidth = rect.width;
+
+            // 左1/3 = 前へ、中央1/3 = 何もしない、右1/3 = 次へ
+            if (x < canvasWidth / 3) {
+              onPrevPage();
+            } else if (x > canvasWidth * 2 / 3) {
+              onNextPage();
+            }
+          });
+
+          // カーソル位置に応じてカーソルスタイルを動的に変更
+          canvas.addEventListener('mousemove', function(e) {
+            const rect = canvas.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const canvasWidth = rect.width;
+
+            // 左1/3または右1/3 = クリック可能、中央1/3 = クリック不可
+            if (x < canvasWidth / 3 || x > canvasWidth * 2 / 3) {
+              canvas.style.cursor = 'pointer';
+            } else {
+              canvas.style.cursor = 'default';
+            }
+          });
+
+          // キーボードショートカット（矢印キー）
+          document.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowLeft') {
+              e.preventDefault();
+              onPrevPage();
+            } else if (e.key === 'ArrowRight') {
+              e.preventDefault();
+              onNextPage();
+            }
+          });
+
           // PDF を読み込み
           pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
             pdfDoc = pdfDoc_;
