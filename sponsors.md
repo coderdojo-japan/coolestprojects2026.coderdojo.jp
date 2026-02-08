@@ -126,8 +126,19 @@ hero_subtitle: "COOLEST PARTNERS"
             }
           });
 
-          // クリック可能であることを示すカーソルスタイル
-          canvas.style.cursor = 'pointer';
+          // カーソル位置に応じてカーソルスタイルを動的に変更
+          canvas.addEventListener('mousemove', function(e) {
+            const rect = canvas.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const canvasWidth = rect.width;
+
+            // 左1/3または右1/3 = クリック可能、中央1/3 = クリック不可
+            if (x < canvasWidth / 3 || x > canvasWidth * 2 / 3) {
+              canvas.style.cursor = 'pointer';
+            } else {
+              canvas.style.cursor = 'default';
+            }
+          });
 
           // キーボードショートカット（矢印キー）
           document.addEventListener('keydown', function(e) {
