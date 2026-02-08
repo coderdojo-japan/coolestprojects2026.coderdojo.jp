@@ -1,7 +1,7 @@
 ---
 layout: default
-hero_title: "開催概要"
-hero_subtitle: "ABOUT"
+title: "開催概要"
+subtitle: "ABOUT"
 ---
 
 <!-- コンテンツエリア -->

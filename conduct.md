@@ -1,7 +1,7 @@
 ---
 layout: default
-hero_title: "行動規範"
-hero_subtitle: "Code of Conduct"
+title: "行動規範"
+subtitle: "Code of Conduct"
 ---
 
 <!-- コンテンツエリア -->

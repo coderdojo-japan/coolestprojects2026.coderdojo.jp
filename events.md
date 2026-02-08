@@ -1,7 +1,7 @@
 ---
 layout: default
-hero_title: "来場応募"
-hero_subtitle: "EVENTS"
+title: "来場応募"
+subtitle: "EVENTS"
 ---
 
 <div class="bg-white py-16 px-4">

@@ -1,7 +1,7 @@
 ---
 layout: default
-hero_title: "プライバシーポリシー"
-hero_subtitle: "PRIVACY POLICY"
+title: "プライバシーポリシー"
+subtitle: "PRIVACY POLICY"
 redirect_from:
   - /privacy-policy/
 ---
