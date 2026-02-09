@@ -20,11 +20,11 @@
       {% for sponsor in sponsors_diamond %}
       {% if sponsor.link != "" %}
       <a href="{{ sponsor.link }}" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
-        <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-200 sm:w-240 h-auto max-h-64 object-contain">
+        <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-120 sm:w-140 h-auto max-h-64 object-contain">
       </a>
       {% else %}
       <div class="block">
-        <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-200 sm:w-240 h-auto max-h-64 object-contain">
+        <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-120 sm:w-140 h-auto max-h-64 object-contain">
       </div>
       {% endif %}
       {% endfor %}
@@ -64,11 +64,11 @@
       {% for sponsor in sponsors_gold %}
       {% if sponsor.link != "" %}
       <a href="{{ sponsor.link }}" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
-        <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-full max-w-md sm:max-w-lg max-h-48 object-contain">
+        <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-80 sm:w-100 h-auto max-h-48 object-contain">
       </a>
       {% else %}
       <div class="block">
-        <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-full max-w-md sm:max-w-lg max-h-48 object-contain">
+        <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-80 sm:w-100 h-auto max-h-48 object-contain">
       </div>
       {% endif %}
       {% endfor %}
