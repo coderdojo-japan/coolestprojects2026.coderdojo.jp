@@ -118,7 +118,7 @@
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
                   </svg>
                   <div class="text-left">
-                    <div class="text-xs text-gray-500 mb-1">前の記事</div>
+                    <div class="text-xs text-gray-500 mb-1">{% if page.previous %}前の記事{% else %}最新の記事{% endif %}</div>
                     <div class="text-sm">{{ prev_post.title | truncate: 40 }}</div>
                   </div>
                 </a>
@@ -126,7 +126,7 @@
                 <!-- 次の投稿へ -->
                 <a href="{{ next_post.url }}" class="inline-flex items-center text-black hover:text-gray-700 font-bold group">
                   <div class="text-right">
-                    <div class="text-xs text-gray-500 mb-1">次の記事</div>
+                    <div class="text-xs text-gray-500 mb-1">{% if page.next %}次の記事{% else %}最初の記事{% endif %}</div>
                     <div class="text-sm">{{ next_post.title | truncate: 40 }}</div>
                   </div>
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2 group-hover:transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
