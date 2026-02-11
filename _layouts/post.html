@@ -94,58 +94,34 @@
             </div>
 
             <!-- 投稿ナビゲーション -->
-            {% assign sorted_posts = site.posts | sort: 'date' %}
-            {% assign current_index = nil %}
-            {% for post in sorted_posts %}
-              {% if post.url == page.url %}
-                {% assign current_index = forloop.index0 %}
-                {% break %}
-              {% endif %}
-            {% endfor %}
+            {% assign prev_post = page.previous | default: site.posts.last %}
+            {% assign next_post = page.next | default: site.posts.first %}
 
-            {% if current_index %}
-              {% assign prev_index = current_index | minus: 1 %}
-              {% assign next_index = current_index | plus: 1 %}
-              {% assign last_index = sorted_posts.size | minus: 1 %}
+            <nav class="mt-12 pt-8 border-t-2 border-gray-200">
+              <div class="flex justify-between items-center">
+                <!-- 前の投稿へ -->
+                <a href="{{ prev_post.url }}" class="inline-flex items-center text-black hover:text-gray-700 font-bold group">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 group-hover:transform group-hover:-translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                  </svg>
+                  <div class="text-left">
+                    <div class="text-xs text-gray-500 mb-1">前の記事</div>
+                    <div class="text-sm">{{ prev_post.title | truncate: 40 }}</div>
+                  </div>
+                </a>
 
-              {% if prev_index < 0 %}
-                {% assign prev_post = sorted_posts[last_index] %}
-              {% else %}
-                {% assign prev_post = sorted_posts[prev_index] %}
-              {% endif %}
-
-              {% if next_index > last_index %}
-                {% assign next_post = sorted_posts[0] %}
-              {% else %}
-                {% assign next_post = sorted_posts[next_index] %}
-              {% endif %}
-
-              <nav class="mt-12 pt-8 border-t-2 border-gray-200">
-                <div class="flex justify-between items-center">
-                  <!-- 前の投稿へ -->
-                  <a href="{{ prev_post.url }}" class="inline-flex items-center text-black hover:text-gray-700 font-bold group">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 group-hover:transform group-hover:-translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-                    </svg>
-                    <div class="text-left">
-                      <div class="text-xs text-gray-500 mb-1">前の記事</div>
-                      <div class="text-sm">{{ prev_post.title | truncate: 40 }}</div>
-                    </div>
-                  </a>
-
-                  <!-- 次の投稿へ -->
-                  <a href="{{ next_post.url }}" class="inline-flex items-center text-black hover:text-gray-700 font-bold group">
-                    <div class="text-right">
-                      <div class="text-xs text-gray-500 mb-1">次の記事</div>
-                      <div class="text-sm">{{ next_post.title | truncate: 40 }}</div>
-                    </div>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2 group-hover:transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                    </svg>
-                  </a>
-                </div>
-              </nav>
-            {% endif %}
+                <!-- 次の投稿へ -->
+                <a href="{{ next_post.url }}" class="inline-flex items-center text-black hover:text-gray-700 font-bold group">
+                  <div class="text-right">
+                    <div class="text-xs text-gray-500 mb-1">次の記事</div>
+                    <div class="text-sm">{{ next_post.title | truncate: 40 }}</div>
+                  </div>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2 group-hover:transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </nav>
           </article>
         </div>
       </div>
