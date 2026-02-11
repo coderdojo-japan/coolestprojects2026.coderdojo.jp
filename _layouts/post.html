@@ -92,6 +92,49 @@
             <div class="prose prose-lg max-w-none news-content" style="color: #444444;">
               {{ content }}
             </div>
+
+            <!-- 投稿ナビゲーション -->
+            {% assign prev_post = page.previous | default: site.posts.first %}
+            {% assign next_post = page.next     | default: site.posts.last %}
+
+            <!-- デバッグ情報（必要になったら随時活用） -->
+	    <!--
+            <div style="background: #f0f0f0; padding: 15px; margin: 20px 0; border: 2px solid #ccc; font-size: 12px;">
+              <strong>🔍 デバッグ情報：</strong><br>
+              現在: {{ page.title }} ({{ page.date | date: "%Y-%m-%d" }})<br>
+              page.previous: {% if page.previous %}{{ page.previous.title }} ({{ page.previous.date | date: "%Y-%m-%d" }}){% else %}<span style="color: red;">NIL</span>{% endif %}<br>
+              page.next: {% if page.next %}{{ page.next.title }} ({{ page.next.date | date: "%Y-%m-%d" }}){% else %}<span style="color: red;">NIL</span>{% endif %}<br>
+              site.posts.first: {{ site.posts.first.title }} ({{ site.posts.first.date | date: "%Y-%m-%d" }})<br>
+              site.posts.last: {{ site.posts.last.title }} ({{ site.posts.last.date | date: "%Y-%m-%d" }})<br>
+              prev_post: {{ prev_post.title }}<br>
+              next_post: {{ next_post.title }}
+            </div>
+	    -->
+            <nav class="mt-12 pt-8 border-t-2 border-gray-200">
+              <div class="flex justify-between items-center">
+                <!-- 前の投稿へ -->
+                <a href="{{ prev_post.url }}" class="inline-flex items-center text-black hover:text-gray-700 font-bold group">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 group-hover:transform group-hover:-translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+                  </svg>
+                  <div class="text-left">
+                    <div class="text-xs text-gray-500 mb-1">前の記事</div>
+                    <div class="text-sm">{{ prev_post.title | truncate: 40 }}</div>
+                  </div>
+                </a>
+
+                <!-- 次の投稿へ -->
+                <a href="{{ next_post.url }}" class="inline-flex items-center text-black hover:text-gray-700 font-bold group">
+                  <div class="text-right">
+                    <div class="text-xs text-gray-500 mb-1">次の記事</div>
+                    <div class="text-sm">{{ next_post.title | truncate: 40 }}</div>
+                  </div>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2 group-hover:transform group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
+            </nav>
           </article>
         </div>
       </div>
