@@ -1,7 +1,7 @@
 ---
 layout: default
-hero_title: "展示のおやくそく"
-hero_subtitle: "DISPLAY RULES"
+title: "展示のおやくそく"
+subtitle: "DISPLAY RULES"
 ---
 
 <!-- コンテンツエリア -->

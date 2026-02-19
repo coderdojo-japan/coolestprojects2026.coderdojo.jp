@@ -1,7 +1,7 @@
 ---
 layout: default
-hero_title: "スポンサー"
-hero_subtitle: "COOLEST PARTNERS"
+title: "スポンサー"
+subtitle: "COOLEST PARTNERS"
 ---
 
 <!-- コンテンツエリア -->

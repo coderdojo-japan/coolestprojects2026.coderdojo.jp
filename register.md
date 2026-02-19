@@ -1,7 +1,7 @@
 ---
 layout: default
-hero_title: "来場応募する"
-hero_subtitle: "Registration"
+title: "来場応募する"
+subtitle: "Registration"
 redirect_from:
   - /registration/
 ---

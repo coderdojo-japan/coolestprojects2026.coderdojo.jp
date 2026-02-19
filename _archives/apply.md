@@ -1,7 +1,7 @@
 ---
 layout: default
-hero_title: "応募"
-hero_subtitle: "APPLY"
+title: "応募"
+subtitle: "APPLY"
 permalink: /apply/
 ---
 

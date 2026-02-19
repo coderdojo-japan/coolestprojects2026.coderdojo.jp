@@ -1,7 +1,7 @@
 ---
 layout: default
-hero_title: "交通費補助"
-hero_subtitle: "TRAVEL SUPPORT"
+title: "交通費補助"
+subtitle: "TRAVEL SUPPORT"
 ---
 
 <!-- コンテンツエリア -->

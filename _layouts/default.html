@@ -7,8 +7,8 @@
     <main class="flex-grow">
       <header class="hero">
         <div class="hero-container">
-          <h1 class="hero-title">{{ page.hero_title }}</h1>
-          <p class="hero-subtitle">{{ page.hero_subtitle }}</p>
+          <h1 class="hero-title">{{ page.hero_title | default: page.title }}</h1>
+          <p class="hero-subtitle">{{ page.hero_subtitle | default: page.subtitle }}</p>
         </div>
       </header>
       {{ content }}
