@@ -77,10 +77,10 @@
   --ff-body: var(--ff-roboto);
 
   /* --- フォントサイズテーマ --- */
-  --fs-h1: var(--fs-4xl); /* ページタイトル */
-  --fs-h2: var(--fs-3xl); /* セクション見出し */
-  --fs-h3: var(--fs-2xl); /* 小見出し */
-  --fs-body: var(--fs-xl); /* 本文 */
+  --fs-h1: var(--fs-3xl); /* ページタイトル */
+  --fs-h2: var(--fs-2xl); /* セクション見出し */
+  --fs-h3: var(--fs-xl); /* 小見出し */
+  --fs-body: var(--fs-base); /* 本文 */
   --fs-heading-s: var(--fs-base); /* 小見出し（サブ） */
   --fs-caption: var(--fs-xs); /* キャプション */
 
@@ -200,15 +200,11 @@
 
   .md-container {
     max-width: 56rem; /* max-w-4xl = 56rem */
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     padding: 4rem 1rem;
   }
-
-  .md-container {
-    max-width: 56rem;
-    margin-left: auto;
-    margin-right: auto;
+  .md-container li {
+    margin-bottom: 0.5em;
   }
 
   .md-heading1 {
@@ -217,6 +213,10 @@
     font-weight: var(--fw-heading-l);
     margin-top: 0.5em;
     margin-bottom: 0.5em;
+  }
+
+  .md-container .md-point-list1 {
+    margin-bottom: 2em;
   }
 
   .md-heading2 {
@@ -242,6 +242,9 @@
     font-size: var(--fs-body);
     margin-bottom: 1em;
   }
+  .md-point-list1 li {
+    margin-bottom: 0.5em;
+  }
 
   .md-point-list2 {
     list-style-type: circle;
@@ -252,6 +255,7 @@
     margin-bottom: 1em;
   }
 
+
   .md-number-list {
     list-style-type: decimal;
     padding-left: 2rem;
@@ -259,6 +263,7 @@
     font-weight: var(--fw-body);
     font-size: var(--fs-body);
     margin-bottom: 1em;
+    line-height: 1.6em;
   }
 
   .qanda {
