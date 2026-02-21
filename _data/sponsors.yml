@@ -2,72 +2,136 @@
 # スポンサーの追加・変更はこのファイルを編集してください
 # 画像を置く場所はコチラ: /img/contests/sponsor-logos/
 
-# Diamond Sponsor
-- name: Broadcom Foundation
-  img:  broadcom-foundation.svg
-  type: diamond
-  link: https://broadcomfoundation.org/
+- name:  Broadcom Foundation
+  img:   broadcom-foundation.svg
+  type:  diamond
+  url:   broadcom
+  link:  https://broadcomfoundation.org/
+  about: Broadcom Foundation is a corporate nonprofit that advocates equitable access to STEM education and acquiring digital literacy as essential for attaining meaningful employment and becoming productive citizens in a tech-driven society.
+        <br>
+        The foundation promotes basic coding as a critical 21st Century+ skill that all young people need to be creative STEM problem solvers who think critically, communicate and collaborate and who will help realize the 17 Sustainable Development Goals of the United Nations.
+        <br>
+        【日本語訳】（翻訳は独自で行っているものであり、解釈に疑義が生じた場合は、英語原文が優先されます。）
+        <br>
+        Broadcom Foundationは、ハイテク駆動型社会において意義ある雇用を得て、かつ生産的な市民となるためには、「STEM教育への公平なアクセス」と「デジタルリテラシーの習得」が不可欠であると提唱する企業非営利団体です。
+        <br>
+        同財団は、すべての若者が、批判的に思考し、意思疎通と協調を図りながら創造的なSTEM問題解決者となり、ひいては国連の「17の持続可能な開発目標（SDGs）」の実現に寄与するために必要な、「21世紀以降の極めて重要なスキル」として基礎的なコーディングを推進しています。
 
 # Platinum Sponsor
-- name: 有限会社来栖川電算
-  img:  kurusugawa-computer-inc.svg
-  type: platinum
-  link: https://www.kurusugawa.jp/
+- name:  有限会社 来栖川電算
+  img:   kurusugawa-computer-inc.svg
+  type:  platinum
+  url:   kurusugawa
+  link:  https://www.kurusugawa.jp/
+  about: 来栖川電算は「ＳＦ世界の技術を実現して、社会に役立てよう」をミッションに、2003年の創業から、機械学習・AIをはじめとする先端技術に取り組んできました。
+        <br>
+        私たちは、工夫と発想で仕事をハックすることを日々楽しんでいます。
+        <br>
+        そんな遊び心が、LiDAR（ライダー）などのセンサ×AIの行動認識を活かした『エスカレーター見守り君』につながり、名古屋市営地下鉄でも活躍しています。
+        <br>
+        みなさんの「やってみたい」も、次の社会を動かす一歩です。
 
 # Gold Sponsor
-- name: STAR ROBOX
-  img:  smartone-starrobox.png
-  type: gold
-  link: https://cafe-bar.starrobox.com/
+- name:  株式会社SmartOne
+  img:   smartone-starrobox.png
+  type:  gold
+  url:   smartone
+  link:  https://cafe-bar.starrobox.com/
+  about: 株式会社SmartOneは、ロボットによる自動化・開発、CADスクール運営、そしてロボットショールームとして「ロボットカフェバー」を運営しています。
+        <br>
+        最新ロボット技術を体験できる場を提供し、未来の技術者育成と地域振興に貢献します。
+        <br>
+        子どもたちの夢と挑戦を支援し、地域の未来を共に創造していきたいと考えています。
 
 # Silver Sponsors
-- name: 株式会社ITアドバイザー
-  img:  it-adviser.webp
-  type: silver
-  link: https://it-a-net.co.jp/
+- name:  株式会社ITアドバイザー
+  img:   it-adviser.webp
+  type:  silver
+  url:   it-adviser
+  link:  https://it-a-net.co.jp/
+  about: 株式会社ITアドバイザーは名古屋市を拠点に東海エリアでソフトウェア事業を展開しています。
+        <br>
+        「百折不撓」の精神のもと、お客様の「困った」に寄り添い、ご縁と絆を大切にした価値ある提案で共に成長を目指します。
 
-- name: Seeed株式会社
-  img: seeed.webp
-  type: silver
-  link: https://www.seeed.co.jp/
+- name:  Seeed株式会社
+  img:   seeed.webp
+  type:  silver
+  url:   seeed
+  link:  https://www.seeed.co.jp/
+  about: Seeed StudioはAI・IoTデバイスを設計製造している会社です。
+        <br>
+        子供たちが電子工作やプログラミングを気軽に体験・学習できるよう、電子部品や学習教材なども作っています。
+        <br>
+        Seeed Studio製品は国内の電子部品販売店で購入することができます。
 
-- name: 株式会社パイク
-  img:  pike.webp
-  type: silver
-  link: ""
+- name:  株式会社パイク
+  img:   pike.webp
+  type:  silver
+  url:   pike
+  link:  ""
+  about: 株式会社パイクは、地域の文化や歴史、産業を大切にし、とりわけ先端技術やモノづくりの現場に寄り添いながら、イベントや映像、ワークショップ、プロダクトを通して「楽しい」を生み出すクリエイティブカンパニーです。
+        <br>
+        地域の魅力を未来へつないでいきます。
 
-- name: 一般社団法人ライフスキルサポート協会
-  img:  life-skill-support-association.webp
-  type: silver
-  link: https://lifeskill.or.jp/
+- name:  一般社団法人ライフスキルサポート協会
+  img:   life-skill-support-association.webp
+  type:  silver
+  url:   life-skill-support-association
+  link:  https://lifeskill.or.jp/
+  about: IT未経験からIT業界への転職を目指す職業訓練校を運営し、実践的なIT教育とキャリア支援を行っています。
+        <br>
+        求職者向けだけでなく、法人・個人問わず、未経験～微経験向けの研修も受け付けています。
+        <br>
+        未経験からITに挑戦したい方や研修にご興味のある方は、ぜひブースへお立ち寄りください。
 
 # In-Kind Sponsors (機材・物品・サービス提供)
-- name: YassLab株式会社
-  img:  yasslab.svg
-  type: inkind
-  link: https://yasslab.jp/ja/
+- name:  YassLab株式会社
+  img:   yasslab.svg
+  type:  inkind
+  url:   yasslab
+  link:  https://yasslab.jp/ja/
+  about: RailsチュートリアルやRailsガイドの企画・制作・運営、Ruby/Railsの開発支援を行うリモート・チームです！
 
-- name: 株式会社GRIPS
-  img:  grips.webp
-  type: inkind
-  link: https://www.grips.co.jp/
+- name:  株式会社GRIPS
+  img:   grips.webp
+  type:  inkind
+  url:   grips
+  link:  https://www.grips.co.jp/
+  about: GRIPSは、オープンイノベーションを創出する場の構築にロボティクスとオープンソース技術で貢献します。
 
-- name: NPO法人デジタルものづくり協議会
-  img:  digital-monozukuri-council.webp
-  type: inkind
-  link: https://dmcouncil.or.jp/
+- name:  NPO法人デジタルものづくり協議会
+  img:   digital-monozukuri-council.webp
+  type:  inkind
+  url:   digital-monozukuri-council
+  link:  https://dmcouncil.or.jp/
+  about: マイクラに代表される問題発見・解決ツールを活用し、創造力をもった人材をコミュニティの力で育成します。
 
-- name: lab-sbsb
-  img:  lab-sbsb.svg
-  type: inkind
-  link: https://kata-studio.hr-sano.net
+- name:  lab.sbsb
+  img:   lab-sbsb.svg
+  type:  inkind
+  url:   lab-sbsb
+  link:  https://kata-studio.hr-sano.net
+  about: 「型」を選んでカスタマイズ！
+        <br>
+        知識ゼロから3Dデータ作りを体験できるkata-studioを開発しています。
 
-- name: ProtoPedia
-  img:  ptoropedia_beside.webp
-  type: inkind
-  link: https://protopedia.net/
+- name:  ProtoPedia
+  img:   ptoropedia_beside.webp
+  type:  inkind
+  url:   protopedia
+  link:  https://protopedia.net/
+  about: ITものづくりの「つくった」を記録・公開し、互いの技術や発想をリスペクトし合う、クリエイターの拠点。
 
-- name: stellalink
-  img:  stellalink.svg
-  type: inkind
-  link: https://www.stellalink.co.jp/
+- name:  株式会社ステラリンク
+  img:   stellalink.svg
+  type:  inkind
+  url:   stellalink
+  link:  https://www.stellalink.co.jp/
+  about: 
+
+- name:  ブラザー販売株式会社
+  img:   brother.png
+  type:  inkind
+  url:   brother
+  link:  https://www.brother.co.jp/corporate/bsl/index.aspx
+  about: ブラザー販売は、プリンターやラベルライターなどのユニークな製品やソリューションを提供し続けます。
