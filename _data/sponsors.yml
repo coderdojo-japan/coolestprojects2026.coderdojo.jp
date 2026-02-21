@@ -5,6 +5,7 @@
 - name:  Broadcom Foundation
   img:   broadcom-foundation.svg
   type:  diamond
+  url:   broadcom
   link:  https://broadcomfoundation.org/
   about: Broadcom Foundation is a corporate nonprofit that advocates equitable access to STEM education and acquiring digital literacy as essential for attaining meaningful employment and becoming productive citizens in a tech-driven society.
         <br>
@@ -20,6 +21,7 @@
 - name:  有限会社 来栖川電算
   img:   kurusugawa-computer-inc.svg
   type:  platinum
+  url:   kurusugawa
   link:  https://www.kurusugawa.jp/
   about: 来栖川電算は「ＳＦ世界の技術を実現して、社会に役立てよう」をミッションに、2003年の創業から、機械学習・AIをはじめとする先端技術に取り組んできました。
         <br>
@@ -33,6 +35,7 @@
 - name:  株式会社SmartOne
   img:   smartone-starrobox.png
   type:  gold
+  url:   smartone
   link:  https://cafe-bar.starrobox.com/
   about: 株式会社SmartOneは、ロボットによる自動化・開発、CADスクール運営、そしてロボットショールームとして「ロボットカフェバー」を運営しています。
         <br>
@@ -44,6 +47,7 @@
 - name:  株式会社ITアドバイザー
   img:   it-adviser.webp
   type:  silver
+  url:   it-adviser
   link:  https://it-a-net.co.jp/
   about: 株式会社ITアドバイザーは名古屋市を拠点に東海エリアでソフトウェア事業を展開しています。
         <br>
@@ -52,6 +56,7 @@
 - name:  Seeed株式会社
   img:   seeed.webp
   type:  silver
+  url:   seeed
   link:  https://www.seeed.co.jp/
   about: Seeed StudioはAI・IoTデバイスを設計製造している会社です。
         <br>
@@ -62,6 +67,7 @@
 - name:  株式会社パイク
   img:   pike.webp
   type:  silver
+  url:   pike
   link:  ""
   about: 株式会社パイクは、地域の文化や歴史、産業を大切にし、とりわけ先端技術やモノづくりの現場に寄り添いながら、イベントや映像、ワークショップ、プロダクトを通して「楽しい」を生み出すクリエイティブカンパニーです。
         <br>
@@ -70,6 +76,7 @@
 - name:  一般社団法人ライフスキルサポート協会
   img:   life-skill-support-association.webp
   type:  silver
+  url:   life-skill-support-association
   link:  https://lifeskill.or.jp/
   about: IT未経験からIT業界への転職を目指す職業訓練校を運営し、実践的なIT教育とキャリア支援を行っています。
         <br>
@@ -81,24 +88,28 @@
 - name:  YassLab株式会社
   img:   yasslab.svg
   type:  inkind
+  url:   yasslab
   link:  https://yasslab.jp/ja/
   about: RailsチュートリアルやRailsガイドの企画・制作・運営、Ruby/Railsの開発支援を行うリモート・チームです！
 
 - name:  株式会社GRIPS
   img:   grips.webp
   type:  inkind
+  url:   grips
   link:  https://www.grips.co.jp/
   about: GRIPSは、オープンイノベーションを創出する場の構築にロボティクスとオープンソース技術で貢献します。
 
 - name:  NPO法人デジタルものづくり協議会
   img:   digital-monozukuri-council.webp
   type:  inkind
+  url:   digital-monozukuri-council
   link:  https://dmcouncil.or.jp/
   about: マイクラに代表される問題発見・解決ツールを活用し、創造力をもった人材をコミュニティの力で育成します。
 
 - name:  lab.sbsb
   img:   lab-sbsb.svg
   type:  inkind
+  url:   lab-sbsb
   link:  https://kata-studio.hr-sano.net
   about: 「型」を選んでカスタマイズ！
         <br>
@@ -107,17 +118,20 @@
 - name:  ProtoPedia
   img:   ptoropedia_beside.webp
   type:  inkind
+  url:   protopedia
   link:  https://protopedia.net/
   about: ITものづくりの「つくった」を記録・公開し、互いの技術や発想をリスペクトし合う、クリエイターの拠点。
 
 - name:  株式会社ステラリンク
   img:   stellalink.svg
   type:  inkind
+  url:   stellalink
   link:  https://www.stellalink.co.jp/
   about: 
 
 - name:  ブラザー販売株式会社
   img:   brother.png
   type:  inkind
+  url:   brother
   link:  https://www.brother.co.jp/corporate/bsl/index.aspx
   about: ブラザー販売は、プリンターやラベルライターなどのユニークな製品やソリューションを提供し続けます。

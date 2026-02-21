@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html lang="ja" dir="ltr">
   {% include head.html %}
-  <body>
+  <body class="min-h-screen flex flex-col">
     {% include header.html %}
     <main class="flex-grow">
       <header class="hero">
@@ -17,7 +17,7 @@
           <p class="hero-subtitle">{{ sponsor_kind }} sponsor</p>
         </div>
     </header>
-        <img src="/img/contests/sponsor-logos/{{ sponsor-data.img }}" alt="{{ sponsor-data.name }} logo" class="p-12 mx-auto mb-8 max-h-100">
+        <img src="/img/contests/sponsor-logos/{{ sponsor-data.img }}" alt="{{ sponsor-data.name }} logo" class="p-12 mx-auto mb-8 max-w-3xl max-h-64 w-full h-auto object-contain">
 
         {% if sponsor-data.link != "" %}
         <a class="button-push block mx-auto w-fit my-8" href="{{ sponsor-data.link}}" target="_blank" rel="noopener noreferrer">公式ホームページを見る</a>
@@ -30,7 +30,9 @@
         </div>
     </main>
 
-    {% include footer.html %}
+    <div class="mt-auto">
+      {% include footer.html %}
+    </div>
 
     <script type="module" src="/assets/js/cookieconsent-config.js"></script>
   </body>

@@ -2,11 +2,15 @@
 <html lang="ja" dir="ltr">
   {% include head.html %}
 
-  <body>
+  <body class="min-h-screen flex flex-col">
     {% include header.html %}
-    {{ content }}
+    <main class="flex-grow">
+      {{ content }}
+    </main>
+    <div class="mt-auto">
+      {% include footer.html %}
+    </div>
     <script type="module" src="/assets/js/cookieconsent-config.js"></script>
-    {% include footer.html %}
   </body>
 
 </html>
