@@ -1,0 +1,37 @@
+{% assign sponsor-data = site.data.sponsors | where: "name", page.sponsor-name | first %}
+{% if sponsor-data.type == "inkind" %}
+    {% assign sponsor_kind = "in kind" %}
+{% else %}
+    {% assign sponsor_kind = sponsor-data.type %}
+{% endif %}
+
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    <main class="flex-grow">
+      <header class="hero">
+        <div class="hero-container">
+          <h1 class="hero-title">{{ page.sponsor-name }}</h1>
+          <p class="hero-subtitle">{{ sponsor_kind }} sponsor</p>
+        </div>
+    </header>
+        <img src="/img/contests/sponsor-logos/{{ sponsor-data.img }}" alt="{{ sponsor-data.name }} logo" class="p-12 mx-auto mb-8 max-h-100">
+
+        {% if sponsor-data.link != "" %}
+        <a class="button-push block mx-auto w-fit my-8" href="{{ sponsor-data.link}}" target="_blank" rel="noopener noreferrer">公式ホームページを見る</a>
+        {% endif %}
+
+        <div class="md-container">
+            <p class="md-body">
+                {{ sponsor-data.about }}
+            </p>
+        </div>
+    </main>
+
+    {% include footer.html %}
+
+    <script type="module" src="/assets/js/cookieconsent-config.js"></script>
+  </body>
+</html>
