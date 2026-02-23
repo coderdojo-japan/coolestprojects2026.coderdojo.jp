@@ -14,6 +14,9 @@ hero_subtitle: "how to make display poster"
     <h1 class="md-heading1">
         ✏️ポスターに書く内容
     </h1>
+
+    <img src="/img/contests/how-to-make-poster.png" alt="ポスターの要素の解説図">
+
     <h2 class="md-heading2">
         1. タイトル・名前（一番大きく！）
     </h2>
@@ -101,13 +104,16 @@ hero_subtitle: "how to make display poster"
         </li>
     </ul>
 
-    <img src="/img/contests/how-to-make-poster.png" alt="ポスターの要素の解説図">
-
     <div class="mt-12 border-t pt-8"></div>
 
     <h1 class="md-heading1">
         🎨レイアウト（配置）のコツ
     </h1>
+
+    <div class="mb-4">
+        <img src="/img/contests/poster-layout.png" alt="ポスターのレイアウトの解説図">
+    </div>
+
     <ul class="md-point-list1">
         <li>
             A3用紙を2枚横に並べる場合、「左側＝過去・過程」「右側＝結果・未来」と分けるとわかりやすく伝わります。
@@ -152,8 +158,6 @@ hero_subtitle: "how to make display poster"
                 </li>
             </ul>
         </li>
-
-        <img src="/img/contests/poster-layout.png" alt="ポスターのレイアウトの解説図">
     </ul>
 
     <div class="mt-12 border-t pt-8"></div>
@@ -164,6 +168,11 @@ hero_subtitle: "how to make display poster"
     <h2 class="md-heading2">
         例1：micro:bitを使った自動水やり機
     </h2>
+
+    <div class="mb-4">
+        <img src="/img/contests/mizuyarin.png" alt="みずやりんのポスター例">
+    </div>
+
     <ul class="md-number-list">
         <li>
             タイトル :
@@ -204,7 +213,7 @@ hero_subtitle: "how to make display poster"
             次はスマホに「水やり完了」と通知が来るように改造したいです。
         </li>
     </ul>
-    <img src="/img/contests/mizuyarin.png" alt="みずやりんのポスター例">
+
     <h2 class="md-heading2">
         例2 : Scratchで作ったオリジナルゲーム
         <ul class="md-number-list">
@@ -252,11 +261,17 @@ hero_subtitle: "how to make display poster"
     <h1 class="md-heading1">
         🧑‍🧑‍🧒‍🧒ポスター作成のコツ（親御さんへのヒント）
     </h1>
+
     <p class="md-body">
         Tech系の展示は、どうしても「完成品（パソコン画面や小さな基板）」だけがポツンと置かれがちです。
         <br>
         ポスターでその背景にある努力を「見える化」してあげてください。
     </p>
+
+    <div class="mb-4">
+        <img src="/img/contests/support-point-for-parents.png" alt="親のサポートポイントの解説図">
+    </div>
+
     <ul class="md-number-list">
         <li>
             「目に見えない部分」を図解する
@@ -320,9 +335,6 @@ hero_subtitle: "how to make display poster"
                 </li>
             </ul>
         </li>
-
-        <img src="/img/contests/support-point-for-parents.png" alt="親のサポートポイントの解説図">
-
     </ul>
 
 </div>
