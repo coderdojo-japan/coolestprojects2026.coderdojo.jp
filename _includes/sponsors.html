@@ -18,15 +18,9 @@
     </section>
     <div class="flex justify-center mb-6 px-4">
       {% for sponsor in sponsors_diamond %}
-      {% if sponsor.link != "" %}
       <a href="/sponsor-{{ sponsor.url }}" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
         <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-120 sm:w-140 h-auto max-h-64 object-contain">
       </a>
-      {% else %}
-      <div class="block">
-        <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-120 sm:w-140 h-auto max-h-64 object-contain">
-      </div>
-      {% endif %}
       {% endfor %}
     </div>
   </div>
@@ -40,15 +34,9 @@
     </section>
     <div class="flex justify-center mb-6 px-4">
       {% for sponsor in sponsors_platinum %}
-      {% if sponsor.link != "" %}
       <a href="/sponsor-{{ sponsor.url }}" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
         <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-100 sm:w-120 h-auto max-h-32 object-contain">
       </a>
-      {% else %}
-      <div class="block">
-        <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-100 sm:w-120 h-auto max-h-32 object-contain">
-      </div>
-      {% endif %}
       {% endfor %}
     </div>
   </div>
@@ -62,15 +50,9 @@
     </section>
     <div class="flex justify-center mb-6 px-4">
       {% for sponsor in sponsors_gold %}
-      {% if sponsor.link != "" %}
       <a href="/sponsor-{{ sponsor.url }}" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
         <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-80 sm:w-100 h-auto max-h-48 object-contain">
       </a>
-      {% else %}
-      <div class="block">
-        <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-80 sm:w-100 h-auto max-h-48 object-contain">
-      </div>
-      {% endif %}
       {% endfor %}
     </div>
   </div>
@@ -84,15 +66,9 @@
     </section>
     <div class="flex flex-wrap justify-center items-center gap-8">
       {% for sponsor in sponsors_silver %}
-      {% if sponsor.link != "" %}
       <a href="/sponsor-{{ sponsor.url }}" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
         <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-60 sm:w-80 h-auto max-h-32 object-contain">
       </a>
-      {% else %}
-      <div data-proofer-ignore class="block transition-transform hover:scale-105">
-        <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-60 sm:w-80 h-auto max-h-32 object-contain">
-      </div>
-      {% endif %}
       {% endfor %}
     </div>
   </div>
@@ -106,15 +82,9 @@
     </section>
     <div class="flex flex-wrap justify-center items-center gap-8 sm:gap-4 px-4">
       {% for sponsor in sponsors_bronze %}
-      {% if sponsor.link != "" %}
       <a href="/sponsor-{{ sponsor.url }}" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
         <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
       </a>
-      {% else %}
-      <div class="block transition-transform hover:scale-105">
-        <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
-      </div>
-      {% endif %}
       {% endfor %}
     </div>
   </div>
@@ -128,15 +98,9 @@
     </section>
     <div class="flex flex-wrap justify-center items-center gap-12 sm:gap-8">
       {% for sponsor in sponsors_inkind %}
-      {% if sponsor.link != "" %}
       <a href="/sponsor-{{ sponsor.url }}" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
         <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
       </a>
-      {% else %}
-      <div class="block transition-transform hover:scale-105">
-        <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
-      </div>
-      {% endif %}
       {% endfor %}
     </div>
   </div>
