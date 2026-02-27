@@ -70,7 +70,7 @@ subtitle: "TRAVEL SUPPORT"
           <div>
             <h4 class="font-bold text-xl mb-3" style="color: #221C35;">お振込み時期</h4>
             <ul class="space-y-2 text-base pl-5" style="color: #444444; list-style-type: disc;">
-              <li>交通費のお振込みは、CPJ開催終了後となります</li>
+              <li>交通費のお振込みは、本イベント開催終了後となります</li>
               <li>領収書の提出は不要です</li>
             </ul>
           </div>
