@@ -135,3 +135,25 @@
   url:   brother
   link:  https://www.brother.co.jp/corporate/bsl/index.aspx
   about: ブラザー販売は、プリンターやラベルライターなどのユニークな製品やソリューションを提供し続けます。
+
+# Individual Sponsors
+- name:  横川裕隆
+  img:   yokogawa.png
+  type:  individual
+  url:   ""
+  link:  ""
+  about: ""
+
+- name:  天沼倫太郎
+  img:   amanuma.png
+  type:  individual
+  url:   ""
+  link:  ""
+  about: ""
+
+- name:  U2システム宇津義一
+  img:   utsu.png
+  type:  individual
+  url:   ""
+  link:  ""
+  about: ""
