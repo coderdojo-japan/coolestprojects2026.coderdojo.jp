@@ -7,6 +7,7 @@
 {% assign sponsors_silver   = site.data.sponsors | where: "type", "silver"   %}
 {% assign sponsors_bronze   = site.data.sponsors | where: "type", "bronze"   %}
 {% assign sponsors_inkind   = site.data.sponsors | where: "type", "inkind"   %}
+{% assign sponsors_individual   = site.data.sponsors | where: "type", "individual"   %}
 
 <div class="mb-16">
 
@@ -101,6 +102,28 @@
       <a href="/sponsor-{{ sponsor.url }}" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
         <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
       </a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- Individual Sponsors -->
+  {% if sponsors_individual.size > 0 %}
+  <div class="mb-24 px-4">
+    <section class="sponsors mb-12">
+      <h3> 個人スポンサー</h3>
+    </section>
+    <div class="flex flex-wrap justify-center items-center gap-12 sm:gap-8">
+      {% for sponsor in sponsors_individual %}
+      {% if sponsor.link != "" %}
+      <a href="/sponsor-{{ sponsor.url }}" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
+        <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
+      </a>
+      {% else %}
+      <div class="block transition-transform hover:scale-105">
+        <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
+      </div>
+      {% endif %}
       {% endfor %}
     </div>
   </div>
