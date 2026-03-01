@@ -16,18 +16,20 @@
           <h1 class="hero-title">{{ page.sponsor-name }}</h1>
           <p class="hero-subtitle">{{ sponsor_kind }} sponsor</p>
         </div>
-    </header>
-        <img src="/img/contests/sponsor-logos/{{ sponsor-data.img }}" alt="{{ sponsor-data.name }} logo" class="p-12 mx-auto mb-8 max-w-3xl max-h-64 w-full h-auto object-contain">
+      </header>
 
-        {% if sponsor-data.link != "" %}
-        <a class="button-push block mx-auto w-fit my-8" href="{{ sponsor-data.link}}" target="_blank" rel="noopener noreferrer">公式ホームページを見る</a>
-        {% endif %}
+      <img src="/img/contests/sponsor-logos/{{ sponsor-data.img }}" alt="{{ sponsor-data.name }} logo" class="p-12 mx-auto max-w-3xl max-h-64 w-full h-auto object-contain">
 
-        <div class="md-container">
-            <p class="md-body text-center">
-                {{ sponsor-data.about }}
-            </p>
-        </div>
+      <div class="md-container mb-16">
+	<p class="md-body text-center">
+          {{ sponsor-data.about }}
+	</p>
+
+	{% if sponsor-data.link != "" %}
+	<a class="button-push block mx-auto w-fit my-8" href="{{ sponsor-data.link}}" target="_blank" rel="noopener noreferrer">公式サイトを見る</a>
+	{% endif %}
+      </div>
+
     </main>
 
     <div class="mt-auto">
