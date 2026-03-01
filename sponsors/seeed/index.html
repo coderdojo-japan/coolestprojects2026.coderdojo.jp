@@ -44,6 +44,16 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.1.0/dist/cookieconsent.css">
 </head>
 
+
+  <style>
+    .sponsor-about p {
+      margin-top:    1rem;
+      margin-bottom: 1rem;
+    }
+    .sponsor-about p:first-child { margin-top:    0; }
+    .sponsor-about p:last-child  { margin-bottom: 0; }
+  </style>
+
   <body class="min-h-screen flex flex-col">
     <!-- ヘッダー本体 -->
 <header class="bg-white w-full sticky top-0 z-50 shadow-sm">
@@ -175,12 +185,21 @@
         </div>
       </header>
 
-      <img src="/img/contests/sponsor-logos/seeed.webp" alt="Seeed株式会社 logo" class="p-12 mx-auto max-w-3xl max-h-64 w-full h-auto object-contain">
+      
+      <a href="https://www.seeed.co.jp/" target="_blank" rel="noopener noreferrer">
+        <img src="/img/contests/sponsor-logos/seeed.webp" alt="Seeed株式会社 logo" class="p-12 mx-auto max-w-3xl max-h-64 w-full h-auto object-contain">
+      </a>
+      
 
       <div class="md-container">
-        <p class="md-body text-center">
-          Seeed StudioはAI・IoTデバイスを設計製造している会社です。 <br> 子供たちが電子工作やプログラミングを気軽に体験・学習できるよう、電子部品や学習教材なども作っています。 <br> Seeed Studio製品は国内の電子部品販売店で購入することができます。
-        </p>
+        <div class="md-body text-center sponsor-about mb-16">
+          <p>Seeed StudioはAI・IoTデバイスを設計製造している会社です。</p>
+
+<p>子供たちが電子工作やプログラミングを気軽に体験・学習できるよう、電子部品や学習教材なども作っています。</p>
+
+<p>Seeed Studio製品は国内の電子部品販売店で購入することができます。</p>
+
+        </div>
 
         
         <a class="button-push block mx-auto w-fit my-8" href="https://www.seeed.co.jp/" target="_blank" rel="noopener noreferrer">公式サイトを見る</a>
