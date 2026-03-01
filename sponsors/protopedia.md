@@ -1,5 +1,5 @@
 ---
 layout: sponsor
-sponsor-name: "ProtoPedia"
+sponsor_name: "ProtoPedia"
 redirect_from: /sponsor-protopedia
 ---

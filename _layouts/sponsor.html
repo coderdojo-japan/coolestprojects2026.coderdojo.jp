@@ -1,4 +1,4 @@
-{% assign sponsor = site.data.sponsors | where: "name", page.sponsor-name | first %}
+{% assign sponsor = site.data.sponsors | where: "name", page.sponsor_name | first %}
 {% if sponsor.type == "inkind" %}
     {% assign sponsor_kind = "in kind" %}
 {% else %}
@@ -23,7 +23,7 @@
     <main class="flex-grow">
       <header class="hero">
         <div class="hero-container">
-          <h1 class="hero-title">{{ page.sponsor-name }}</h1>
+          <h1 class="hero-title">{{ page.sponsor_name }}</h1>
           <p class="hero-subtitle">{{ sponsor_kind }} sponsor</p>
         </div>
       </header>
