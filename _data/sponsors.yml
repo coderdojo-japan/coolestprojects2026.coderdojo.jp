@@ -7,15 +7,16 @@
   type:  diamond
   url:   broadcom
   link:  https://broadcomfoundation.org/
-  about: Broadcom Foundation is a corporate nonprofit that advocates equitable access to STEM education and acquiring digital literacy as essential for attaining meaningful employment and becoming productive citizens in a tech-driven society.
-        <br>
-        The foundation promotes basic coding as a critical 21st Century+ skill that all young people need to be creative STEM problem solvers who think critically, communicate and collaborate and who will help realize the 17 Sustainable Development Goals of the United Nations.
-        <br>
-        【日本語訳】
-        <br>
-        ブロードコム財団は、誰もが等しくSTEM教育を受けられる環境とデジタルリテラシーの習得を提唱する非営利法人です。同財団は、テクノロジー主導の社会において、これらを「やりがいのある職に就き、社会の発展に貢献する市民となるために不可欠な要素」と位置づけています。
-        <br>
-        また、同財団は基礎的なコーディング技術を「21世紀以降の重要なスキル」として推進しています。これは、すべての若者が本質を見極める力を持ち、意思疎通や協調を図りながら、創造的にSTEM分野の課題を解決できる人材となるために必要なものです。そうした人材が、国連の「持続可能な開発目標（SDGs）」の17の目標達成に貢献することを目指しています。
+  about: |
+    Broadcom Foundation is a corporate nonprofit that advocates equitable access to STEM education and acquiring digital literacy as essential for attaining meaningful employment and becoming productive citizens in a tech-driven society.
+
+    The foundation promotes basic coding as a critical 21st Century+ skill that all young people need to be creative STEM problem solvers who think critically, communicate and collaborate and who will help realize the 17 Sustainable Development Goals of the United Nations.
+
+    【日本語訳】
+
+    ブロードコム財団は、誰もが等しくSTEM教育を受けられる環境とデジタルリテラシーの習得を提唱する非営利法人です。同財団は、テクノロジー主導の社会において、これらを「やりがいのある職に就き、社会の発展に貢献する市民となるために不可欠な要素」と位置づけています。
+
+    また、同財団は基礎的なコーディング技術を「21世紀以降の重要なスキル」として推進しています。これは、すべての若者が本質を見極める力を持ち、意思疎通や協調を図りながら、創造的にSTEM分野の課題を解決できる人材となるために必要なものです。そうした人材が、国連の「持続可能な開発目標（SDGs）」の17の目標達成に貢献することを目指しています。
 
 # Platinum Sponsor
 - name:  有限会社 来栖川電算
@@ -23,13 +24,14 @@
   type:  platinum
   url:   kurusugawa
   link:  https://www.kurusugawa.jp/
-  about: 来栖川電算は「ＳＦ世界の技術を実現して、社会に役立てよう」をミッションに、2003年の創業から、機械学習・AIをはじめとする先端技術に取り組んできました。
-        <br>
-        私たちは、工夫と発想で仕事をハックすることを日々楽しんでいます。
-        <br>
-        そんな遊び心が、LiDAR（ライダー）などのセンサ×AIの行動認識を活かした『エスカレーター見守り君』につながり、名古屋市営地下鉄でも活躍しています。
-        <br>
-        みなさんの「やってみたい」も、次の社会を動かす一歩です。
+  about: |
+    来栖川電算は「ＳＦ世界の技術を実現して、社会に役立てよう」をミッションに、2003年の創業から、機械学習・AIをはじめとする先端技術に取り組んできました。
+
+    私たちは、工夫と発想で仕事をハックすることを日々楽しんでいます。
+
+    そんな遊び心が、LiDAR（ライダー）などのセンサ×AIの行動認識を活かした『エスカレーター見守り君』につながり、名古屋市営地下鉄でも活躍しています。
+
+    みなさんの「やってみたい」も、次の社会を動かす一歩です。
 
 # Gold Sponsor
 - name:  株式会社SmartOne
@@ -37,11 +39,12 @@
   type:  gold
   url:   smartone
   link:  https://cafe-bar.starrobox.com/
-  about: 株式会社SmartOneは、ロボットによる自動化・開発、CADスクール運営、そしてロボットショールームとして「ロボットカフェバー」を運営しています。
-        <br>
-        最新ロボット技術を体験できる場を提供し、未来の技術者育成と地域振興に貢献します。
-        <br>
-        子どもたちの夢と挑戦を支援し、地域の未来を共に創造していきたいと考えています。
+  about: |
+    株式会社SmartOneは、ロボットによる自動化・開発、CADスクール運営、そしてロボットショールームとして「ロボットカフェバー」を運営しています。
+
+    最新ロボット技術を体験できる場を提供し、未来の技術者育成と地域振興に貢献します。
+
+    子どもたちの夢と挑戦を支援し、地域の未来を共に創造していきたいと考えています。
 
 # Silver Sponsors
 - name:  株式会社ITアドバイザー
@@ -49,40 +52,44 @@
   type:  silver
   url:   it-adviser
   link:  https://it-a-net.co.jp/
-  about: 株式会社ITアドバイザーは名古屋市を拠点に東海エリアでソフトウェア事業を展開しています。
-        <br>
-        「百折不撓」の精神のもと、お客様の「困った」に寄り添い、ご縁と絆を大切にした価値ある提案で共に成長を目指します。
+  about: |
+    株式会社ITアドバイザーは名古屋市を拠点に東海エリアでソフトウェア事業を展開しています。
+
+    「百折不撓」の精神のもと、お客様の「困った」に寄り添い、ご縁と絆を大切にした価値ある提案で共に成長を目指します。
 
 - name:  Seeed株式会社
   img:   seeed.webp
   type:  silver
   url:   seeed
   link:  https://www.seeed.co.jp/
-  about: Seeed StudioはAI・IoTデバイスを設計製造している会社です。
-        <br>
-        子供たちが電子工作やプログラミングを気軽に体験・学習できるよう、電子部品や学習教材なども作っています。
-        <br>
-        Seeed Studio製品は国内の電子部品販売店で購入することができます。
+  about: |
+    Seeed StudioはAI・IoTデバイスを設計製造している会社です。
+
+    子供たちが電子工作やプログラミングを気軽に体験・学習できるよう、電子部品や学習教材なども作っています。
+
+    Seeed Studio製品は国内の電子部品販売店で購入することができます。
 
 - name:  株式会社パイク
   img:   pike.webp
   type:  silver
   url:   pike
   link:  ""
-  about: 株式会社パイクは、地域の文化や歴史、産業を大切にし、とりわけ先端技術やモノづくりの現場に寄り添いながら、イベントや映像、ワークショップ、プロダクトを通して「楽しい」を生み出すクリエイティブカンパニーです。
-        <br>
-        地域の魅力を未来へつないでいきます。
+  about: |
+    株式会社パイクは、地域の文化や歴史、産業を大切にし、とりわけ先端技術やモノづくりの現場に寄り添いながら、イベントや映像、ワークショップ、プロダクトを通して「楽しい」を生み出すクリエイティブカンパニーです。
+
+    地域の魅力を未来へつないでいきます。
 
 - name:  一般社団法人ライフスキルサポート協会
   img:   life-skill-support-association.webp
   type:  silver
   url:   life-skill-support-association
   link:  https://lifeskill.or.jp/
-  about: IT未経験からIT業界への転職を目指す職業訓練校を運営し、実践的なIT教育とキャリア支援を行っています。
-        <br>
-        求職者向けだけでなく、法人・個人問わず、未経験～微経験向けの研修も受け付けています。
-        <br>
-        未経験からITに挑戦したい方や研修にご興味のある方は、ぜひブースへお立ち寄りください。
+  about: |
+    IT未経験からIT業界への転職を目指す職業訓練校を運営し、実践的なIT教育とキャリア支援を行っています。
+
+    求職者向けだけでなく、法人・個人問わず、未経験～微経験向けの研修も受け付けています。
+
+    未経験からITに挑戦したい方や研修にご興味のある方は、ぜひブースへお立ち寄りください。
 
 # In-Kind Sponsors (機材・物品・サービス提供)
 - name:  YassLab株式会社
@@ -111,9 +118,10 @@
   type:  inkind
   url:   lab-sbsb
   link:  https://kata-studio.hr-sano.net
-  about: 「型」を選んでカスタマイズ！
-        <br>
-        知識ゼロから3Dデータ作りを体験できるkata-studioを開発しています。
+  about: |
+    「型」を選んでカスタマイズ！
+
+    知識ゼロから3Dデータ作りを体験できるkata-studioを開発しています。
 
 - name:  ProtoPedia
   img:   ptoropedia_beside.webp
@@ -127,7 +135,7 @@
   type:  inkind
   url:   stellalink
   link:  https://www.stellalink.co.jp/
-  about: 
+  about:
 
 - name:  ブラザー販売株式会社
   img:   brother.png

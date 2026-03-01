@@ -1,32 +1,48 @@
-{% assign sponsor-data = site.data.sponsors | where: "name", page.sponsor-name | first %}
-{% if sponsor-data.type == "inkind" %}
+{% assign sponsor = site.data.sponsors | where: "name", page.sponsor_name | first %}
+{% if sponsor.type == "inkind" %}
     {% assign sponsor_kind = "in kind" %}
 {% else %}
-    {% assign sponsor_kind = sponsor-data.type %}
+    {% assign sponsor_kind = sponsor.type %}
 {% endif %}
 
 <!DOCTYPE html>
 <html lang="ja" dir="ltr">
   {% include head.html %}
+
+  <style>
+    .sponsor-about p {
+      margin-top:    1rem;
+      margin-bottom: 1rem;
+    }
+    .sponsor-about p:first-child { margin-top:    0; }
+    .sponsor-about p:last-child  { margin-bottom: 0; }
+  </style>
+
   <body class="min-h-screen flex flex-col">
     {% include header.html %}
     <main class="flex-grow">
       <header class="hero">
         <div class="hero-container">
-          <h1 class="hero-title">{{ page.sponsor-name }}</h1>
+          <h1 class="hero-title">{{ page.sponsor_name }}</h1>
           <p class="hero-subtitle">{{ sponsor_kind }} sponsor</p>
         </div>
       </header>
 
-      <img src="/img/contests/sponsor-logos/{{ sponsor-data.img }}" alt="{{ sponsor-data.name }} logo" class="p-12 mx-auto max-w-3xl max-h-64 w-full h-auto object-contain">
+      {% if sponsor.link != "" %}
+      <a href="{{ sponsor.link }}" target="_blank" rel="noopener noreferrer">
+        <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }} logo" class="p-12 mx-auto max-w-3xl max-h-64 w-full h-auto object-contain">
+      </a>
+      {% else %}
+      <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }} logo" class="p-12 mx-auto max-w-3xl max-h-64 w-full h-auto object-contain">
+      {% endif %}
 
       <div class="md-container">
-        <p class="md-body text-center">
-          {{ sponsor-data.about }}
-        </p>
+        <div class="md-body text-center sponsor-about mb-16">
+          {{ sponsor.about | markdownify }}
+        </div>
 
-        {% if sponsor-data.link != "" %}
-        <a class="button-push block mx-auto w-fit my-8" href="{{ sponsor-data.link}}" target="_blank" rel="noopener noreferrer">公式サイトを見る</a>
+        {% if sponsor.link != "" %}
+        <a class="button-push block mx-auto w-fit my-8" href="{{ sponsor.link}}" target="_blank" rel="noopener noreferrer">公式サイトを見る</a>
         {% endif %}
 
         <!-- 下部ナビゲーション -->
