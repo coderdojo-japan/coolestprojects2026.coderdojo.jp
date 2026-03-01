@@ -116,7 +116,7 @@
     <div class="flex flex-wrap justify-center items-center gap-12 sm:gap-8">
       {% for sponsor in sponsors_individual %}
       {% if sponsor.link != "" %}
-      <a href="/sponsor-{{ sponsor.url }}" target="_blank" rel="noopener" class="block transition-transform hover:scale-105">
+      <a href="{{ sponsor.link }}" target="_blank" rel="noopener noreferrer" class="block transition-transform hover:scale-105">
         <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
       </a>
       {% else %}
