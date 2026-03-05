@@ -41,9 +41,12 @@
           {{ sponsor.about | markdownify }}
         </div>
 
-        {% if sponsor.link != "" %}
-        <a class="button-push block mx-auto w-fit my-8" href="{{ sponsor.link}}" target="_blank" rel="noopener noreferrer">公式サイトを見る</a>
-        {% endif %}
+        <div class="flex flex-wrap justify-center gap-4 my-8">
+          {% if sponsor.link != "" %}
+          <a class="button-push" href="{{ sponsor.link}}" target="_blank" rel="noopener noreferrer">公式サイトを見る</a>
+          {% endif %}
+          <a class="button-push" href="https://twitter.com/intent/tweet?text={{ page.sponsor_name | url_encode }}&hashtags=CoolestProjectsJapan&url=https://coolestprojects2026.coderdojo.jp/sponsors/{{ sponsor.url }}/" target="_blank" rel="noopener noreferrer">X でシェアする</a>
+        </div>
 
         <!-- 下部ナビゲーション -->
         <nav class="mt-24 pt-8 border-t-2 border-gray-200 mb-16">
