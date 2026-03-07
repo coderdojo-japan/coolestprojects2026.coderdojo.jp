@@ -19,8 +19,9 @@
     </section>
     <div class="flex justify-center mb-6 px-4">
       {% for sponsor in sponsors_diamond %}
-      <a href="/sponsors/{{ sponsor.url }}" class="block transition-transform hover:scale-105">
+      <a href="/sponsors/{{ sponsor.url }}" class="block transition-transform hover:scale-105 text-center">
         <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-120 sm:w-140 h-auto max-h-64 object-contain">
+        <p class="mt-4 text-gray-700 font-medium">{{ sponsor.name }}</p>
       </a>
       {% endfor %}
     </div>
@@ -35,8 +36,9 @@
     </section>
     <div class="flex justify-center mb-6 px-4">
       {% for sponsor in sponsors_platinum %}
-      <a href="/sponsors/{{ sponsor.url }}" class="block transition-transform hover:scale-105">
+      <a href="/sponsors/{{ sponsor.url }}" class="block transition-transform hover:scale-105 text-center">
         <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-100 sm:w-120 h-auto max-h-32 object-contain">
+        <p class="mt-4 text-gray-700 font-medium">{{ sponsor.name }}</p>
       </a>
       {% endfor %}
     </div>
@@ -51,8 +53,9 @@
     </section>
     <div class="flex justify-center mb-6 px-4">
       {% for sponsor in sponsors_gold %}
-      <a href="/sponsors/{{ sponsor.url }}" class="block transition-transform hover:scale-105">
+      <a href="/sponsors/{{ sponsor.url }}" class="block transition-transform hover:scale-105 text-center">
         <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-80 sm:w-100 h-auto max-h-48 object-contain">
+        <p class="mt-4 text-gray-700 font-medium">{{ sponsor.name }}</p>
       </a>
       {% endfor %}
     </div>
@@ -67,8 +70,9 @@
     </section>
     <div class="flex flex-wrap justify-center items-center gap-8">
       {% for sponsor in sponsors_silver %}
-      <a href="/sponsors/{{ sponsor.url }}" class="block transition-transform hover:scale-105">
+      <a href="/sponsors/{{ sponsor.url }}" class="block transition-transform hover:scale-105 text-center">
         <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-60 sm:w-80 h-auto max-h-32 object-contain">
+        <p class="mt-4 text-gray-700 font-medium">{{ sponsor.name }}</p>
       </a>
       {% endfor %}
     </div>
@@ -83,8 +87,9 @@
     </section>
     <div class="flex flex-wrap justify-center items-center gap-8 sm:gap-4 px-4">
       {% for sponsor in sponsors_bronze %}
-      <a href="/sponsors/{{ sponsor.url }}" class="block transition-transform hover:scale-105">
+      <a href="/sponsors/{{ sponsor.url }}" class="block transition-transform hover:scale-105 text-center">
         <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
+        <p class="mt-4 text-gray-700 font-medium">{{ sponsor.name }}</p>
       </a>
       {% endfor %}
     </div>
@@ -99,8 +104,9 @@
     </section>
     <div class="flex flex-wrap justify-center items-center gap-12 sm:gap-8">
       {% for sponsor in sponsors_inkind %}
-      <a href="/sponsors/{{ sponsor.url }}" class="block transition-transform hover:scale-105">
+      <a href="/sponsors/{{ sponsor.url }}" class="block transition-transform hover:scale-105 text-center">
         <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
+        <p class="mt-4 text-gray-700 font-medium">{{ sponsor.name }}</p>
       </a>
       {% endfor %}
     </div>
@@ -115,15 +121,10 @@
     </section>
     <div class="flex flex-wrap justify-center items-center gap-12 sm:gap-8">
       {% for sponsor in sponsors_individual %}
-      {% if sponsor.link != "" %}
-      <a href="{{ sponsor.link }}" target="_blank" rel="noopener noreferrer" class="block transition-transform hover:scale-105">
+      <div class="block transition-transform hover:scale-105 text-center">
         <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
-      </a>
-      {% else %}
-      <div class="block transition-transform hover:scale-105">
-        <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-40 sm:w-56 h-auto max-h-32 object-contain">
+        <p class="mt-4 text-gray-700 font-medium">{{ sponsor.name }}</p>
       </div>
-      {% endif %}
       {% endfor %}
     </div>
   </div>
