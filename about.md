@@ -18,7 +18,7 @@ subtitle: "ABOUT"
           </div>
         </div>
         <!-- 開催概要見出し -->
-        <div class="text-center mb-12">
+        <div class="text-center pt-24 mb-12">
           <h2 class='text-4xl sm:text-5xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block' style="font-family: 'League Gothic', sans-serif; color: #221C35;">DETAIL</h2>
           <p class="text-xl mt-2" style="color: #444444;">詳細</p>
         </div>
@@ -79,11 +79,51 @@ subtitle: "ABOUT"
                   無料
                 </td>
               </tr>
+              <tr class="border-b border-gray-200">
+                <td class="py-6 px-4 font-bold text-lg" style="color: #221C35;">
+                  <div class="flex items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                    </svg>
+                    主催
+                  </div>
+                </td>
+                <td class="py-6 px-4 text-lg" style="color: #444444;">
+                  Coolest Projects Japan 実行委員会<br>
+		  <a href="https://coderdojo.jp/about" target="_blank">一般社団法人 CoderDojo Japan</a>
+                </td>
+              </tr>
+              <tr class="border-b border-gray-200">
+                <td class="py-6 px-4 font-bold text-lg" style="color: #221C35;">
+                  <div class="flex items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-4 9 4M4 10h16v11H4V10z" />
+                    </svg>
+                    共催
+                  </div>
+                </td>
+                <td class="py-6 px-4 text-lg" style="color: #444444;">
+                  <a href="https://nagono-campus.jp/" target="_blank">なごのキャンパス</a>
+                </td>
+              </tr>
+              <tr class="border-b border-gray-200">
+                <td class="py-6 px-4 font-bold text-lg" style="color: #221C35;">
+                  <div class="flex items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                    </svg>
+                    公認
+                  </div>
+                </td>
+                <td class="py-6 px-4 text-lg" style="color: #444444;">
+                  <a href="https://www.raspberrypi.org/" target="_blank">Raspberry Pi Foundation</a>
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>
         <!-- Map (Leaflet.js) -->
-        <div class="mb-12">
+        <div class="pt-24 mb-36">
           <div class="text-center mb-6">
             <h3 class='text-4xl sm:text-5xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block' style="font-family: 'League Gothic', sans-serif; color: #221C35;">ACCESS</h3>
             <p class="text-xl mt-2" style="color: #444444;">アクセス</p>
