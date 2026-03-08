@@ -75,14 +75,14 @@ layout: plain
           <span class="text-sm opacity-90">作品を展示する</span>
         </a>
         --->
-<a class="button-push sm:flex-1" style="background-color: #00AFAA; margin: 0; pointer-events: none; opacity: 0.5; cursor: not-allowed;">
+<span class="button-push sm:flex-1" style="background-color: #00AFAA; margin: 0; pointer-events: none; opacity: 0.5; cursor: not-allowed;">
           <span class="text-lg">来場応募</span><br>
           <span class="text-sm opacity-90">締め切りました</span>
-        </a>
-        <a class="button-push sm:flex-1" style="background-color: #E5A800; margin: 0; pointer-events: none; opacity: 0.5; cursor: not-allowed;">
+        </span>
+        <span class="button-push sm:flex-1" style="background-color: #E5A800; margin: 0; pointer-events: none; opacity: 0.5; cursor: not-allowed;">
           <span class="text-lg">当日スタッフ応募</span><br>
           <span class="text-sm opacity-90">締め切りました</span>
-        </a>
+        </span>
       </div>
     </div>
   </div>
