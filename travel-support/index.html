@@ -269,57 +269,99 @@
     </main>
 
     <div class="mt-auto">
-      <footer>
+      <footer style="background-color: #FFE8B0;">
+  <div class="mx-auto max-w-7xl space-y-8 px-4 py-16 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
+      <!-- ロゴとSNS -->
+      <div>
+        <div>
+          <img src="/img/cpj.svg" class="h-12" alt="Coolest Projects Japan Logo" title="Coolest Projects Japan Logo" />
+        </div>
 
-  <div class="max-w-5xl mx-auto px-6 flex flex-col items-center gap-8">
-    <!-- ナビゲーションリンク -->
-    <div class="flex flex-wrap justify-center gap-6">
-        <a href="/">TOP</a>
-        <a href="/about">開催概要</a>
-        <a href="/sponsors">スポンサー</a>
-        <a href="/news">お知らせ</a>
-        <a href="/register">来場応募する</a>
-        <a href="/staff">運営に参加する</a>
-        <a href="/display-rules">展示のおやくそく</a>
-        <a href="/display-poster">展示ポスターの作り方</a>
-        <a href="/travel-support">交通費補助について</a>
-        <a href="/conduct">行動規範</a>
-        <a href="/privacy">プライバシーポリシー</a>
-        <a href="/contact">お問い合わせ</a>
-    </div>
+        <p class="mt-4 max-w-xs" style="color: #221C35;">
+          子どもたちの創造性とプログラミングへの情熱を応援する、日本最大級の子ども向け作品発表会です。
+        </p>
 
-    <!-- ソーシャルメディアアイコン -->
-    <div class="flex justify-center gap-6">
-      <!-- X (Twitter) -->
-      <a href="https://x.com/cprojectsjapan" target="_blank" rel="noopener noreferrer" style="color: var(--clr-txt-main);">
-        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-        </svg>
-      </a>
+        <ul class="mt-8 flex gap-6">
+          <li>
+            <a href="https://x.com/cprojectsjapan" target="_blank" rel="noopener noreferrer" class="transition" style="color: #00AFAA;" onmouseover="this.style.opacity='0.75'" onmouseout="this.style.opacity='1'">
+              <span class="sr-only">X (Twitter)</span>
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+              </svg>
+            </a>
+          </li>
 
-      <!-- Facebook -->
-      <a href="https://www.facebook.com/profile.php?id=61584750750420" target="_blank" rel="noopener noreferrer" style="color: var(--clr-txt-main);">
-        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
-        </svg>
-      </a>
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=61584750750420" target="_blank" rel="noopener noreferrer" class="transition" style="color: #00AFAA;" onmouseover="this.style.opacity='0.75'" onmouseout="this.style.opacity='1'">
+              <span class="sr-only">Facebook</span>
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+            </a>
+          </li>
 
-      <!-- Instagram -->
-      <a href="https://www.instagram.com/coolestprojectsjp/" target="_blank" rel="noopener noreferrer" style="color: var(--clr-txt-main)">
-        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
-          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
-        </svg>
-      </a>
-    </div>
+          <li>
+            <a href="https://www.instagram.com/coolestprojectsjp/" target="_blank" rel="noopener noreferrer" class="transition" style="color: #00AFAA;" onmouseover="this.style.opacity='0.75'" onmouseout="this.style.opacity='1'">
+              <span class="sr-only">Instagram</span>
+              <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
 
-    <div class="flex flex-col justify-center gap-2">      
-      <!-- コピーライト -->
-      <div style="color: var(--clr-txt-caption); font-weight: var(--fw-caption); font-size: var(--fs-caption);" class="flex justify-center">
-        <p>© Coolest Projects Japan 実行委員会・</p>
-        <a href="https://coderdojo.jp/">一般社団法人 CoderDojo Japan</a>
+      <!-- ナビゲーションリンク -->
+      <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-4">
+        <!-- イベント情報 -->
+        <div>
+          <p class="font-medium" style="color: #221C35;">イベント情報</p>
+          <ul class="mt-6 space-y-4 text-sm">
+            <li><a href="/about" class="transition" style="color: #221C35;" onmouseover="this.style.color='#00AFAA'" onmouseout="this.style.color='#221C35'">・開催概要</a></li>
+            <li><a href="/news" class="transition" style="color: #221C35;" onmouseover="this.style.color='#00AFAA'" onmouseout="this.style.color='#221C35'">・お知らせ</a></li>
+            <li><a href="/sponsors" class="transition" style="color: #221C35;" onmouseover="this.style.color='#00AFAA'" onmouseout="this.style.color='#221C35'">・スポンサー</a></li>
+          </ul>
+        </div>
+
+        <!-- 展示について -->
+        <div>
+          <p class="font-medium" style="color: #221C35;">展示について</p>
+          <ul class="mt-6 space-y-4 text-sm">
+            <li><a href="/schedule" class="transition" style="color: #221C35;" onmouseover="this.style.color='#00AFAA'" onmouseout="this.style.color='#221C35'">・当日の動き</a></li>
+            <li><a href="/display-rules" class="transition" style="color: #221C35;" onmouseover="this.style.color='#00AFAA'" onmouseout="this.style.color='#221C35'">・展示のおやくそく</a></li>
+            <li><a href="/what-is-display" class="transition" style="color: #221C35;" onmouseover="this.style.color='#00AFAA'" onmouseout="this.style.color='#221C35'">・展示とは？</a></li>
+            <li><a href="/display-poster" class="transition" style="color: #221C35;" onmouseover="this.style.color='#00AFAA'" onmouseout="this.style.color='#221C35'">・展示ポスターの作り方</a></li>
+          </ul>
+        </div>
+
+        <!-- 参加者向け -->
+        <div>
+          <p class="font-medium" style="color: #221C35;">参加者向け</p>
+          <ul class="mt-6 space-y-4 text-sm">
+            <li><a href="/register" class="transition" style="color: #221C35;" onmouseover="this.style.color='#00AFAA'" onmouseout="this.style.color='#221C35'">・来場応募する</a></li>
+            <li><a href="/staff" class="transition" style="color: #221C35;" onmouseover="this.style.color='#00AFAA'" onmouseout="this.style.color='#221C35'">・運営に参加する</a></li>
+            <li><a href="/travel-support" class="transition" style="color: #221C35;" onmouseover="this.style.color='#00AFAA'" onmouseout="this.style.color='#221C35'">・交通費補助について</a></li>
+          </ul>
+        </div>
+
+        <!-- その他 -->
+        <div>
+          <p class="font-medium" style="color: #221C35;">その他</p>
+          <ul class="mt-6 space-y-4 text-sm">
+            <li><a href="/" class="transition" style="color: #221C35;" onmouseover="this.style.color='#00AFAA'" onmouseout="this.style.color='#221C35'">・TOP</a></li>
+            <li><a href="/contact" class="transition" style="color: #221C35;" onmouseover="this.style.color='#00AFAA'" onmouseout="this.style.color='#221C35'">・お問い合わせ</a></li>
+            <li><a href="/conduct" class="transition" style="color: #221C35;" onmouseover="this.style.color='#00AFAA'" onmouseout="this.style.color='#221C35'">・行動規範</a></li>
+            <li><a href="/privacy" class="transition" style="color: #221C35;" onmouseover="this.style.color='#00AFAA'" onmouseout="this.style.color='#221C35'">・プライバシーポリシー</a></li>
+          </ul>
+        </div>
       </div>
     </div>
 
+    <!-- コピーライト -->
+    <p class="text-xs" style="color: #444444;">
+      © Coolest Projects Japan 実行委員会・<a href="https://coderdojo.jp/" class="transition" onmouseover="this.style.opacity='0.75'" onmouseout="this.style.opacity='1'">一般社団法人 CoderDojo Japan</a>
+    </p>
   </div>
 </footer>
 
