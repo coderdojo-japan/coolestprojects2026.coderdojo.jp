@@ -172,6 +172,12 @@
     border-radius: 8px;
   }
 
+  .footer-nav li a::before {
+    content: '・';
+    display: inline-block;
+    text-decoration: none;
+  }
+
   .header-txt {
     font-family: var(--ff-body);
     font-weight: var(--fw-heading-l);
