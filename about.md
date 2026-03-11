@@ -18,8 +18,10 @@ subtitle: "ABOUT"
           </div>
         </div>
         <!-- 開催概要見出し -->
-        <div class="text-center pt-24 mb-12">
-          <h2 class='text-4xl sm:text-5xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block' style="font-family: 'League Gothic', sans-serif; color: #221C35;">DETAIL</h2>
+        <div class="text-center pt-24 mb-12" id="detail">
+          <h2 class='text-4xl sm:text-5xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block' style="font-family: 'League Gothic', sans-serif; color: #221C35;">
+	    <a href='#detail' style="text-decoration: none;">DETAIL</a>
+	  </h2>
           <p class="text-xl mt-2" style="color: #444444;">詳細</p>
         </div>
         <!-- 開催情報テーブル -->
@@ -141,7 +143,7 @@ subtitle: "ABOUT"
         <!-- Map (Leaflet.js) -->
         <div class="pt-24 mb-36" id="access">
           <div class="text-center mb-6">
-            <h3 class='text-4xl sm:text-5xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block' style="font-family: 'League Gothic', sans-serif; color: #221C35;">ACCESS</h3>
+            <h3 class='text-4xl sm:text-5xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block' style="font-family: 'League Gothic', sans-serif; color: #221C35;"><a href='#access' style="text-decoration: none;">ACCESS</a></h3>
             <p class="text-xl mt-2" style="color: #444444;">アクセス</p>
           </div>
           <div class="rounded-2xl overflow-hidden shadow-lg">
