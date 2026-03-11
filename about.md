@@ -30,13 +30,29 @@ subtitle: "ABOUT"
                 <td class="py-6 px-4 font-bold text-lg" style="color: #221C35; width: 30%;">
                   <div class="flex items-center gap-3">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                    </svg>
+                    イベント名
+                  </div>
+                </td>
+                <td class="py-6 px-4 text-lg" style="color: #444444;">
+                  Coolest Projects Japan 2026
+                </td>
+              </tr>
+              <tr class="border-b border-gray-200">
+                <td class="py-6 px-4 font-bold text-lg" style="color: #221C35; width: 30%;">
+                  <div class="flex items-center gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                       <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
                     </svg>
                     開催日時
                   </div>
                 </td>
                 <td class="py-6 px-4 text-lg" style="color: #444444;">
-                  2026年3月29日（日）
+		  <a href="/schedule">
+                    2026年3月29日 (日曜) 午前9時〜<br>
+		    【詳細を見る】
+		  </a>
                 </td>
               </tr>
               <tr class="border-b border-gray-200">
@@ -50,7 +66,7 @@ subtitle: "ABOUT"
                   </div>
                 </td>
                 <td class="py-6 px-4 text-lg" style="color: #444444;">
-                  なごのキャンパス
+                  <a href="#access">なごのキャンパス</a>
                 </td>
               </tr>
               <tr class="border-b border-gray-200">
@@ -89,8 +105,8 @@ subtitle: "ABOUT"
                   </div>
                 </td>
                 <td class="py-6 px-4 text-lg" style="color: #444444;">
-                  Coolest Projects Japan 実行委員会<br>
-		  <a href="https://coderdojo.jp/about" target="_blank">一般社団法人 CoderDojo Japan</a>
+                  <a href="https://x.com/cprojectsjapan" target="_blank" class="inline-flex items-center gap-1">Coolest Projects Japan 実行委員会<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a><br>
+		  <a href="https://coderdojo.jp/about" target="_blank" class="inline-flex items-center gap-1">一般社団法人 CoderDojo Japan<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
                 </td>
               </tr>
               <tr class="border-b border-gray-200">
@@ -103,7 +119,7 @@ subtitle: "ABOUT"
                   </div>
                 </td>
                 <td class="py-6 px-4 text-lg" style="color: #444444;">
-                  <a href="https://nagono-campus.jp/" target="_blank">なごのキャンパス</a>
+                  <a href="https://nagono-campus.jp/" target="_blank" class="inline-flex items-center gap-1">なごのキャンパス<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
                 </td>
               </tr>
               <tr class="border-b border-gray-200">
@@ -116,14 +132,14 @@ subtitle: "ABOUT"
                   </div>
                 </td>
                 <td class="py-6 px-4 text-lg" style="color: #444444;">
-                  <a href="https://www.raspberrypi.org/" target="_blank">Raspberry Pi Foundation</a>
+                  <a href="https://www.raspberrypi.org/" target="_blank" class="inline-flex items-center gap-1">Raspberry Pi Foundation<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" /></svg></a>
                 </td>
               </tr>
             </tbody>
           </table>
         </div>
         <!-- Map (Leaflet.js) -->
-        <div class="pt-24 mb-36">
+        <div class="pt-24 mb-36" id="access">
           <div class="text-center mb-6">
             <h3 class='text-4xl sm:text-5xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block' style="font-family: 'League Gothic', sans-serif; color: #221C35;">ACCESS</h3>
             <p class="text-xl mt-2" style="color: #444444;">アクセス</p>
