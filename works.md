@@ -11,22 +11,22 @@ subtitle: "Works"
         <h2 class='text-4xl sm:text-5xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block' style="font-family: 'League Gothic', sans-serif; color: #221C35;">WORKS</h2>
         <p class="text-xl mt-2" style="color: #444444;">展示作品</p>
       </div>
+
       <div class="text-center mb-16">
         <a href="https://protopedia.net/event/152" target="_blank">
           <img src="/img/works.jpg" alt="展示作品" class="mx-auto rounded-xl max-w-full">
         </a>
       </div>
 
-      <div class="text-center mb-16 max-w-4xl mx-auto">
+      <div class="text-center max-w-4xl mx-auto">
         <p class="text-xl leading-relaxed mb-8" style="color: #221C35;">
-          Coolest Projects Japan 2026 に展示される<br class="hidden sm:block">子どもたちの作品をご覧ください。
+          当日会場で展示される<br class="hidden sm:block">子どもたちの作品を、ぜひご覧ください。
         </p>
         <p class="text-lg leading-relaxed" style="color: #444444;">
           ProtoPedia にて作品の詳細を掲載しています。<br class="hidden sm:block">下のボタンから作品一覧ページへお進みください。
         </p>
       </div>
-    </div>
-    <div class="mb-24">
+    
       <div class="text-center mb-12">
         <a class="button-push inline-flex items-center gap-2" href="https://protopedia.net/event/152" target="_blank">
           作品一覧を見る（ProtoPedia）
