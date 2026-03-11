@@ -212,6 +212,9 @@ layout: plain
           <p class="text-gray-600 leading-relaxed">機械学習、画像認識、自然言語処理、データ分析など、AIを活用したプロジェクト。最新のAI技術で未来を創造しよう。</p>
         </div>
       </div>
+      <div class="text-center mt-24">
+        <a class="button-push" href="/works">当日の展示作品を見る</a>
+      </div>
     </div>
 
     <!-- NEWS セクション -->
