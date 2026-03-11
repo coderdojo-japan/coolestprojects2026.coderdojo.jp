@@ -14,7 +14,7 @@ subtitle: "Works"
 
       <div class="text-center mb-16">
         <a href="https://protopedia.net/event/152" target="_blank">
-          <img src="/img/works.jpg" alt="展示作品" class="mx-auto rounded-xl max-w-full">
+          <img src="/img/works.jpg" alt="ProtoPedia でまとめられている展示作品（一部抜粋）" class="mx-auto rounded-xl max-w-full">
         </a>
       </div>
 
