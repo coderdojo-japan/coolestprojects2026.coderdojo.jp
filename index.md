@@ -46,7 +46,7 @@ layout: plain
         title="CoderDojo Logo" />
     </div>
     <div class="text-center font-bold text-xl text-white">
-      <p>日本中の子供たちが集う、クリエイティブな祭典。君のアイデアで未来をハックしよう。</p>
+      <p>日本中の子ども達が集う、クリエイティブな祭典。君のアイデアで未来をハックしよう。</p>
     </div>
     <div class="flex gap-4 justify-center mt-10 pb-8">
       <div class="flex border p-3 rounded-2xl border-2 items-center border-white">
@@ -106,7 +106,7 @@ layout: plain
             <p class="text-xl mt-2" style="color: #444444;">イベント紹介</p>
           </div>
           <h2 class="text-2xl sm:text-5xl font-bold">作品展示イベント</h2>
-          <p class="mt-5 text-xl sm:text-2xl">Coolest Projectsは、18歳以下の子どもたちのための世界的な作品展示イベントです。プログラミングやテクノロジーを使って作った独自のアイデアや作品を、コミュニティ全体で称賛し合います。順位を競うコンテストではありません。あなたの情熱、創造性、そして技術的な挑戦を世界中の仲間と共有する場所です。</p>
+          <p class="mt-5 text-xl sm:text-2xl">Coolest Projectsは、18歳以下の子どもたちのための世界的な作品展示イベントです。プログラミングやテクノロジーを使って作った独自のアイデアや作品を、コミュニティ全体で称賛し合います。順位を競うコンテストではありません。あなたの情熱、創造性、そして技術的な挑戦を仲間と共有する場所です。</p>
         </div>
       </div>
 
