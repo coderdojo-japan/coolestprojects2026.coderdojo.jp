@@ -186,7 +186,7 @@ subtitle: "ABOUT"
           </div>
 
           <div class="space-y-8 text-lg leading-relaxed mb-12" style="color: #444444;">
-            <p><strong style="color: #221C35;">Coolest Projects</strong> は、子どもたちのための世界的な作品展示イベントです。世界中から参加できるイベントと各国で開催されるイベントの２つがあり、<a href='https://www.raspberrypi.org/' target="_blank" class="inline-flex items-center gap-1" style="color: #44B8A7;">Raspberry Pi Foundation</a> や<a href='https://codeclub.org/en/our-partners' target="_blank" class="inline-flex items-center gap-1" style="color: #44B8A7;">各国のパートナー団体</a>によって運営されています。</p>
+            <p><strong style="color: #221C35;">Coolest Projects</strong> は、子どもたちのための世界的な作品展示イベントです。世界中から参加できるイベントと各国で開催されるイベントの２つがあり、<a href='https://www.raspberrypi.org/' target="_blank" style="color: #44B8A7;">Raspberry Pi Foundation</a> や<a href='https://codeclub.org/en/our-partners' target="_blank" style="color: #44B8A7;">各国のパートナー団体</a>によって運営されています。</p>
 
             <p><strong style="color: #221C35;">Raspberry Pi Foundation</strong> は、コンピューティングやデジタル技術の力を通じて、若者が自らの可能性を最大限に発揮できるよう支援する<a href='https://www.raspberrypi.org/about/' target="_blank" style="color: #44B8A7;">イギリスに拠点を置く財団</a>です。世界中の非営利団体と連携して取り組んでおり、<a href='https://codeclub.org/en/our-partners#:~:text=CoderDojo%20Japan' target="_blank" style="color: #44B8A7;">CoderDojo Japan もその１つ</a>です。</p>
 
