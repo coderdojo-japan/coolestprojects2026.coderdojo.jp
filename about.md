@@ -25,7 +25,7 @@ subtitle: "ABOUT"
         <div class="mb-16 max-w-4xl mx-auto">
           <div class='relative w-full rounded-2xl overflow-hidden shadow-lg' style='padding-top: 56.25%;'>
             <iframe class='absolute top-0 left-0 w-full h-full' title="3分でわかるCoolest Projects Japan"
-              src="https://www.youtube-nocookie.com/embed/l8udUqCLXY8?list=PL94GDfaSQTmIifXDGOaEoEgviPSv36OEo" frameborder="0"
+              src="https://www.youtube-nocookie.com/embed/l8udUqCLXY8?ref=0&list=PL94GDfaSQTmIifXDGOaEoEgviPSv36OEo" frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
           </div>
@@ -200,7 +200,7 @@ subtitle: "ABOUT"
 
           <div class='relative w-full rounded-2xl overflow-hidden shadow-lg' style='padding-top: 56.25%;'>
             <iframe class='absolute top-0 left-0 w-full h-full' title="Coolest Projects Japan について"
-              src="https://www.youtube-nocookie.com/embed/U1BYsFKuJ7U" frameborder="0"
+              src="https://www.youtube-nocookie.com/embed/U1BYsFKuJ7U?ref=0" frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
             </iframe>
           </div>
