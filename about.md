@@ -18,8 +18,8 @@ subtitle: "ABOUT"
 
       <!-- MESSAGE セクション -->
       <div class="mb-16">
-        <div class="text-center pt-24 mb-12">
-          <h2 class='text-4xl sm:text-5xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block' style="font-family: 'League Gothic', sans-serif; color: #221C35;">MESSAGE</h2>
+        <div class="text-center pt-24 mb-12" id="message">
+          <h2 class='text-4xl sm:text-5xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block' style="font-family: 'League Gothic', sans-serif; color: #221C35;"><a href='#message' style="text-decoration: none;">MESSAGE</a></h2>
           <p class="text-xl mt-2" style="color: #444444;">開催に向けて</p>
         </div>
         <div class="mb-16 max-w-4xl mx-auto">
