@@ -77,8 +77,9 @@ subtitle: "ABOUT"
                 </td>
                 <td class="py-6 px-4 text-lg" style="color: #444444;">
 		  <a href="/schedule">
-                    2026年3月29日 (日曜) 午前10時〜午後4時<br>
-		    【詳細を見る】
+                    2026年3月29日 (日曜)<br class="sm:hidden">
+		    午前10時〜午後4時<br>
+		    【&raquo; 詳細を見る】
 		  </a>
                 </td>
               </tr>
