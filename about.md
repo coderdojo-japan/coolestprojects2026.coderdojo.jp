@@ -9,8 +9,8 @@ subtitle: "ABOUT"
   <div class="max-w-4xl mx-auto">
       <!-- チラシ -->
       <div class="flex flex-col sm:flex-row gap-4 mb-4 sm:pr-4">
-        <img src="/img/flyer-1.jpg" alt="Coolest Projects Japan 2026 チラシ（表）" class="rounded-xl shadow w-full sm:w-1/2">
-        <img src="/img/flyer-2.jpg" alt="Coolest Projects Japan 2026 チラシ（裏）" class="rounded-xl shadow w-full sm:w-1/2">
+        <a href="/img/flyer.pdf" target="_blank" class="sm:w-1/2"><img src="/img/flyer-1.jpg" alt="Coolest Projects Japan 2026 チラシ（表）" class="rounded-xl shadow w-full"></a>
+        <a href="/img/flyer.pdf" target="_blank" class="sm:w-1/2"><img src="/img/flyer-2.jpg" alt="Coolest Projects Japan 2026 チラシ（裏）" class="rounded-xl shadow w-full"></a>
       </div>
       <div class="mb-16">
         <a class="button-push" href="/img/flyer.pdf" target="_blank">チラシ (PDF) を見る</a>
