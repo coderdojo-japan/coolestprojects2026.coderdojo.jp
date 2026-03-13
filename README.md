@@ -146,6 +146,9 @@ $ bundle exec rake test
 - [dojocon-japan/dojocon2017.coderdojo.jp](https://github.com/dojocon-japan/dojocon2017.coderdojo.jp)
 - [dojocon-japan/dojocon2016.coderdojo.jp](https://github.com/dojocon-japan/dojocon2016.coderdojo.jp)
 
+:yin_yang: [CoderDojo Japan - GitHub](https://github.com/coderdojo-japan) (approved by [GitHub for Nonprofit](https://news.coderdojo.jp/2019/08/29/github-for-nonprofit/))
+
+
 <br>
 
 <div id='license'></div>
