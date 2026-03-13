@@ -133,6 +133,8 @@ $ bundle exec rake test
 
 ## [:octocat:](#references) 関連リポジトリ
 
+- [coderdojo-japan/coolestprojects2026.coderdojo.jp](https://github.com/coderdojo-japan/coolestprojects2026.coderdojo.jp)
+- [coderdojo-japan/dojocon2026.coderdojo.jp](https://github.com/coderdojo-japan/dojocon2026.coderdojo.jp)
 - [coderdojo-japan/dojocon2025.coderdojo.jp](https://github.com/coderdojo-japan/dojocon2025.coderdojo.jp)
 - [coderdojo-japan/dojocon2024.coderdojo.jp](https://github.com/coderdojo-japan/dojocon2024.coderdojo.jp)
 - [coderdojo-japan/dojocon2023.coderdojo.jp](https://github.com/coderdojo-japan/dojocon2023.coderdojo.jp)
