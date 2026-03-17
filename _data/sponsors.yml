@@ -145,22 +145,29 @@
   about: ブラザー販売は、プリンターやラベルライターなどのユニークな製品やソリューションを提供し続けます。
 
 # Individual Sponsors
-- name:  横川裕隆
-  img:   yokogawa.png
+- name:  横川 裕隆
+  img:   yokogawa.webp
   type:  individual
   url:   ""
   link:  ""
   about: ""
 
-- name:  天沼倫太郎
-  img:   amanuma.png
+- name:  天沼 倫太郎
+  img:   amanuma.webp
   type:  individual
   url:   ""
   link:  ""
   about: ""
 
-- name:  U2システム宇津義一
-  img:   utsu.png
+- name:  宇津 義一
+  img:   utsu.webp
+  type:  individual
+  url:   ""
+  link:  ""
+  about: ""
+
+- name:  徳和 貴成
+  img:   tokuwa.webp
   type:  individual
   url:   ""
   link:  ""
