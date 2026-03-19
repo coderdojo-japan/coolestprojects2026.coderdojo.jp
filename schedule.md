@@ -17,7 +17,7 @@ hero_subtitle: "SCHEDULE"
 
       <!-- 前日 3/28(土) -->
       <div class="mb-12">
-        <h3 class="text-3xl font-bold mb-6 pb-3 border-b-4 border-teal-500" style="color: #221C35;">前日：3月28日（金）</h3>
+        <h3 class="text-3xl font-bold mb-6 pb-3 border-b-4 border-teal-500" style="color: #221C35;">前日：3月28日（土）</h3>
 
         <!-- 14時～18時 前日準備 -->
         <div class="mb-8">
