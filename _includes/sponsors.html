@@ -14,9 +14,9 @@
   <!-- Diamond Sponsor -->
   {% if sponsors_diamond.size > 0 %}
   <div class="mb-24">
-    <section class="sponsors">
-      <h3> ダイアモンドスポンサー </h3>
-    </section>
+    <div class="text-center mb-12">
+      <h3 class="text-xl font-bold border-b-8 border-[#E5A800] inline-block">ダイアモンドスポンサー</h3>
+    </div>
     <div class="flex justify-center mb-6 px-4">
       {% for sponsor in sponsors_diamond %}
       <a href="/sponsors/{{ sponsor.url }}" class="block transition-transform hover:scale-105 text-center">
@@ -31,9 +31,9 @@
   <!-- Platinum Sponsor -->
   {% if sponsors_platinum.size > 0 %}
   <div class="mb-24">
-    <section class="sponsors">
-      <h3> プラチナスポンサー </h3>
-    </section>
+    <div class="text-center mb-12">
+      <h3 class="text-xl font-bold border-b-8 border-[#E5A800] inline-block">プラチナスポンサー</h3>
+    </div>
     <div class="flex justify-center mb-6 px-4">
       {% for sponsor in sponsors_platinum %}
       <a href="/sponsors/{{ sponsor.url }}" class="block transition-transform hover:scale-105 text-center">
@@ -48,9 +48,9 @@
   <!-- Gold Sponsor -->
   {% if sponsors_gold.size > 0 %}
   <div class="mb-24">
-    <section class="sponsors">
-      <h3> ゴールドスポンサー </h3>
-    </section>
+    <div class="text-center mb-12">
+      <h3 class="text-xl font-bold border-b-8 border-[#E5A800] inline-block">ゴールドスポンサー</h3>
+    </div>
     <div class="flex justify-center mb-6 px-4">
       {% for sponsor in sponsors_gold %}
       <a href="/sponsors/{{ sponsor.url }}" class="block transition-transform hover:scale-105 text-center">
@@ -65,9 +65,9 @@
   <!-- Silver Sponsors -->
   {% if sponsors_silver.size > 0 %}
   <div class="mb-24 px-4">
-    <section class="sponsors mb-12">
-      <h3> シルバースポンサー </h3>
-    </section>
+    <div class="text-center mb-12">
+      <h3 class="text-xl font-bold border-b-8 border-[#E5A800] inline-block">シルバースポンサー</h3>
+    </div>
     <div class="flex flex-wrap justify-center items-center gap-8">
       {% for sponsor in sponsors_silver %}
       <a href="/sponsors/{{ sponsor.url }}" class="block transition-transform hover:scale-105 text-center">
@@ -82,9 +82,9 @@
   <!-- Bronze Sponsor -->
   {% if sponsors_bronze.size > 0 %}
   <div class="mb-24">
-    <section class="sponsors">
-      <h3> ブロンズスポンサー </h3>
-    </section>
+    <div class="text-center mb-12">
+      <h3 class="text-xl font-bold border-b-8 border-[#E5A800] inline-block">ブロンズスポンサー</h3>
+    </div>
     <div class="flex flex-wrap justify-center items-center gap-8 sm:gap-4 px-4">
       {% for sponsor in sponsors_bronze %}
       <a href="/sponsors/{{ sponsor.url }}" class="block transition-transform hover:scale-105 text-center">
@@ -99,14 +99,17 @@
   <!-- In-Kind Sponsors -->
   {% if sponsors_inkind.size > 0 %}
   <div class="mb-24 px-4">
-    <section class="sponsors mb-12">
-      <h3> In-Kind スポンサー</h3>
-    </section>
+    <div class="text-center mb-12">
+      <h3 class="text-xl font-bold border-b-8 border-[#E5A800] inline-block">In-Kind スポンサー</h3>
+    </div>
     <div class="flex flex-wrap justify-center items-center gap-12 sm:gap-8">
       {% for sponsor in sponsors_inkind %}
       <a href="/sponsors/{{ sponsor.url }}" class="block transition-transform hover:scale-105 text-center">
         <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-40 sm:w-56 h-auto max-h-32 object-contain mx-auto">
         <p class="mt-4 text-gray-700 font-medium">{{ sponsor.name }}</p>
+        {% if sponsor.provision %}
+        <p class="mt-1 text-sm text-gray-600">{{ sponsor.provision }}</p>
+        {% endif %}
       </a>
       {% endfor %}
     </div>
@@ -116,9 +119,9 @@
   <!-- Individual Sponsors -->
   {% if sponsors_individual.size > 0 %}
   <div class="mb-24 px-4">
-    <section class="sponsors mb-12">
-      <h3> 個人スポンサー</h3>
-    </section>
+    <div class="text-center mb-12">
+      <h3 class="text-xl font-bold border-b-8 border-[#E5A800] inline-block">個人スポンサー</h3>
+    </div>
     <div class="flex flex-wrap justify-center items-center gap-12 sm:gap-8">
       {% for sponsor in sponsors_individual %}
       <div class="block transition-transform hover:scale-105 text-center">

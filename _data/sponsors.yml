@@ -98,6 +98,7 @@
   url:   yasslab
   link:  https://yasslab.jp/ja/
   about: RailsチュートリアルやRailsガイドの企画・制作・運営、Ruby/Railsの開発支援を行うリモート・チームです！
+  provision: イベント管理システムDoorkeeperを提供
 
 - name:  株式会社GRIPS
   img:   grips.webp
@@ -105,6 +106,7 @@
   url:   grips
   link:  https://www.grips.co.jp/
   about: GRIPSは、オープンイノベーションを創出する場の構築にロボティクスとオープンソース技術で貢献します。
+  provision: 3Dプリンターワークショップ用フィラメントを提供
 
 - name:  NPO法人デジタルものづくり協議会
   img:   digital-monozukuri-council.webp
@@ -112,6 +114,7 @@
   url:   digital-monozukuri-council
   link:  https://dmcouncil.or.jp/
   about: マイクラに代表される問題発見・解決ツールを活用し、創造力をもった人材をコミュニティの力で育成します。
+  provision: マインクラフトワークショップを提供
 
 - name:  lab.sbsb
   img:   lab-sbsb.svg
@@ -122,6 +125,7 @@
     「型」を選んでカスタマイズ！
 
     知識ゼロから3Dデータ作りを体験できるkata-studioを開発しています。
+  provision: QRコード入りオリジナル名札の3Dデータ作成ツールを提供
 
 - name:  ProtoPedia
   img:   ptoropedia_beside.webp
@@ -129,6 +133,7 @@
   url:   protopedia
   link:  https://protopedia.net/
   about: ITものづくりの「つくった」を記録・公開し、互いの技術や発想をリスペクトし合う、クリエイターの拠点。
+  provision: ITを活用した「ものづくり」作品投稿プラットフォームProtopediaを提供
 
 - name:  株式会社ステラリンク
   img:   stellalink.svg
@@ -136,6 +141,7 @@
   url:   stellalink
   link:  https://www.stellalink.co.jp/
   about: フルスタックなエンジニアたちがシステム企画・開発・保守やDX、リスクマネジメント、BCPまで一貫して支援しています
+  provision: 会場ネットワーク機器及びネットワークを提供
 
 - name:  ブラザー販売株式会社
   img:   brother.png
@@ -143,6 +149,7 @@
   url:   brother
   link:  https://www.brother.co.jp/corporate/bsl/index.aspx
   about: ブラザー販売は、プリンターやラベルライターなどのユニークな製品やソリューションを提供し続けます。
+  provision: 名刺づくりワークショップ用プリンターを提供
 
 - name:  オンライン英会話ネイティブキャンプ
   img:   nativecamp.webp
@@ -150,6 +157,7 @@
   url:   nativecamp
   link:  https://nativecamp.net/
   about: 予約不要・回数無制限でレッスン受け放題！１４０カ国の講師と最短５分から今すぐ話せるオンライン英会話
+  provision: オンライン英会話レッスン3ヶ月間無料利用を提供
 
 # Individual Sponsors
 - name:  横川 裕隆
