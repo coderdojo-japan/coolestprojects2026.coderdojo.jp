@@ -69,21 +69,10 @@ layout: plain
     </div>
     <div class="text-center mb-8">
       <div class="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center sm:items-stretch max-w-sm sm:max-w-4xl mx-auto px-4">
-        <!---
-        <a class="button-push sm:flex-1" href="/apply" style="background-color: #E5A800; margin: 0;">
-          <span class="text-lg">作品応募</span><br>
-          <span class="text-sm opacity-90">作品を展示する</span>
+        <a class="button-push sm:flex-1" href="/about#detail" style="background-color: #00AFAA; margin: 0;">
+          <span class="text-lg">会場情報</span><br>
+          <span class="text-sm opacity-90">当日のアクセス・開催概要・会場情報はこちら</span>
         </a>
-
-<span class="button-push sm:flex-1" style="background-color: #00AFAA; margin: 0; pointer-events: none; opacity: 0.5; cursor: not-allowed;">
-          <span class="text-lg">来場応募</span><br>
-          <span class="text-sm opacity-90">締め切りました</span>
-        </span>
-        <span class="button-push sm:flex-1" style="background-color: #E5A800; margin: 0; pointer-events: none; opacity: 0.5; cursor: not-allowed;">
-          <span class="text-lg">当日スタッフ応募</span><br>
-          <span class="text-sm opacity-90">締め切りました</span>
-        </span>
-                --->
       </div>
     </div>
   </div>
