@@ -1,5 +1,6 @@
 ---
 layout: plain
+preload_image: /img/contests/img/IMG_7235.webp
 ---
 
 <style type="text/css">
