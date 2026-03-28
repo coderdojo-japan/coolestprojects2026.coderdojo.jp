@@ -36,18 +36,18 @@
       <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }} logo" class="p-12 mx-auto max-w-3xl max-h-64 w-full h-auto object-contain">
       {% endif %}
 
+      {% if sponsor.provision %}
+      <div class="text-center mb-16 mt-8">
+        <p class="text-base text-gray-700">
+          {{ sponsor.provision }}
+        </p>
+      </div>
+      {% endif %}
+
       <div class="md-container">
         <div class="md-body text-center sponsor-about mb-8">
           {{ sponsor.about | markdownify }}
         </div>
-
-        {% if sponsor.provision %}
-        <div class="text-center mb-16 mt-8">
-          <p class="text-base text-gray-700">
-            {{ sponsor.provision }}
-          </p>
-        </div>
-        {% endif %}
 
         <div class="flex flex-wrap justify-center gap-4 my-8">
           {% if sponsor.link %}

@@ -242,6 +242,7 @@ preload_image: /img/contests/img/IMG_7235.webp
         <a href="/sponsors" class="button-push"> スポンサー募集のご案内を見る </a>
       </div>
     </div>
+    {% include sponsors.html %}
 
   </div>
 </div>
