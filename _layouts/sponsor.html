@@ -37,9 +37,17 @@
       {% endif %}
 
       <div class="md-container">
-        <div class="md-body text-center sponsor-about mb-16">
+        <div class="md-body text-center sponsor-about mb-8">
           {{ sponsor.about | markdownify }}
         </div>
+
+        {% if sponsor.provision %}
+        <div class="text-center mb-16 mt-8">
+          <p class="text-base text-gray-700">
+            {{ sponsor.provision }}
+          </p>
+        </div>
+        {% endif %}
 
         <div class="flex flex-wrap justify-center gap-4 my-8">
           {% if sponsor.link %}

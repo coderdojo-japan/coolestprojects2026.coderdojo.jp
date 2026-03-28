@@ -107,6 +107,9 @@
       <a href="/sponsors/{{ sponsor.url }}" class="block transition-transform hover:scale-105 text-center">
         <img src="/img/contests/sponsor-logos/{{ sponsor.img }}" alt="{{ sponsor.name }}" class="w-40 sm:w-56 h-auto max-h-32 object-contain mx-auto">
         <p class="mt-4 text-gray-700 font-medium">{{ sponsor.name }}</p>
+        {% if sponsor.provision %}
+        <p class="mt-1 text-sm text-gray-600">{{ sponsor.provision }}</p>
+        {% endif %}
       </a>
       {% endfor %}
     </div>
