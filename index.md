@@ -238,7 +238,6 @@ layout: plain
       </div>
       <div class="text-center mb-16">
         <p class="text-xl mb-12" style="color: #444444;">Coolest Projects Japanは<a href='/sponsors/'>スポンサーのご協力</a>により開催されています。協賛くださいました、皆様ありがとうございます。</p>
-        {% include sponsors.html %}
         <a href="/sponsors" class="button-push"> スポンサー募集のご案内を見る </a>
       </div>
     </div>
