@@ -36,7 +36,6 @@ subtitle: "COOLEST PARTNERS"
         </div>
 
 	<div class="mb-36" style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
-	  <a class="button-push" href="https://docs.google.com/forms/d/e/1FAIpQLSeFFPTWsQeBajyiKeSOFZrGgQlDy2CijsQ6qg07uEK25dLttw/viewform?usp=preview">申込ページを見る</a>
 	  <a class="button-push" href="/img/contests/sponsor.pdf">PDF をダウンロードする </a>
 	</div>
 
