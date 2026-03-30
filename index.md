@@ -35,7 +35,7 @@ preload_image: /img/contests/img/IMG_7235.webp
   }
 </style>
 
-<!-- 開催中バナー -->
+<!-- バナー文言 -->
 <div class="w-full bg-[#E5A800] text-white py-3 px-4 text-center">
   <p class="text-sm sm:text-base md:text-lg font-bold">
     <a href='https://x.com/cprojectsjapan/status/2038394308664209856'>
