@@ -249,10 +249,14 @@ preload_image: /img/contests/img/IMG_7235.webp
       </div>
       <div class="text-center mb-16">
         <p class="text-xl mb-12" style="color: #444444;">Coolest Projects Japanは<a href='/sponsors/'>スポンサーのご協力</a>により開催されています。協賛くださいました、皆様ありがとうございます。</p>
-        <a href="/sponsors" class="button-push"> スポンサー募集のご案内を見る </a>
       </div>
     </div>
+
     {% include sponsors.html %}
+
+    <div class="text-center mb-16">
+      <a href="/sponsors" class="button-push"> 各スポンサーの詳細を見る </a>
+    </div>
 
   </div>
 </div>
