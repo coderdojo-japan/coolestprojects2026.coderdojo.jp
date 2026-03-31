@@ -270,3 +270,14 @@ preload_image: /img/contests/img/IMG_7235.webp
     padding-bottom: 48px;
   }
 </style>
+
+<!-- ABOUT US セクション -->
+<div class="bg-white py-16 px-4">
+  <div class="max-w-4xl mx-auto">
+    {% include about_us.html %}
+
+    <div class="text-center mt-12">
+      <a class="button-push" href="/about">開催概要を見る</a>
+    </div>
+  </div>
+</div>
