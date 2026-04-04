@@ -9,6 +9,8 @@ permalink: /news/highlights
 
 <strong><a href='/about' style="color: #44B8A7;">Coolest Projects Japan</a> にご参加いただき、ありがとうございました!</strong> 前日の設営準備や、当日の作品展示の様子が以下から公開されています。本イベントのふりかえりや、当日の雰囲気を掴むご参考になれば幸いです。
 
+<code>(Cover Design Credit: <a href='https://x.com/pirasan023'>@pirasan023 さん</a>)</code>
+
 <div class="mt-16 mb-24 grid grid-cols-1 md:grid-cols-2 gap-4 overflow-hidden">
   <!-- 前日の設営 -->
   {% include tweet.html id="2037745702521221429" %}
