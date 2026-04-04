@@ -30,5 +30,5 @@ permalink: /news/highlights
 </div>
 
 <div class="text-center mt-8 mb-24">
-  <a class="button-push" href="https://posfie.com/@yasulab/p/bFxMmE9" target="_blank">コメントを見る</a>
+  <a class="button-push" href="https://posfie.com/@yasulab/p/bFxMmE9" target="_blank">みんなのコメントを見る</a>
 </div>
