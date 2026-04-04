@@ -38,7 +38,7 @@ preload_image: /img/contests/img/IMG_7235.webp
 <!-- バナー文言 -->
 <div class="w-full bg-[#E5A800] text-white py-3 px-4 text-center">
   <p class="text-sm sm:text-base md:text-lg font-bold">
-    <a href='https://x.com/cprojectsjapan/status/2038394308664209856'>
+    <a href='/news/highlights'>
       🎉
       満員御礼！多くのご来場ありがとうございました！
     </a>
@@ -80,9 +80,9 @@ preload_image: /img/contests/img/IMG_7235.webp
     </div>
     <div class="text-center mb-8">
       <div class="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center sm:items-stretch max-w-sm sm:max-w-4xl mx-auto px-4">
-        <a class="button-push sm:flex-1" href="/about#detail" style="background-color: #00AFAA; margin: 0;">
-          <span class="text-lg">会場情報</span><br>
-          <span class="text-sm opacity-90">当日のアクセス・開催概要・会場情報はこちら</span>
+        <a class="button-push sm:flex-1" href="/news/highlights" style="background-color: #00AFAA; margin: 0;">
+          <span class="text-lg">イベントの様子を見る</span><br>
+          <span class="text-sm opacity-90">(前日の会場設営、当日の作品展示、参加者のコメントなど)</span>
         </a>
       </div>
     </div>
