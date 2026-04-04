@@ -40,7 +40,7 @@ preload_image: /img/contests/img/IMG_7235.webp
   <p class="text-sm sm:text-base md:text-lg font-bold">
     <a href='/news/highlights'>
       🎉
-      満員御礼！多くのご来場ありがとうございました！
+      満員御礼! 多くのご来場ありがとうございました!
     </a>
   </p>
 </div>
