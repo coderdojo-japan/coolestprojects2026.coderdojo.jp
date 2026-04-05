@@ -27,6 +27,8 @@
   <meta property="og:image"  content="{{ site.url }}/img/cover.jpg" />
   {% endif %}
 
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+
   {% if page.url != "/" %}
   <meta property="og:type" content="article" />
   {% else %}
