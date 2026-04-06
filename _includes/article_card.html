@@ -9,7 +9,6 @@
   {% assign thumbnail_src = "/" | append: thumbnail_src %}
 {% endif %}
 {% assign article_emoji = article.emoji | default: "" %}
-{% assign article_excerpt = article.excerpt | default: article.description | default: article.author | default: "" %}
 
 <a href="{{ article.url }}" class="article-card-link block h-full" style="text-decoration: none;" target="_blank" rel="noopener noreferrer">
   <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 h-full flex flex-col">
