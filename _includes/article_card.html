@@ -1,18 +1,17 @@
 {% assign article = include.article %}
 {% assign article_tag = article.tag | default: "other" | downcase %}
-{% assign thumbnail_src = article.cover | default: "" %}
-{% assign article_emoji = article.emoji | default: "" %}
+{% assign cover = article.cover | default: "" %}
 
 <a href="{{ article.url }}" class="article-card-link block h-full" style="text-decoration: none;" target="_blank" rel="noopener noreferrer">
   <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 h-full flex flex-col">
     <!-- サムネイル -->
     <div class="h-48 bg-gray-200 overflow-hidden">
-      {% if thumbnail_src != "" %}
-        <img src="{{ thumbnail_src }}" alt="{{ article.title }}" class="w-full h-full object-cover">
+      {% if cover contains "/" %}
+        <img src="{{ cover }}" alt="{{ article.title }}" class="w-full h-full object-cover">
       {% else %}
         <div class="w-full h-full flex items-center justify-center text-6xl" style="background-color: #FFE8B0;">
-          {% if article_emoji != "" %}
-            <span aria-hidden="true">{{ article_emoji }}</span>
+          {% if cover != "" %}
+            <span aria-hidden="true">{{ cover }}</span>
           {% endif %}
         </div>
       {% endif %}
