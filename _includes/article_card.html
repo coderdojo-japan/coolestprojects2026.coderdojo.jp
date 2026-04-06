@@ -1,6 +1,9 @@
 {% assign article = include.article %}
-{% assign article_tag = article.tag | default: "other" | downcase %}
-{% assign cover = article.cover | default: "" %}
+{% assign cover   = article.cover | default: "" %}
+{% if    article.url contains "note.com" %}{% assign article_tag = "note"  %}
+{% elsif article.url contains "zenn.dev" %}{% assign article_tag = "zenn"  %}
+{% else %}                                 {% assign article_tag = "other" %}
+{% endif %}
 
 <a href="{{ article.url }}" class="article-card-link block h-full" style="text-decoration: none;" target="_blank" rel="noopener noreferrer">
   <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 h-full flex flex-col">
