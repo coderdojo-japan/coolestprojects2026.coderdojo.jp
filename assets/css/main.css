@@ -190,6 +190,10 @@
     color: var(--clr-header-txt);
   }
 
+  .article-card-link:hover .article-card-title {
+    text-decoration: underline;
+  }
+
 
   .md-container {
     max-width: 56rem; /* max-w-4xl = 56rem */

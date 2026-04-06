@@ -34,3 +34,15 @@ permalink: /news/highlights
 <div class="text-center mt-8 mb-24">
   <a class="button-push" href="https://posfie.com/@yasulab/p/bFxMmE9" target="_blank">みんなのコメントを見る</a>
 </div>
+
+## 参加者・スタッフの記事
+
+スタッフや参加者によるCoolest Projects Japan 2026の記事を、以下のリンクからご覧いただけます。
+書いてくださった皆様、ありがとうございます。
+
+<div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
+  {% for article in site.data.articles %}
+    {% include article_card.html article=article %}
+  {% endfor %}
+</div>
+
