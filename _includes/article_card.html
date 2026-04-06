@@ -1,10 +1,6 @@
 {% assign article = include.article %}
 {% assign article_tag = article.tag | default: "other" | downcase %}
-{% assign thumbnail = article.cover %}
-{% if thumbnail == nil or thumbnail == "" %}
-  {% assign thumbnail = article.thumbnail | default: "" %}
-{% endif %}
-{% assign thumbnail_src = thumbnail %}
+{% assign thumbnail_src = article.cover | default: "" %}
 {% if thumbnail_src != "" and thumbnail_src contains "://" == false and thumbnail_src | slice: 0, 1 != "/" %}
   {% assign thumbnail_src = "/" | append: thumbnail_src %}
 {% endif %}
