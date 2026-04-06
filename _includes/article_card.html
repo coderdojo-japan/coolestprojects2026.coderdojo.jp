@@ -1,26 +1,16 @@
 {% assign article = include.article %}
-{% assign article_tag = article.tag | default: "other" | downcase %}
-{% assign thumbnail = article.cover %}
-{% if thumbnail == nil or thumbnail == "" %}
-  {% assign thumbnail = article.thumbnail | default: "" %}
-{% endif %}
-{% assign thumbnail_src = thumbnail %}
-{% if thumbnail_src != "" and thumbnail_src contains "://" == false and thumbnail_src | slice: 0, 1 != "/" %}
-  {% assign thumbnail_src = "/" | append: thumbnail_src %}
-{% endif %}
-{% assign article_emoji = article.emoji | default: "" %}
-{% assign article_excerpt = article.excerpt | default: article.description | default: article.author | default: "" %}
+{% assign cover   = article.cover | default: "" %}
 
 <a href="{{ article.url }}" class="article-card-link block h-full" style="text-decoration: none;" target="_blank" rel="noopener noreferrer">
   <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 h-full flex flex-col">
     <!-- サムネイル -->
     <div class="h-48 bg-gray-200 overflow-hidden">
-      {% if thumbnail_src != "" %}
-        <img src="{{ thumbnail_src }}" alt="{{ article.title }}" class="w-full h-full object-cover">
+      {% if cover contains "/" %}
+        <img src="{{ cover }}" alt="{{ article.title }}" class="w-full h-full object-cover">
       {% else %}
         <div class="w-full h-full flex items-center justify-center text-6xl" style="background-color: #FFE8B0;">
-          {% if article_emoji != "" %}
-            <span aria-hidden="true">{{ article_emoji }}</span>
+          {% if cover != "" %}
+            <span aria-hidden="true">{{ cover }}</span>
           {% endif %}
         </div>
       {% endif %}
@@ -29,14 +19,12 @@
     <div class="px-4 pt-3 pb-3 flex-1 flex flex-col">
       <!-- カテゴリーバッジ -->
       <div class="flex items-center gap-1 mb-1">
-        {% if article_tag == "note" %}
-          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #fae4ad; color: #221C35;">{{ article_tag }}</span>
-        {% elsif article_tag == "zenn" %}
-          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #e0efff; color: #221C35;">{{ article_tag }}</span>
-        {% elsif article_tag == "other" %}
-          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #FFE8B0; color: #221C35;">{{ article_tag }}</span>
+        {% if article.url contains "note.com" %}
+          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #fae4ad; color: #221C35;">note</span>
+        {% elsif article.url contains "zenn.dev" %}
+          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #e0efff; color: #221C35;">zenn</span>
         {% else %}
-          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #FFE8B0; color: #221C35;">{{ article_tag }}</span>
+          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #FFE8B0; color: #221C35;">other</span>
         {% endif %}
       </div>
 
@@ -46,18 +34,7 @@
       </h2>
 
       <!-- 著者 -->
-      {% if article.author %}
-        <p class="text-xs text-gray-600 mb-2">
-          by {{ article.author }}
-        </p>
-      {% endif %}
-
-      <!-- 日付 -->
-      <div class="flex items-center justify-between mt-auto">
-        {% if article.date %}
-          <span class="text-xs text-gray-700">{{ article.date | date: "%Y.%m.%d" }}</span>
-        {% endif %}
-      </div>
+      <p class="text-xs text-gray-600 mb-2">by {{ article.author }}</p>
     </div>
   </article>
 </a>
