@@ -23,9 +23,10 @@ permalink: /news/highlights
 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-## 参加者・スタッフ・スポンサー等からのコメント
 
-参加者やスタッフ、スポンサー等からの投稿は、以下からご確認いただけます。ぜひ、合わせて閲覧していただけると幸いです。
+## 💭 みんなのコメント
+
+参加者やスタッフ、スポンサー等からの投稿は以下からご確認いただけます。ぜひ、合わせて閲覧していただけると幸いです。
 
 <div class="mt-16 flex justify-center">
   {% include tweet.html id="2039987760166224174" %}
@@ -35,12 +36,12 @@ permalink: /news/highlights
   <a class="button-push" href="https://posfie.com/@yasulab/p/bFxMmE9" target="_blank">みんなのコメントを見る</a>
 </div>
 
-## 参加者・スタッフの記事
 
-スタッフや参加者によるCoolest Projects Japan 2026の記事を、以下のリンクからご覧いただけます。
-書いてくださった皆様、ありがとうございます。
+## 📝 みんなのブログ記事
 
-<div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
+上記のコメントだけでなく、参加者やスタッフ、スポンサー等からのブログ記事も一部公開されております。書いてくださった皆様、ありがとうございます。
+
+<div class="mt-10 mb-24 grid grid-cols-1 md:grid-cols-2 gap-6">
   {% for article in site.data.articles %}
     {% include article_card.html article=article %}
   {% endfor %}
