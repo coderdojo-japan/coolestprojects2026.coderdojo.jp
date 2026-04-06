@@ -38,9 +38,9 @@ preload_image: /img/contests/img/IMG_7235.webp
 <!-- バナー文言 -->
 <div class="w-full bg-[#E5A800] text-white py-3 px-4 text-center">
   <p class="text-sm sm:text-base md:text-lg font-bold">
-    <a href='https://x.com/cprojectsjapan/status/2038394308664209856'>
+    <a href='/news/highlights'>
       🎉
-      満員御礼！多くのご来場ありがとうございました！
+      満員御礼! 多くのご来場ありがとうございました!
     </a>
   </p>
 </div>
@@ -66,7 +66,7 @@ preload_image: /img/contests/img/IMG_7235.webp
           <path stroke-linecap="round" stroke-linejoin="round"
             d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
         </svg>
-        <span class="ml-2 font-bold text-sm text-white">2026年3月29日 (日)</span>
+        <span class="ml-2 font-bold text-sm text-white">2026.03.29 (日)</span>
       </div>
       <div class="flex border p-3 rounded-2xl border-2 items-center border-white">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
@@ -75,14 +75,14 @@ preload_image: /img/contests/img/IMG_7235.webp
           <path stroke-linecap="round" stroke-linejoin="round"
             d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
         </svg>
-        <span class="ml-2 font-bold text-sm text-white">なごのキャンパス</span>
+        <span class="ml-2 font-bold text-sm text-white">NAGONO Campus</span>
       </div>
     </div>
     <div class="text-center mb-8">
       <div class="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center sm:items-stretch max-w-sm sm:max-w-4xl mx-auto px-4">
-        <a class="button-push sm:flex-1" href="/about#detail" style="background-color: #00AFAA; margin: 0;">
-          <span class="text-lg">会場情報</span><br>
-          <span class="text-sm opacity-90">当日のアクセス・開催概要・会場情報はこちら</span>
+        <a class="button-push sm:flex-1" href="/news/highlights" style="background-color: #00AFAA; margin: 0;">
+          <span class="text-lg">イベントの様子を見る</span><br>
+          <span class="text-sm opacity-90">(前日の会場設営、当日の作品展示、参加者のコメントなど)</span>
         </a>
       </div>
     </div>
@@ -249,10 +249,14 @@ preload_image: /img/contests/img/IMG_7235.webp
       </div>
       <div class="text-center mb-16">
         <p class="text-xl mb-12" style="color: #444444;">Coolest Projects Japanは<a href='/sponsors/'>スポンサーのご協力</a>により開催されています。協賛くださいました、皆様ありがとうございます。</p>
-        <a href="/sponsors" class="button-push"> スポンサー募集のご案内を見る </a>
       </div>
     </div>
+
     {% include sponsors.html %}
+
+    <div class="text-center mb-16">
+      <a href="/sponsors" class="button-push"> 各スポンサーの詳細を見る </a>
+    </div>
 
   </div>
 </div>
@@ -266,3 +270,14 @@ preload_image: /img/contests/img/IMG_7235.webp
     padding-bottom: 48px;
   }
 </style>
+
+<!-- ABOUT US セクション -->
+<div class="bg-white py-16 px-4">
+  <div class="max-w-4xl mx-auto">
+    {% include about_us.html %}
+
+    <div class="text-center mt-12">
+      <a class="button-push" href="/about">開催概要を見る</a>
+    </div>
+  </div>
+</div>
