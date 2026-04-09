@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://coolestprojects2026.coderdojo.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://coolestprojects2026.coderdojo.jp/" rel="alternate" type="text/html" /><updated>2026-04-09T19:36:47+09:00</updated><id>https://coolestprojects2026.coderdojo.jp/feed.xml</id><title type="html">Coolest Projects Japan</title><subtitle>Coolest Projectsは、若者たちが自分の創造力と技術で生み出したプロジェクトを発表・共有するための作品展示イベントです。国内の子ども・若者が集まり、完成度や勝敗を競うのではなく、お互いの作品に触れ、交流し、刺激を与え合うことを目的としています。</subtitle><entry><title type="html">前日・当日のハイライト</title><link href="https://coolestprojects2026.coderdojo.jp/news/highlights" rel="alternate" type="text/html" title="前日・当日のハイライト" /><published>2026-04-04T00:00:00+09:00</published><updated>2026-04-04T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp/news/highlights</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp/news/highlights"><![CDATA[<p><strong><a href="/about" style="color: #44B8A7;">Coolest Projects Japan</a> にご参加いただき、ありがとうございました!</strong> 前日の設営準備や、当日の作品展示の様子が以下から公開されています。本イベントのふりかえりや、当日の雰囲気を掴むご参考になれば幸いです。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://coolestprojects2026.coderdojo.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://coolestprojects2026.coderdojo.jp/" rel="alternate" type="text/html" /><updated>2026-04-09T19:53:54+09:00</updated><id>https://coolestprojects2026.coderdojo.jp/feed.xml</id><title type="html">Coolest Projects Japan</title><subtitle>Coolest Projectsは、若者たちが自分の創造力と技術で生み出したプロジェクトを発表・共有するための作品展示イベントです。国内の子ども・若者が集まり、完成度や勝敗を競うのではなく、お互いの作品に触れ、交流し、刺激を与え合うことを目的としています。</subtitle><entry><title type="html">前日・当日のハイライト</title><link href="https://coolestprojects2026.coderdojo.jp/news/highlights" rel="alternate" type="text/html" title="前日・当日のハイライト" /><published>2026-04-04T00:00:00+09:00</published><updated>2026-04-04T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp/news/highlights</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp/news/highlights"><![CDATA[<p><strong><a href="/about" style="color: #44B8A7;">Coolest Projects Japan</a> にご参加いただき、ありがとうございました!</strong> 前日の設営準備や、当日の作品展示の様子が以下から公開されています。本イベントのふりかえりや、当日の雰囲気を掴むご参考になれば幸いです。</p>
 
 <p><code>(Cover Design Credit: <a href="https://x.com/pirasan023">@pirasan023</a>)</code></p>
 
@@ -26,9 +26,9 @@
 
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<h2 id="-みんなのコメント">💭 みんなのコメント</h2>
+<h2 id="comments"><a href="#comments">👥</a> みんなのコメント</h2>
 
-<p>参加者やスタッフ、スポンサー等からの投稿は以下からご確認いただけます。ぜひ、合わせて閲覧していただけると幸いです。</p>
+<p>参加者やスタッフ、スポンサー等からの SNS 投稿 (時系列順) は以下からご確認いただけます。ぜひ、合わせて閲覧していただけると幸いです。</p>
 
 <div class="mt-16 flex justify-center">
   <blockquote class="twitter-tweet" data-conversation="none">
@@ -41,9 +41,9 @@
   <a class="button-push" href="https://posfie.com/@yasulab/p/bFxMmE9" target="_blank">みんなのコメントを見る</a>
 </div>
 
-<h2 id="-みんなのブログ記事">📝 みんなのブログ記事</h2>
+<h2 id="reflections"><a href="#reflections">📝</a> みんなのブログ記事・動画</h2>
 
-<p>上記のコメントだけでなく、参加者やスタッフ、スポンサー等からのブログ記事も一部公開されております。書いてくださった皆様、ありがとうございます。</p>
+<p>上記のコメントだけでなく、参加者やスタッフ、スポンサー等からのブログ記事や YouTube 動画などもあります。取り上げてくださった皆様、ありがとうございます！</p>
 
 <div class="mt-10 mb-24 grid grid-cols-1 md:grid-cols-2 gap-6">
   
@@ -63,7 +63,7 @@
       <!-- カテゴリーバッジ -->
       <div class="flex items-center gap-1 mb-1">
         
-          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #fae4ad; color: #221C35;">note</span>
+          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #6BC5B1; color: #070707;">note</span>
         
       </div>
 
@@ -127,7 +127,7 @@
       <!-- カテゴリーバッジ -->
       <div class="flex items-center gap-1 mb-1">
         
-          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #fae4ad; color: #221C35;">note</span>
+          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #6BC5B1; color: #070707;">note</span>
         
       </div>
 
@@ -159,7 +159,7 @@
       <!-- カテゴリーバッジ -->
       <div class="flex items-center gap-1 mb-1">
         
-          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #fae4ad; color: #221C35;">note</span>
+          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #6BC5B1; color: #070707;">note</span>
         
       </div>
 
@@ -193,7 +193,7 @@
       <!-- カテゴリーバッジ -->
       <div class="flex items-center gap-1 mb-1">
         
-          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #fae4ad; color: #221C35;">note</span>
+          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #6BC5B1; color: #070707;">note</span>
         
       </div>
 
@@ -229,7 +229,7 @@
       <!-- カテゴリーバッジ -->
       <div class="flex items-center gap-1 mb-1">
         
-          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #FFE8B0; color: #221C35;">other</span>
+          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #FFE8B0; color: #221C35;">blog</span>
         
       </div>
 
@@ -261,7 +261,7 @@
       <!-- カテゴリーバッジ -->
       <div class="flex items-center gap-1 mb-1">
         
-          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #fae4ad; color: #221C35;">note</span>
+          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #6BC5B1; color: #070707;">note</span>
         
       </div>
 
@@ -293,7 +293,7 @@
       <!-- カテゴリーバッジ -->
       <div class="flex items-center gap-1 mb-1">
         
-          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #fae4ad; color: #221C35;">note</span>
+          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #6BC5B1; color: #070707;">note</span>
         
       </div>
 
@@ -325,7 +325,7 @@
       <!-- カテゴリーバッジ -->
       <div class="flex items-center gap-1 mb-1">
         
-          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #fae4ad; color: #221C35;">note</span>
+          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #6BC5B1; color: #070707;">note</span>
         
       </div>
 
@@ -359,7 +359,7 @@
       <!-- カテゴリーバッジ -->
       <div class="flex items-center gap-1 mb-1">
         
-          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #FFE8B0; color: #221C35;">other</span>
+          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #FFE8B0; color: #221C35;">blog</span>
         
       </div>
 
@@ -391,7 +391,7 @@
       <!-- カテゴリーバッジ -->
       <div class="flex items-center gap-1 mb-1">
         
-          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #FFE8B0; color: #221C35;">other</span>
+          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #FFE8B0; color: #221C35;">blog</span>
         
       </div>
 
@@ -423,7 +423,7 @@
       <!-- カテゴリーバッジ -->
       <div class="flex items-center gap-1 mb-1">
         
-          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #fae4ad; color: #221C35;">note</span>
+          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #6BC5B1; color: #070707;">note</span>
         
       </div>
 
@@ -455,7 +455,7 @@
       <!-- カテゴリーバッジ -->
       <div class="flex items-center gap-1 mb-1">
         
-          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #fae4ad; color: #221C35;">note</span>
+          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #6BC5B1; color: #070707;">note</span>
         
       </div>
 
@@ -523,7 +523,7 @@
       <!-- カテゴリーバッジ -->
       <div class="flex items-center gap-1 mb-1">
         
-          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #FFE8B0; color: #221C35;">other</span>
+          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #FFE8B0; color: #221C35;">blog</span>
         
       </div>
 
@@ -555,7 +555,7 @@
       <!-- カテゴリーバッジ -->
       <div class="flex items-center gap-1 mb-1">
         
-          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #fae4ad; color: #221C35;">note</span>
+          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #6BC5B1; color: #070707;">note</span>
         
       </div>
 
@@ -589,7 +589,7 @@
       <!-- カテゴリーバッジ -->
       <div class="flex items-center gap-1 mb-1">
         
-          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #fae4ad; color: #221C35;">note</span>
+          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #6BC5B1; color: #070707;">note</span>
         
       </div>
 
@@ -621,7 +621,7 @@
       <!-- カテゴリーバッジ -->
       <div class="flex items-center gap-1 mb-1">
         
-          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #fae4ad; color: #221C35;">note</span>
+          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #6BC5B1; color: #070707;">note</span>
         
       </div>
 
@@ -655,7 +655,7 @@
       <!-- カテゴリーバッジ -->
       <div class="flex items-center gap-1 mb-1">
         
-          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #fae4ad; color: #221C35;">note</span>
+          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #6BC5B1; color: #070707;">note</span>
         
       </div>
 
@@ -689,7 +689,7 @@
       <!-- カテゴリーバッジ -->
       <div class="flex items-center gap-1 mb-1">
         
-          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #fae4ad; color: #221C35;">note</span>
+          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #6BC5B1; color: #070707;">note</span>
         
       </div>
 
@@ -721,7 +721,7 @@
       <!-- カテゴリーバッジ -->
       <div class="flex items-center gap-1 mb-1">
         
-          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #fae4ad; color: #221C35;">note</span>
+          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #6BC5B1; color: #070707;">note</span>
         
       </div>
 
@@ -753,7 +753,7 @@
       <!-- カテゴリーバッジ -->
       <div class="flex items-center gap-1 mb-1">
         
-          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #fae4ad; color: #221C35;">note</span>
+          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #6BC5B1; color: #070707;">note</span>
         
       </div>
 
@@ -785,7 +785,7 @@
       <!-- カテゴリーバッジ -->
       <div class="flex items-center gap-1 mb-1">
         
-          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #fae4ad; color: #221C35;">note</span>
+          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #6BC5B1; color: #070707;">note</span>
         
       </div>
 
