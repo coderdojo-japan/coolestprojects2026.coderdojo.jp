@@ -20,13 +20,13 @@
       <!-- カテゴリーバッジ -->
       <div class="flex items-center gap-1 mb-1">
         {% if article.url contains "note.com" %}
-          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #fae4ad; color: #221C35;">note</span>
+          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #6BC5B1; color: #070707;">note</span>
         {% elsif article.url contains "zenn.dev" %}
           <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #e0efff; color: #221C35;">zenn</span>
         {% elsif article.url contains "youtube.com" %}
           <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #cd201f; color: #eeeeee;">YouTube</span>
         {% else %}
-          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #FFE8B0; color: #221C35;">other</span>
+          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #FFE8B0; color: #221C35;">blog</span>
         {% endif %}
       </div>
 
