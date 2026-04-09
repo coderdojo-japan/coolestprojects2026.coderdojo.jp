@@ -11,7 +11,7 @@ permalink: /news/highlights
 
 <code>(Cover Design Credit: <a href='https://x.com/pirasan023'>@pirasan023</a>)</code>
 
-<div class="mt-16 mb-24 grid grid-cols-1 md:grid-cols-2 gap-4 overflow-hidden">
+<div class="mt-16 mb-12 grid grid-cols-1 md:grid-cols-2 gap-4 overflow-hidden">
   <!-- 前日の設営 -->
   {% include tweet.html id="2037745702521221429" %}
 
@@ -22,6 +22,10 @@ permalink: /news/highlights
 </div>
 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<div class="text-center mb-24">
+  <a class="button-push" href="/works/">当日の展示作品を見る</a>
+</div>
 
 
 ## [👥](#comments) みんなのコメント {#comments}
