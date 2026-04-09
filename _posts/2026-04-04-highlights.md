@@ -24,9 +24,9 @@ permalink: /news/highlights
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-## 💭 みんなのコメント
+## [👥](#comments) みんなのコメント {#comments}
 
-参加者やスタッフ、スポンサー等からの投稿は以下からご確認いただけます。ぜひ、合わせて閲覧していただけると幸いです。
+参加者やスタッフ、スポンサー等からの SNS 投稿 (時系列順) は以下からご確認いただけます。ぜひ、合わせて閲覧していただけると幸いです。
 
 <div class="mt-16 flex justify-center">
   {% include tweet.html id="2039987760166224174" %}
@@ -37,9 +37,9 @@ permalink: /news/highlights
 </div>
 
 
-## 📝 みんなのブログ記事
+## [📝](#reflections) みんなのブログ記事・動画 {#reflections}
 
-上記のコメントだけでなく、参加者やスタッフ、スポンサー等からのブログ記事も一部公開されております。書いてくださった皆様、ありがとうございます。
+上記のコメントだけでなく、参加者やスタッフ、スポンサー等からのブログ記事や YouTube 動画などもあります。取り上げてくださった皆様、ありがとうございます！
 
 <div class="mt-10 mb-24 grid grid-cols-1 md:grid-cols-2 gap-6">
   {% for article in site.data.articles %}
