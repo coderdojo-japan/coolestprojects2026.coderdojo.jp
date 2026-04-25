@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://coolestprojects2026.coderdojo.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://coolestprojects2026.coderdojo.jp/" rel="alternate" type="text/html" /><updated>2026-04-12T07:56:51+09:00</updated><id>https://coolestprojects2026.coderdojo.jp/feed.xml</id><title type="html">Coolest Projects Japan</title><subtitle>Coolest Projectsは、若者たちが自分の創造力と技術で生み出したプロジェクトを発表・共有するための作品展示イベントです。国内の子ども・若者が集まり、完成度や勝敗を競うのではなく、お互いの作品に触れ、交流し、刺激を与え合うことを目的としています。</subtitle><entry><title type="html">前日・当日のハイライト</title><link href="https://coolestprojects2026.coderdojo.jp/news/highlights" rel="alternate" type="text/html" title="前日・当日のハイライト" /><published>2026-04-04T00:00:00+09:00</published><updated>2026-04-04T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp/news/highlights</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp/news/highlights"><![CDATA[<p><strong><a href="/about" style="color: #44B8A7;">Coolest Projects Japan</a> にご参加いただき、ありがとうございました!</strong> 前日の設営準備や、当日の作品展示の様子が以下から公開されています。本イベントのふりかえりや、当日の雰囲気を掴むご参考になれば幸いです。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://coolestprojects2026.coderdojo.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://coolestprojects2026.coderdojo.jp/" rel="alternate" type="text/html" /><updated>2026-04-25T11:55:20+09:00</updated><id>https://coolestprojects2026.coderdojo.jp/feed.xml</id><title type="html">Coolest Projects Japan</title><subtitle>Coolest Projectsは、若者たちが自分の創造力と技術で生み出したプロジェクトを発表・共有するための作品展示イベントです。国内の子ども・若者が集まり、完成度や勝敗を競うのではなく、お互いの作品に触れ、交流し、刺激を与え合うことを目的としています。</subtitle><entry><title type="html">前日・当日のハイライト</title><link href="https://coolestprojects2026.coderdojo.jp/news/highlights" rel="alternate" type="text/html" title="前日・当日のハイライト" /><published>2026-04-04T00:00:00+09:00</published><updated>2026-04-04T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp/news/highlights</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp/news/highlights"><![CDATA[<p><strong><a href="/about" style="color: #44B8A7;">Coolest Projects Japan</a> にご参加いただき、ありがとうございました!</strong> 前日の設営準備や、当日の作品展示の様子が以下から公開されています。本イベントのふりかえりや、当日の雰囲気を掴むご参考になれば幸いです。</p>
 
 <p><code>(Cover Design Credit: <a href="https://x.com/pirasan023">@pirasan023</a>)</code></p>
 
@@ -78,6 +78,38 @@
 
       <!-- 著者 -->
       <p class="text-xs text-gray-600 mb-2">by 佐原慎也 (実行委員長)</p>
+    </div>
+  </article>
+</a>
+
+  
+    
+
+
+<a href="https://www.youtube.com/watch?v=udytE9_PLSg" class="article-card-link block h-full" style="text-decoration: none;" target="_blank" rel="noopener noreferrer">
+  <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 h-full flex flex-col">
+    <!-- サムネイル -->
+    <div class="h-48 bg-gray-200 overflow-hidden">
+      
+        <img src="/img/article-cover/youtube_dojocast.webp" alt="🌐 How Coolest Projects Started in the CoderDojo community (Guest: Bill Liao)" class="w-full h-full object-cover" />
+      
+    </div>
+
+    <div class="px-4 pt-3 pb-3 flex-1 flex flex-col">
+      <!-- カテゴリーバッジ -->
+      <div class="flex items-center gap-1 mb-1">
+        
+          <span class="px-2 py-1 text-xs font-semibold rounded-full" style="background-color: #cd201f; color: #eeeeee;">YouTube</span>
+        
+      </div>
+
+      <!-- タイトル -->
+      <h2 class="article-card-title text-xs font-bold mb-2 mt-0" style="color: #221C35 !important; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.4; min-height: 4.2em;">
+        🌐 How Coolest Projects Started in the CoderDojo community (Guest: Bill Liao)
+      </h2>
+
+      <!-- 著者 -->
+      <p class="text-xs text-gray-600 mb-2">by CoderDojo Japan</p>
     </div>
   </article>
 </a>
