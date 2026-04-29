@@ -98,7 +98,7 @@ preload_image: /img/contests/img/IMG_7235.webp
   <div class="w-full max-w-3xl px-4 mb-4">
     <iframe
       class="w-full aspect-video shadow-lg"
-      src="https://www.youtube.com/embed/dEpIE36wjZc?si=XrdJm4EeMRS0Ae_M"
+      src="https://www.youtube.com/embed/Jbm3Fe7GhzA?si=BoiiZ2oJliU9Hohe"
       title="YouTube video player"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
