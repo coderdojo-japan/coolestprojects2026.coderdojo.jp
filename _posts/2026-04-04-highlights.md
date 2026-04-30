@@ -11,6 +11,19 @@ permalink: /news/highlights
 
 <code>(Cover Design Credit: <a href="https://x.com/pirasan023">@pirasan023</a>)</code>
 
+-------
+
+<div class="flex flex-col items-center my-8 gap-1">
+  <p class="text-2xl font-bold" style="color: #444444;">目次</p>
+  <div class="flex flex-wrap justify-center gap-x-4 gap-y-2 text-2xl font-bold uppercase tracking-wider" style="font-family: 'League Gothic', sans-serif;">
+    <a href="#digest" class="px-3 py-2" style="color: #221C35;">Digest</a>
+    <a href="#timelapse" class="px-3 py-2" style="color: #221C35;">Timelapse</a>
+    <a href="#works" class="px-3 py-2" style="color: #221C35;">Works</a>
+    <a href="#comments" class="px-3 py-2" style="color: #221C35;">Comments</a>
+    <a href="#impressions" class="px-3 py-2" style="color: #221C35;">Impressions</a>
+  </div>
+</div>
+
 ---------
 
 <div class="pt-28 flex flex-col items-center mb-4" id="digest">
