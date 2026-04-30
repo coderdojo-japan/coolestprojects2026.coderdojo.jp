@@ -1,8 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://coolestprojects2026.coderdojo.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://coolestprojects2026.coderdojo.jp/" rel="alternate" type="text/html" /><updated>2026-04-30T08:19:50+09:00</updated><id>https://coolestprojects2026.coderdojo.jp/feed.xml</id><title type="html">Coolest Projects Japan</title><subtitle>Coolest Projectsは、若者たちが自分の創造力と技術で生み出したプロジェクトを発表・共有するための作品展示イベントです。国内の子ども・若者が集まり、完成度や勝敗を競うのではなく、お互いの作品に触れ、交流し、刺激を与え合うことを目的としています。</subtitle><entry><title type="html">前日・当日のハイライト</title><link href="https://coolestprojects2026.coderdojo.jp/news/highlights" rel="alternate" type="text/html" title="前日・当日のハイライト" /><published>2026-04-04T00:00:00+09:00</published><updated>2026-04-04T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp/news/highlights</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp/news/highlights"><![CDATA[<p><strong><a href="/about" style="color: #44B8A7;">Coolest Projects Japan</a> にご参加いただき、ありがとうございました!</strong> 前日の設営準備や、当日の作品展示の様子が以下から公開されています。本イベントのふりかえりや、当日の雰囲気を掴むご参考になれば幸いです。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://coolestprojects2026.coderdojo.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://coolestprojects2026.coderdojo.jp/" rel="alternate" type="text/html" /><updated>2026-04-30T17:20:55+09:00</updated><id>https://coolestprojects2026.coderdojo.jp/feed.xml</id><title type="html">Coolest Projects Japan</title><subtitle>Coolest Projectsは、若者たちが自分の創造力と技術で生み出したプロジェクトを発表・共有するための作品展示イベントです。国内の子ども・若者が集まり、完成度や勝敗を競うのではなく、お互いの作品に触れ、交流し、刺激を与え合うことを目的としています。</subtitle><entry><title type="html">前日・当日のハイライト</title><link href="https://coolestprojects2026.coderdojo.jp/news/highlights" rel="alternate" type="text/html" title="前日・当日のハイライト" /><published>2026-04-04T00:00:00+09:00</published><updated>2026-04-04T00:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp/news/highlights</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp/news/highlights"><![CDATA[<p><strong><a href="/about" style="color: #44B8A7;">Coolest Projects Japan</a> にご参加いただき、ありがとうございました!</strong> 前日の設営準備や、当日の作品展示の様子が以下から公開されています。本イベントのふりかえりや、当日の雰囲気を掴むご参考になれば幸いです。</p>
 
 <p><code>(Cover Design Credit: <a href="https://x.com/pirasan023">@pirasan023</a>)</code></p>
 
-<div class="mt-16 mb-12 grid grid-cols-1 md:grid-cols-2 gap-4 overflow-hidden">
+<hr />
+
+<div class="pt-28 flex flex-col items-center mb-4" id="digest">
+  <div class="mb-8 flex flex-col items-center">
+    <h2 class="font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block" style="font-family: 'League Gothic', sans-serif; color: #221C35; font-size: 4rem; line-height: 1;">
+      <a href="#digest" style="text-decoration: none;">DIGEST</a>
+    </h2>
+    <p class="text-xl mt-2 text-center w-full px-4" style="color: #444444;">
+      Coolest Projects Japanの熱気あふれる様子をダイジェストでお届けします。
+    </p>
+  </div>
+
+  <div class="w-full max-w-3xl px-4">
+    <iframe class="w-full aspect-video shadow-lg" src="https://www.youtube.com/embed/Jbm3Fe7GhzA?si=BoiiZ2oJliU9Hohe" title="Digest - Coolest Projects Japan 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+    </iframe>
+  </div>
+</div>
+
+<div class="text-center">
+  <a class="button-push inline-flex items-center gap-2" href="https://www.youtube.com/watch?v=Jbm3Fe7GhzA" target="_blank">
+    YouTube で見る
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+    </svg>
+  </a>
+</div>
+
+<div class="pt-28 mb-4 flex flex-col items-center" id="timelapse">
+  <h2 class="font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block" style="font-family: 'League Gothic', sans-serif; color: #221C35; font-size: 4rem; line-height: 1;">
+    <a href="#timelapse" style="text-decoration: none;">TIMELAPSE</a>
+  </h2>
+  <p class="text-xl mt-2 text-center w-full px-4" style="color: #444444;">前日の設営や当日の展示、参加者同士の交流の様子が分かるタイムラプス投稿です。</p>
+</div>
+
+<div class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-4 overflow-hidden">
   <!-- 前日の設営 -->
   <blockquote class="twitter-tweet" data-conversation="none">
   <a href="https://twitter.com/cprojectsjapan/status/2037745702521221429">https://twitter.com/cprojectsjapan/status/2037745702521221429</a>
@@ -23,16 +57,48 @@
 </blockquote>
 
 </div>
-
 <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<div class="text-center mb-24">
-  <a class="button-push" href="/works/">当日の展示作品を見る</a>
+<div class="text-center">
+  <a class="button-push inline-flex items-center gap-2" href="https://x.com/cprojectsjapan" target="_blank">
+    公式アカウントを見る
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+    </svg>
+  </a>
 </div>
 
-<h2 id="comments"><a href="#comments">👥</a> みんなのコメント</h2>
+<div class="pt-28 mb-4 flex flex-col items-center" id="works">
+  <h2 class="font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block" style="font-family: 'League Gothic', sans-serif; color: #221C35; font-size: 4rem; line-height: 1;">
+    <a href="#works" style="text-decoration: none;">WORKS</a>
+  </h2>
+  <p class="text-xl mt-2 text-center w-full px-4" style="color: #444444;">当日展示された、子どもたちの作品も一覧ページから見られます。</p>
 
-<p>参加者やスタッフ、スポンサー等からの SNS 投稿 (時系列順) は以下からご確認いただけます。ぜひ、合わせて閲覧していただけると幸いです。</p>
+  <div class="text-center mt-4">
+    <a href="https://protopedia.net/event/152" target="_blank">
+      <img src="/img/works.jpg" alt="ProtoPedia でまとめられている展示作品（一部抜粋）" class="mx-auto rounded-xl max-w-full" />
+    </a>
+    <p class="text-sm mt-2" style="color: #444444;">展示作品（一部抜粋）</p>
+  </div>
+</div>
+
+<div class="text-center">
+  <a class="button-push inline-flex items-center gap-2" href="https://protopedia.net/event/152" target="_blank">
+    作品一覧を見る（ProtoPedia）
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+    </svg>
+  </a>
+</div>
+
+<div class="pt-28 mb-4 flex flex-col items-center" id="comments">
+  <h2 class="font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block" style="font-family: 'League Gothic', sans-serif; color: #221C35; font-size: 4rem; line-height: 1;">
+    <a href="#comments" style="text-decoration: none;">COMMENTS</a>
+  </h2>
+  <p class="text-xl mt-2 text-center w-full px-4" style="color: #444444;">
+    参加者やスタッフ、スポンサー等の SNS 投稿まとめもあります。
+  </p>
+</div>
 
 <div class="mt-16 flex justify-center">
   <blockquote class="twitter-tweet" data-conversation="none">
@@ -41,13 +107,24 @@
 
 </div>
 
-<div class="text-center mt-8 mb-24">
-  <a class="button-push" href="https://posfie.com/@yasulab/p/bFxMmE9" target="_blank">みんなのコメントを見る</a>
+<div class="text-center mb-24">
+  <a class="button-push inline-flex items-center gap-2" href="https://posfie.com/@yasulab/p/bFxMmE9" target="_blank">
+    みんなのコメントを見る
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+    </svg>
+  </a>
 </div>
 
-<h2 id="reflections"><a href="#reflections">📝</a> みんなのブログ記事・動画</h2>
-
-<p>上記のコメントだけでなく、参加者やスタッフ、スポンサー等からのブログ記事や YouTube 動画などもあります。取り上げてくださった皆様、ありがとうございます！</p>
+<div class="pt-28 mb-4 flex flex-col items-center" id="impressions">
+  <h2 class="font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block" style="font-family: 'League Gothic', sans-serif; color: #221C35; font-size: 4rem; line-height: 1;">
+    <a href="#impressions" style="text-decoration: none;">IMPRESSIONS</a>
+  </h2>
+  <p class="text-xl mt-2 text-center w-full px-4" style="color: #444444;">
+    参加された方々によるブログ記事や YouTube 動画もあります。<br />
+    取り上げてくださった皆様、ありがとうございます！
+  </p>
+</div>
 
 <div class="mt-10 mb-24 grid grid-cols-1 md:grid-cols-2 gap-6">
   
@@ -903,7 +980,12 @@
 </a>
 
   
-</div>]]></content><author><name></name></author><category term="news" /><category term="お知らせ" /><summary type="html"><![CDATA[Coolest Projects Japan にご参加いただき、ありがとうございました! 前日の設営準備や、当日の作品展示の様子が以下から公開されています。本イベントのふりかえりや、当日の雰囲気を掴むご参考になれば幸いです。]]></summary></entry><entry><title type="html">当日スタッフの申込を開始しました！</title><link href="https://coolestprojects2026.coderdojo.jp/news/volunteer-staff-recruitment/" rel="alternate" type="text/html" title="当日スタッフの申込を開始しました！" /><published>2026-02-09T07:00:00+09:00</published><updated>2026-02-09T07:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp/news/volunteer-staff-recruitment</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp/news/volunteer-staff-recruitment/"><![CDATA[<p>Coolest Projects Japan を当日一緒に盛り上げてくれる当日スタッフ（ボランティア）の募集を開始しました！</p>
+</div>
+
+<p class="text-base mt-2 text-center w-full px-4" style="color: #444444;">
+  お読みいただきありがとうございました！<br />
+  よければシェアして頂けると嬉しいです！
+</p>]]></content><author><name></name></author><category term="news" /><category term="お知らせ" /><summary type="html"><![CDATA[Coolest Projects Japan にご参加いただき、ありがとうございました! 前日の設営準備や、当日の作品展示の様子が以下から公開されています。本イベントのふりかえりや、当日の雰囲気を掴むご参考になれば幸いです。]]></summary></entry><entry><title type="html">当日スタッフの申込を開始しました！</title><link href="https://coolestprojects2026.coderdojo.jp/news/volunteer-staff-recruitment/" rel="alternate" type="text/html" title="当日スタッフの申込を開始しました！" /><published>2026-02-09T07:00:00+09:00</published><updated>2026-02-09T07:00:00+09:00</updated><id>https://coolestprojects2026.coderdojo.jp/news/volunteer-staff-recruitment</id><content type="html" xml:base="https://coolestprojects2026.coderdojo.jp/news/volunteer-staff-recruitment/"><![CDATA[<p>Coolest Projects Japan を当日一緒に盛り上げてくれる当日スタッフ（ボランティア）の募集を開始しました！</p>
 
 <p><strong>募集期間：3/8(日) 21時まで</strong></p>
 
