@@ -11,6 +11,8 @@ permalink: /news/highlights
 
 <code>(Cover Design Credit: <a href="https://x.com/pirasan023">@pirasan023</a>)</code>
 
+<br><br>
+
 -------
 
 <div class="flex flex-col items-center my-8 gap-1">
