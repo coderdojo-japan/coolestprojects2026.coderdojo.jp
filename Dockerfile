@@ -1,4 +1,4 @@
-FROM ruby:3.4.13
+FROM ruby:4.0.10
 
 WORKDIR /src
 
