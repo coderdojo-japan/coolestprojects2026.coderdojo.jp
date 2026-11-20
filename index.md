@@ -136,7 +136,6 @@ preload_image: /img/contests/img/IMG_7235.webp
       </div>
     </div>
 
-
     <!-- 展示までの流れ「FLOW」 -->
     <div class="pt-36" id="flow">
       <div class="text-center mb-16">
