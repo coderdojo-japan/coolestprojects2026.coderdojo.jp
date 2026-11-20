@@ -17,7 +17,6 @@ Coolest Projects Japan 2027の開催が決定しました！
 <h2 class="md-heading2">必要なスキル</h2>
 <ul class="md-point-list1">
   <li>やる気</li>
-  <li>プロジェクトを進める力</li>
   <li>ちょっとの時間</li>
   <li>無理をしないこと</li>
   <li>新しいことに挑戦してみたいやる気</li>
