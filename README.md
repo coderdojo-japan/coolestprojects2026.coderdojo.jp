@@ -94,8 +94,8 @@ $ sudo apt install rbenv   # Debian, Ubuntu 系のディストリビューショ
 ## ↑ ココまで OS 個別の準備
 ## ↓ ココから OS 共通の準備
 
-# Ruby 3.4.4 をインストール
-$ rbenv install 3.4.4
+# Ruby 4.0.10 をインストール
+$ rbenv install 4.0.10
 
 # Ruby が入っていることを確認
 $ ruby --version
