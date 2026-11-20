@@ -22,9 +22,28 @@ Coolest Projects Japan 2027の開催が決定しました！
   <li>新しいことに挑戦してみたいやる気</li>
 </ul>
 
-<h2 class="md-heading2">あれば良いスキル <small>（学べるスキル）</small></h2>
+<h2 class="md-heading2">あれば良いスキル</h2>
 <ul class="md-point-list1">
-    <li>プロジェクトを進める力</li>
+    <li>イベントを運営する経験
+        <ul class='md-point-list2 mt-2'>
+            <li>アイデアを出すところから、一つのイベントを作り上げる経験ができます。</li>
+        </ul>
+    </li>
+    <li>新しい仲間との出会い
+        <ul class='md-point-list2 mt-2'>
+            <li>年齢や住んでいる地域を超えて、さまざまな人と交流できます。</li>
+        </ul>
+    </li>
+    <li>新しいことに挑戦する機会
+        <ul class='md-point-list2 mt-2'>
+            <li>経験がなくても大丈夫！やってみたいことに挑戦しながら、少しずつ成長できます。</li>
+        </ul>
+    </li>
+</ul>
+
+<h2 class="md-heading2">運営を通して得られるもの</h2>
+<ul class="md-point-list1">
+    <li>企画力</li>
     <li>プログラミング
         <ul class='md-point-list2 mt-2'>
             <li>特に Web サイト構築</li>
