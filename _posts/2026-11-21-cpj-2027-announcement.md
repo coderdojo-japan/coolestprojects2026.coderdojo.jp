@@ -51,6 +51,8 @@ Coolest Projects Japan 2027の開催が決定しました！
   <li>参加者に配る名刺を作り、展示者どうしが名刺交換する様子を見て「やってよかったな〜」と感じた</li>
 </ul>
 
+<br>
+
 <h2 class="md-heading1">必要なスキル</h2>
 <ul class="md-point-list1">
   <li>やる気</li>
