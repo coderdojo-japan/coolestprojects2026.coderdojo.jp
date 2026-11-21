@@ -20,7 +20,7 @@ Coolest Projects Japan 2027の開催が決定しました！
 
 <h2 class='md-heading1'>🗣️2026年の実行委員の声</h2>
 
-以下、2025年度実行委員のnoteより引用したものです。
+以下、2026年度実行委員のnoteより引用したものです。
 
 <h2 class='md-heading2'>全般の感想</h2>
 <ul class='md-point-list1'>
