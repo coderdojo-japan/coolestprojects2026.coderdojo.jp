@@ -110,6 +110,28 @@ preload_image: /img/contests/img/IMG_7235.webp
   <p class="text-l text-center w-full px-4" style="color: #444444;">前日の会場設営から当日の作品展示、参加者同士の交流まで、<br>Coolest Projects Japanの熱気あふれる様子をダイジェストでお届けします。</p>
 </div>
 
+<!-- NEWS セクション -->
+<div class="pt-36" id="news">
+  <div class="text-center mb-16">
+    <a href="#news" style="text-decoration: none;">
+          <h1 class='text-5xl sm:text-6xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block'
+            style="font-family: 'League Gothic', sans-serif; color: #221C35;">NEWS</h1>
+          <p class="text-xl mt-2" style="color: #444444;">お知らせ</p>
+    </a>
+  </div>
+  <!-- お知らせ一覧（最新3件） -->
+  {% assign latest_news = site.posts | where: "categories", "news" | sort: "date" | reverse | limit: 3 %}
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    {% for post in latest_news %}
+      {% include news_card.html post=post %}
+    {% endfor %}
+  </div>
+
+  <div class="text-center mt-12">
+    <a class="button-push" href="/news">お知らせ一覧を見る</a>
+  </div>
+</div>
+
 <div class='bg-white py-12 px-4'>
   <div class='max-w-7xl mx-auto'>
     <div class="mt-12">
@@ -234,28 +256,6 @@ preload_image: /img/contests/img/IMG_7235.webp
       </div>
       <div class="text-center mt-24">
         <a class="button-push" href="/works">当日の展示作品を見る</a>
-      </div>
-    </div>
-
-    <!-- NEWS セクション -->
-    <div class="pt-36" id="news">
-      <div class="text-center mb-16">
-    <a href="#news" style="text-decoration: none;">
-          <h1 class='text-5xl sm:text-6xl font-bold uppercase tracking-wider border-b-10 border-teal-500 inline-block'
-           style="font-family: 'League Gothic', sans-serif; color: #221C35;">NEWS</h1>
-          <p class="text-xl mt-2" style="color: #444444;">お知らせ</p>
-    </a>
-      </div>
-      <!-- お知らせ一覧（最新3件） -->
-      {% assign latest_news = site.posts | where: "categories", "news" | sort: "date" | reverse | limit: 3 %}
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        {% for post in latest_news %}
-          {% include news_card.html post=post %}
-        {% endfor %}
-      </div>
-
-      <div class="text-center mt-12">
-        <a class="button-push" href="/news">お知らせ一覧を見る</a>
       </div>
     </div>
 
